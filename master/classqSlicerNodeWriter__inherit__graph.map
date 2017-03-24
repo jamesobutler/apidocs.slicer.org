@@ -1,0 +1,7 @@
+<map id="qSlicerNodeWriter" name="qSlicerNodeWriter">
+<area shape="rect" id="node6" href="$classqSlicerMarkupsWriter.html" title="Utility class that offers writing of markups in both json format, regardless of the current storage n..." alt="" coords="5,311,160,338"/>
+<area shape="rect" id="node7" href="$classqSlicerSegmentationsNodeWriter.html" title="Utility class that is ready to use for most of the nodes. " alt="" coords="184,304,381,345"/>
+<area shape="rect" id="node2" href="$classqSlicerFileWriter.html" title="qSlicerFileWriter" alt="" coords="122,155,243,181"/>
+<area shape="rect" id="node3" href="$classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter. " alt="" coords="143,80,222,107"/>
+<area shape="rect" id="node5" href="$classqSlicerObject.html" title="qSlicerObject" alt="" coords="187,5,293,32"/>
+</map>

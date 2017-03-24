@@ -1,0 +1,15 @@
+<map id="Libs/MRML/Core/vtkMRMLSegmentationNode.h" name="Libs/MRML/Core/vtkMRMLSegmentationNode.h">
+<area shape="rect" id="node2" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="61,483,152,509"/>
+<area shape="rect" id="node4" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="336,95,533,121"/>
+<area shape="rect" id="node22" href="$vtkMRMLColorTableNode_8h.html" title="vtkMRMLColorTableNode.h" alt="" coords="115,95,304,121"/>
+<area shape="rect" id="node25" href="$vtkSegmentation_8h.html" title="vtkSegmentation.h" alt="" coords="2224,244,2368,271"/>
+<area shape="rect" id="node5" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="329,169,541,196"/>
+<area shape="rect" id="node6" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="195,244,373,271"/>
+<area shape="rect" id="node7" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="903,319,1027,345"/>
+<area shape="rect" id="node8" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1299,401,1466,427"/>
+<area shape="rect" id="node16" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="245,401,469,427"/>
+<area shape="rect" id="node23" href="$vtkMRMLColorNode_8h.html" title="vtkMRMLColorNode.h" alt="" coords="113,169,271,196"/>
+<area shape="rect" id="node27" href="$vtkSegment_8h.html" title="vtkSegment.h" alt="" coords="2381,319,2493,345"/>
+<area shape="rect" id="node30" href="$vtkSegmentationConverter_8h.html" title="vtkSegmentationConverter.h" alt="" coords="1834,319,2041,345"/>
+<area shape="rect" id="node32" href="$vtkSegmentationConverterRule_8h.html" title="vtkSegmentationConverter\lRule.h" alt="" coords="1840,393,2035,435"/>
+</map>

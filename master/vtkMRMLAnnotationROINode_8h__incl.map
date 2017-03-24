@@ -1,0 +1,13 @@
+<map id="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationROINode.h" name="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationROINode.h">
+<area shape="rect" id="node3" href="$vtkMRMLAnnotationLinesNode_8h.html" title="vtkMRMLAnnotationLinesNode.h" alt="" coords="634,95,861,121"/>
+<area shape="rect" id="node4" href="$vtkMRMLAnnotationControlPointsNode_8h.html" title="vtkMRMLAnnotationControl\lPointsNode.h" alt="" coords="649,169,843,211"/>
+<area shape="rect" id="node5" href="$vtkMRMLAnnotationNode_8h.html" title="vtkMRMLAnnotationNode.h" alt="" coords="642,259,837,285"/>
+<area shape="rect" id="node6" href="$vtkMRMLModelNode_8h.html" title="vtkMRMLModelNode.h" alt="" coords="827,341,990,367"/>
+<area shape="rect" id="node7" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="822,423,1019,449"/>
+<area shape="rect" id="node8" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="815,497,1027,524"/>
+<area shape="rect" id="node9" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="802,572,981,599"/>
+<area shape="rect" id="node10" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="801,647,925,673"/>
+<area shape="rect" id="node11" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="519,796,610,823"/>
+<area shape="rect" id="node13" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1020,721,1187,748"/>
+<area shape="rect" id="node21" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1262,721,1486,748"/>
+</map>

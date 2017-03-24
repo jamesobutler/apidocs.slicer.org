@@ -1,0 +1,7 @@
+<map id="vtkSlicerCurveRepresentation3D" name="vtkSlicerCurveRepresentation3D">
+<area shape="rect" id="node2" href="$classvtkSlicerMarkupsWidgetRepresentation3D.html" title="Default representation for the markups widget in 3D views. " alt="" coords="884,64,1171,91"/>
+<area shape="rect" id="node3" href="$classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="565,64,835,91"/>
+<area shape="rect" id="node4" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="125,5,396,32"/>
+<area shape="rect" id="node6" href="$classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html" title="vtkSlicerMarkupsWidgetRepresentation\l::MarkupsInteractionPipeline" alt="" coords="126,57,395,98"/>
+<area shape="rect" id="node7" href="$classvtkSlicerMarkupsWidgetRepresentation_1_1ControlPointsPipeline.html" title="vtkSlicerMarkupsWidgetRepresentation\l::ControlPointsPipeline" alt="" coords="126,122,395,163"/>
+</map>

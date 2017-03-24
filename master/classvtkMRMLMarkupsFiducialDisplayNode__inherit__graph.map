@@ -1,0 +1,5 @@
+<map id="vtkMRMLMarkupsFiducialDisplayNode" name="vtkMRMLMarkupsFiducialDisplayNode">
+<area shape="rect" id="node2" href="$classvtkMRMLMarkupsDisplayNode.html" title="vtkMRMLMarkupsDisplayNode" alt="" coords="29,229,241,256"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="55,155,214,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="79,80,191,107"/>
+</map>

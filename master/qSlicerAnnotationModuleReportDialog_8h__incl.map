@@ -1,0 +1,10 @@
+<map id="Modules/Loadable/Annotations/GUI/qSlicerAnnotationModuleReportDialog.h" name="Modules/Loadable/Annotations/GUI/qSlicerAnnotationModuleReportDialog.h">
+<area shape="rect" id="node3" href="$vtkSlicerAnnotationModuleLogic_8h.html" title="Logic/vtkSlicerAnnotation\lModuleLogic.h" alt="" coords="233,109,416,151"/>
+<area shape="rect" id="node5" href="$vtkSlicerModuleLogic_8h.html" title="vtkSlicerModuleLogic.h" alt="" coords="448,206,615,233"/>
+<area shape="rect" id="node6" href="$vtkSlicerApplicationLogic_8h.html" title="vtkSlicerApplicationLogic.h" alt="" coords="436,288,627,315"/>
+<area shape="rect" id="node10" href="$vtkMRMLAbstractLogic_8h.html" title="vtkMRMLAbstractLogic.h" alt="" coords="44,437,221,464"/>
+<area shape="rect" id="node7" href="$vtkSlicerBaseLogic_8h.html" title="vtkSlicerBaseLogic.h" alt="" coords="171,363,324,389"/>
+<area shape="rect" id="node9" href="$vtkMRMLApplicationLogic_8h.html" title="vtkMRMLApplicationLogic.h" alt="" coords="435,363,628,389"/>
+<area shape="rect" id="node11" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="212,512,379,539"/>
+<area shape="rect" id="node12" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="202,587,293,613"/>
+</map>

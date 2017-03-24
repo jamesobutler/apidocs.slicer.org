@@ -1,0 +1,11 @@
+<map id="qSlicerIOOptions" name="qSlicerIOOptions">
+<area shape="rect" id="node2" href="$classqSlicerIOOptionsWidget.html" title="qSlicerIOOptionsWidget" alt="" coords="180,162,351,189"/>
+<area shape="rect" id="node3" href="$classqSlicerAnnotationsIOOptionsWidget.html" title="qSlicerAnnotationsIOOptions\lWidget" alt="" coords="409,5,613,47"/>
+<area shape="rect" id="node4" href="$classqSlicerFileWriterOptionsWidget.html" title="Base class for all the Writer Options widget. " alt="" coords="426,71,597,112"/>
+<area shape="rect" id="node7" href="$classqSlicerModelsIOOptionsWidget.html" title="qSlicerModelsIOOptionsWidget" alt="" coords="404,137,619,163"/>
+<area shape="rect" id="node8" href="$classqSlicerSceneIOOptionsWidget.html" title="qSlicerSceneIOOptionsWidget" alt="" coords="406,187,617,214"/>
+<area shape="rect" id="node9" href="$classqSlicerSegmentationsIOOptionsWidget.html" title="qSlicerSegmentationsIOOptions\lWidget" alt="" coords="399,239,624,280"/>
+<area shape="rect" id="node10" href="$classqSlicerVolumesIOOptionsWidget.html" title="qSlicerVolumesIOOptionsWidget" alt="" coords="399,305,624,331"/>
+<area shape="rect" id="node5" href="$classqSlicerNodeWriterOptionsWidget.html" title="qSlicerNodeWriterOptions\lWidget" alt="" coords="672,71,856,112"/>
+<area shape="rect" id="node6" href="$classqSlicerSegmentationsNodeWriterOptionsWidget.html" title="qSlicerSegmentationsNode\lWriterOptionsWidget" alt="" coords="904,71,1101,112"/>
+</map>

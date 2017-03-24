@@ -1,0 +1,14 @@
+<map id="Base/Logic/vtkDataIOManagerLogic.h" name="Base/Logic/vtkDataIOManagerLogic.h">
+<area shape="rect" id="node6" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="1313,468,1404,495"/>
+<area shape="rect" id="node8" href="$vtkSlicerModuleLogic_8h.html" title="vtkSlicerModuleLogic.h" alt="" coords="533,95,699,121"/>
+<area shape="rect" id="node9" href="$vtkSlicerApplicationLogic_8h.html" title="vtkSlicerApplicationLogic.h" alt="" coords="521,169,711,196"/>
+<area shape="rect" id="node22" href="$vtkSlicerTask_8h.html" title="vtkSlicerTask.h" alt="" coords="125,244,240,271"/>
+<area shape="rect" id="node23" href="$vtkDataTransfer_8h.html" title="vtkDataTransfer.h" alt="" coords="1117,393,1251,420"/>
+<area shape="rect" id="node24" href="$vtkDataIOManager_8h.html" title="vtkDataIOManager.h" alt="" coords="891,393,1043,420"/>
+<area shape="rect" id="node25" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="1403,244,1527,271"/>
+<area shape="rect" id="node13" href="$vtkMRMLAbstractLogic_8h.html" title="vtkMRMLAbstractLogic.h" alt="" coords="571,319,749,345"/>
+<area shape="rect" id="node10" href="$vtkSlicerBaseLogic_8h.html" title="vtkSlicerBaseLogic.h" alt="" coords="85,319,238,345"/>
+<area shape="rect" id="node12" href="$vtkMRMLApplicationLogic_8h.html" title="vtkMRMLApplicationLogic.h" alt="" coords="755,244,949,271"/>
+<area shape="rect" id="node14" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1275,393,1442,420"/>
+<area shape="rect" id="node29" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1929,319,2153,345"/>
+</map>

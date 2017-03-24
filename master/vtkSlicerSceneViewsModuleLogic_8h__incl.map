@@ -1,0 +1,9 @@
+<map id="Modules/Loadable/SceneViews/Logic/vtkSlicerSceneViewsModuleLogic.h" name="Modules/Loadable/SceneViews/Logic/vtkSlicerSceneViewsModuleLogic.h">
+<area shape="rect" id="node2" href="$vtkSlicerBaseLogic_8h.html" title="vtkSlicerBaseLogic.h" alt="" coords="26,273,179,300"/>
+<area shape="rect" id="node4" href="$vtkMRMLAbstractLogic_8h.html" title="vtkMRMLAbstractLogic.h" alt="" coords="250,348,427,375"/>
+<area shape="rect" id="node13" href="$vtkSlicerModuleLogic_8h.html" title="vtkSlicerModuleLogic.h" alt="" coords="255,117,422,143"/>
+<area shape="rect" id="node5" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="134,423,301,449"/>
+<area shape="rect" id="node6" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="84,497,175,524"/>
+<area shape="rect" id="node14" href="$vtkSlicerApplicationLogic_8h.html" title="vtkSlicerApplicationLogic.h" alt="" coords="374,199,565,225"/>
+<area shape="rect" id="node15" href="$vtkMRMLApplicationLogic_8h.html" title="vtkMRMLApplicationLogic.h" alt="" coords="745,273,938,300"/>
+</map>
