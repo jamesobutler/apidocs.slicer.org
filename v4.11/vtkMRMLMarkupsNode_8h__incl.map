@@ -1,0 +1,12 @@
+<map id="Modules/Loadable/Markups/MRML/vtkMRMLMarkupsNode.h" name="Modules/Loadable/Markups/MRML/vtkMRMLMarkupsNode.h">
+<area shape="rect" id="node2" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="1519,95,1716,121"/>
+<area shape="rect" id="node22" href="$vtkCurveGenerator_8h.html" title="vtkCurveGenerator.h" alt="" coords="693,95,848,121"/>
+<area shape="rect" id="node29" href="$vtkMRMLMeasurement_8h.html" title="vtkMRMLMeasurement.h" alt="" coords="55,319,233,345"/>
+<area shape="rect" id="node3" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="1511,169,1723,196"/>
+<area shape="rect" id="node4" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="1544,244,1723,271"/>
+<area shape="rect" id="node5" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="1126,319,1250,345"/>
+<area shape="rect" id="node6" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="148,468,239,495"/>
+<area shape="rect" id="node8" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="438,393,605,420"/>
+<area shape="rect" id="node16" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1481,393,1705,420"/>
+<area shape="rect" id="node30" href="$vtkCodedEntry_8h.html" title="vtkCodedEntry.h" alt="" coords="24,393,149,420"/>
+</map>

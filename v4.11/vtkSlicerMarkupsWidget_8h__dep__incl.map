@@ -1,0 +1,10 @@
+<map id="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidget.h" name="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidget.h">
+<area shape="rect" id="node2" href="$vtkMRMLMarkupsDisplayableManagerHelper_8h.html" title="Modules/Loadable/Markups\l/MRMLDM/vtkMRMLMarkupsDisplayable\lManagerHelper.h" alt="" coords="5,95,276,151"/>
+<area shape="rect" id="node3" href="$vtkMRMLMarkupsDisplayableManager_8h.html" title="Modules/Loadable/Markups\l/MRMLDM/vtkMRMLMarkupsDisplayable\lManager.h" alt="" coords="92,199,363,255"/>
+<area shape="rect" id="node4" href="$vtkSlicerAngleWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerAngleWidget.h" alt="" coords="351,102,600,143"/>
+<area shape="rect" id="node5" href="$vtkSlicerClosedCurveWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerClosedCurve\lWidget.h" alt="" coords="624,95,863,151"/>
+<area shape="rect" id="node6" href="$vtkSlicerCurveWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerCurveWidget.h" alt="" coords="887,102,1138,143"/>
+<area shape="rect" id="node7" href="$vtkSlicerLineWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerLineWidget.h" alt="" coords="1163,102,1401,143"/>
+<area shape="rect" id="node8" href="$vtkSlicerPlaneWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPlaneWidget.h" alt="" coords="1426,102,1674,143"/>
+<area shape="rect" id="node9" href="$vtkSlicerPointsWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPointsWidget.h" alt="" coords="1699,102,1951,143"/>
+</map>

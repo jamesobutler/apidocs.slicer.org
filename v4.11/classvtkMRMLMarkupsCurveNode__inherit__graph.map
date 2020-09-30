@@ -1,0 +1,8 @@
+<map id="vtkMRMLMarkupsCurveNode" name="vtkMRMLMarkupsCurveNode">
+<area shape="rect" id="node8" href="$classvtkMRMLMarkupsClosedCurveNode.html" title="MRML node to represent a closed curve markup Closed Curve Markups nodes contain N control points..." alt="" coords="5,528,252,555"/>
+<area shape="rect" id="node2" href="$classvtkMRMLMarkupsNode.html" title="vtkMRMLMarkupsNode" alt="" coords="45,379,212,405"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="36,304,221,331"/>
+<area shape="rect" id="node4" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="29,229,229,256"/>
+<area shape="rect" id="node5" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="45,155,212,181"/>
+<area shape="rect" id="node6" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="73,80,185,107"/>
+</map>

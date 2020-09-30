@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classAbstractScriptedSegmentEditorEffect_1_1AbstractScriptedSegmentEditorEffect.html" title="AbstractScriptedSegmentEditor\lEffect.AbstractScriptedSegmentEditor\lEffect" alt="" coords="123,45,388,101"/>
+<area shape="rect" id="node5" href="$classPython_1_1AbstractScriptedSubjectHierarchyPlugin_1_1AbstractScriptedSubjectHierarchyPlugin.html" title="Python.AbstractScriptedSubject\lHierarchyPlugin.AbstractScripted\lSubjectHierarchyPlugin" alt="" coords="139,125,371,181"/>
+<area shape="rect" id="node6" href="$classSegmentEditorDrawEffect_1_1DrawPipeline.html" title="SegmentEditorDrawEffect.\lDrawPipeline" alt="" coords="160,205,351,246"/>
+<area shape="rect" id="node7" href="$classSegmentEditorLevelTracingEffect_1_1LevelTracingPipeline.html" title="SegmentEditorLevelTracing\lEffect.LevelTracingPipeline" alt="" coords="158,270,353,311"/>
+<area shape="rect" id="node8" href="$classSegmentEditorThresholdEffect_1_1HistogramPipeline.html" title="SegmentEditorThresholdEffect.\lHistogramPipeline" alt="" coords="145,335,365,377"/>
+<area shape="rect" id="node9" href="$classSegmentEditorThresholdEffect_1_1PreviewPipeline.html" title="SegmentEditorThresholdEffect.\lPreviewPipeline" alt="" coords="145,401,365,442"/>
+<area shape="rect" id="node10" href="$classvtkScriptedExampleDisplayableManager_1_1vtkScriptedExampleDisplayableManager.html" title="vtkScriptedExampleDisplayable\lManager.vtkScriptedExampleDisplayable\lManager" alt="" coords="115,465,396,521"/>
+<area shape="rect" id="node3" href="$classAbstractScriptedSegmentEditorAutoCompleteEffect_1_1AbstractScriptedSegmentEditorAutoCompleteEffect.html" title="AbstractScriptedSegmentEditor\lAutoCompleteEffect.AbstractScripted\lSegmentEditorAutoCompleteEffect" alt="" coords="445,5,706,61"/>
+<area shape="rect" id="node4" href="$classAbstractScriptedSegmentEditorLabelEffect_1_1AbstractScriptedSegmentEditorLabelEffect.html" title="AbstractScriptedSegmentEditor\lLabelEffect.AbstractScriptedSegment\lEditorLabelEffect" alt="" coords="444,85,707,141"/>
+</map>

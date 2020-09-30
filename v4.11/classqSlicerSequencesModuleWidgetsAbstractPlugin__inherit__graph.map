@@ -1,0 +1,5 @@
+<map id="qSlicerSequencesModuleWidgetsAbstractPlugin" name="qSlicerSequencesModuleWidgetsAbstractPlugin">
+<area shape="rect" id="node3" href="$classqMRMLSequenceBrowserPlayWidgetPlugin.html" title="qMRMLSequenceBrowserPlay\lWidgetPlugin" alt="" coords="575,5,783,47"/>
+<area shape="rect" id="node4" href="$classqMRMLSequenceBrowserSeekWidgetPlugin.html" title="qMRMLSequenceBrowserSeek\lWidgetPlugin" alt="" coords="572,71,787,112"/>
+<area shape="rect" id="node5" href="$classqMRMLSequenceBrowserToolBarPlugin.html" title="qMRMLSequenceBrowserTool\lBarPlugin" alt="" coords="576,136,783,177"/>
+</map>

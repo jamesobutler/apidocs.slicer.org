@@ -1,0 +1,10 @@
+<map id="Modules/Loadable/SubjectHierarchy/Widgets/qSlicerSubjectHierarchyPluginLogic.h" name="Modules/Loadable/SubjectHierarchy/Widgets/qSlicerSubjectHierarchyPluginLogic.h">
+<area shape="rect" id="node2" href="$qSlicerObject_8h.html" title="qSlicerObject.h" alt="" coords="208,117,327,143"/>
+<area shape="rect" id="node7" href="$vtkMRMLScene_8h.html" title="vtkMRMLScene.h" alt="" coords="795,199,926,225"/>
+<area shape="rect" id="node19" href="$vtkMRMLSubjectHierarchyNode_8h.html" title="vtkMRMLSubjectHierarchyNode.h" alt="" coords="589,117,823,143"/>
+<area shape="rect" id="node8" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="981,348,1071,375"/>
+<area shape="rect" id="node20" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="1361,199,1485,225"/>
+<area shape="rect" id="node27" href="$vtkMRMLSubjectHierarchyConstants_8h.html" title="vtkMRMLSubjectHierarchyConstants.h" alt="" coords="417,199,681,225"/>
+<area shape="rect" id="node21" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1633,273,1800,300"/>
+<area shape="rect" id="node25" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1386,273,1610,300"/>
+</map>
