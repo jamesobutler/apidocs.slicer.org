@@ -145,9 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a928bb31a58efc612d76367a49cd8aa03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05e47b26ee4857e8c3552bd58554a760"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a05e47b26ee4857e8c3552bd58554a760">fileWriterExtensions</a> (vtkObject *object) const</td></tr>
 <tr class="separator:a05e47b26ee4857e8c3552bd58554a760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcbabadedbb0244611753714e4a047c1"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#afcbabadedbb0244611753714e4a047c1">fileWriterFileType</a> (vtkObject *object) const</td></tr>
-<tr class="memdesc:afcbabadedbb0244611753714e4a047c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the file type associated with an VTK <em>object</em>.  <a href="#afcbabadedbb0244611753714e4a047c1">More...</a><br /></td></tr>
-<tr class="separator:afcbabadedbb0244611753714e4a047c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3595d2dd2a5c803c8db4345e76cce178"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a3595d2dd2a5c803c8db4345e76cce178">fileWriterFileType</a> (vtkObject *object, const QString &amp;format=QString()) const</td></tr>
+<tr class="memdesc:a3595d2dd2a5c803c8db4345e76cce178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the file type associated with an VTK <em>object</em>.  <a href="#a3595d2dd2a5c803c8db4345e76cce178">More...</a><br /></td></tr>
+<tr class="separator:a3595d2dd2a5c803c8db4345e76cce178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1b5a81afd57bc642fb2397f354a7207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#aa1b5a81afd57bc642fb2397f354a7207">fileWriterOptions</a> (vtkObject *object, const QString &amp;extension) const</td></tr>
 <tr class="separator:aa1b5a81afd57bc642fb2397f354a7207"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee05e01f62f07ba56605dc39a222eb0"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a9ee05e01f62f07ba56605dc39a222eb0">loadFile</a> (const QString &amp;fileName)</td></tr>
@@ -603,8 +603,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afcbabadedbb0244611753714e4a047c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcbabadedbb0244611753714e4a047c1">&#9670;&nbsp;</a></span>fileWriterFileType()</h2>
+<a id="a3595d2dd2a5c803c8db4345e76cce178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3595d2dd2a5c803c8db4345e76cce178">&#9670;&nbsp;</a></span>fileWriterFileType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,8 +613,18 @@ Protected Attributes</h2></td></tr>
           <td class="memname">Q_INVOKABLE <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> qSlicerCoreIOManager::fileWriterFileType </td>
           <td>(</td>
           <td class="paramtype">vtkObject *&#160;</td>
-          <td class="paramname"><em>object</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>format</em> = <code>QString()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1111,7 +1121,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 6 2020 18:55:03 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 7 2020 03:43:24 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
