@@ -97,12 +97,12 @@ Collaboration diagram for vtkSegmentationModifier:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7088644eb03c20960331cee747fa808c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkSegmentationModifier.html#a7088644eb03c20960331cee747fa808caa50672fa929019457e8c0e7845dbe47c">MODE_REPLACE</a> = 0, 
-<a class="el" href="classvtkSegmentationModifier.html#a7088644eb03c20960331cee747fa808ca8c88fd238e181f4c561db9a9a024c190">MODE_MERGE_MAX</a>, 
-<a class="el" href="classvtkSegmentationModifier.html#a7088644eb03c20960331cee747fa808ca2f46aa65a38e47177dc380eb90762b68">MODE_MERGE_MIN</a>, 
-<a class="el" href="classvtkSegmentationModifier.html#a7088644eb03c20960331cee747fa808ca0532b922974aaeca44c85d38b68d5493">MODE_MERGE_MASK</a>
+<tr class="memitem:ab695d696b8c87904bc378f8785ba42e0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkSegmentationModifier.html#ab695d696b8c87904bc378f8785ba42e0aa50672fa929019457e8c0e7845dbe47c">MODE_REPLACE</a> = 0, 
+<a class="el" href="classvtkSegmentationModifier.html#ab695d696b8c87904bc378f8785ba42e0a8c88fd238e181f4c561db9a9a024c190">MODE_MERGE_MAX</a>, 
+<a class="el" href="classvtkSegmentationModifier.html#ab695d696b8c87904bc378f8785ba42e0a2f46aa65a38e47177dc380eb90762b68">MODE_MERGE_MIN</a>, 
+<a class="el" href="classvtkSegmentationModifier.html#ab695d696b8c87904bc378f8785ba42e0a0532b922974aaeca44c85d38b68d5493">MODE_MERGE_MASK</a>
  }</td></tr>
-<tr class="separator:a7088644eb03c20960331cee747fa808c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ab695d696b8c87904bc378f8785ba42e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0a27c58a511cdbf729e70b2e428bc3c"><td class="memItemLeft" align="right" valign="top">typedef vtkObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSegmentationModifier.html#aa0a27c58a511cdbf729e70b2e428bc3c">Superclass</a></td></tr>
 <tr class="separator:aa0a27c58a511cdbf729e70b2e428bc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -119,7 +119,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a73c2f6e9aa63fbc72fddc147b5851d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac484c8364807e55f82797b692608488e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSegmentationModifier.html#ac484c8364807e55f82797b692608488e">IsTypeOf</a> (const char *type)</td></tr>
 <tr class="separator:ac484c8364807e55f82797b692608488e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f236023909925050456a007365557a3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSegmentationModifier.html#a0f236023909925050456a007365557a3">ModifyBinaryLabelmap</a> (<a class="el" href="classvtkOrientedImageData.html">vtkOrientedImageData</a> *labelmap, <a class="el" href="classvtkSegmentation.html">vtkSegmentation</a> *segmentation, std::string segmentID, int mergeMode=<a class="el" href="classvtkSegmentationModifier.html#a7088644eb03c20960331cee747fa808caa50672fa929019457e8c0e7845dbe47c">MODE_REPLACE</a>, const int extent[6]=nullptr, bool minimumOfAllSegments=false, bool masterRepresentationModifiedEnabled=false, const std::vector&lt; std::string &gt; segmentIdsToOverwrite={}, std::vector&lt; std::string &gt; *modifiedSegmentIDs=nullptr)</td></tr>
+<tr class="memitem:a0f236023909925050456a007365557a3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSegmentationModifier.html#a0f236023909925050456a007365557a3">ModifyBinaryLabelmap</a> (<a class="el" href="classvtkOrientedImageData.html">vtkOrientedImageData</a> *labelmap, <a class="el" href="classvtkSegmentation.html">vtkSegmentation</a> *segmentation, std::string segmentID, int mergeMode=<a class="el" href="classvtkSegmentationModifier.html#ab695d696b8c87904bc378f8785ba42e0aa50672fa929019457e8c0e7845dbe47c">MODE_REPLACE</a>, const int extent[6]=nullptr, bool minimumOfAllSegments=false, bool masterRepresentationModifiedEnabled=false, const std::vector&lt; std::string &gt; segmentIdsToOverwrite={}, std::vector&lt; std::string &gt; *modifiedSegmentIDs=nullptr)</td></tr>
 <tr class="separator:a0f236023909925050456a007365557a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4fbf1e094221d20dd3c23f4e779f33"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkSegmentationModifier.html">vtkSegmentationModifier</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSegmentationModifier.html#a3b4fbf1e094221d20dd3c23f4e779f33">New</a> ()</td></tr>
 <tr class="separator:a3b4fbf1e094221d20dd3c23f4e779f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,8 +166,8 @@ Static Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a7088644eb03c20960331cee747fa808c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7088644eb03c20960331cee747fa808c">&#9670;&nbsp;</a></span>anonymous enum</h2>
+<a id="ab695d696b8c87904bc378f8785ba42e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab695d696b8c87904bc378f8785ba42e0">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,10 +185,10 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7088644eb03c20960331cee747fa808caa50672fa929019457e8c0e7845dbe47c"></a>MODE_REPLACE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7088644eb03c20960331cee747fa808ca8c88fd238e181f4c561db9a9a024c190"></a>MODE_MERGE_MAX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7088644eb03c20960331cee747fa808ca2f46aa65a38e47177dc380eb90762b68"></a>MODE_MERGE_MIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7088644eb03c20960331cee747fa808ca0532b922974aaeca44c85d38b68d5493"></a>MODE_MERGE_MASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab695d696b8c87904bc378f8785ba42e0aa50672fa929019457e8c0e7845dbe47c"></a>MODE_REPLACE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab695d696b8c87904bc378f8785ba42e0a8c88fd238e181f4c561db9a9a024c190"></a>MODE_MERGE_MAX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab695d696b8c87904bc378f8785ba42e0a2f46aa65a38e47177dc380eb90762b68"></a>MODE_MERGE_MIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab695d696b8c87904bc378f8785ba42e0a0532b922974aaeca44c85d38b68d5493"></a>MODE_MERGE_MASK&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="vtkSegmentationModifier_8h_source.html#l00051">51</a> of file <a class="el" href="vtkSegmentationModifier_8h_source.html">vtkSegmentationModifier.h</a>.</p>
@@ -503,7 +503,7 @@ Static Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mergeMode</em> = <code><a class="el" href="classvtkSegmentationModifier.html#a7088644eb03c20960331cee747fa808caa50672fa929019457e8c0e7845dbe47c">MODE_REPLACE</a></code>, </td>
+          <td class="paramname"><em>mergeMode</em> = <code><a class="el" href="classvtkSegmentationModifier.html#ab695d696b8c87904bc378f8785ba42e0aa50672fa929019457e8c0e7845dbe47c">MODE_REPLACE</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -729,7 +729,7 @@ Static Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2020 03:43:29 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 7 2020 20:47:03 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -137,7 +137,7 @@ var searchData=
   ['exportallsegmentstomodels',['ExportAllSegmentsToModels',['../classvtkSlicerSegmentationsModuleLogic.html#a1491da0b8bf0839f2117b280d64e767a',1,'vtkSlicerSegmentationsModuleLogic']]],
   ['exportextensionlist',['exportExtensionList',['../classqSlicerExtensionsManagerModel.html#a239d8ddea4c1ee8d1bce50e47169377b',1,'qSlicerExtensionsManagerModel']]],
   ['exportfromcurrentsegmentation',['exportFromCurrentSegmentation',['../classqSlicerSegmentationsModuleWidget.html#a77344c05f12d83e9cff0271adecba404',1,'qSlicerSegmentationsModuleWidget']]],
-  ['exportsegmentsbinarylabelmaprepresentationtofiles',['ExportSegmentsBinaryLabelmapRepresentationToFiles',['../classvtkSlicerSegmentationsModuleLogic.html#a385bebe53e1b98cc03ada2ae4d2e8f9c',1,'vtkSlicerSegmentationsModuleLogic']]],
+  ['exportsegmentsbinarylabelmaprepresentationtofiles',['ExportSegmentsBinaryLabelmapRepresentationToFiles',['../classvtkSlicerSegmentationsModuleLogic.html#ace576efb43c16ee0478bf077b3324cff',1,'vtkSlicerSegmentationsModuleLogic']]],
   ['exportsegmentsclosedsurfacerepresentationtofiles',['ExportSegmentsClosedSurfaceRepresentationToFiles',['../classvtkSlicerSegmentationsModuleLogic.html#a4b5328985b2d98cbbc93a5b2ae7fde6b',1,'vtkSlicerSegmentationsModuleLogic']]],
   ['exportsegmentsclosedsurfacerepresentationtoobjfile',['ExportSegmentsClosedSurfaceRepresentationToObjFile',['../classvtkSlicerSegmentationsModuleLogic.html#a64030d9eabd3581635b450e6207a1553',1,'vtkSlicerSegmentationsModuleLogic']]],
   ['exportsegmentsclosedsurfacerepresentationtostlfiles',['ExportSegmentsClosedSurfaceRepresentationToStlFiles',['../classvtkSlicerSegmentationsModuleLogic.html#a14d62e868224c6da1259f1bae38ed01e',1,'vtkSlicerSegmentationsModuleLogic']]],

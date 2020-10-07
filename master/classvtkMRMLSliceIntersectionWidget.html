@@ -110,89 +110,89 @@ Collaboration diagram for vtkMRMLSliceIntersectionWidget:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac39d1d5ad860fa05841a39711640c719"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#ac39d1d5ad860fa05841a39711640c719a4475ca380115f9d33ac60e0c8c99dbc5">WidgetStateFollowCursor</a> = WidgetStateUser, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#ac39d1d5ad860fa05841a39711640c719a40695af8c4cd8e61236a35d735f5fcab">WidgetStateBlend</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#ac39d1d5ad860fa05841a39711640c719a8f458c8bc4d4dde808708e3a6155d81d">WidgetStateTranslateSlice</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#ac39d1d5ad860fa05841a39711640c719acd0c16d2abacb449b121af187f098686">WidgetStateZoomSlice</a>, 
-<br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#ac39d1d5ad860fa05841a39711640c719a898fa89b84766ea6b113666914f1c9a4">WidgetStateTouchGesture</a>
-<br />
- }</td></tr>
-<tr class="memdesc:ac39d1d5ad860fa05841a39711640c719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widget states.  <a href="classvtkMRMLSliceIntersectionWidget.html#ac39d1d5ad860fa05841a39711640c719">More...</a><br /></td></tr>
-<tr class="separator:ac39d1d5ad860fa05841a39711640c719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7ac0646c0be97390cb4190d8b64017c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca979bc832b06ef922cfa49e3deb2a8f15">WidgetEventTouchGestureStart</a> = WidgetEventUser, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017cad5f3853cfb069b3fb0793f06796df62a">WidgetEventTouchGestureEnd</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca618f595dcab86c912ec095668e31b567">WidgetEventTouchRotateSliceIntersection</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017caf9f7bc71cf5c71f8a6b99771b4f955ec">WidgetEventTouchZoomSlice</a>, 
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca4475ca380115f9d33ac60e0c8c99dbc5">WidgetStateFollowCursor</a> = WidgetStateUser, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca40695af8c4cd8e61236a35d735f5fcab">WidgetStateBlend</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca8f458c8bc4d4dde808708e3a6155d81d">WidgetStateTranslateSlice</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017cacd0c16d2abacb449b121af187f098686">WidgetStateZoomSlice</a>, 
 <br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca393aba761de56d7ab3bc417502a79fc3">WidgetEventTouchTranslateSlice</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca519cfa48d76f542d69a90e75d2980068">WidgetEventBlendStart</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca2afc5a47f659caa83de6e03ce407d43f">WidgetEventBlendEnd</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca284474c1a53753523c8bd3a28429165d">WidgetEventToggleLabelOpacity</a>, 
-<br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca4dd64dcf585f2c415f9baef3b6ed6405">WidgetEventToggleForegroundOpacity</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca1b19820cd30b93ecf5e8c0c6e251bf31">WidgetEventIncrementSlice</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017caca34dedc2a3dd0396dce14f7049d2c9c">WidgetEventDecrementSlice</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca04f0c11560b271a275f4ea0ef6a2658b">WidgetEventZoomInSlice</a>, 
-<br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017caf755765c511646338e20bb86c5b6ac0d">WidgetEventZoomOutSlice</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017cad1dd91d8f04a6a183adc185de323d137">WidgetEventToggleSliceVisibility</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017caa5ee59a1b3a9c09cc611b91db46e50b5">WidgetEventToggleAllSlicesVisibility</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca9da401c91ec47ed35b68e26a4b9e4dc5">WidgetEventResetFieldOfView</a>, 
-<br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca52f53fe1f5939a5522ad93a18dc06de9">WidgetEventShowNextBackgroundVolume</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca9b781cf1be71df015001bda64d1c5155">WidgetEventShowPreviousBackgroundVolume</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017caa543248167f9945af8ab3e13dc08d170">WidgetEventShowNextForegroundVolume</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca0bc987c0e52f82fdf38aa876256a83c6">WidgetEventShowPreviousForegroundVolume</a>, 
-<br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca85ab1926731f8ccb906e1e8420c93f92">WidgetEventTranslateSliceStart</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017cab6d4d88b6e05f8cb578845fb0d4126a0">WidgetEventTranslateSliceEnd</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017cabc1a864971aa3701b5a9aca644341a3e">WidgetEventZoomSliceStart</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017cae95462333a1e7b221d114cc1b901b039">WidgetEventZoomSliceEnd</a>, 
-<br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca7b3db54af2895421386ceb314ac2f759">WidgetEventSetCrosshairPosition</a>
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017ca898fa89b84766ea6b113666914f1c9a4">WidgetStateTouchGesture</a>
 <br />
  }</td></tr>
-<tr class="memdesc:aa7ac0646c0be97390cb4190d8b64017c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widget events.  <a href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017c">More...</a><br /></td></tr>
+<tr class="memdesc:aa7ac0646c0be97390cb4190d8b64017c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widget states.  <a href="classvtkMRMLSliceIntersectionWidget.html#aa7ac0646c0be97390cb4190d8b64017c">More...</a><br /></td></tr>
 <tr class="separator:aa7ac0646c0be97390cb4190d8b64017c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4759c01c2d7338013912d33ad224cd2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a80e9f8584ea40c0245259ce09ad93d8f">ActionNone</a> = 0, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a9b05b8584b2fecbe4b846c71c4d24a7a">ActionTranslate</a> = 1, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2aae85a415c457411533c12310b303cb05">ActionZoom</a> = 2, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a7319edabffc144076336a025f044ba6e">ActionRotate</a> = 4, 
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a979bc832b06ef922cfa49e3deb2a8f15">WidgetEventTouchGestureStart</a> = WidgetEventUser, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2ad5f3853cfb069b3fb0793f06796df62a">WidgetEventTouchGestureEnd</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a618f595dcab86c912ec095668e31b567">WidgetEventTouchRotateSliceIntersection</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2af9f7bc71cf5c71f8a6b99771b4f955ec">WidgetEventTouchZoomSlice</a>, 
 <br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2abe706e90da640e34cea7fcde6bdac37c">ActionBlend</a> = 8, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2acfc2742443815f85ab404c85a75e42c9">ActionBrowseSlice</a> = 64, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a949aaa6540122ff88fce6c6ba3a47a20">ActionShowSlice</a> = 128, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a1652f3bbe1838e06273ebe22f0c5c0da">ActionAdjustLightbox</a> = 256, 
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a393aba761de56d7ab3bc417502a79fc3">WidgetEventTouchTranslateSlice</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a519cfa48d76f542d69a90e75d2980068">WidgetEventBlendStart</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a2afc5a47f659caa83de6e03ce407d43f">WidgetEventBlendEnd</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a284474c1a53753523c8bd3a28429165d">WidgetEventToggleLabelOpacity</a>, 
 <br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2ae996c59fcf1a05d517117ec2c3f62843">ActionSelectVolume</a> = 512, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a32e913019e98b83961232b4f5db8798b">ActionSetCursorPosition</a> = 1024, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2ab85875b0a784919cb6b9df0a0d20a195">ActionSetCrosshairPosition</a> = 2048, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2abec0aba6afee7fe8a2aa1f60729305cb">ActionTranslateSliceIntersection</a> = 4096, 
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a4dd64dcf585f2c415f9baef3b6ed6405">WidgetEventToggleForegroundOpacity</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a1b19820cd30b93ecf5e8c0c6e251bf31">WidgetEventIncrementSlice</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2aca34dedc2a3dd0396dce14f7049d2c9c">WidgetEventDecrementSlice</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a04f0c11560b271a275f4ea0ef6a2658b">WidgetEventZoomInSlice</a>, 
 <br />
-&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a6dfeba8de6d42754194e2eb8e2ea9f87">ActionRotateSliceIntersection</a> = 8192, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a2f9f6a2c5cede30040f7b0099160a2e3">ActionAll</a>
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2af755765c511646338e20bb86c5b6ac0d">WidgetEventZoomOutSlice</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2ad1dd91d8f04a6a183adc185de323d137">WidgetEventToggleSliceVisibility</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2aa5ee59a1b3a9c09cc611b91db46e50b5">WidgetEventToggleAllSlicesVisibility</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a9da401c91ec47ed35b68e26a4b9e4dc5">WidgetEventResetFieldOfView</a>, 
+<br />
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a52f53fe1f5939a5522ad93a18dc06de9">WidgetEventShowNextBackgroundVolume</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a9b781cf1be71df015001bda64d1c5155">WidgetEventShowPreviousBackgroundVolume</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2aa543248167f9945af8ab3e13dc08d170">WidgetEventShowNextForegroundVolume</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a0bc987c0e52f82fdf38aa876256a83c6">WidgetEventShowPreviousForegroundVolume</a>, 
+<br />
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a85ab1926731f8ccb906e1e8420c93f92">WidgetEventTranslateSliceStart</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2ab6d4d88b6e05f8cb578845fb0d4126a0">WidgetEventTranslateSliceEnd</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2abc1a864971aa3701b5a9aca644341a3e">WidgetEventZoomSliceStart</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2ae95462333a1e7b221d114cc1b901b039">WidgetEventZoomSliceEnd</a>, 
+<br />
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2a7b3db54af2895421386ceb314ac2f759">WidgetEventSetCrosshairPosition</a>
 <br />
  }</td></tr>
-<tr class="memdesc:af4759c01c2d7338013912d33ad224cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Action State values and management.  <a href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2">More...</a><br /></td></tr>
+<tr class="memdesc:af4759c01c2d7338013912d33ad224cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widget events.  <a href="classvtkMRMLSliceIntersectionWidget.html#af4759c01c2d7338013912d33ad224cd2">More...</a><br /></td></tr>
 <tr class="separator:af4759c01c2d7338013912d33ad224cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classvtkMRMLAbstractWidget"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classvtkMRMLAbstractWidget')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classvtkMRMLAbstractWidget.html">vtkMRMLAbstractWidget</a></td></tr>
-<tr class="memitem:a0aba8cd9f58077dea9317c3d576786b1 inherit pub_types_classvtkMRMLAbstractWidget"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1af6da2bf6a4bd366703c6009dec02e4b2">WidgetStateAny</a>, 
-<a class="el" href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1a89cab3f5dfa051f0fe67fb6a2bc51e6a">WidgetStateIdle</a>, 
-<a class="el" href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1a57a1ff8ea49e5d8b17c8302ea789b742">WidgetStateOnWidget</a>, 
-<a class="el" href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1aac7da91453a2d1ba5b1fc9c8849565c9">WidgetStateTranslate</a>, 
+<tr class="memitem:aa345d285a229a0703d3bb113b0e84662"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a80e9f8584ea40c0245259ce09ad93d8f">ActionNone</a> = 0, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a9b05b8584b2fecbe4b846c71c4d24a7a">ActionTranslate</a> = 1, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662aae85a415c457411533c12310b303cb05">ActionZoom</a> = 2, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a7319edabffc144076336a025f044ba6e">ActionRotate</a> = 4, 
 <br />
-&#160;&#160;<a class="el" href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1a472f70e80ff77e039ac7be570fbd0175">WidgetStateRotate</a>, 
-<a class="el" href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1ade4f59c57bb99f35480bcd95eef076ce">WidgetStateScale</a>, 
-<a class="el" href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1a99915344da480c538d58337fadb01ffc">WidgetStateUser</a>
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662abe706e90da640e34cea7fcde6bdac37c">ActionBlend</a> = 8, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662acfc2742443815f85ab404c85a75e42c9">ActionBrowseSlice</a> = 64, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a949aaa6540122ff88fce6c6ba3a47a20">ActionShowSlice</a> = 128, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a1652f3bbe1838e06273ebe22f0c5c0da">ActionAdjustLightbox</a> = 256, 
+<br />
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662ae996c59fcf1a05d517117ec2c3f62843">ActionSelectVolume</a> = 512, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a32e913019e98b83961232b4f5db8798b">ActionSetCursorPosition</a> = 1024, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662ab85875b0a784919cb6b9df0a0d20a195">ActionSetCrosshairPosition</a> = 2048, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662abec0aba6afee7fe8a2aa1f60729305cb">ActionTranslateSliceIntersection</a> = 4096, 
+<br />
+&#160;&#160;<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a6dfeba8de6d42754194e2eb8e2ea9f87">ActionRotateSliceIntersection</a> = 8192, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a2f9f6a2c5cede30040f7b0099160a2e3">ActionAll</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a0aba8cd9f58077dea9317c3d576786b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state of the widget.  <a href="classvtkMRMLAbstractWidget.html#a0aba8cd9f58077dea9317c3d576786b1">More...</a><br /></td></tr>
-<tr class="separator:a0aba8cd9f58077dea9317c3d576786b1 inherit pub_types_classvtkMRMLAbstractWidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:aa345d285a229a0703d3bb113b0e84662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Action State values and management.  <a href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662">More...</a><br /></td></tr>
+<tr class="separator:aa345d285a229a0703d3bb113b0e84662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classvtkMRMLAbstractWidget"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classvtkMRMLAbstractWidget')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classvtkMRMLAbstractWidget.html">vtkMRMLAbstractWidget</a></td></tr>
+<tr class="memitem:a8f579c34541ff413c8c1837b54072bb4 inherit pub_types_classvtkMRMLAbstractWidget"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4af6da2bf6a4bd366703c6009dec02e4b2">WidgetStateAny</a>, 
+<a class="el" href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4a89cab3f5dfa051f0fe67fb6a2bc51e6a">WidgetStateIdle</a>, 
+<a class="el" href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4a57a1ff8ea49e5d8b17c8302ea789b742">WidgetStateOnWidget</a>, 
+<a class="el" href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4aac7da91453a2d1ba5b1fc9c8849565c9">WidgetStateTranslate</a>, 
+<br />
+&#160;&#160;<a class="el" href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4a472f70e80ff77e039ac7be570fbd0175">WidgetStateRotate</a>, 
+<a class="el" href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4ade4f59c57bb99f35480bcd95eef076ce">WidgetStateScale</a>, 
+<a class="el" href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4a99915344da480c538d58337fadb01ffc">WidgetStateUser</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a8f579c34541ff413c8c1837b54072bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state of the widget.  <a href="classvtkMRMLAbstractWidget.html#a8f579c34541ff413c8c1837b54072bb4">More...</a><br /></td></tr>
+<tr class="separator:a8f579c34541ff413c8c1837b54072bb4 inherit pub_types_classvtkMRMLAbstractWidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09a59622e3583961d1dcfe2b888bbee8 inherit pub_types_classvtkMRMLAbstractWidget"><td class="memItemLeft" align="right" valign="top">typedef vtkObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#a09a59622e3583961d1dcfe2b888bbee8">Superclass</a></td></tr>
 <tr class="memdesc:a09a59622e3583961d1dcfe2b888bbee8 inherit pub_types_classvtkMRMLAbstractWidget"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard methods for a VTK class.  <a href="classvtkMRMLAbstractWidget.html#a09a59622e3583961d1dcfe2b888bbee8">More...</a><br /></td></tr>
 <tr class="separator:a09a59622e3583961d1dcfe2b888bbee8 inherit pub_types_classvtkMRMLAbstractWidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,11 +318,11 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Protected Types</h2></td></tr>
-<tr class="memitem:aa345d285a229a0703d3bb113b0e84662"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a5c7a615ae45f1e45054ecb4a9e8dd8e9">LayerBackground</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662a624d9c3f12ee2954858b15d3c6546020">LayerForeground</a>, 
-<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aa345d285a229a0703d3bb113b0e84662abb5a6ac556435ebd0204fa983ca5b658">LayerLabelmap</a>
+<tr class="memitem:aee39413d881590b6a4d7c84a662f8500"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aee39413d881590b6a4d7c84a662f8500a5c7a615ae45f1e45054ecb4a9e8dd8e9">LayerBackground</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aee39413d881590b6a4d7c84a662f8500a624d9c3f12ee2954858b15d3c6546020">LayerForeground</a>, 
+<a class="el" href="classvtkMRMLSliceIntersectionWidget.html#aee39413d881590b6a4d7c84a662f8500abb5a6ac556435ebd0204fa983ca5b658">LayerLabelmap</a>
  }</td></tr>
-<tr class="separator:aa345d285a229a0703d3bb113b0e84662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aee39413d881590b6a4d7c84a662f8500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -501,31 +501,6 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ac39d1d5ad860fa05841a39711640c719"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac39d1d5ad860fa05841a39711640c719">&#9670;&nbsp;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Widget states. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac39d1d5ad860fa05841a39711640c719a4475ca380115f9d33ac60e0c8c99dbc5"></a>WidgetStateFollowCursor&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac39d1d5ad860fa05841a39711640c719a40695af8c4cd8e61236a35d735f5fcab"></a>WidgetStateBlend&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac39d1d5ad860fa05841a39711640c719a8f458c8bc4d4dde808708e3a6155d81d"></a>WidgetStateTranslateSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac39d1d5ad860fa05841a39711640c719acd0c16d2abacb449b121af187f098686"></a>WidgetStateZoomSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac39d1d5ad860fa05841a39711640c719a898fa89b84766ea6b113666914f1c9a4"></a>WidgetStateTouchGesture&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html#l00079">79</a> of file <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html">vtkMRMLSliceIntersectionWidget.h</a>.</p>
-
-</div>
-</div>
 <a id="aa7ac0646c0be97390cb4190d8b64017c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7ac0646c0be97390cb4190d8b64017c">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
@@ -538,36 +513,16 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Widget events. </p>
+<p>Widget states. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca979bc832b06ef922cfa49e3deb2a8f15"></a>WidgetEventTouchGestureStart&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017cad5f3853cfb069b3fb0793f06796df62a"></a>WidgetEventTouchGestureEnd&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca618f595dcab86c912ec095668e31b567"></a>WidgetEventTouchRotateSliceIntersection&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017caf9f7bc71cf5c71f8a6b99771b4f955ec"></a>WidgetEventTouchZoomSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca393aba761de56d7ab3bc417502a79fc3"></a>WidgetEventTouchTranslateSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca519cfa48d76f542d69a90e75d2980068"></a>WidgetEventBlendStart&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca2afc5a47f659caa83de6e03ce407d43f"></a>WidgetEventBlendEnd&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca284474c1a53753523c8bd3a28429165d"></a>WidgetEventToggleLabelOpacity&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca4dd64dcf585f2c415f9baef3b6ed6405"></a>WidgetEventToggleForegroundOpacity&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca1b19820cd30b93ecf5e8c0c6e251bf31"></a>WidgetEventIncrementSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017caca34dedc2a3dd0396dce14f7049d2c9c"></a>WidgetEventDecrementSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca04f0c11560b271a275f4ea0ef6a2658b"></a>WidgetEventZoomInSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017caf755765c511646338e20bb86c5b6ac0d"></a>WidgetEventZoomOutSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017cad1dd91d8f04a6a183adc185de323d137"></a>WidgetEventToggleSliceVisibility&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017caa5ee59a1b3a9c09cc611b91db46e50b5"></a>WidgetEventToggleAllSlicesVisibility&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca9da401c91ec47ed35b68e26a4b9e4dc5"></a>WidgetEventResetFieldOfView&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca52f53fe1f5939a5522ad93a18dc06de9"></a>WidgetEventShowNextBackgroundVolume&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca9b781cf1be71df015001bda64d1c5155"></a>WidgetEventShowPreviousBackgroundVolume&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017caa543248167f9945af8ab3e13dc08d170"></a>WidgetEventShowNextForegroundVolume&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca0bc987c0e52f82fdf38aa876256a83c6"></a>WidgetEventShowPreviousForegroundVolume&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca85ab1926731f8ccb906e1e8420c93f92"></a>WidgetEventTranslateSliceStart&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017cab6d4d88b6e05f8cb578845fb0d4126a0"></a>WidgetEventTranslateSliceEnd&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017cabc1a864971aa3701b5a9aca644341a3e"></a>WidgetEventZoomSliceStart&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017cae95462333a1e7b221d114cc1b901b039"></a>WidgetEventZoomSliceEnd&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca7b3db54af2895421386ceb314ac2f759"></a>WidgetEventSetCrosshairPosition&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca4475ca380115f9d33ac60e0c8c99dbc5"></a>WidgetStateFollowCursor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca40695af8c4cd8e61236a35d735f5fcab"></a>WidgetStateBlend&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca8f458c8bc4d4dde808708e3a6155d81d"></a>WidgetStateTranslateSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017cacd0c16d2abacb449b121af187f098686"></a>WidgetStateZoomSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7ac0646c0be97390cb4190d8b64017ca898fa89b84766ea6b113666914f1c9a4"></a>WidgetStateTouchGesture&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html#l00089">89</a> of file <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html">vtkMRMLSliceIntersectionWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html#l00079">79</a> of file <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html">vtkMRMLSliceIntersectionWidget.h</a>.</p>
 
 </div>
 </div>
@@ -583,30 +538,75 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Widget events. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a979bc832b06ef922cfa49e3deb2a8f15"></a>WidgetEventTouchGestureStart&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2ad5f3853cfb069b3fb0793f06796df62a"></a>WidgetEventTouchGestureEnd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a618f595dcab86c912ec095668e31b567"></a>WidgetEventTouchRotateSliceIntersection&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2af9f7bc71cf5c71f8a6b99771b4f955ec"></a>WidgetEventTouchZoomSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a393aba761de56d7ab3bc417502a79fc3"></a>WidgetEventTouchTranslateSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a519cfa48d76f542d69a90e75d2980068"></a>WidgetEventBlendStart&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a2afc5a47f659caa83de6e03ce407d43f"></a>WidgetEventBlendEnd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a284474c1a53753523c8bd3a28429165d"></a>WidgetEventToggleLabelOpacity&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a4dd64dcf585f2c415f9baef3b6ed6405"></a>WidgetEventToggleForegroundOpacity&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a1b19820cd30b93ecf5e8c0c6e251bf31"></a>WidgetEventIncrementSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2aca34dedc2a3dd0396dce14f7049d2c9c"></a>WidgetEventDecrementSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a04f0c11560b271a275f4ea0ef6a2658b"></a>WidgetEventZoomInSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2af755765c511646338e20bb86c5b6ac0d"></a>WidgetEventZoomOutSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2ad1dd91d8f04a6a183adc185de323d137"></a>WidgetEventToggleSliceVisibility&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2aa5ee59a1b3a9c09cc611b91db46e50b5"></a>WidgetEventToggleAllSlicesVisibility&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a9da401c91ec47ed35b68e26a4b9e4dc5"></a>WidgetEventResetFieldOfView&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a52f53fe1f5939a5522ad93a18dc06de9"></a>WidgetEventShowNextBackgroundVolume&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a9b781cf1be71df015001bda64d1c5155"></a>WidgetEventShowPreviousBackgroundVolume&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2aa543248167f9945af8ab3e13dc08d170"></a>WidgetEventShowNextForegroundVolume&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a0bc987c0e52f82fdf38aa876256a83c6"></a>WidgetEventShowPreviousForegroundVolume&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a85ab1926731f8ccb906e1e8420c93f92"></a>WidgetEventTranslateSliceStart&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2ab6d4d88b6e05f8cb578845fb0d4126a0"></a>WidgetEventTranslateSliceEnd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2abc1a864971aa3701b5a9aca644341a3e"></a>WidgetEventZoomSliceStart&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2ae95462333a1e7b221d114cc1b901b039"></a>WidgetEventZoomSliceEnd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a7b3db54af2895421386ceb314ac2f759"></a>WidgetEventSetCrosshairPosition&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html#l00089">89</a> of file <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html">vtkMRMLSliceIntersectionWidget.h</a>.</p>
+
+</div>
+</div>
+<a id="aa345d285a229a0703d3bb113b0e84662"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa345d285a229a0703d3bb113b0e84662">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Action State values and management. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a80e9f8584ea40c0245259ce09ad93d8f"></a>ActionNone&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a9b05b8584b2fecbe4b846c71c4d24a7a"></a>ActionTranslate&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2aae85a415c457411533c12310b303cb05"></a>ActionZoom&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a7319edabffc144076336a025f044ba6e"></a>ActionRotate&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2abe706e90da640e34cea7fcde6bdac37c"></a>ActionBlend&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2acfc2742443815f85ab404c85a75e42c9"></a>ActionBrowseSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a949aaa6540122ff88fce6c6ba3a47a20"></a>ActionShowSlice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a1652f3bbe1838e06273ebe22f0c5c0da"></a>ActionAdjustLightbox&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2ae996c59fcf1a05d517117ec2c3f62843"></a>ActionSelectVolume&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a32e913019e98b83961232b4f5db8798b"></a>ActionSetCursorPosition&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2ab85875b0a784919cb6b9df0a0d20a195"></a>ActionSetCrosshairPosition&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2abec0aba6afee7fe8a2aa1f60729305cb"></a>ActionTranslateSliceIntersection&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a6dfeba8de6d42754194e2eb8e2ea9f87"></a>ActionRotateSliceIntersection&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af4759c01c2d7338013912d33ad224cd2a2f9f6a2c5cede30040f7b0099160a2e3"></a>ActionAll&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a80e9f8584ea40c0245259ce09ad93d8f"></a>ActionNone&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a9b05b8584b2fecbe4b846c71c4d24a7a"></a>ActionTranslate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662aae85a415c457411533c12310b303cb05"></a>ActionZoom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a7319edabffc144076336a025f044ba6e"></a>ActionRotate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662abe706e90da640e34cea7fcde6bdac37c"></a>ActionBlend&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662acfc2742443815f85ab404c85a75e42c9"></a>ActionBrowseSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a949aaa6540122ff88fce6c6ba3a47a20"></a>ActionShowSlice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a1652f3bbe1838e06273ebe22f0c5c0da"></a>ActionAdjustLightbox&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662ae996c59fcf1a05d517117ec2c3f62843"></a>ActionSelectVolume&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a32e913019e98b83961232b4f5db8798b"></a>ActionSetCursorPosition&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662ab85875b0a784919cb6b9df0a0d20a195"></a>ActionSetCrosshairPosition&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662abec0aba6afee7fe8a2aa1f60729305cb"></a>ActionTranslateSliceIntersection&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a6dfeba8de6d42754194e2eb8e2ea9f87"></a>ActionRotateSliceIntersection&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a2f9f6a2c5cede30040f7b0099160a2e3"></a>ActionAll&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html#l00119">119</a> of file <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html">vtkMRMLSliceIntersectionWidget.h</a>.</p>
 
 </div>
 </div>
-<a id="aa345d285a229a0703d3bb113b0e84662"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa345d285a229a0703d3bb113b0e84662">&#9670;&nbsp;</a></span>anonymous enum</h2>
+<a id="aee39413d881590b6a4d7c84a662f8500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee39413d881590b6a4d7c84a662f8500">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -625,9 +625,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a5c7a615ae45f1e45054ecb4a9e8dd8e9"></a>LayerBackground&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662a624d9c3f12ee2954858b15d3c6546020"></a>LayerForeground&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa345d285a229a0703d3bb113b0e84662abb5a6ac556435ebd0204fa983ca5b658"></a>LayerLabelmap&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aee39413d881590b6a4d7c84a662f8500a5c7a615ae45f1e45054ecb4a9e8dd8e9"></a>LayerBackground&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aee39413d881590b6a4d7c84a662f8500a624d9c3f12ee2954858b15d3c6546020"></a>LayerForeground&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aee39413d881590b6a4d7c84a662f8500abb5a6ac556435ebd0204fa983ca5b658"></a>LayerLabelmap&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html#l00216">216</a> of file <a class="el" href="vtkMRMLSliceIntersectionWidget_8h_source.html">vtkMRMLSliceIntersectionWidget.h</a>.</p>
@@ -2510,7 +2510,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2020 03:43:28 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 7 2020 20:47:02 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
