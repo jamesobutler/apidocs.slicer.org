@@ -4,11 +4,11 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node553 [label="QStyledItemDelegate",height=0.2,width=0.4,color="grey75"];
-  Node553 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node557 [label="QStyledItemDelegate",height=0.2,width=0.4,color="grey75"];
+  Node557 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLDoubleSpinBoxDelegate",height=0.2,width=0.4,color="black",URL="$classqMRMLDoubleSpinBoxDelegate.html"];
-  Node553 -> Node555 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node555 [label="qMRMLItemDelegate",height=0.2,width=0.4,color="black",URL="$classqMRMLItemDelegate.html",tooltip="Item Delegate for MRML properties Use custom widgets for properties such as colors, opacities... If an index has Qt::DecorationRole set to a QColor, its editor will then be a ctkColorPickerButton linked to a color picker dialog on click If an index has a Qt::EditRole set to a QString that exactly is on the form X.YY where X is 0 or 1 and Y is a digit (0 to 9), then the editor will be a ctkDoubleSpinBox with a slider popping up on mouse hover. "];
-  Node553 -> Node556 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node556 [label="qSlicerTerminologyItemDelegate",height=0.2,width=0.4,color="black",URL="$classqSlicerTerminologyItemDelegate.html"];
+  Node557 -> Node559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node559 [label="qMRMLItemDelegate",height=0.2,width=0.4,color="black",URL="$classqMRMLItemDelegate.html",tooltip="Item Delegate for MRML properties Use custom widgets for properties such as colors, opacities... If an index has Qt::DecorationRole set to a QColor, its editor will then be a ctkColorPickerButton linked to a color picker dialog on click If an index has a Qt::EditRole set to a QString that exactly is on the form X.YY where X is 0 or 1 and Y is a digit (0 to 9), then the editor will be a ctkDoubleSpinBox with a slider popping up on mouse hover. "];
+  Node557 -> Node560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node560 [label="qSlicerTerminologyItemDelegate",height=0.2,width=0.4,color="black",URL="$classqSlicerTerminologyItemDelegate.html"];
 }

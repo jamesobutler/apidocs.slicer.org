@@ -34,7 +34,7 @@ var searchData=
   ['activeplotrenderer',['activePlotRenderer',['../classqMRMLLayoutManager.html#a2d16fc4270e39661ad4863fdd61761e4',1,'qMRMLLayoutManager']]],
   ['activeplotrendererchanged',['activePlotRendererChanged',['../classqMRMLLayoutManager.html#ab842ac73903cc8ce21db8c6c6e36cde7',1,'qMRMLLayoutManager']]],
   ['activerenderer',['activeRenderer',['../classqMRMLLayoutViewFactory.html#aa42cf0b1e05d14699eb2c538e8d0ed97',1,'qMRMLLayoutViewFactory']]],
-  ['activescalarname',['activeScalarName',['../classqMRMLModelDisplayNodeWidget.html#af198abbe2e065ca2e1a09d0f0e9a4284',1,'qMRMLModelDisplayNodeWidget']]],
+  ['activescalarname',['activeScalarName',['../classqMRMLScalarsDisplayWidget.html#a988905d550725ff7e1b91f178443309e',1,'qMRMLScalarsDisplayWidget']]],
   ['activetablerenderer',['activeTableRenderer',['../classqMRMLLayoutManager.html#ad00c4699a9add3879e2dfdd8a17d4795',1,'qMRMLLayoutManager']]],
   ['activetablerendererchanged',['activeTableRendererChanged',['../classqMRMLLayoutManager.html#a17062bd44e349287afcc7c7c6015fcd8',1,'qMRMLLayoutManager']]],
   ['activethreedrenderer',['activeThreeDRenderer',['../classqMRMLLayoutManager.html#ad9ab58cd6c9cbc124fa9af71783bb292',1,'qMRMLLayoutManager']]],

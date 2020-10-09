@@ -12,5 +12,5 @@ digraph "Libs/MRML/Widgets" {
   }
   }
   dir_4aaa3159dc61d8dcfd3044c605667d3e [shape=box label="Core" color="red" URL="dir_4aaa3159dc61d8dcfd3044c605667d3e.html"];
-  dir_6f3c21a1129c43183cd69e9ab1317689->dir_4aaa3159dc61d8dcfd3044c605667d3e [headlabel="2", labeldistance=1.5 headhref="dir_000025_000018.html"];
+  dir_6f3c21a1129c43183cd69e9ab1317689->dir_4aaa3159dc61d8dcfd3044c605667d3e [headlabel="3", labeldistance=1.5 headhref="dir_000025_000018.html"];
 }

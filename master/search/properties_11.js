@@ -1,7 +1,7 @@
 var searchData=
 [
   ['scalarinvariant',['scalarInvariant',['../classqMRMLScalarInvariantComboBox.html#a668f73bd56c1c9f5961c201110712e9b',1,'qMRMLScalarInvariantComboBox']]],
-  ['scalarrangemode',['scalarRangeMode',['../classqMRMLModelDisplayNodeWidget.html#ac88993be3af8459cc66aaeeba3666ea6',1,'qMRMLModelDisplayNodeWidget']]],
+  ['scalarrangemode',['scalarRangeMode',['../classqMRMLScalarsDisplayWidget.html#a75cb982b2df975aec9126271abee3e9b',1,'qMRMLScalarsDisplayWidget']]],
   ['scalefactor',['scaleFactor',['../classqMRMLScreenShotDialog.html#a5ef449b871d702d9daa1608590ca7f0c',1,'qMRMLScreenShotDialog']]],
   ['scenemodeltype',['sceneModelType',['../classqMRMLTreeView.html#a9ed3d66928a679151a79ef95ec02e51d',1,'qMRMLTreeView']]],
   ['searchpaths',['searchPaths',['../classqSlicerAbstractModuleFactoryManager.html#ad68c90278436d7f81ef8593e66c49d99',1,'qSlicerAbstractModuleFactoryManager']]],

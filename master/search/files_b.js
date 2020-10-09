@@ -94,6 +94,8 @@ var searchData=
   ['qmrmlroiwidgetplugin_2eh',['qMRMLROIWidgetPlugin.h',['../qMRMLROIWidgetPlugin_8h.html',1,'']]],
   ['qmrmlscalarinvariantcombobox_2eh',['qMRMLScalarInvariantComboBox.h',['../qMRMLScalarInvariantComboBox_8h.html',1,'']]],
   ['qmrmlscalarinvariantcomboboxplugin_2eh',['qMRMLScalarInvariantComboBoxPlugin.h',['../qMRMLScalarInvariantComboBoxPlugin_8h.html',1,'']]],
+  ['qmrmlscalarsdisplaywidget_2eh',['qMRMLScalarsDisplayWidget.h',['../qMRMLScalarsDisplayWidget_8h.html',1,'']]],
+  ['qmrmlscalarsdisplaywidgetplugin_2eh',['qMRMLScalarsDisplayWidgetPlugin.h',['../qMRMLScalarsDisplayWidgetPlugin_8h.html',1,'']]],
   ['qmrmlsceneannotationmodel_2eh',['qMRMLSceneAnnotationModel.h',['../qMRMLSceneAnnotationModel_8h.html',1,'']]],
   ['qmrmlscenecategorymodel_2eh',['qMRMLSceneCategoryModel.h',['../qMRMLSceneCategoryModel_8h.html',1,'']]],
   ['qmrmlscenecolortablemodel_2eh',['qMRMLSceneColorTableModel.h',['../qMRMLSceneColorTableModel_8h.html',1,'']]],

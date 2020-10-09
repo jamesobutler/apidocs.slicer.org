@@ -45,6 +45,8 @@ var searchData=
   ['empty',['empty',['../classitk_1_1TimeSeriesDatabaseHelper_1_1LRUCache.html#a626afb35a638f81c19194dea15262350',1,'itk::TimeSeriesDatabaseHelper::LRUCache']]],
   ['enabledevelopermode',['enableDeveloperMode',['../classqSlicerSettingsDeveloperPanel.html#a06a4babf6784e651289f7c9bd7317c46',1,'qSlicerSettingsDeveloperPanel']]],
   ['enabledextensions',['enabledExtensions',['../classqSlicerExtensionsManagerModel.html#a72d102dedea21fcccbfd02cc361fb73a',1,'qSlicerExtensionsManagerModel']]],
+  ['enabledoff',['EnabledOff',['../classvtkMRMLMeasurement.html#a68960af6d1cc9a69b1d0caef85481cd1',1,'vtkMRMLMeasurement']]],
+  ['enabledon',['EnabledOn',['../classvtkMRMLMeasurement.html#a15cfb1acc8288ea85e30a900a5c1764d',1,'vtkMRMLMeasurement']]],
   ['enableinternationalization',['enableInternationalization',['../classqSlicerSettingsInternationalizationPanel.html#ad49e45828a3db18aa381eaf705a4c00f',1,'qSlicerSettingsInternationalizationPanel']]],
   ['enablepointmovealongxoff',['EnablePointMoveAlongXOff',['../classvtkMRMLPlotChartNode.html#a4c3bcf39340d83ca2a43d6fcfa922a70',1,'vtkMRMLPlotChartNode::EnablePointMoveAlongXOff()'],['../classvtkMRMLPlotViewNode.html#a217797a5924c0dceb9b3e9af52799eaa',1,'vtkMRMLPlotViewNode::EnablePointMoveAlongXOff()']]],
   ['enablepointmovealongxon',['EnablePointMoveAlongXOn',['../classvtkMRMLPlotChartNode.html#a722b3ecb18ebe7a063595a276d549090',1,'vtkMRMLPlotChartNode::EnablePointMoveAlongXOn()'],['../classvtkMRMLPlotViewNode.html#a9e631ca798a96eb7f3afcdf8e26d7732',1,'vtkMRMLPlotViewNode::EnablePointMoveAlongXOn()']]],

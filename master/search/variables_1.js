@@ -10,7 +10,6 @@ var searchData=
   ['activecomponents',['ActiveComponents',['../classvtkMRMLMarkupsDisplayNode.html#aeae6f426f003d7f1d34f0092b5670216',1,'vtkMRMLMarkupsDisplayNode']]],
   ['activeeffectname',['ActiveEffectName',['../classvtkMRMLSegmentEditorNode.html#a2e17b4b8cdbf59ffc389b04b803695e4',1,'vtkMRMLSegmentEditorNode']]],
   ['activeplacenodeclassname',['ActivePlaceNodeClassName',['../classvtkMRMLSelectionNode.html#ac739cd729ae1706c2ce935cd19a2ff8b',1,'vtkMRMLSelectionNode']]],
-  ['activescalar',['ActiveScalar',['../classvtkMRMLMarkupsCurveNode.html#ad351c5de9292ce4278d925be74cd024d',1,'vtkMRMLMarkupsCurveNode']]],
   ['activescalarname',['ActiveScalarName',['../classvtkMRMLDisplayNode.html#a94462d58dcf93b2b97e15a0fc559ea6b',1,'vtkMRMLDisplayNode']]],
   ['activeslice',['ActiveSlice',['../classvtkMRMLSliceNode.html#abb5ec37c433072ed7987fd35d6f44480',1,'vtkMRMLSliceNode::ActiveSlice()'],['../classSegmentEditorDrawEffect_1_1DrawPipeline.html#a3eefb16e61c3259161f2f96455f7bf4e',1,'SegmentEditorDrawEffect.DrawPipeline.activeSlice()']]],
   ['activeslicetransform',['ActiveSliceTransform',['../classvtkMRMLSliceLogic.html#ac3090c82745aacb699821b871ad3e3a5',1,'vtkMRMLSliceLogic']]],

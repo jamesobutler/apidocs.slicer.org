@@ -166,9 +166,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa352782f2734cc60bf2d238cf226dfd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#aa352782f2734cc60bf2d238cf226dfd8">CreateNodeInstance</a> () override</td></tr>
 <tr class="memdesc:aa352782f2734cc60bf2d238cf226dfd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create instance of the default node. Like New only virtual.  <a href="#aa352782f2734cc60bf2d238cf226dfd8">More...</a><br /></td></tr>
 <tr class="separator:aa352782f2734cc60bf2d238cf226dfd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a619f0d709e86f55c500d0da2837ec024"><td class="memItemLeft" align="right" valign="top">virtual vtkDataArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a619f0d709e86f55c500d0da2837ec024">GetActiveScalarArray</a> ()</td></tr>
-<tr class="memdesc:a619f0d709e86f55c500d0da2837ec024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current active scalar array (based on active scalar name and location)  <a href="#a619f0d709e86f55c500d0da2837ec024">More...</a><br /></td></tr>
-<tr class="separator:a619f0d709e86f55c500d0da2837ec024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23e115822622cbc20d0ba7f37eccab69"><td class="memItemLeft" align="right" valign="top">virtual vtkDataArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a23e115822622cbc20d0ba7f37eccab69">GetActiveScalarArray</a> () override</td></tr>
+<tr class="memdesc:a23e115822622cbc20d0ba7f37eccab69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current active scalar array (based on active scalar name and location)  <a href="#a23e115822622cbc20d0ba7f37eccab69">More...</a><br /></td></tr>
+<tr class="separator:a23e115822622cbc20d0ba7f37eccab69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f63be5cc519ce7494bf7a9ce3c8d5aa"><td class="memItemLeft" align="right" valign="top">virtual double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a2f63be5cc519ce7494bf7a9ce3c8d5aa">GetBackfaceColorHSVOffset</a> ()</td></tr>
 <tr class="separator:a2f63be5cc519ce7494bf7a9ce3c8d5aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2f46de35d16a41e5b67879459100f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a4d2f46de35d16a41e5b67879459100f3">GetBackfaceColorHSVOffset</a> (double &amp;, double &amp;, double &amp;)</td></tr>
@@ -204,6 +204,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a69ab350484c27959e6662e4d413f1a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff38c71b595707330afb4c48b4998cd7"><td class="memItemLeft" align="right" valign="top">virtual vtkUnstructuredGrid *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#aff38c71b595707330afb4c48b4998cd7">GetOutputUnstructuredGrid</a> ()</td></tr>
 <tr class="separator:aff38c71b595707330afb4c48b4998cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976507a289dcc0d345fcd54cfc586f45"><td class="memItemLeft" align="right" valign="top">virtual vtkDataSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a976507a289dcc0d345fcd54cfc586f45">GetScalarDataSet</a> () override</td></tr>
+<tr class="separator:a976507a289dcc0d345fcd54cfc586f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e8a2e874c0006032aaf5e9b440dc3c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#af3e8a2e874c0006032aaf5e9b440dc3c">GetSliceDisplayMode</a> ()</td></tr>
 <tr class="separator:af3e8a2e874c0006032aaf5e9b440dc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e41525f4036c2fd6d860674176d8f8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#ab8e41525f4036c2fd6d860674176d8f8">GetThresholdEnabled</a> ()</td></tr>
@@ -226,22 +228,18 @@ Read node attributes from XML file  <a href="#a58ad8ed6d82bf617d978386c7ef6205c"
 <tr class="separator:a58ad8ed6d82bf617d978386c7ef6205c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fa5a8fe55eeeb647afd79dd80878a36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a3fa5a8fe55eeeb647afd79dd80878a36">SetActiveAttributeLocation</a> (int location) override</td></tr>
 <tr class="separator:a3fa5a8fe55eeeb647afd79dd80878a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae33f29f966d4952c6e267b3c3b194471"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#ae33f29f966d4952c6e267b3c3b194471">SetActiveScalar</a> (const char *scalarName, int location)</td></tr>
-<tr class="separator:ae33f29f966d4952c6e267b3c3b194471"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ed6f8bb409166510147592383ec2c7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a8ed6f8bb409166510147592383ec2c7e">SetActiveScalarName</a> (const char *scalarName) override</td></tr>
 <tr class="separator:a8ed6f8bb409166510147592383ec2c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c17c60e694ef49a10cfab349a1b4f00"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a3c17c60e694ef49a10cfab349a1b4f00">SetAndObserveDistanceEncodedProjectionColorNodeID</a> (const char *colorNodeID)</td></tr>
 <tr class="separator:a3c17c60e694ef49a10cfab349a1b4f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a880e083c83949086ebd65c5ab4568d18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a880e083c83949086ebd65c5ab4568d18">SetBackfaceColorHSVOffset</a> (double, double, double)</td></tr>
-<tr class="separator:a880e083c83949086ebd65c5ab4568d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acea9c0bfcb6b8354d72ccb9fa500e4a5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#acea9c0bfcb6b8354d72ccb9fa500e4a5">SetBackfaceColorHSVOffset</a> (double [3])</td></tr>
 <tr class="separator:acea9c0bfcb6b8354d72ccb9fa500e4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a880e083c83949086ebd65c5ab4568d18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a880e083c83949086ebd65c5ab4568d18">SetBackfaceColorHSVOffset</a> (double, double, double)</td></tr>
+<tr class="separator:a880e083c83949086ebd65c5ab4568d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04025b556f1267602f3f2bbcac7a6e81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a04025b556f1267602f3f2bbcac7a6e81">SetInputMeshConnection</a> (vtkAlgorithmOutput *meshConnection)</td></tr>
 <tr class="separator:a04025b556f1267602f3f2bbcac7a6e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ac2f5a6b4b0d41609d97bf4d41e941c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a5ac2f5a6b4b0d41609d97bf4d41e941c">SetInputPolyDataConnection</a> (vtkAlgorithmOutput *polyDataConnection)</td></tr>
 <tr class="separator:a5ac2f5a6b4b0d41609d97bf4d41e941c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a9777d0fa418b2f52422f8eb796992a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a5a9777d0fa418b2f52422f8eb796992a">SetScalarRangeFlag</a> (int flag) override</td></tr>
-<tr class="separator:a5a9777d0fa418b2f52422f8eb796992a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bf7b91a4a4db25759bed9965d8c40e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a7bf7b91a4a4db25759bed9965d8c40e8">SetSliceDisplayMode</a> (int)</td></tr>
 <tr class="separator:a7bf7b91a4a4db25759bed9965d8c40e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af62e2b5a03e4d8f9c7675850eb95cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a1af62e2b5a03e4d8f9c7675850eb95cb">SetSliceDisplayModeToDistanceEncodedProjection</a> ()</td></tr>
@@ -353,12 +351,12 @@ Write this node's information to a MRML file in XML format.  <a href="#aee509a34
 <tr class="separator:ac47ad70f920544e48424aab73c9ff4c0 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4924b3f8854d61c24d48072a0989093 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#ae4924b3f8854d61c24d48072a0989093">GetRepresentation</a> ()</td></tr>
 <tr class="separator:ae4924b3f8854d61c24d48072a0989093 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a938219b93a4da00979132d0e58fe897a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a938219b93a4da00979132d0e58fe897a">GetScalarRange</a> ()</td></tr>
-<tr class="separator:a938219b93a4da00979132d0e58fe897a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf8efe3b880a1e9943ad018531dcfef5 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#acf8efe3b880a1e9943ad018531dcfef5">GetScalarRange</a> (double &amp;, double &amp;)</td></tr>
 <tr class="separator:acf8efe3b880a1e9943ad018531dcfef5 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbc09cee0467db80520d9ec694a49ee7 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#adbc09cee0467db80520d9ec694a49ee7">GetScalarRange</a> (double [2])</td></tr>
 <tr class="separator:adbc09cee0467db80520d9ec694a49ee7 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938219b93a4da00979132d0e58fe897a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a938219b93a4da00979132d0e58fe897a">GetScalarRange</a> ()</td></tr>
+<tr class="separator:a938219b93a4da00979132d0e58fe897a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c1b69a5cefefe9057768644514b3e1f inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a5c1b69a5cefefe9057768644514b3e1f">GetScalarRangeFlag</a> ()</td></tr>
 <tr class="separator:a5c1b69a5cefefe9057768644514b3e1f inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a1af2de6167c53aa44bac07e2e6506b inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a8a1af2de6167c53aa44bac07e2e6506b">GetScalarRangeFlagAsString</a> ()</td></tr>
@@ -425,6 +423,8 @@ Write this node's information to a MRML file in XML format.  <a href="#aee509a34
 <tr class="separator:a9dd055841d24d46216c72f5cce97e6e8 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f83173540709490971a3997b024fcfe inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a4f83173540709490971a3997b024fcfe">SetActiveAttributeLocationFromString</a> (const char *str)</td></tr>
 <tr class="separator:a4f83173540709490971a3997b024fcfe inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a175e6fc23236775720e820446d8f12db inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a175e6fc23236775720e820446d8f12db">SetActiveScalar</a> (const char *scalarName, int location)</td></tr>
+<tr class="separator:a175e6fc23236775720e820446d8f12db inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17b863f325bdb1c32edf488f932b9897 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a17b863f325bdb1c32edf488f932b9897">SetAmbient</a> (double)</td></tr>
 <tr class="separator:a17b863f325bdb1c32edf488f932b9897 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa08cd24eaceabdc9159d33702517c909 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#aa08cd24eaceabdc9159d33702517c909">SetAndObserveColorNodeID</a> (const char *<a class="el" href="classvtkMRMLDisplayNode.html#a3c5dec0e4446284cd9bbad48e47ad07a">ColorNodeID</a>)</td></tr>
@@ -471,10 +471,12 @@ Write this node's information to a MRML file in XML format.  <a href="#aee509a34
 <tr class="separator:abe4ea8419ecb3de20963fa37719688b3 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87c3ecc765835b04d726dffb61526332 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a87c3ecc765835b04d726dffb61526332">SetRepresentation</a> (int)</td></tr>
 <tr class="separator:a87c3ecc765835b04d726dffb61526332 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1686e7c5165043ec3626c32c11ac015a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a1686e7c5165043ec3626c32c11ac015a">SetScalarRange</a> (double, double)</td></tr>
-<tr class="separator:a1686e7c5165043ec3626c32c11ac015a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af046720d955bccba74932e3d2dbc91a0 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#af046720d955bccba74932e3d2dbc91a0">SetScalarRange</a> (double [2])</td></tr>
 <tr class="separator:af046720d955bccba74932e3d2dbc91a0 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1686e7c5165043ec3626c32c11ac015a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a1686e7c5165043ec3626c32c11ac015a">SetScalarRange</a> (double, double)</td></tr>
+<tr class="separator:a1686e7c5165043ec3626c32c11ac015a inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd05fbea07b62c886b81acb5e136a973 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#abd05fbea07b62c886b81acb5e136a973">SetScalarRangeFlag</a> (int flag)</td></tr>
+<tr class="separator:abd05fbea07b62c886b81acb5e136a973 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af74d85cf1246274de5777f67ab707f48 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#af74d85cf1246274de5777f67ab707f48">SetScalarRangeFlagFromString</a> (const char *str)</td></tr>
 <tr class="separator:af74d85cf1246274de5777f67ab707f48 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a011a744dce7c90f163cacfd27908c6e3 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a011a744dce7c90f163cacfd27908c6e3">SetScalarVisibility</a> (int)</td></tr>
@@ -484,10 +486,10 @@ Write this node's information to a MRML file in XML format.  <a href="#aee509a34
 <tr class="separator:af5cf76b94badd5f2e3196301a5efa784 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d1f0f477967c4806b5f30f462f0442 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#ac6d1f0f477967c4806b5f30f462f0442">SetSelectedAmbient</a> (double)</td></tr>
 <tr class="separator:ac6d1f0f477967c4806b5f30f462f0442 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dcfd05305079b85f2e4645a03b02d35 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a1dcfd05305079b85f2e4645a03b02d35">SetSelectedColor</a> (double [3])</td></tr>
-<tr class="separator:a1dcfd05305079b85f2e4645a03b02d35 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9843a7c8c5abedaa57318766f9883bcf inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a9843a7c8c5abedaa57318766f9883bcf">SetSelectedColor</a> (double, double, double)</td></tr>
 <tr class="separator:a9843a7c8c5abedaa57318766f9883bcf inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dcfd05305079b85f2e4645a03b02d35 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a1dcfd05305079b85f2e4645a03b02d35">SetSelectedColor</a> (double [3])</td></tr>
+<tr class="separator:a1dcfd05305079b85f2e4645a03b02d35 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72b454c33320120bf442df90764c8241 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a72b454c33320120bf442df90764c8241">SetSelectedSpecular</a> (double)</td></tr>
 <tr class="separator:a72b454c33320120bf442df90764c8241 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42d6df1c161d0cfde0a3306c4b02df87 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a42d6df1c161d0cfde0a3306c4b02df87">SetShading</a> (int)</td></tr>
@@ -527,6 +529,8 @@ Write this node's information to a MRML file in XML format.  <a href="#aee509a34
 <tr class="separator:a14498997000a2df3f6bca3bddf9aec6d inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1904ead68941c85be759e5be25f3b25 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#ad1904ead68941c85be759e5be25f3b25">UpdateReferences</a> () override</td></tr>
 <tr class="separator:ad1904ead68941c85be759e5be25f3b25 inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cf741fe7da9b1d2f57c41a39df742e inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a20cf741fe7da9b1d2f57c41a39df742e">UpdateScalarRange</a> ()</td></tr>
+<tr class="separator:a20cf741fe7da9b1d2f57c41a39df742e inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9772e2e052ee5f7da979e27e8eaa7c8b inherit pub_methods_classvtkMRMLDisplayNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayNode.html#a9772e2e052ee5f7da979e27e8eaa7c8b">UpdateScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene) override</td></tr>
 <tr class="memdesc:a9772e2e052ee5f7da979e27e8eaa7c8b inherit pub_methods_classvtkMRMLDisplayNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the storage node and read the data.  <a href="classvtkMRMLDisplayNode.html#a9772e2e052ee5f7da979e27e8eaa7c8b">More...</a><br /></td></tr>
 <tr class="separator:a9772e2e052ee5f7da979e27e8eaa7c8b inherit pub_methods_classvtkMRMLDisplayNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -823,10 +827,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ae9b3c00dfda160f830648317bea029b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#ae9b3c00dfda160f830648317bea029b5">SetInputToMeshPipeline</a> (vtkAlgorithmOutput *meshConnection)</td></tr>
 <tr class="memdesc:ae9b3c00dfda160f830648317bea029b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be reimplemented in subclasses if the input of the pipeline changes.  <a href="#ae9b3c00dfda160f830648317bea029b5">More...</a><br /></td></tr>
 <tr class="separator:ae9b3c00dfda160f830648317bea029b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8afd17309bf4d853582173f9bb059d89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a8afd17309bf4d853582173f9bb059d89">UpdateAssignedAttribute</a> ()</td></tr>
-<tr class="separator:a8afd17309bf4d853582173f9bb059d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65f9ba22a80adc0411a6a4dcd22ae49c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a65f9ba22a80adc0411a6a4dcd22ae49c">UpdateScalarRange</a> ()</td></tr>
-<tr class="separator:a65f9ba22a80adc0411a6a4dcd22ae49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e661ac32a197343f828dabd24ad5b7c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#a0e661ac32a197343f828dabd24ad5b7c">UpdateAssignedAttribute</a> () override</td></tr>
+<tr class="separator:a0e661ac32a197343f828dabd24ad5b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4c9a334438ffc10dedc265183e54244"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#aa4c9a334438ffc10dedc265183e54244">vtkMRMLModelDisplayNode</a> ()</td></tr>
 <tr class="separator:aa4c9a334438ffc10dedc265183e54244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa67c7f0d57e29f4b8c292331272a5e6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLModelDisplayNode.html#aa67c7f0d57e29f4b8c292331272a5e6e">vtkMRMLModelDisplayNode</a> (const <a class="el" href="classvtkMRMLModelDisplayNode.html">vtkMRMLModelDisplayNode</a> &amp;)</td></tr>
@@ -1202,8 +1204,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a619f0d709e86f55c500d0da2837ec024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a619f0d709e86f55c500d0da2837ec024">&#9670;&nbsp;</a></span>GetActiveScalarArray()</h2>
+<a id="a23e115822622cbc20d0ba7f37eccab69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23e115822622cbc20d0ba7f37eccab69">&#9670;&nbsp;</a></span>GetActiveScalarArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1220,12 +1222,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the current active scalar array (based on active scalar name and location) </p>
+<p>Return the current active scalar array (based on active scalar name and location) </p>
+
+<p>Reimplemented from <a class="el" href="classvtkMRMLDisplayNode.html#ac9dbec381edc2201588ca5f01f6d6dfe">vtkMRMLDisplayNode</a>.</p>
 
 </div>
 </div>
@@ -1584,7 +1588,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return the mesh that is processed by the display node. This is the mesh that needs to be connected with the mappers. Return 0 if there is no input mesh but it is required. <a class="el" href="classvtkMRMLModelDisplayNode.html#ac78bf0b938a9544510556da178c0ab44">GetOutputMesh()</a> should be reimplemented only if the model display node doesn't take a mesh as input but produce an oustput mesh. In all other cases, <a class="el" href="classvtkMRMLModelDisplayNode.html#a795a0a486c83416adf0e3932725b75d4">GetOutputMeshConnection()</a> should be reimplemented. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLModelDisplayNode.html#a795a0a486c83416adf0e3932725b75d4">GetOutputMeshConnection()</a> </dd></dl>
+<p>Return the mesh that is processed by the display node. This is the mesh that needs to be connected with the mappers. Return 0 if there is no input mesh but it is required. <a class="el" href="classvtkMRMLModelDisplayNode.html#ac78bf0b938a9544510556da178c0ab44">GetOutputMesh()</a> should be reimplemented only if the model display node doesn't take a mesh as input but produce an output mesh. In all other cases, <a class="el" href="classvtkMRMLModelDisplayNode.html#a795a0a486c83416adf0e3932725b75d4">GetOutputMeshConnection()</a> should be reimplemented. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLModelDisplayNode.html#a795a0a486c83416adf0e3932725b75d4">GetOutputMeshConnection()</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classvtkMRMLGlyphableVolumeSliceDisplayNode.html#a3c371eade6d342f696642913a46f107b">vtkMRMLGlyphableVolumeSliceDisplayNode</a>.</p>
 
@@ -1690,6 +1694,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a976507a289dcc0d345fcd54cfc586f45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a976507a289dcc0d345fcd54cfc586f45">&#9670;&nbsp;</a></span>GetScalarDataSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vtkDataSet* vtkMRMLModelDisplayNode::GetScalarDataSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get data set containing the scalar arrays for this node type. For models it is the input mesh </p>
+
+<p>Reimplemented from <a class="el" href="classvtkMRMLDisplayNode.html#a97d4883c70ff6831e0b499f44615f5f1">vtkMRMLDisplayNode</a>.</p>
 
 </div>
 </div>
@@ -2147,43 +2179,6 @@ Read node attributes from XML file </p>
 
 </div>
 </div>
-<a id="ae33f29f966d4952c6e267b3c3b194471"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae33f29f966d4952c6e267b3c3b194471">&#9670;&nbsp;</a></span>SetActiveScalar()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void vtkMRMLModelDisplayNode::SetActiveScalar </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>scalarName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>location</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Sets active scalar name and attribute location in one step. It is preferable to use this method instead of calling SetActiveScalarName and SetActiveAttributeLocation separately, to avoid transient states when scalar name and location are temporarily inconsistent. </p>
-
-</div>
-</div>
 <a id="a8ed6f8bb409166510147592383ec2c7e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ed6f8bb409166510147592383ec2c7e">&#9670;&nbsp;</a></span>SetActiveScalarName()</h2>
 
@@ -2241,8 +2236,34 @@ Read node attributes from XML file </p>
 
 </div>
 </div>
+<a id="acea9c0bfcb6b8354d72ccb9fa500e4a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea9c0bfcb6b8354d72ccb9fa500e4a5">&#9670;&nbsp;</a></span>SetBackfaceColorHSVOffset() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLModelDisplayNode::SetBackfaceColorHSVOffset </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname">[3]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a880e083c83949086ebd65c5ab4568d18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a880e083c83949086ebd65c5ab4568d18">&#9670;&nbsp;</a></span>SetBackfaceColorHSVOffset() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a880e083c83949086ebd65c5ab4568d18">&#9670;&nbsp;</a></span>SetBackfaceColorHSVOffset() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2280,33 +2301,7 @@ Read node attributes from XML file </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set color of backface surface as HSV (hue, saturation, brighness) offset compared to node color. Values are in [-1, 1] range, 0 value means same as node color. </p>
-
-</div>
-</div>
-<a id="acea9c0bfcb6b8354d72ccb9fa500e4a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acea9c0bfcb6b8354d72ccb9fa500e4a5">&#9670;&nbsp;</a></span>SetBackfaceColorHSVOffset() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void vtkMRMLModelDisplayNode::SetBackfaceColorHSVOffset </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname">[3]</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Set color of backface surface as HSV (hue, saturation, brightness) offset compared to node color. Values are in [-1, 1] range, 0 value means same as node color. </p>
 
 </div>
 </div>
@@ -2388,35 +2383,6 @@ Read node attributes from XML file </p>
 </div><div class="memdoc">
 
 <p>To be reimplemented in subclasses if the input of the pipeline changes. </p>
-
-</div>
-</div>
-<a id="a5a9777d0fa418b2f52422f8eb796992a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a9777d0fa418b2f52422f8eb796992a">&#9670;&nbsp;</a></span>SetScalarRangeFlag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void vtkMRMLModelDisplayNode::SetScalarRangeFlag </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>flag</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Reimplemented to update scalar range accordingly </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLModelDisplayNode.html#a8ed6f8bb409166510147592383ec2c7e">SetActiveScalarName()</a> </dd></dl>
-
-<p>Reimplemented from <a class="el" href="classvtkMRMLDisplayNode.html#a34c22556a341c9703597d6dcd2457583">vtkMRMLDisplayNode</a>.</p>
 
 </div>
 </div>
@@ -2613,8 +2579,8 @@ Read node attributes from XML file </p>
 
 </div>
 </div>
-<a id="a8afd17309bf4d853582173f9bb059d89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8afd17309bf4d853582173f9bb059d89">&#9670;&nbsp;</a></span>UpdateAssignedAttribute()</h2>
+<a id="a0e661ac32a197343f828dabd24ad5b7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e661ac32a197343f828dabd24ad5b7c">&#9670;&nbsp;</a></span>UpdateAssignedAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2631,39 +2597,15 @@ Read node attributes from XML file </p>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Update the AssignAttribute filter based on its ActiveScalarName and its ActiveAttributeLocation </p>
 
+<p>Reimplemented from <a class="el" href="classvtkMRMLDisplayNode.html#a88f1bab31024e11b00016cf97fcc2811">vtkMRMLDisplayNode</a>.</p>
+
 <p>Reimplemented in <a class="el" href="classvtkMRMLGlyphableVolumeSliceDisplayNode.html#a95b792af1a55d479f9548f38cf843f3a">vtkMRMLGlyphableVolumeSliceDisplayNode</a>, and <a class="el" href="classvtkMRMLDiffusionTensorVolumeSliceDisplayNode.html#a8684222024089a1d1f6f26e8e247fdc7">vtkMRMLDiffusionTensorVolumeSliceDisplayNode</a>.</p>
-
-</div>
-</div>
-<a id="a65f9ba22a80adc0411a6a4dcd22ae49c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65f9ba22a80adc0411a6a4dcd22ae49c">&#9670;&nbsp;</a></span>UpdateScalarRange()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void vtkMRMLModelDisplayNode::UpdateScalarRange </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Update the ScalarRange based on the ScalarRangeFlag. If UseManualScalarRange is selected then the method has no effect. </p>
 
 </div>
 </div>
@@ -2751,7 +2693,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><div class="memdoc">
 <p>Filter that changes the active scalar of the input mesh using the ActiveScalarName and ActiveAttributeLocation properties. This can be useful to specify what field array is the color array that needs to be used by the VTK mappers. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00204">204</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00192">192</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2775,7 +2717,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00233">233</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00221">221</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2800,7 +2742,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><div class="memdoc">
 <p>When ThresholdFilter is applied to a surface mesh, the output is an unstructured grid. This filter can convert it back to a surface mesh (vtkPolyData). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00220">220</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00208">208</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2825,7 +2767,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><div class="memdoc">
 <p>Default filter when assign attribute is not used, e.g ActiveScalarName is null. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLModelDisplayNode.html#a79ada26a431cb0a3a0f283201c73b161">AssignAttribute</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00209">209</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00197">197</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2849,7 +2791,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00228">228</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00216">216</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2874,7 +2816,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><div class="memdoc">
 <p>Indicated whether to threshold the output mesh of the display model node based on its active scalar values. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLModelDisplayNode.html#a4eaa67ce254b2b0871bde170fd91bdfa">ThresholdFilter</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00226">226</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00214">214</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2899,7 +2841,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><div class="memdoc">
 <p>Filters that thresholds the output mesh from the AssignAttribute filter when the Threshold option is set to true based on its scalar values. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLModelDisplayNode.html#a79ada26a431cb0a3a0f283201c73b161">AssignAttribute</a>, <a class="el" href="classvtkMRMLModelDisplayNode.html#aaf2054c8443972d52f50d97666619227">ThresholdEnabled</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00215">215</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00203">203</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2925,7 +2867,7 @@ Write this node's information to a MRML file in XML format. </p>
 
 <p>Temporary variable to allow <a class="el" href="classvtkMRMLModelDisplayNode.html#a2b33f473eca211836853102d89be8616">GetThresholdRange()</a> method to return threshold range as a pointer. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00231">231</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00219">219</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2935,7 +2877,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2020 21:02:27 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 9 2020 11:36:07 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

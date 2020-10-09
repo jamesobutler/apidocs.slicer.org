@@ -1,4 +1,7 @@
 <map id="Libs/MRML/Core/vtkMRMLMeasurement.h" name="Libs/MRML/Core/vtkMRMLMeasurement.h">
-<area shape="rect" id="node2" href="$vtkCodedEntry_8h.html" title="vtkCodedEntry.h" alt="" coords="88,80,213,107"/>
-<area shape="rect" id="node3" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="25,155,116,181"/>
+<area shape="rect" id="node2" href="$vtkCodedEntry_8h.html" title="vtkCodedEntry.h" alt="" coords="23,155,148,181"/>
+<area shape="rect" id="node6" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="780,80,904,107"/>
+<area shape="rect" id="node3" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="952,229,1043,256"/>
+<area shape="rect" id="node7" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="914,155,1081,181"/>
+<area shape="rect" id="node14" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1207,155,1431,181"/>
 </map>

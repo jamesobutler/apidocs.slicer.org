@@ -4,9 +4,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1073 [label="AbstractScriptedSegmentEditor\lLabelEffect",height=0.2,width=0.4,color="grey75"];
-  Node1073 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1078 [label="AbstractScriptedSegmentEditor\lLabelEffect",height=0.2,width=0.4,color="grey75"];
+  Node1078 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="SegmentEditorDrawEffect.\lSegmentEditorDrawEffect",height=0.2,width=0.4,color="black",URL="$classSegmentEditorDrawEffect_1_1SegmentEditorDrawEffect.html"];
-  Node1073 -> Node1075 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1075 [label="SegmentEditorLevelTracing\lEffect.SegmentEditorLevelTracing\lEffect",height=0.2,width=0.4,color="black",URL="$classSegmentEditorLevelTracingEffect_1_1SegmentEditorLevelTracingEffect.html"];
+  Node1078 -> Node1080 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1080 [label="SegmentEditorLevelTracing\lEffect.SegmentEditorLevelTracing\lEffect",height=0.2,width=0.4,color="black",URL="$classSegmentEditorLevelTracingEffect_1_1SegmentEditorLevelTracingEffect.html"];
 }

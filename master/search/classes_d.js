@@ -102,6 +102,8 @@ var searchData=
   ['qmrmlroiwidgetplugin',['qMRMLROIWidgetPlugin',['../classqMRMLROIWidgetPlugin.html',1,'']]],
   ['qmrmlscalarinvariantcombobox',['qMRMLScalarInvariantComboBox',['../classqMRMLScalarInvariantComboBox.html',1,'']]],
   ['qmrmlscalarinvariantcomboboxplugin',['qMRMLScalarInvariantComboBoxPlugin',['../classqMRMLScalarInvariantComboBoxPlugin.html',1,'']]],
+  ['qmrmlscalarsdisplaywidget',['qMRMLScalarsDisplayWidget',['../classqMRMLScalarsDisplayWidget.html',1,'']]],
+  ['qmrmlscalarsdisplaywidgetplugin',['qMRMLScalarsDisplayWidgetPlugin',['../classqMRMLScalarsDisplayWidgetPlugin.html',1,'']]],
   ['qmrmlsceneannotationmodel',['qMRMLSceneAnnotationModel',['../classqMRMLSceneAnnotationModel.html',1,'']]],
   ['qmrmlscenecategorymodel',['qMRMLSceneCategoryModel',['../classqMRMLSceneCategoryModel.html',1,'']]],
   ['qmrmlscenecolortablemodel',['qMRMLSceneColorTableModel',['../classqMRMLSceneColorTableModel.html',1,'']]],

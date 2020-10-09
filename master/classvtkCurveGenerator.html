@@ -288,10 +288,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a02503caa903fcdb75f8e469f28e8be84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd306cecb458c6902b983b10dec4d92e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveGenerator.html#abd306cecb458c6902b983b10dec4d92e">GeneratePoints</a> (vtkPoints *inputPoints, vtkPolyData *inputSurface, vtkPolyData *outputPolyData)</td></tr>
 <tr class="separator:abd306cecb458c6902b983b10dec4d92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ddd54233af00d1ad8f787a6901c3853"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveGenerator.html#a1ddd54233af00d1ad8f787a6901c3853">GeneratePointsFromFunction</a> (vtkPoints *inputPoints, vtkPoints *outputPoints)</td></tr>
-<tr class="separator:a1ddd54233af00d1ad8f787a6901c3853"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3e6442fbbf70b30432315271aa581b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveGenerator.html#ad3e6442fbbf70b30432315271aa581b2">GeneratePointsFromSurface</a> (vtkPoints *inputPoints, vtkPolyData *inputSurface, vtkPoints *outputPoints)</td></tr>
-<tr class="separator:ad3e6442fbbf70b30432315271aa581b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc3faaf9af6e0415c0f4c683960e538"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveGenerator.html#a6fc3faaf9af6e0415c0f4c683960e538">GeneratePointsFromFunction</a> (vtkPoints *inputPoints, vtkPoints *outputPoints, vtkDoubleArray *outputPedigreeIdArray)</td></tr>
+<tr class="separator:a6fc3faaf9af6e0415c0f4c683960e538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa87f55b83e18594c2a32bb428590b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveGenerator.html#abfa87f55b83e18594c2a32bb428590b2">GeneratePointsFromSurface</a> (vtkPoints *inputPoints, vtkPolyData *inputSurface, vtkPoints *outputPoints, vtkDoubleArray *outputPedigreeIdArray)</td></tr>
+<tr class="separator:abfa87f55b83e18594c2a32bb428590b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f33c6c763a092cecd8b716af2cb168e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveGenerator.html#a9f33c6c763a092cecd8b716af2cb168e">operator=</a> (const <a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a> &amp;)=delete</td></tr>
 <tr class="separator:a9f33c6c763a092cecd8b716af2cb168e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede66f9cc6679468d7eb891e6d5bbc84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveGenerator.html#aede66f9cc6679468d7eb891e6d5bbc84">RequestData</a> (vtkInformation *request, vtkInformationVector **inputVector, vtkInformationVector *outputVector) override</td></tr>
@@ -701,8 +701,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ddd54233af00d1ad8f787a6901c3853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ddd54233af00d1ad8f787a6901c3853">&#9670;&nbsp;</a></span>GeneratePointsFromFunction()</h2>
+<a id="a6fc3faaf9af6e0415c0f4c683960e538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc3faaf9af6e0415c0f4c683960e538">&#9670;&nbsp;</a></span>GeneratePointsFromFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -720,7 +720,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">vtkPoints *&#160;</td>
-          <td class="paramname"><em>outputPoints</em>&#160;</td>
+          <td class="paramname"><em>outputPoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkDoubleArray *&#160;</td>
+          <td class="paramname"><em>outputPedigreeIdArray</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -737,8 +743,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad3e6442fbbf70b30432315271aa581b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e6442fbbf70b30432315271aa581b2">&#9670;&nbsp;</a></span>GeneratePointsFromSurface()</h2>
+<a id="abfa87f55b83e18594c2a32bb428590b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa87f55b83e18594c2a32bb428590b2">&#9670;&nbsp;</a></span>GeneratePointsFromSurface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -762,7 +768,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">vtkPoints *&#160;</td>
-          <td class="paramname"><em>outputPoints</em>&#160;</td>
+          <td class="paramname"><em>outputPoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkDoubleArray *&#160;</td>
+          <td class="paramname"><em>outputPedigreeIdArray</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3070,7 +3082,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2020 21:02:25 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 9 2020 11:36:04 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -388,6 +388,9 @@ $(function() {
 <li>OnConfigure()
 : <a class="el" href="classvtkMRMLViewInteractorStyle.html#ac7fb040ddddc2795bb454c0fe046012a">vtkMRMLViewInteractorStyle</a>
 </li>
+<li>OnControlPointArrayModified()
+: <a class="el" href="classvtkCurveMeasurementsCalculator.html#a76e634fdd8728f0c9e7d7336867ac5f3">vtkCurveMeasurementsCalculator</a>
+</li>
 <li>onCoordinateChanged()
 : <a class="el" href="classqSlicerAnnotationModulePropertyDialog.html#a9e65108500bc570cb7859ad3116139f4">qSlicerAnnotationModulePropertyDialog</a>
 </li>
@@ -426,6 +429,9 @@ $(function() {
 </li>
 <li>onCropToggled()
 : <a class="el" href="classqSlicerVolumeRenderingModuleWidget.html#a6241725e6ac0fd2077cbd14d6c3077e9">qSlicerVolumeRenderingModuleWidget</a>
+</li>
+<li>onCurrentArrayActivated()
+: <a class="el" href="classqMRMLScalarsDisplayWidget.html#a9ab517d03b14b5c23bfef10c436eb5ca">qMRMLScalarsDisplayWidget</a>
 </li>
 <li>onCurrentColorNodeChanged()
 : <a class="el" href="classqMRMLColorPickerWidget.html#ac6c34baa02f1fc29f3f062a7189e9839">qMRMLColorPickerWidget</a>
@@ -2291,7 +2297,7 @@ $(function() {
 , <a class="el" href="classitk_1_1DiffusionTensor3DAbsCorrectionFilter.html#a5c5b03bd1286fe2ac855b52f7e08d150">itk::DiffusionTensor3DAbsCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
 , <a class="el" href="classitk_1_1DiffusionTensor3DNearestCorrectionFilter.html#afc0668a0ed65d6e0d3a1fe8d9a3aaf23">itk::DiffusionTensor3DNearestCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
 , <a class="el" href="classitk_1_1DiffusionTensor3DZeroCorrectionFilter.html#a1d9ba1dc147158a96472f14e25bfb732">itk::DiffusionTensor3DZeroCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
-, <a class="el" href="classitk_1_1MatrixExtended.html#a989708a20bedacb6ca1595af26d8a7c9">itk::MatrixExtended&lt; T, NRows, NColumns &gt;</a>
+, <a class="el" href="classitk_1_1MatrixExtended.html#aa5bc9f8052610a4081d7a5aa122b6ccb">itk::MatrixExtended&lt; T, NRows, NColumns &gt;</a>
 , <a class="el" href="classitk_1_1RigidImageToImageRegistrationMethod.html#addfa70597475d1db45d4068f31a82a25">itk::RigidImageToImageRegistrationMethod&lt; TImage &gt;</a>
 , <a class="el" href="classitk_1_1TimeSeriesDatabaseHelper_1_1counted__ptr.html#acd17aa675d1681e292e0516d845bde8b">itk::TimeSeriesDatabaseHelper::counted_ptr&lt; ElementType &gt;</a>
 , <a class="el" href="classitk_1_1WarpTransform3D.html#a208ae6389264ee9ab71dbce5283d839d">itk::WarpTransform3D&lt; FieldData &gt;</a>
@@ -2301,6 +2307,7 @@ $(function() {
 , <a class="el" href="classvtkCacheManager.html#a57d258fbae8cd3f6d81874819826035e">vtkCacheManager</a>
 , <a class="el" href="classvtkCodedEntry.html#a19310560c53df9c5d46c4298f8779475">vtkCodedEntry</a>
 , <a class="el" href="classvtkCurveGenerator.html#a9f33c6c763a092cecd8b716af2cb168e">vtkCurveGenerator</a>
+, <a class="el" href="classvtkCurveMeasurementsCalculator.html#a33699e137704f4d06ce183e1dd48b23d">vtkCurveMeasurementsCalculator</a>
 , <a class="el" href="classvtkDataIOManager.html#a6b136806566b3934feadf44d02ac3790">vtkDataIOManager</a>
 , <a class="el" href="classvtkDataIOManagerLogic.html#ac78f4b88f3b2d7429cd79c69806d90ad">vtkDataIOManagerLogic</a>
 , <a class="el" href="classvtkDataTransfer.html#a2944e76e7215c20de12b197322dfe43c">vtkDataTransfer</a>
@@ -2389,6 +2396,8 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsPlaneNode.html#a02a6d55703fc71359d56c3461e6e6a4f">vtkMRMLMarkupsPlaneNode</a>
 , <a class="el" href="classvtkMRMLMarkupsStorageNode.html#a1fdd7a35c4a97bd2feab6378591b23e6">vtkMRMLMarkupsStorageNode</a>
 , <a class="el" href="classvtkMRMLMeasurement.html#acb867cd40c811e0e8c974dc613b0f771">vtkMRMLMeasurement</a>
+, <a class="el" href="classvtkMRMLMeasurementAngle.html#a7ec890bbe4890378fcba053f4e948b80">vtkMRMLMeasurementAngle</a>
+, <a class="el" href="classvtkMRMLMeasurementLength.html#abbeef0c1ce18c9952630c4f88ee53c0d">vtkMRMLMeasurementLength</a>
 , <a class="el" href="classvtkMRMLMessageCollection.html#ab7c264afa1db6dd86f0ee97b20fc2f67">vtkMRMLMessageCollection</a>
 , <a class="el" href="classvtkMRMLModelDisplayNode.html#a879af5ad7e759e11b55278535cd0c45b">vtkMRMLModelDisplayNode</a>
 , <a class="el" href="classvtkMRMLModelHierarchyNode.html#a84d90eb57ec988e39aa6dfda0a9cc316">vtkMRMLModelHierarchyNode</a>
@@ -2576,7 +2585,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2020 21:02:30 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 9 2020 11:36:09 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

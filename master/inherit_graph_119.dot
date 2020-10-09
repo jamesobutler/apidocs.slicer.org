@@ -10,11 +10,13 @@ digraph "Graphical Class Hierarchy"
   Node50 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node52 [label="vtkCurveGenerator",height=0.2,width=0.4,color="black",URL="$classvtkCurveGenerator.html",tooltip="Filter that generates curves between points of an input polydata. "];
   Node50 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node53 [label="vtkITKLevelTracingImageFilter",height=0.2,width=0.4,color="black",URL="$classvtkITKLevelTracingImageFilter.html",tooltip="Wrapper class around itk::LevelTracingImageFilterImageFilter. "];
+  Node53 [label="vtkCurveMeasurementsCalculator",height=0.2,width=0.4,color="black",URL="$classvtkCurveMeasurementsCalculator.html",tooltip="Filter that generates curves between points of an input polydata. "];
   Node50 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node54 [label="vtkMarkupsGlyphSource2D",height=0.2,width=0.4,color="black",URL="$classvtkMarkupsGlyphSource2D.html"];
+  Node54 [label="vtkITKLevelTracingImageFilter",height=0.2,width=0.4,color="black",URL="$classvtkITKLevelTracingImageFilter.html",tooltip="Wrapper class around itk::LevelTracingImageFilterImageFilter. "];
   Node50 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node55 [label="vtkPrincipalAxesAlign",height=0.2,width=0.4,color="black",URL="$classvtkPrincipalAxesAlign.html"];
+  Node55 [label="vtkMarkupsGlyphSource2D",height=0.2,width=0.4,color="black",URL="$classvtkMarkupsGlyphSource2D.html"];
   Node50 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node56 [label="vtkSlicerGlyphSource2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerGlyphSource2D.html"];
+  Node56 [label="vtkPrincipalAxesAlign",height=0.2,width=0.4,color="black",URL="$classvtkPrincipalAxesAlign.html"];
+  Node50 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="vtkSlicerGlyphSource2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerGlyphSource2D.html"];
 }

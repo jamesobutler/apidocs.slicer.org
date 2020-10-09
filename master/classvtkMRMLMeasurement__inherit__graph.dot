@@ -6,4 +6,8 @@ digraph "vtkMRMLMeasurement"
   Node0 [label="vtkMRMLMeasurement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 [label="vtkObject",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vtkMRMLMeasurementAngle",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMeasurementAngle.html",tooltip="Measurement class calculating angle. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="vtkMRMLMeasurementLength",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMeasurementLength.html",tooltip="Measurement class calculating curve length. "];
 }

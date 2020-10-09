@@ -2,7 +2,7 @@ var searchData=
 [
   ['magenta',['Magenta',['../classvtkMRMLColorTableNode.html#ae9dfde28ebaf318b3207569a7bd7c9e4a37874b959c9ef3d826b9118826ddf342',1,'vtkMRMLColorTableNode']]],
   ['major',['Major',['../classvtkMRMLDiffusionTensorDisplayPropertiesNode.html#ad0875cb2a6ca41775bc1b2bc5f664cdda414bb645a636b2ee23177d161caeafc0',1,'vtkMRMLDiffusionTensorDisplayPropertiesNode']]],
-  ['manual',['Manual',['../classqMRMLVolumeThresholdWidget.html#af8d1ed8040de55e7b50655f16b04e6ffab51be5d18abae81fb455f9d4a1fcf2a2',1,'qMRMLVolumeThresholdWidget::Manual()'],['../classqMRMLWindowLevelWidget.html#afe82f0b66cee11bd0a4695a8b58ba872a7da127f6026c0d2d01bd31a09fa6815a',1,'qMRMLWindowLevelWidget::Manual()'],['../classqMRMLModelDisplayNodeWidget.html#ad610e127b6dd7be63c7cd9cbfdd8bec4a977ae126d6989db3b47de71d82be9662',1,'qMRMLModelDisplayNodeWidget::Manual()']]],
+  ['manual',['Manual',['../classqMRMLVolumeThresholdWidget.html#af8d1ed8040de55e7b50655f16b04e6ffab51be5d18abae81fb455f9d4a1fcf2a2',1,'qMRMLVolumeThresholdWidget::Manual()'],['../classqMRMLWindowLevelWidget.html#afe82f0b66cee11bd0a4695a8b58ba872a7da127f6026c0d2d01bd31a09fa6815a',1,'qMRMLWindowLevelWidget::Manual()']]],
   ['manualminmax',['ManualMinMax',['../classqMRMLWindowLevelWidget.html#afe82f0b66cee11bd0a4695a8b58ba872a3e67ef52f6f5a0e49d71f25e82967aa2',1,'qMRMLWindowLevelWidget']]],
   ['markerstyle_5flast',['MarkerStyle_Last',['../classvtkMRMLPlotSeriesNode.html#ae6c9a4add875e843bfe704171247435ba59082c30451215ba2b8358a06d9a7c03',1,'vtkMRMLPlotSeriesNode']]],
   ['markerstylecircle',['MarkerStyleCircle',['../classvtkMRMLPlotSeriesNode.html#ae6c9a4add875e843bfe704171247435ba5fcb5e2da1634cf8877a0299673ae289',1,'vtkMRMLPlotSeriesNode']]],

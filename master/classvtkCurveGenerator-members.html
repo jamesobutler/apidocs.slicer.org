@@ -84,8 +84,8 @@ $(function() {
   <tr class="even"><td class="entry"><a class="el" href="classvtkCurveGenerator.html#af6603365dbfa4daa28b4d9d94e43ceee">FillInputPortInformation</a>(int port, vtkInformation *info) override</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="classvtkCurveGenerator.html#a02503caa903fcdb75f8e469f28e8be84">GenerateLines</a>(vtkPolyData *polyData)</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classvtkCurveGenerator.html#abd306cecb458c6902b983b10dec4d92e">GeneratePoints</a>(vtkPoints *inputPoints, vtkPolyData *inputSurface, vtkPolyData *outputPolyData)</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classvtkCurveGenerator.html#a1ddd54233af00d1ad8f787a6901c3853">GeneratePointsFromFunction</a>(vtkPoints *inputPoints, vtkPoints *outputPoints)</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classvtkCurveGenerator.html#ad3e6442fbbf70b30432315271aa581b2">GeneratePointsFromSurface</a>(vtkPoints *inputPoints, vtkPolyData *inputSurface, vtkPoints *outputPoints)</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classvtkCurveGenerator.html#a6fc3faaf9af6e0415c0f4c683960e538">GeneratePointsFromFunction</a>(vtkPoints *inputPoints, vtkPoints *outputPoints, vtkDoubleArray *outputPedigreeIdArray)</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classvtkCurveGenerator.html#abfa87f55b83e18594c2a32bb428590b2">GeneratePointsFromSurface</a>(vtkPoints *inputPoints, vtkPolyData *inputSurface, vtkPoints *outputPoints, vtkDoubleArray *outputPedigreeIdArray)</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="classvtkCurveGenerator.html#ab20404b571a080bbcc10e93947ec3ca4">GetClassName</a>()</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classvtkCurveGenerator.html#abb9b10a167b8a7eb7632d592b8700637">GetControlPointIdFromInterpolatedPointId</a>(vtkIdType interpolatedPointId)</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classvtkCurveGenerator.html#ace32104e7d893e5f889d945e16519587">GetCurveIsLoop</a>()</td><td class="entry"><a class="el" href="classvtkCurveGenerator.html">vtkCurveGenerator</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
@@ -189,7 +189,7 @@ $(function() {
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2020 21:02:25 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 9 2020 11:36:04 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

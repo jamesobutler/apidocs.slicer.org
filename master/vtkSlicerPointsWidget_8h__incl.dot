@@ -87,8 +87,11 @@ digraph "Modules/Loadable/Markups/VTKWidgets/vtkSlicerPointsWidget.h"
   Node35 [label="vtkCodedEntry.h",height=0.2,width=0.4,color="black",URL="$vtkCodedEntry_8h.html"];
   Node35 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node35 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node34 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="vtkDoubleArray.h",height=0.2,width=0.4,color="grey75"];
   Node34 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node34 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node10 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node10 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

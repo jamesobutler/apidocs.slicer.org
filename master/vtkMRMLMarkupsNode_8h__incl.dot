@@ -70,8 +70,11 @@ digraph "Modules/Loadable/Markups/MRML/vtkMRMLMarkupsNode.h"
   Node29 [label="vtkCodedEntry.h",height=0.2,width=0.4,color="black",URL="$vtkCodedEntry_8h.html"];
   Node29 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node29 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node28 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="vtkDoubleArray.h",height=0.2,width=0.4,color="grey75"];
   Node28 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node28 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

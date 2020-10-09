@@ -103,6 +103,8 @@ var searchData=
   ['qmrmlroiwidgetplugin',['qMRMLROIWidgetPlugin',['../classqMRMLROIWidgetPlugin.html#a8d02ca767971481bd7893e6b1ff1ae30',1,'qMRMLROIWidgetPlugin']]],
   ['qmrmlscalarinvariantcombobox',['qMRMLScalarInvariantComboBox',['../classqMRMLScalarInvariantComboBox.html#a2bb741ffc3a4b08d2425e2334bbe5442',1,'qMRMLScalarInvariantComboBox']]],
   ['qmrmlscalarinvariantcomboboxplugin',['qMRMLScalarInvariantComboBoxPlugin',['../classqMRMLScalarInvariantComboBoxPlugin.html#a3e685c93481045a529547ad7f11e8ebf',1,'qMRMLScalarInvariantComboBoxPlugin']]],
+  ['qmrmlscalarsdisplaywidget',['qMRMLScalarsDisplayWidget',['../classqMRMLScalarsDisplayWidget.html#a3207150d6617243a087346a801aece42',1,'qMRMLScalarsDisplayWidget']]],
+  ['qmrmlscalarsdisplaywidgetplugin',['qMRMLScalarsDisplayWidgetPlugin',['../classqMRMLScalarsDisplayWidgetPlugin.html#ad44e9612203bed87101ee54c457ec712',1,'qMRMLScalarsDisplayWidgetPlugin']]],
   ['qmrmlsceneannotationmodel',['qMRMLSceneAnnotationModel',['../classqMRMLSceneAnnotationModel.html#a56a689f946f968180c234139ace0ed64',1,'qMRMLSceneAnnotationModel::qMRMLSceneAnnotationModel(QObject *parent=nullptr)'],['../classqMRMLSceneAnnotationModel.html#a070cd3ba22a08cc37150a24cd029b6fe',1,'qMRMLSceneAnnotationModel::qMRMLSceneAnnotationModel(qMRMLSceneAnnotationModelPrivate *pimpl, QObject *parent=nullptr)']]],
   ['qmrmlscenecategorymodel',['qMRMLSceneCategoryModel',['../classqMRMLSceneCategoryModel.html#af70c874dd5c661c61965733782c1bb73',1,'qMRMLSceneCategoryModel']]],
   ['qmrmlscenecolortablemodel',['qMRMLSceneColorTableModel',['../classqMRMLSceneColorTableModel.html#a99f74655055e1477f01a119c8ef41b40',1,'qMRMLSceneColorTableModel']]],

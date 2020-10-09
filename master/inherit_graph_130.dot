@@ -4,8 +4,8 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node337 [label="vtkImageSpatialAlgorithm",height=0.2,width=0.4,color="grey75"];
-  Node337 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node340 [label="vtkImageSpatialAlgorithm",height=0.2,width=0.4,color="grey75"];
+  Node340 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="vtkImageNeighborhoodFilter",height=0.2,width=0.4,color="black",URL="$classvtkImageNeighborhoodFilter.html",tooltip="Augments vtkImageSpatialFilter with a mask to allow neighborhoods of any shape. "];
   Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 [label="vtkImageLabelOutline",height=0.2,width=0.4,color="black",URL="$classvtkImageLabelOutline.html",tooltip="Display labelmap outlines. "];
