@@ -5,6 +5,7 @@ var searchData=
   ['ignoreslicerrc',['ignoreSlicerRC',['../classqSlicerCoreCommandOptions.html#a5ca2c886944cc897d04719abddb395a9',1,'qSlicerCoreCommandOptions']]],
   ['index',['index',['../classqSlicerAbstractCoreModule.html#af6d9cc5a811035f09383b8ccd18a6dc5',1,'qSlicerAbstractCoreModule::index()'],['../classqSlicerScriptedLoadableModule.html#a514008560d9a31c0b841679f3261a0be',1,'qSlicerScriptedLoadableModule::index()']]],
   ['installedextensions',['installedExtensions',['../classqSlicerExtensionsManagerModel.html#a726547cf74f3aa166fe1d8d949dd42ec',1,'qSlicerExtensionsManagerModel']]],
+  ['installedextensionscount',['installedExtensionsCount',['../classqSlicerExtensionsManagerModel.html#a38f204215a99eb12f06adef69465bf45',1,'qSlicerExtensionsManagerModel']]],
   ['intdir',['intDir',['../classqSlicerCoreApplication.html#abe185400ac2fd86e1d394080f1353c36',1,'qSlicerCoreApplication']]],
   ['interactionnodesingletontag',['interactionNodeSingletonTag',['../classqMRMLNodeComboBox.html#a266da09bae3451434219b0dd0103ef44',1,'qMRMLNodeComboBox']]],
   ['internalhosts',['internalHosts',['../classqSlicerWebWidget.html#afe9f1e422e198df776d30ecad7f4936d',1,'qSlicerWebWidget']]],

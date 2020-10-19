@@ -106,6 +106,9 @@ Public Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3c643c1007733093064f40242eb864de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerWidget.html#a3c643c1007733093064f40242eb864de">confirmClose</a> ()</td></tr>
+<tr class="memdesc:a3c643c1007733093064f40242eb864de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a popup if operations are still in progress, asking if the user wants to stop them.  <a href="#a3c643c1007733093064f40242eb864de">More...</a><br /></td></tr>
+<tr class="separator:a3c643c1007733093064f40242eb864de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae87d4812f03289ef8b11e5b73210bcf6"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classqSlicerExtensionsManagerModel.html">qSlicerExtensionsManagerModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerWidget.html#ae87d4812f03289ef8b11e5b73210bcf6">extensionsManagerModel</a> () const</td></tr>
 <tr class="separator:ae87d4812f03289ef8b11e5b73210bcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242421129379b504a25da18de8c06d25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerWidget.html#a242421129379b504a25da18de8c06d25">qSlicerExtensionsManagerWidget</a> (QWidget *parent=nullptr)</td></tr>
@@ -140,6 +143,8 @@ Protected Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8231b95cff8b1a0440988378846e1891"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerWidget.html#a8231b95cff8b1a0440988378846e1891">processSearchTextChange</a> ()</td></tr>
+<tr class="separator:a8231b95cff8b1a0440988378846e1891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b949ce798d7c1af940c88627ba385fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerWidget.html#a0b949ce798d7c1af940c88627ba385fe">timerEvent</a> (QTimerEvent *) override</td></tr>
 <tr class="separator:a0b949ce798d7c1af940c88627ba385fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -227,6 +232,25 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3c643c1007733093064f40242eb864de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c643c1007733093064f40242eb864de">&#9670;&nbsp;</a></span>confirmClose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qSlicerExtensionsManagerWidget::confirmClose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shows a popup if operations are still in progress, asking if the user wants to stop them. </p>
+
+</div>
+</div>
 <a id="ae87d4812f03289ef8b11e5b73210bcf6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae87d4812f03289ef8b11e5b73210bcf6">&#9670;&nbsp;</a></span>extensionsManagerModel()</h2>
 
@@ -485,6 +509,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8231b95cff8b1a0440988378846e1891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8231b95cff8b1a0440988378846e1891">&#9670;&nbsp;</a></span>processSearchTextChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerExtensionsManagerWidget::processSearchTextChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9345d9d1ffdab7b022520582065a27ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9345d9d1ffdab7b022520582065a27ff">&#9670;&nbsp;</a></span>refreshInstallWidget</h2>
 
@@ -575,7 +624,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerWidget_8h_source.html#l00074">74</a> of file <a class="el" href="qSlicerExtensionsManagerWidget_8h_source.html">qSlicerExtensionsManagerWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerWidget_8h_source.html#l00079">79</a> of file <a class="el" href="qSlicerExtensionsManagerWidget_8h_source.html">qSlicerExtensionsManagerWidget.h</a>.</p>
 
 </div>
 </div>
@@ -585,7 +634,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 19 2020 19:39:32 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 19 2020 22:05:33 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

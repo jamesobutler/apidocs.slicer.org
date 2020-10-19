@@ -5,6 +5,7 @@ var searchData=
   ['scalefactor',['scaleFactor',['../classqMRMLScreenShotDialog.html#a5ef449b871d702d9daa1608590ca7f0c',1,'qMRMLScreenShotDialog']]],
   ['scenemodeltype',['sceneModelType',['../classqMRMLTreeView.html#a9ed3d66928a679151a79ef95ec02e51d',1,'qMRMLTreeView']]],
   ['searchpaths',['searchPaths',['../classqSlicerAbstractModuleFactoryManager.html#ad68c90278436d7f81ef8593e66c49d99',1,'qSlicerAbstractModuleFactoryManager']]],
+  ['searchtext',['searchText',['../classqSlicerExtensionsManageWidget.html#a3daf0b6cdc6e3457b652bfb558f481e2',1,'qSlicerExtensionsManageWidget::searchText()'],['../classqSlicerExtensionsRestoreWidget.html#ab0c560a73431512390ed42215f55e976',1,'qSlicerExtensionsRestoreWidget::searchText()']]],
   ['segmentationnodeselectorvisible',['segmentationNodeSelectorVisible',['../classqMRMLSegmentSelectorWidget.html#acc53133b44cb9543a76d8ad45e593426',1,'qMRMLSegmentSelectorWidget::segmentationNodeSelectorVisible()'],['../classqMRMLSegmentEditorWidget.html#a270f046e465b3750c653fd72a945db10',1,'qMRMLSegmentEditorWidget::segmentationNodeSelectorVisible()']]],
   ['selectedmodule',['selectedModule',['../classqSlicerModuleSelectorToolBar.html#a292630c17b089b0b434f454d3cd7db5d',1,'qSlicerModuleSelectorToolBar']]],
   ['selectionmode',['selectionMode',['../classqMRMLSegmentsTableView.html#af59659dcad40df998c4fd9a4a5b66030',1,'qMRMLSegmentsTableView']]],

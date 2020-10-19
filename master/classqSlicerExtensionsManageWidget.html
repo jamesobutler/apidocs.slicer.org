@@ -67,6 +67,7 @@ $(function() {
   <div class="summary">
 <a href="classqSlicerExtensionsManageWidget-members.html">List of all members</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -100,10 +101,17 @@ Public Types</h2></td></tr>
 <tr class="memdesc:a4118850471400d675af632f8c0dcc94e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Superclass typedef.  <a href="#a4118850471400d675af632f8c0dcc94e">More...</a><br /></td></tr>
 <tr class="separator:a4118850471400d675af632f8c0dcc94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a3daf0b6cdc6e3457b652bfb558f481e2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManageWidget.html#a3daf0b6cdc6e3457b652bfb558f481e2">searchText</a></td></tr>
+<tr class="separator:a3daf0b6cdc6e3457b652bfb558f481e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:acd7db358eaa1d42b358a5eda328b1146"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManageWidget.html#acd7db358eaa1d42b358a5eda328b1146">displayExtensionDetails</a> (const QString &amp;extensionName)</td></tr>
 <tr class="separator:acd7db358eaa1d42b358a5eda328b1146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30107d00f829f34f96159f199a8a971"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManageWidget.html#ad30107d00f829f34f96159f199a8a971">setSearchText</a> (const QString &amp;newText)</td></tr>
+<tr class="separator:ad30107d00f829f34f96159f199a8a971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
@@ -117,6 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af290fab3d03b76b92867fbfc28b65e25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManageWidget.html#af290fab3d03b76b92867fbfc28b65e25">qSlicerExtensionsManageWidget</a> (QWidget *parent=nullptr)</td></tr>
 <tr class="memdesc:af290fab3d03b76b92867fbfc28b65e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#af290fab3d03b76b92867fbfc28b65e25">More...</a><br /></td></tr>
 <tr class="separator:af290fab3d03b76b92867fbfc28b65e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898f95af96f8b7ec3c613db390affbbc"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManageWidget.html#a898f95af96f8b7ec3c613db390affbbc">searchText</a> () const</td></tr>
+<tr class="memdesc:a898f95af96f8b7ec3c613db390affbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow filtering of extensions list.  <a href="#a898f95af96f8b7ec3c613db390affbbc">More...</a><br /></td></tr>
+<tr class="separator:a898f95af96f8b7ec3c613db390affbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d8968482ed490cd1d9cf81b6ed8e777"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManageWidget.html#a2d8968482ed490cd1d9cf81b6ed8e777">setExtensionsManagerModel</a> (<a class="el" href="classqSlicerExtensionsManagerModel.html">qSlicerExtensionsManagerModel</a> *model)</td></tr>
 <tr class="separator:a2d8968482ed490cd1d9cf81b6ed8e777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a075cee387e84bacf3dc2217cfffb0a7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManageWidget.html#a075cee387e84bacf3dc2217cfffb0a7c">~qSlicerExtensionsManageWidget</a> () override</td></tr>
@@ -188,7 +199,32 @@ Friends</h2></td></tr>
 
 <p>Superclass typedef. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html#l00041">41</a> of file <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html">qSlicerExtensionsManageWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html#l00042">42</a> of file <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html">qSlicerExtensionsManageWidget.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a3daf0b6cdc6e3457b652bfb558f481e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3daf0b6cdc6e3457b652bfb558f481e2">&#9670;&nbsp;</a></span>searchText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString qSlicerExtensionsManageWidget::searchText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html#l00039">39</a> of file <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html">qSlicerExtensionsManageWidget.h</a>.</p>
 
 </div>
 </div>
@@ -613,6 +649,25 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a898f95af96f8b7ec3c613db390affbbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a898f95af96f8b7ec3c613db390affbbc">&#9670;&nbsp;</a></span>searchText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString qSlicerExtensionsManageWidget::searchText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allow filtering of extensions list. </p>
+
+</div>
+</div>
 <a id="aa926e6c497552c8a2d9368d91d65ad09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa926e6c497552c8a2d9368d91d65ad09">&#9670;&nbsp;</a></span>setExtensionDisabled</h2>
 
@@ -803,6 +858,32 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ad30107d00f829f34f96159f199a8a971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad30107d00f829f34f96159f199a8a971">&#9670;&nbsp;</a></span>setSearchText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerExtensionsManageWidget::setSearchText </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>newText</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="aeb6c439173f1450cfd28a2fe2acab4a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb6c439173f1450cfd28a2fe2acab4a7">&#9670;&nbsp;</a></span>qSlicerExtensionsItemDelegate</h2>
@@ -824,7 +905,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html#l00085">85</a> of file <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html">qSlicerExtensionsManageWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html#l00090">90</a> of file <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html">qSlicerExtensionsManageWidget.h</a>.</p>
 
 </div>
 </div>
@@ -849,7 +930,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html#l00079">79</a> of file <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html">qSlicerExtensionsManageWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html#l00084">84</a> of file <a class="el" href="qSlicerExtensionsManageWidget_8h_source.html">qSlicerExtensionsManageWidget.h</a>.</p>
 
 </div>
 </div>
@@ -859,7 +940,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 19 2020 19:39:32 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 19 2020 22:05:33 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

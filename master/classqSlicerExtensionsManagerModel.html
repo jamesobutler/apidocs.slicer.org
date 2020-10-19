@@ -120,6 +120,8 @@ Properties</h2></td></tr>
 <tr class="separator:ad9fce9db4c46823b9907da9b4f382c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726547cf74f3aa166fe1d8d949dd42ec"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a726547cf74f3aa166fe1d8d949dd42ec">installedExtensions</a></td></tr>
 <tr class="separator:a726547cf74f3aa166fe1d8d949dd42ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38f204215a99eb12f06adef69465bf45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a38f204215a99eb12f06adef69465bf45">installedExtensionsCount</a></td></tr>
+<tr class="separator:a38f204215a99eb12f06adef69465bf45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a461d76ad0d134e51edabd77daa730de8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a461d76ad0d134e51edabd77daa730de8">newExtensionEnabledByDefault</a></td></tr>
 <tr class="separator:a461d76ad0d134e51edabd77daa730de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df388c24150f16643043167296e4007"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a7df388c24150f16643043167296e4007">numberOfInstalledExtensions</a></td></tr>
@@ -135,6 +137,9 @@ Properties</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
+<tr class="memitem:af0a9034b492a16ede7783cda6eb6edf2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#af0a9034b492a16ede7783cda6eb6edf2">activeTaskCount</a> () const</td></tr>
+<tr class="memdesc:af0a9034b492a16ede7783cda6eb6edf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of operations in progress.  <a href="#af0a9034b492a16ede7783cda6eb6edf2">More...</a><br /></td></tr>
+<tr class="separator:af0a9034b492a16ede7783cda6eb6edf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65a8e3c791013034bbde77f5563888e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a65a8e3c791013034bbde77f5563888e0">cancelExtensionScheduledForUninstall</a> (const QString &amp;extensionName)</td></tr>
 <tr class="memdesc:a65a8e3c791013034bbde77f5563888e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel the uninstallation of <em>extensionName</em> Tell the application to keep <em>extensionName</em> installed.  <a href="#a65a8e3c791013034bbde77f5563888e0">More...</a><br /></td></tr>
 <tr class="separator:a65a8e3c791013034bbde77f5563888e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,6 +262,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2019ef0033de3e23a30993f2a84de91d"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a2019ef0033de3e23a30993f2a84de91d">installedExtensions</a> () const</td></tr>
 <tr class="memdesc:a2019ef0033de3e23a30993f2a84de91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return names of all installed extensions.  <a href="#a2019ef0033de3e23a30993f2a84de91d">More...</a><br /></td></tr>
 <tr class="separator:a2019ef0033de3e23a30993f2a84de91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fa08410030abeb869a6e41ff41e0c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a69fa08410030abeb869a6e41ff41e0c7">installedExtensionsCount</a> () const</td></tr>
+<tr class="memdesc:a69fa08410030abeb869a6e41ff41e0c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of installed extensions.  <a href="#a69fa08410030abeb869a6e41ff41e0c7">More...</a><br /></td></tr>
+<tr class="separator:a69fa08410030abeb869a6e41ff41e0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531f57ed6c4888950045f3937845a4b9"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a531f57ed6c4888950045f3937845a4b9">installExtension</a> (const QString &amp;archiveFile)</td></tr>
 <tr class="separator:a531f57ed6c4888950045f3937845a4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b42ae006d4aa51c6aafd8d26bb33d1c"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a3b42ae006d4aa51c6aafd8d26bb33d1c">installExtension</a> (const QString &amp;extensionName, <a class="el" href="classqSlicerExtensionsManagerModel.html#a17eff01f95f92a43761efbafd7598002">ExtensionMetadataType</a> <a class="el" href="classqSlicerExtensionsManagerModel.html#aa5c2133e7911d029738069bae511865c">extensionMetadata</a>, const QString &amp;archiveFile)</td></tr>
@@ -286,7 +294,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01d91528ef58be7e3ba8c75691eefdef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a01d91528ef58be7e3ba8c75691eefdef">newExtensionEnabledByDefault</a> () const</td></tr>
 <tr class="separator:a01d91528ef58be7e3ba8c75691eefdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9cb317cbbe297ee7930fae3ab03f17"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a0b9cb317cbbe297ee7930fae3ab03f17">numberOfInstalledExtensions</a> () const</td></tr>
-<tr class="memdesc:a0b9cb317cbbe297ee7930fae3ab03f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of installed extensions.  <a href="#a0b9cb317cbbe297ee7930fae3ab03f17">More...</a><br /></td></tr>
+<tr class="memdesc:a0b9cb317cbbe297ee7930fae3ab03f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of installed extensions. Deprecated, use installedExtensionsCount instead.  <a href="#a0b9cb317cbbe297ee7930fae3ab03f17">More...</a><br /></td></tr>
 <tr class="separator:a0b9cb317cbbe297ee7930fae3ab03f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81b713e1832bc0e1ce02853c983e2125"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerExtensionsManagerModel.html#a81b713e1832bc0e1ce02853c983e2125">qSlicerExtensionsManagerModel</a> (QObject *parent=nullptr)</td></tr>
 <tr class="memdesc:a81b713e1832bc0e1ce02853c983e2125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a81b713e1832bc0e1ce02853c983e2125">More...</a><br /></td></tr>
@@ -395,7 +403,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Extension metadata typedef. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00073">73</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00074">74</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -413,7 +421,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Pimpl typedef. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00061">61</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00062">62</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -431,7 +439,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Self typedef. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00064">64</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00065">65</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -449,7 +457,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Superclass typedef. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00058">58</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00059">59</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +482,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00048">48</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00049">49</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -498,7 +506,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00051">51</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00052">52</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -522,7 +530,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00050">50</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00051">51</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -537,6 +545,30 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">QStringList qSlicerExtensionsManagerModel::installedExtensions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00048">48</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+
+</div>
+</div>
+<a id="a38f204215a99eb12f06adef69465bf45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38f204215a99eb12f06adef69465bf45">&#9670;&nbsp;</a></span>installedExtensionsCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int qSlicerExtensionsManagerModel::installedExtensionsCount</td>
         </tr>
       </table>
   </td>
@@ -570,7 +602,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00049">49</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00050">50</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -618,7 +650,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00054">54</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00055">55</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -642,7 +674,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00053">53</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00054">54</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -666,7 +698,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00052">52</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00053">53</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -690,7 +722,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00055">55</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00056">56</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -751,6 +783,33 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af0a9034b492a16ede7783cda6eb6edf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a9034b492a16ede7783cda6eb6edf2">&#9670;&nbsp;</a></span>activeTaskCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int qSlicerExtensionsManagerModel::activeTaskCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of operations in progress. </p>
+
+</div>
+</div>
 <a id="a65a8e3c791013034bbde77f5563888e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65a8e3c791013034bbde77f5563888e0">&#9670;&nbsp;</a></span>cancelExtensionScheduledForUninstall</h2>
 
@@ -1678,7 +1737,27 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return names of all installed extensions. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerExtensionsManagerModel.html#a531f57ed6c4888950045f3937845a4b9">installExtension</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a7df388c24150f16643043167296e4007">numberOfInstalledExtensions</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aca4ff1b47bd940c1082362e2b1ada157" title="Return True if the extensionName is installed. ">isExtensionInstalled</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aab1c737ef006416b1ac9269ff6e9edac">extensionInstalled</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerExtensionsManagerModel.html#a531f57ed6c4888950045f3937845a4b9">installExtension</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a38f204215a99eb12f06adef69465bf45">installedExtensionsCount</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aca4ff1b47bd940c1082362e2b1ada157" title="Return True if the extensionName is installed. ">isExtensionInstalled</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aab1c737ef006416b1ac9269ff6e9edac">extensionInstalled</a> </dd></dl>
+
+</div>
+</div>
+<a id="a69fa08410030abeb869a6e41ff41e0c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69fa08410030abeb869a6e41ff41e0c7">&#9670;&nbsp;</a></span>installedExtensionsCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int qSlicerExtensionsManagerModel::installedExtensionsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the number of installed extensions. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerExtensionsManagerModel.html#a531f57ed6c4888950045f3937845a4b9">installExtension</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aca4ff1b47bd940c1082362e2b1ada157" title="Return True if the extensionName is installed. ">isExtensionInstalled</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a726547cf74f3aa166fe1d8d949dd42ec">installedExtensions</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aab1c737ef006416b1ac9269ff6e9edac">extensionInstalled</a> </dd></dl>
 
 </div>
 </div>
@@ -1844,7 +1923,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return True if the <em>extensionName</em> is installed. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerExtensionsManagerModel.html#a531f57ed6c4888950045f3937845a4b9">installExtension</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a7df388c24150f16643043167296e4007">numberOfInstalledExtensions</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a726547cf74f3aa166fe1d8d949dd42ec">installedExtensions</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aab1c737ef006416b1ac9269ff6e9edac">extensionInstalled</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerExtensionsManagerModel.html#a531f57ed6c4888950045f3937845a4b9">installExtension</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a38f204215a99eb12f06adef69465bf45">installedExtensionsCount</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a726547cf74f3aa166fe1d8d949dd42ec">installedExtensions</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aab1c737ef006416b1ac9269ff6e9edac">extensionInstalled</a> </dd></dl>
 
 </div>
 </div>
@@ -2049,7 +2128,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Return the number of installed extensions. </p>
+<p>Return the number of installed extensions. Deprecated, use installedExtensionsCount instead. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerExtensionsManagerModel.html#a531f57ed6c4888950045f3937845a4b9">installExtension</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aca4ff1b47bd940c1082362e2b1ada157" title="Return True if the extensionName is installed. ">isExtensionInstalled</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#a726547cf74f3aa166fe1d8d949dd42ec">installedExtensions</a>, <a class="el" href="classqSlicerExtensionsManagerModel.html#aab1c737ef006416b1ac9269ff6e9edac">extensionInstalled</a> </dd></dl>
 
 </div>
@@ -3285,7 +3364,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00411">411</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html#l00419">419</a> of file <a class="el" href="qSlicerExtensionsManagerModel_8h_source.html">qSlicerExtensionsManagerModel.h</a>.</p>
 
 </div>
 </div>
@@ -3295,7 +3374,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 19 2020 19:39:32 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 19 2020 22:05:33 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['abortprocess',['AbortProcess',['../classvtkMRMLCommandLineModuleNode.html#a6f500318814f86bcf8b2826cafc8c7a5',1,'vtkMRMLCommandLineModuleNode']]],
   ['abouttoreparentbydraganddrop',['aboutToReparentByDragAndDrop',['../classqMRMLSceneModel.html#a60472cc119b5346cfd3742cf870ff73c',1,'qMRMLSceneModel::aboutToReparentByDragAndDrop()'],['../classqMRMLSubjectHierarchyModel.html#a9d275917db748da5834e3a0563674e75',1,'qMRMLSubjectHierarchyModel::aboutToReparentByDragAndDrop()']]],
-  ['accept',['accept',['../classqSlicerAnnotationModuleSnapShotDialog.html#ad445809bd74f98493b6d3de8749f5a4e',1,'qSlicerAnnotationModuleSnapShotDialog::accept()'],['../classqSlicerSceneViewsModuleDialog.html#ac7961ddd0281fa08d4f16cdc8ae88371',1,'qSlicerSceneViewsModuleDialog::accept()']]],
+  ['accept',['accept',['../classqSlicerExtensionsManagerDialog.html#ae72b07295e7f76ad1ae41474f5740bb1',1,'qSlicerExtensionsManagerDialog::accept()'],['../classqSlicerAnnotationModuleSnapShotDialog.html#ad445809bd74f98493b6d3de8749f5a4e',1,'qSlicerAnnotationModuleSnapShotDialog::accept()'],['../classqSlicerSceneViewsModuleDialog.html#ac7961ddd0281fa08d4f16cdc8ae88371',1,'qSlicerSceneViewsModuleDialog::accept()']]],
   ['accepteditemcount',['acceptedItemCount',['../classqMRMLSortFilterSubjectHierarchyProxyModel.html#a3a35ab4649700e97563eb3a55fe71352',1,'qMRMLSortFilterSubjectHierarchyProxyModel']]],
   ['acceptmimedata',['acceptMimeData',['../classqSlicerScriptedFileDialog.html#a89511c02d84b819690dcecaaf422730c',1,'qSlicerScriptedFileDialog']]],
   ['acceptnavigationrequest',['acceptNavigationRequest',['../classqSlicerExtensionsInstallWidget.html#a539372a8988dd7db91c9340e8e957070',1,'qSlicerExtensionsInstallWidget::acceptNavigationRequest()'],['../classqSlicerWebWidget.html#ac4539983ec533169e3448c9aa62dc709',1,'qSlicerWebWidget::acceptNavigationRequest()']]],
@@ -37,6 +37,7 @@ var searchData=
   ['activescalarname',['activeScalarName',['../classqMRMLScalarsDisplayWidget.html#a988905d550725ff7e1b91f178443309e',1,'qMRMLScalarsDisplayWidget']]],
   ['activetablerenderer',['activeTableRenderer',['../classqMRMLLayoutManager.html#ad00c4699a9add3879e2dfdd8a17d4795',1,'qMRMLLayoutManager']]],
   ['activetablerendererchanged',['activeTableRendererChanged',['../classqMRMLLayoutManager.html#a17062bd44e349287afcc7c7c6015fcd8',1,'qMRMLLayoutManager']]],
+  ['activetaskcount',['activeTaskCount',['../classqSlicerExtensionsManagerModel.html#af0a9034b492a16ede7783cda6eb6edf2',1,'qSlicerExtensionsManagerModel']]],
   ['activethreedrenderer',['activeThreeDRenderer',['../classqMRMLLayoutManager.html#ad9ab58cd6c9cbc124fa9af71783bb292',1,'qMRMLLayoutManager']]],
   ['activethreedrendererchanged',['activeThreeDRendererChanged',['../classqMRMLLayoutManager.html#a092ccee4ab0e3f644d9753e444bdc477',1,'qMRMLLayoutManager']]],
   ['activeviewnode',['activeViewNode',['../classqMRMLLayoutViewFactory.html#a287a0a79e8a0d7cf870cc4e8b3bb100e',1,'qMRMLLayoutViewFactory']]],
