@@ -358,6 +358,7 @@ var searchData=
   ['qslicersegmenteditorscissorseffect_2eh',['qSlicerSegmentEditorScissorsEffect.h',['../qSlicerSegmentEditorScissorsEffect_8h.html',1,'']]],
   ['qslicersegmenteditorscriptedeffect_2eh',['qSlicerSegmentEditorScriptedEffect.h',['../qSlicerSegmentEditorScriptedEffect_8h.html',1,'']]],
   ['qslicersegmenteditorscriptedlabeleffect_2eh',['qSlicerSegmentEditorScriptedLabelEffect.h',['../qSlicerSegmentEditorScriptedLabelEffect_8h.html',1,'']]],
+  ['qslicersegmenteditorscriptedpainteffect_2eh',['qSlicerSegmentEditorScriptedPaintEffect.h',['../qSlicerSegmentEditorScriptedPaintEffect_8h.html',1,'']]],
   ['qslicersequencesmodule_2eh',['qSlicerSequencesModule.h',['../qSlicerSequencesModule_8h.html',1,'']]],
   ['qslicersequencesmodulewidget_2eh',['qSlicerSequencesModuleWidget.h',['../qSlicerSequencesModuleWidget_8h.html',1,'']]],
   ['qslicersequencesmodulewidgetsabstractplugin_2eh',['qSlicerSequencesModuleWidgetsAbstractPlugin.h',['../qSlicerSequencesModuleWidgetsAbstractPlugin_8h.html',1,'']]],

@@ -740,6 +740,8 @@ var searchData=
   ['qslicersegmenteditorscriptedeffect_2eh',['qSlicerSegmentEditorScriptedEffect.h',['../qSlicerSegmentEditorScriptedEffect_8h.html',1,'']]],
   ['qslicersegmenteditorscriptedlabeleffect',['qSlicerSegmentEditorScriptedLabelEffect',['../classqSlicerSegmentEditorScriptedLabelEffect.html',1,'qSlicerSegmentEditorScriptedLabelEffect'],['../classqSlicerSegmentEditorScriptedLabelEffect.html#af009c0361be9c41fb513e7694c0fcaf3',1,'qSlicerSegmentEditorScriptedLabelEffect::qSlicerSegmentEditorScriptedLabelEffect()']]],
   ['qslicersegmenteditorscriptedlabeleffect_2eh',['qSlicerSegmentEditorScriptedLabelEffect.h',['../qSlicerSegmentEditorScriptedLabelEffect_8h.html',1,'']]],
+  ['qslicersegmenteditorscriptedpainteffect',['qSlicerSegmentEditorScriptedPaintEffect',['../classqSlicerSegmentEditorScriptedPaintEffect.html',1,'qSlicerSegmentEditorScriptedPaintEffect'],['../classqSlicerSegmentEditorScriptedPaintEffect.html#aa53cef6f04c394f935962a01478d134b',1,'qSlicerSegmentEditorScriptedPaintEffect::qSlicerSegmentEditorScriptedPaintEffect()']]],
+  ['qslicersegmenteditorscriptedpainteffect_2eh',['qSlicerSegmentEditorScriptedPaintEffect.h',['../qSlicerSegmentEditorScriptedPaintEffect_8h.html',1,'']]],
   ['qslicersequencebrowsermodulewidgetsplugin',['qSlicerSequenceBrowserModuleWidgetsPlugin',['../classqSlicerSequenceBrowserModuleWidgetsPlugin.html',1,'']]],
   ['qslicersequencesmodule',['qSlicerSequencesModule',['../classqSlicerSequencesModule.html',1,'qSlicerSequencesModule'],['../classqSlicerSequencesModule.html#a546dc0dbec83678f47d6ec5f0e707f99',1,'qSlicerSequencesModule::qSlicerSequencesModule()']]],
   ['qslicersequencesmodule_2eh',['qSlicerSequencesModule.h',['../qSlicerSequencesModule_8h.html',1,'']]],

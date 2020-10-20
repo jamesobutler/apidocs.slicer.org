@@ -4,9 +4,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node808 [label="QMenu",height=0.2,width=0.4,color="grey75"];
-  Node808 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node809 [label="QMenu",height=0.2,width=0.4,color="grey75"];
+  Node809 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLSceneViewMenu",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneViewMenu.html"];
-  Node808 -> Node810 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node810 [label="qSlicerModulesMenu",height=0.2,width=0.4,color="black",URL="$classqSlicerModulesMenu.html"];
+  Node809 -> Node811 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node811 [label="qSlicerModulesMenu",height=0.2,width=0.4,color="black",URL="$classqSlicerModulesMenu.html"];
 }

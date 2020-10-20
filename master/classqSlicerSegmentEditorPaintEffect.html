@@ -82,9 +82,10 @@ Inheritance diagram for qSlicerSegmentEditorPaintEffect:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqSlicerSegmentEditorPaintEffect__inherit__graph.png" border="0" usemap="#qSlicerSegmentEditorPaintEffect_inherit__map" alt="Inheritance graph"/></div>
 <map name="qSlicerSegmentEditorPaintEffect_inherit__map" id="qSlicerSegmentEditorPaintEffect_inherit__map">
-<area shape="rect" id="node5" href="classqSlicerSegmentEditorEraseEffect.html" title="qSlicerSegmentEditorErase\lEffect" alt="" coords="14,348,211,389"/>
-<area shape="rect" id="node2" href="classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects. " alt="" coords="5,169,220,211"/>
-<area shape="rect" id="node3" href="classqSlicerSegmentEditorAbstractEffect.html" title="Abstract class for segment editor effects. " alt="" coords="5,80,220,121"/>
+<area shape="rect" id="node5" href="classqSlicerSegmentEditorEraseEffect.html" title="qSlicerSegmentEditorErase\lEffect" alt="" coords="5,348,203,389"/>
+<area shape="rect" id="node6" href="classqSlicerSegmentEditorScriptedPaintEffect.html" title="Scripted abstract effect for implementing paint effects in python. " alt="" coords="227,348,442,389"/>
+<area shape="rect" id="node2" href="classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects. " alt="" coords="111,169,326,211"/>
+<area shape="rect" id="node3" href="classqSlicerSegmentEditorAbstractEffect.html" title="Abstract class for segment editor effects. " alt="" coords="111,80,326,121"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -159,23 +160,32 @@ Public Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a4270546b842574b4b3e400fb9885efeb"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a4270546b842574b4b3e400fb9885efeb">clearBrushes</a> ()</td></tr>
+<tr class="separator:a4270546b842574b4b3e400fb9885efeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b5a7700aadd11834b36bd9f19efb49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html">qSlicerSegmentEditorAbstractEffect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a99b5a7700aadd11834b36bd9f19efb49">clone</a> () override</td></tr>
 <tr class="memdesc:a99b5a7700aadd11834b36bd9f19efb49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clone editor effect.  <a href="#a99b5a7700aadd11834b36bd9f19efb49">More...</a><br /></td></tr>
 <tr class="separator:a99b5a7700aadd11834b36bd9f19efb49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc9298196e8a4364c0780ee060d0b1b7"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#abc9298196e8a4364c0780ee060d0b1b7">deactivate</a> () override</td></tr>
-<tr class="memdesc:abc9298196e8a4364c0780ee060d0b1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions to deactivate the effect (such as destroy actors, etc.)  <a href="#abc9298196e8a4364c0780ee060d0b1b7">More...</a><br /></td></tr>
-<tr class="separator:abc9298196e8a4364c0780ee060d0b1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c735c296b4023d10c755dc73ce499c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a7c735c296b4023d10c755dc73ce499c0">delayedPaint</a> ()</td></tr>
-<tr class="memdesc:a7c735c296b4023d10c755dc73ce499c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If enabled then segmentation is only modified when the mouse button is released.  <a href="#a7c735c296b4023d10c755dc73ce499c0">More...</a><br /></td></tr>
-<tr class="separator:a7c735c296b4023d10c755dc73ce499c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6692d03a0d5b1f88508ab5ed90ce631e"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a6692d03a0d5b1f88508ab5ed90ce631e">helpText</a> () const override</td></tr>
-<tr class="memdesc:a6692d03a0d5b1f88508ab5ed90ce631e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get help text for effect to be displayed in the help box.  <a href="#a6692d03a0d5b1f88508ab5ed90ce631e">More...</a><br /></td></tr>
-<tr class="separator:a6692d03a0d5b1f88508ab5ed90ce631e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe248097b092021f42b102c27781ec2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a0fe248097b092021f42b102c27781ec2">deactivate</a> () override</td></tr>
+<tr class="memdesc:a0fe248097b092021f42b102c27781ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions to deactivate the effect (such as destroy actors, etc.)  <a href="#a0fe248097b092021f42b102c27781ec2">More...</a><br /></td></tr>
+<tr class="separator:a0fe248097b092021f42b102c27781ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a897ef4739d2f9db64eed3fc3a92c1063"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a897ef4739d2f9db64eed3fc3a92c1063">delayedPaint</a> ()</td></tr>
+<tr class="memdesc:a897ef4739d2f9db64eed3fc3a92c1063"><td class="mdescLeft">&#160;</td><td class="mdescRight">If enabled then segmentation is only modified when the mouse button is released.  <a href="#a897ef4739d2f9db64eed3fc3a92c1063">More...</a><br /></td></tr>
+<tr class="separator:a897ef4739d2f9db64eed3fc3a92c1063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa5cd79f28c05ee82864da61a757368"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a2aa5cd79f28c05ee82864da61a757368">helpText</a> () const override</td></tr>
+<tr class="memdesc:a2aa5cd79f28c05ee82864da61a757368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get help text for effect to be displayed in the help box.  <a href="#a2aa5cd79f28c05ee82864da61a757368">More...</a><br /></td></tr>
+<tr class="separator:a2aa5cd79f28c05ee82864da61a757368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6aeaab5886c51f3acee1c0b4a0237c8"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#aa6aeaab5886c51f3acee1c0b4a0237c8">icon</a> () override</td></tr>
 <tr class="memdesc:aa6aeaab5886c51f3acee1c0b4a0237c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get icon for effect to be displayed in segment editor.  <a href="#aa6aeaab5886c51f3acee1c0b4a0237c8">More...</a><br /></td></tr>
 <tr class="separator:aa6aeaab5886c51f3acee1c0b4a0237c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab610fc7bbd89c77e6c64a68da2f9b073"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#ab610fc7bbd89c77e6c64a68da2f9b073">minimumPaintPointDistance</a> ()</td></tr>
-<tr class="separator:ab610fc7bbd89c77e6c64a68da2f9b073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa74b06bab673b74bb2e114c15c827d27"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#aa74b06bab673b74bb2e114c15c827d27">minimumPaintPointDistance</a> ()</td></tr>
+<tr class="separator:aa74b06bab673b74bb2e114c15c827d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a2ec4928a1733c7ffa2ed8e4fa9463"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a80a2ec4928a1733c7ffa2ed8e4fa9463">paintApply</a> (<a class="el" href="classqMRMLWidget.html">qMRMLWidget</a> *viewWidget)</td></tr>
+<tr class="memdesc:a80a2ec4928a1733c7ffa2ed8e4fa9463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint labelmap.  <a href="#a80a2ec4928a1733c7ffa2ed8e4fa9463">More...</a><br /></td></tr>
+<tr class="separator:a80a2ec4928a1733c7ffa2ed8e4fa9463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116e46b8965f996450aa9c833503cd13"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a116e46b8965f996450aa9c833503cd13">paintBrushesIntoLabelmap</a> (<a class="el" href="classvtkOrientedImageData.html">vtkOrientedImageData</a> *labelmap, <a class="el" href="classqMRMLWidget.html">qMRMLWidget</a> *viewWidget)</td></tr>
+<tr class="separator:a116e46b8965f996450aa9c833503cd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade9efbc2c2bfea4be44732f00224d2b3"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QFrame *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#ade9efbc2c2bfea4be44732f00224d2b3">paintOptionsFrame</a> ()</td></tr>
+<tr class="separator:ade9efbc2c2bfea4be44732f00224d2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ee03d5ad748a4c6b7d0edfdfccfb306"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a6ee03d5ad748a4c6b7d0edfdfccfb306">processInteractionEvents</a> (vtkRenderWindowInteractor *callerInteractor, unsigned long eid, <a class="el" href="classqMRMLWidget.html">qMRMLWidget</a> *viewWidget) override</td></tr>
 <tr class="separator:a6ee03d5ad748a4c6b7d0edfdfccfb306"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91cff00a5a41f2ea9de3a4514653e710"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a91cff00a5a41f2ea9de3a4514653e710">processViewNodeEvents</a> (<a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *callerViewNode, unsigned long eid, <a class="el" href="classqMRMLWidget.html">qMRMLWidget</a> *viewWidget) override</td></tr>
@@ -185,6 +195,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af0ae0efe298f817bc657208b12d62c90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#af0ae0efe298f817bc657208b12d62c90">referenceGeometryChanged</a> () override</td></tr>
 <tr class="memdesc:af0ae0efe298f817bc657208b12d62c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions needed on reference geometry change.  <a href="#af0ae0efe298f817bc657208b12d62c90">More...</a><br /></td></tr>
 <tr class="separator:af0ae0efe298f817bc657208b12d62c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2adeb6705a27e5fe76a5e84221dc6c"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a8f2adeb6705a27e5fe76a5e84221dc6c">setColorSmudgeCheckboxVisible</a> (bool show)</td></tr>
+<tr class="separator:a8f2adeb6705a27e5fe76a5e84221dc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd1500fbc8e21a0148a75728938dd95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorPaintEffect.html#acbd1500fbc8e21a0148a75728938dd95">setMRMLDefaults</a> () override</td></tr>
 <tr class="memdesc:acbd1500fbc8e21a0148a75728938dd95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set default parameters in the parameter MRML node.  <a href="#acbd1500fbc8e21a0148a75728938dd95">More...</a><br /></td></tr>
 <tr class="separator:acbd1500fbc8e21a0148a75728938dd95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -574,6 +586,23 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4270546b842574b4b3e400fb9885efeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4270546b842574b4b3e400fb9885efeb">&#9670;&nbsp;</a></span>clearBrushes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qSlicerSegmentEditorPaintEffect::clearBrushes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a99b5a7700aadd11834b36bd9f19efb49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99b5a7700aadd11834b36bd9f19efb49">&#9670;&nbsp;</a></span>clone()</h2>
 
@@ -601,10 +630,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#af67cd64394afbb612d6ec1ffe16a3c1e">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a66ca89d286562eaf2d5e61c43e2cb712">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
+
 </div>
 </div>
-<a id="abc9298196e8a4364c0780ee060d0b1b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc9298196e8a4364c0780ee060d0b1b7">&#9670;&nbsp;</a></span>deactivate()</h2>
+<a id="a0fe248097b092021f42b102c27781ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe248097b092021f42b102c27781ec2">&#9670;&nbsp;</a></span>deactivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,7 +644,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Q_INVOKABLE void qSlicerSegmentEditorPaintEffect::deactivate </td>
+          <td class="memname">void qSlicerSegmentEditorPaintEffect::deactivate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -630,16 +661,18 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a1127250671a60489bc6cfd5308115b43">qSlicerSegmentEditorAbstractEffect</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#af49f01bf351e9e53fe8e45a011a0887d">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
+
 </div>
 </div>
-<a id="a7c735c296b4023d10c755dc73ce499c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c735c296b4023d10c755dc73ce499c0">&#9670;&nbsp;</a></span>delayedPaint()</h2>
+<a id="a897ef4739d2f9db64eed3fc3a92c1063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a897ef4739d2f9db64eed3fc3a92c1063">&#9670;&nbsp;</a></span>delayedPaint()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool qSlicerSegmentEditorPaintEffect::delayedPaint </td>
+          <td class="memname">Q_INVOKABLE bool qSlicerSegmentEditorPaintEffect::delayedPaint </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -651,8 +684,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a6692d03a0d5b1f88508ab5ed90ce631e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6692d03a0d5b1f88508ab5ed90ce631e">&#9670;&nbsp;</a></span>helpText()</h2>
+<a id="a2aa5cd79f28c05ee82864da61a757368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa5cd79f28c05ee82864da61a757368">&#9670;&nbsp;</a></span>helpText()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -661,7 +694,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Q_INVOKABLE const QString qSlicerSegmentEditorPaintEffect::helpText </td>
+          <td class="memname">const QString qSlicerSegmentEditorPaintEffect::helpText </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -677,6 +710,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Get help text for effect to be displayed in the help box. </p>
 
 <p>Reimplemented from <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a7accfbf26f1f4f1ebf0d52d8954ada9f">qSlicerSegmentEditorAbstractEffect</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#abf4ab329556fd889109e40fe19f7e4a2">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
 
 </div>
 </div>
@@ -707,16 +742,18 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#abbe99a7b56b3e3006bba09a190706d23">qSlicerSegmentEditorAbstractEffect</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a26936e1125815b7072703e91dea13416">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
+
 </div>
 </div>
-<a id="ab610fc7bbd89c77e6c64a68da2f9b073"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab610fc7bbd89c77e6c64a68da2f9b073">&#9670;&nbsp;</a></span>minimumPaintPointDistance()</h2>
+<a id="aa74b06bab673b74bb2e114c15c827d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa74b06bab673b74bb2e114c15c827d27">&#9670;&nbsp;</a></span>minimumPaintPointDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double qSlicerSegmentEditorPaintEffect::minimumPaintPointDistance </td>
+          <td class="memname">Q_INVOKABLE double qSlicerSegmentEditorPaintEffect::minimumPaintPointDistance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -724,6 +761,82 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>If a new point is added at less than this squared distance (in display coordinate system) then the point is not added. This is an experimental feature that may help in limiting number of paint points to improve performance. </p>
+
+</div>
+</div>
+<a id="a80a2ec4928a1733c7ffa2ed8e4fa9463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a2ec4928a1733c7ffa2ed8e4fa9463">&#9670;&nbsp;</a></span>paintApply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Q_INVOKABLE void qSlicerSegmentEditorPaintEffect::paintApply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classqMRMLWidget.html">qMRMLWidget</a> *&#160;</td>
+          <td class="paramname"><em>viewWidget</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Paint labelmap. </p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#aa5c44e8bc961e74d0bb3bdf530260f89">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
+
+</div>
+</div>
+<a id="a116e46b8965f996450aa9c833503cd13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116e46b8965f996450aa9c833503cd13">&#9670;&nbsp;</a></span>paintBrushesIntoLabelmap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt;int&gt; qSlicerSegmentEditorPaintEffect::paintBrushesIntoLabelmap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkOrientedImageData.html">vtkOrientedImageData</a> *&#160;</td>
+          <td class="paramname"><em>labelmap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classqMRMLWidget.html">qMRMLWidget</a> *&#160;</td>
+          <td class="paramname"><em>viewWidget</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade9efbc2c2bfea4be44732f00224d2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade9efbc2c2bfea4be44732f00224d2b3">&#9670;&nbsp;</a></span>paintOptionsFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE QFrame* qSlicerSegmentEditorPaintEffect::paintOptionsFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get frame that contains all paint options (brush size, modes, etc.). This allows subclasses to show/hide these controls or move them to a different position. </p>
 
 </div>
 </div>
@@ -872,6 +985,26 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#aa45b9858ac2c46eec60afec82dee36d8">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#aa9bf7b2773c6868c623efd08c8ff7c17">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
+
+</div>
+</div>
+<a id="a8f2adeb6705a27e5fe76a5e84221dc6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2adeb6705a27e5fe76a5e84221dc6c">&#9670;&nbsp;</a></span>setColorSmudgeCheckboxVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qSlicerSegmentEditorPaintEffect::setColorSmudgeCheckboxVisible </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>show</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a073abf6f109bef882f3bf74f56d0c6f1"></a>
@@ -955,6 +1088,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a5e5606374a3d5960170635ab9996fb17">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a7c0da100c2df5d8fb0b8869a6da68c43">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
+
 </div>
 </div>
 <a id="a7ac0a47c1f190670ec7a458765d00616"></a>
@@ -984,6 +1119,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#ad0f8a7e530ba6da5343e7d7588e58de9">addOptionsWidget</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a8de23d124905f7e04cf4d3b5040e2c56">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a0598bbc81f635f060876ea7ce4915787">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
 
 </div>
 </div>
@@ -1062,7 +1199,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html#l00112">112</a> of file <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html">qSlicerSegmentEditorPaintEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html#l00126">126</a> of file <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html">qSlicerSegmentEditorPaintEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1087,7 +1224,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Flag determining to always erase (not just when smudge from empty region) Overridden in the </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerSegmentEditorEraseEffect.html">qSlicerSegmentEditorEraseEffect</a> subclass </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html#l00106">106</a> of file <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html">qSlicerSegmentEditorPaintEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html#l00120">120</a> of file <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html">qSlicerSegmentEditorPaintEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1113,7 +1250,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Flag determining whether to paint or erase. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html#l00109">109</a> of file <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html">qSlicerSegmentEditorPaintEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html#l00123">123</a> of file <a class="el" href="qSlicerSegmentEditorPaintEffect_8h_source.html">qSlicerSegmentEditorPaintEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1123,7 +1260,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 19 2020 22:05:33 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 20 2020 00:11:25 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

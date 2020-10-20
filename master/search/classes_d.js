@@ -367,6 +367,7 @@ var searchData=
   ['qslicersegmenteditorscissorseffect',['qSlicerSegmentEditorScissorsEffect',['../classqSlicerSegmentEditorScissorsEffect.html',1,'']]],
   ['qslicersegmenteditorscriptedeffect',['qSlicerSegmentEditorScriptedEffect',['../classqSlicerSegmentEditorScriptedEffect.html',1,'']]],
   ['qslicersegmenteditorscriptedlabeleffect',['qSlicerSegmentEditorScriptedLabelEffect',['../classqSlicerSegmentEditorScriptedLabelEffect.html',1,'']]],
+  ['qslicersegmenteditorscriptedpainteffect',['qSlicerSegmentEditorScriptedPaintEffect',['../classqSlicerSegmentEditorScriptedPaintEffect.html',1,'']]],
   ['qslicersequencebrowsermodulewidgetsplugin',['qSlicerSequenceBrowserModuleWidgetsPlugin',['../classqSlicerSequenceBrowserModuleWidgetsPlugin.html',1,'']]],
   ['qslicersequencesmodule',['qSlicerSequencesModule',['../classqSlicerSequencesModule.html',1,'']]],
   ['qslicersequencesmodulewidget',['qSlicerSequencesModuleWidget',['../classqSlicerSequencesModuleWidget.html',1,'']]],

@@ -4,9 +4,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node9 [label="vtkThreadedImageAlgorithm",height=0.2,width=0.4,color="grey75"];
-  Node9 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node0 [label="vtkDiffusionTensorMathematics",height=0.2,width=0.4,color="black",URL="$classvtkDiffusionTensorMathematics.html"];
-  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node11 [label="vtkImageLabelCombine",height=0.2,width=0.4,color="black",URL="$classvtkImageLabelCombine.html",tooltip="Add, subtract, multiply, divide, invert, sin, cos, exp, log. "];
+  Node12 [label="vtkTensorGlyph",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="vtkDiffusionTensorGlyph",height=0.2,width=0.4,color="black",URL="$classvtkDiffusionTensorGlyph.html",tooltip="scale and orient glyph(s) according to tensor eigenvalues and eigenvectors. "];
 }

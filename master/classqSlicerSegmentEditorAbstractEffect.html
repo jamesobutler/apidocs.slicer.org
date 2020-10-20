@@ -86,12 +86,13 @@ Inheritance diagram for qSlicerSegmentEditorAbstractEffect:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqSlicerSegmentEditorAbstractEffect__inherit__graph.png" border="0" usemap="#qSlicerSegmentEditorAbstractEffect_inherit__map" alt="Inheritance graph"/></div>
 <map name="qSlicerSegmentEditorAbstractEffect_inherit__map" id="qSlicerSegmentEditorAbstractEffect_inherit__map">
-<area shape="rect" id="node3" href="classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects. " alt="" coords="389,71,604,112"/>
-<area shape="rect" id="node8" href="classqSlicerSegmentEditorScriptedEffect.html" title="Scripted abstract effect for implementing segment editor effects in python. " alt="" coords="389,136,604,177"/>
-<area shape="rect" id="node4" href="classqSlicerSegmentEditorPaintEffect.html" title="qSlicerSegmentEditorPaint\lEffect" alt="" coords="663,5,855,47"/>
-<area shape="rect" id="node6" href="classqSlicerSegmentEditorScissorsEffect.html" title="qSlicerSegmentEditorScissors\lEffect" alt="" coords="652,71,867,112"/>
-<area shape="rect" id="node7" href="classqSlicerSegmentEditorScriptedLabelEffect.html" title="Scripted abstract effect for implementing label effects in python. " alt="" coords="652,136,867,177"/>
-<area shape="rect" id="node5" href="classqSlicerSegmentEditorEraseEffect.html" title="qSlicerSegmentEditorErase\lEffect" alt="" coords="915,5,1112,47"/>
+<area shape="rect" id="node3" href="classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects. " alt="" coords="389,103,604,144"/>
+<area shape="rect" id="node9" href="classqSlicerSegmentEditorScriptedEffect.html" title="Scripted abstract effect for implementing segment editor effects in python. " alt="" coords="389,168,604,209"/>
+<area shape="rect" id="node4" href="classqSlicerSegmentEditorPaintEffect.html" title="qSlicerSegmentEditorPaint\lEffect" alt="" coords="663,37,855,79"/>
+<area shape="rect" id="node7" href="classqSlicerSegmentEditorScissorsEffect.html" title="qSlicerSegmentEditorScissors\lEffect" alt="" coords="652,103,867,144"/>
+<area shape="rect" id="node8" href="classqSlicerSegmentEditorScriptedLabelEffect.html" title="Scripted abstract effect for implementing label effects in python. " alt="" coords="652,168,867,209"/>
+<area shape="rect" id="node5" href="classqSlicerSegmentEditorEraseEffect.html" title="qSlicerSegmentEditorErase\lEffect" alt="" coords="923,5,1121,47"/>
+<area shape="rect" id="node6" href="classqSlicerSegmentEditorScriptedPaintEffect.html" title="Scripted abstract effect for implementing paint effects in python. " alt="" coords="915,71,1129,112"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -635,7 +636,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Perform actions to activate the effect (show options frame, etc.) NOTE: Base class implementation needs to be called BEFORE the effect-specific implementation </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a393d6927e7525da66c226bc0eb829c0a">qSlicerSegmentEditorScriptedEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a4cc77a86ef72c1e82227ba219f28fe9e">qSlicerSegmentEditorScriptedLabelEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a393d6927e7525da66c226bc0eb829c0a">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a4cc77a86ef72c1e82227ba219f28fe9e">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#ae455ce5eb18507f4eb0a18f2758a2827">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
 
 </div>
 </div>
@@ -891,7 +892,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Clone editor effect. Override to return a new instance of the effect sub-class. </p>
 
-<p>Implemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#af0af4b22d9eb97f9b32ad4541948e05b">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#afcc77930503cdc10fdbf1e213ff19080">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a1d7420f4b80cd433b431ee5272f232ad">qSlicerSegmentEditorScissorsEffect</a>, <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#af67cd64394afbb612d6ec1ffe16a3c1e">qSlicerSegmentEditorAbstractLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a99b5a7700aadd11834b36bd9f19efb49">qSlicerSegmentEditorPaintEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#affae69f00a20a4c1de0218c7b8996f1b">qSlicerSegmentEditorEraseEffect</a>.</p>
+<p>Implemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#af0af4b22d9eb97f9b32ad4541948e05b">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#afcc77930503cdc10fdbf1e213ff19080">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a66ca89d286562eaf2d5e61c43e2cb712">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a1d7420f4b80cd433b431ee5272f232ad">qSlicerSegmentEditorScissorsEffect</a>, <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#af67cd64394afbb612d6ec1ffe16a3c1e">qSlicerSegmentEditorAbstractLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a99b5a7700aadd11834b36bd9f19efb49">qSlicerSegmentEditorPaintEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#affae69f00a20a4c1de0218c7b8996f1b">qSlicerSegmentEditorEraseEffect</a>.</p>
 
 </div>
 </div>
@@ -941,7 +942,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Create a cursor customized for the given effect, potentially for each view. </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a58a2df8ae7264a9f58b62076bb05e17d">qSlicerSegmentEditorScriptedEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#adf2e2e00af56e5b5c7aad8b3a2fed1cc">qSlicerSegmentEditorScriptedLabelEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a58a2df8ae7264a9f58b62076bb05e17d">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#adf2e2e00af56e5b5c7aad8b3a2fed1cc">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#ad54bad08dd69a308fd3908a88131b165">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
 
 </div>
 </div>
@@ -1009,7 +1010,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Perform actions to deactivate the effect (hide options frame, destroy actors, etc.) NOTE: Base class implementation needs to be called BEFORE the effect-specific implementation </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a608c6168e47c50103636e9b3c3daf19c">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a9a4358fc041fe65f5492dc54b837963e">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#af5a8770a1b52ead81bae4c5f4dd5cfee">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#abc9298196e8a4364c0780ee060d0b1b7">qSlicerSegmentEditorPaintEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a608c6168e47c50103636e9b3c3daf19c">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a9a4358fc041fe65f5492dc54b837963e">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#af49f01bf351e9e53fe8e45a011a0887d">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#af5a8770a1b52ead81bae4c5f4dd5cfee">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a0fe248097b092021f42b102c27781ec2">qSlicerSegmentEditorPaintEffect</a>.</p>
 
 </div>
 </div>
@@ -1102,7 +1103,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get help text for effect to be displayed in the help box. </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a41245d4dc8d8f83ea3d805f82c5c2eca">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a70e057294b4e5cfb6f83fe88031c09c5">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a6692d03a0d5b1f88508ab5ed90ce631e">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a73963ad55956b7a912fb5efefa3e11c1">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#a6bd1d92b71ba27097f6881b750793565">qSlicerSegmentEditorEraseEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a41245d4dc8d8f83ea3d805f82c5c2eca">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a70e057294b4e5cfb6f83fe88031c09c5">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#abf4ab329556fd889109e40fe19f7e4a2">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a2aa5cd79f28c05ee82864da61a757368">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a73963ad55956b7a912fb5efefa3e11c1">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#a6bd1d92b71ba27097f6881b750793565">qSlicerSegmentEditorEraseEffect</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00109">109</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
@@ -1133,7 +1134,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get icon for effect to be displayed in segment editor. </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a0661a6a9171cbd338a30175ed20a80a9">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#af5e2387b555825501ae7d9b7fbc83214">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#aa6aeaab5886c51f3acee1c0b4a0237c8">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a00895e759e595597c8c14b6328a7727c">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#a6d0ac7c2892798ca279d81ae00665f5d">qSlicerSegmentEditorEraseEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a0661a6a9171cbd338a30175ed20a80a9">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#af5e2387b555825501ae7d9b7fbc83214">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a26936e1125815b7072703e91dea13416">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#aa6aeaab5886c51f3acee1c0b4a0237c8">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a00895e759e595597c8c14b6328a7727c">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#a6d0ac7c2892798ca279d81ae00665f5d">qSlicerSegmentEditorEraseEffect</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00106">106</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
@@ -1213,7 +1214,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Simple mechanism to let the effects know that the layout has changed. </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a4320bc112a3630939c98ff0b0e7e2f60">qSlicerSegmentEditorScriptedEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#abfdd3eb3ef5a6713f177e9dff01a7865">qSlicerSegmentEditorScriptedLabelEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a4320bc112a3630939c98ff0b0e7e2f60">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#abfdd3eb3ef5a6713f177e9dff01a7865">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a67715e53edd573df68d3b89a968a0f04">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00174">174</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
@@ -1278,7 +1279,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Simple mechanism to let the effects know that master volume has changed NOTE: Base class implementation needs to be called with the effect-specific implementation </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a6b82e4e1b2afb20097f5efa723fa5d99">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a7becb623b90fdf93de8850081dc27888">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a099ee447d2771444df93b5c9e9f485e7">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a6b82e4e1b2afb20097f5efa723fa5d99">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a7becb623b90fdf93de8850081dc27888">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a988e1bc38f1faf3dbc4f956c092eadda">qSlicerSegmentEditorScriptedPaintEffect</a>, and <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a099ee447d2771444df93b5c9e9f485e7">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00172">172</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
@@ -1927,7 +1928,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Simple mechanism to let the effects know that reference geometry has changed NOTE: Base class implementation needs to be called with the effect-specific implementation. </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#aeff0fd08f73cdb8cd7aff14ec5a546e3">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a021725dba7d19fae572bc65b31eaae64">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#af0ae0efe298f817bc657208b12d62c90">qSlicerSegmentEditorPaintEffect</a>, and <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#aa45b9858ac2c46eec60afec82dee36d8">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#aeff0fd08f73cdb8cd7aff14ec5a546e3">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a021725dba7d19fae572bc65b31eaae64">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#aa9bf7b2773c6868c623efd08c8ff7c17">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#af0ae0efe298f817bc657208b12d62c90">qSlicerSegmentEditorPaintEffect</a>, and <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#aa45b9858ac2c46eec60afec82dee36d8">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00169">169</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
@@ -2460,7 +2461,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Set default parameters in the parameter MRML node NOTE: Base class implementation needs to be called with the effect-specific implementation </p>
 
-<p>Implemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#aa6d79f31fcb7ced622273b4e282080da">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a4ef1c3bc2ef68920a7f76fbf7753b074">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#acbd1500fbc8e21a0148a75728938dd95">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a5e5606374a3d5960170635ab9996fb17">qSlicerSegmentEditorAbstractLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a95c9dcc94884aabdcfd66f8d3be6b836">qSlicerSegmentEditorScissorsEffect</a>.</p>
+<p>Implemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#aa6d79f31fcb7ced622273b4e282080da">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a4ef1c3bc2ef68920a7f76fbf7753b074">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a7c0da100c2df5d8fb0b8869a6da68c43">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#acbd1500fbc8e21a0148a75728938dd95">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a5e5606374a3d5960170635ab9996fb17">qSlicerSegmentEditorAbstractLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a95c9dcc94884aabdcfd66f8d3be6b836">qSlicerSegmentEditorScissorsEffect</a>.</p>
 
 </div>
 </div>
@@ -2489,7 +2490,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Set the name of the effect NOTE: name must be defined in constructor in C++ effects, this can only be used in python scripted ones </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a3b5278d1ce5f34f2e289b7e9841a85cc">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a49d5cc7f4f2f92d7ff12f0f76e77a4e0">qSlicerSegmentEditorScriptedEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#ab5b5afbe11feb8a3fd22f5b5defa576c">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a3b5278d1ce5f34f2e289b7e9841a85cc">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a49d5cc7f4f2f92d7ff12f0f76e77a4e0">qSlicerSegmentEditorScriptedEffect</a>.</p>
 
 </div>
 </div>
@@ -2824,7 +2825,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Create options frame widgets, make connections, and add them to the main options frame using </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#ad0f8a7e530ba6da5343e7d7588e58de9">addOptionsWidget</a> NOTE: Base class implementation needs to be called BEFORE the effect-specific implementation </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#ad792efea1e7a5925e2f2ae14e35c44ce">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#adb7e4e90637703d921421bd7af82da3c">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a7ac0a47c1f190670ec7a458765d00616">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a8de23d124905f7e04cf4d3b5040e2c56">qSlicerSegmentEditorAbstractLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a3f7e3004eca40a9b96ddbdd082c62315">qSlicerSegmentEditorScissorsEffect</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#ad792efea1e7a5925e2f2ae14e35c44ce">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#adb7e4e90637703d921421bd7af82da3c">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a0598bbc81f635f060876ea7ce4915787">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a7ac0a47c1f190670ec7a458765d00616">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a8de23d124905f7e04cf4d3b5040e2c56">qSlicerSegmentEditorAbstractLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a3f7e3004eca40a9b96ddbdd082c62315">qSlicerSegmentEditorScissorsEffect</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00143">143</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
@@ -3721,7 +3722,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 19 2020 22:05:33 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 20 2020 00:11:25 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
