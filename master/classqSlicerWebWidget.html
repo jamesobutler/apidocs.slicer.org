@@ -120,6 +120,8 @@ Public Slots</h2></td></tr>
 <tr class="separator:aed19f2baafc0492c8ce0fad78526f73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a852a3601be93c2567855046af1cfa850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerWebWidget.html#a852a3601be93c2567855046af1cfa850">onDownloadStarted</a> (QNetworkReply *reply)</td></tr>
 <tr class="separator:a852a3601be93c2567855046af1cfa850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ce68911deebe24fdebb7117bfabf91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerWebWidget.html#ad3ce68911deebe24fdebb7117bfabf91">printToPdf</a> (const QString &amp;filePath)</td></tr>
+<tr class="separator:ad3ce68911deebe24fdebb7117bfabf91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae056261177d0832e2e067bea612bccac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerWebWidget.html#ae056261177d0832e2e067bea612bccac">setUrl</a> (const QString &amp;<a class="el" href="classqSlicerWebWidget.html#a806438577b4a17b9d2696914c6dac7b0">url</a>)</td></tr>
 <tr class="memdesc:ae056261177d0832e2e067bea612bccac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience for setting the internal webView QUrl from a QString.  <a href="#ae056261177d0832e2e067bea612bccac">More...</a><br /></td></tr>
 <tr class="separator:ae056261177d0832e2e067bea612bccac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,6 +138,9 @@ Signals</h2></td></tr>
 <tr class="memitem:a66caa958358e26766b54b6e2cb55e0cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerWebWidget.html#a66caa958358e26766b54b6e2cb55e0cd">loadStarted</a> ()</td></tr>
 <tr class="memdesc:a66caa958358e26766b54b6e2cb55e0cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal passed through from QWebEngineView  <a href="#a66caa958358e26766b54b6e2cb55e0cd">More...</a><br /></td></tr>
 <tr class="separator:a66caa958358e26766b54b6e2cb55e0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389bfc7f7cb6e9620d6ff2ccdb7f7ec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerWebWidget.html#a389bfc7f7cb6e9620d6ff2ccdb7f7ec9">pdfPrintingFinished</a> (const QString &amp;filePath, bool success)</td></tr>
+<tr class="memdesc:a389bfc7f7cb6e9620d6ff2ccdb7f7ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal passed through from QWebEnginePage  <a href="#a389bfc7f7cb6e9620d6ff2ccdb7f7ec9">More...</a><br /></td></tr>
+<tr class="separator:a389bfc7f7cb6e9620d6ff2ccdb7f7ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -873,6 +878,73 @@ QDesktopServices::openUrl </dd></dl>
 
 </div>
 </div>
+<a id="a389bfc7f7cb6e9620d6ff2ccdb7f7ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a389bfc7f7cb6e9620d6ff2ccdb7f7ec9">&#9670;&nbsp;</a></span>pdfPrintingFinished</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerWebWidget::pdfPrintingFinished </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>filePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>success</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>signal passed through from QWebEnginePage </p>
+
+</div>
+</div>
+<a id="ad3ce68911deebe24fdebb7117bfabf91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3ce68911deebe24fdebb7117bfabf91">&#9670;&nbsp;</a></span>printToPdf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerWebWidget::printToPdf </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Renders the current content of the page into a PDF document and saves it in the location specified in filePath.</p>
+<p>The page size and orientation of the produced PDF document are taken from the values specified in pageLayout. This method issues an asynchronous request for printing the web page into a PDF and returns immediately. To be informed about the result of the request, connect to the signal <a class="el" href="classqSlicerWebWidget.html#a389bfc7f7cb6e9620d6ff2ccdb7f7ec9" title="signal passed through from QWebEnginePage ">pdfPrintingFinished()</a>.</p>
+<p>If a file already exists at the provided file path, it will be overwritten. </p><dl class="section see"><dt>See also</dt><dd>QWebEnginePage::printToPdf </dd></dl>
+
+</div>
+</div>
 <a id="acb6080900638f522bf1edb6f17c55e86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb6080900638f522bf1edb6f17c55e86">&#9670;&nbsp;</a></span>setHandleExternalUrlWithDesktopService()</h2>
 
@@ -1051,7 +1123,7 @@ QDesktopServices::openUrl </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerWebWidget_8h_source.html#l00124">124</a> of file <a class="el" href="qSlicerWebWidget_8h_source.html">qSlicerWebWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerWebWidget_8h_source.html#l00137">137</a> of file <a class="el" href="qSlicerWebWidget_8h_source.html">qSlicerWebWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1061,7 +1133,7 @@ QDesktopServices::openUrl </dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 22 2020 02:43:15 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 22 2020 18:57:42 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
