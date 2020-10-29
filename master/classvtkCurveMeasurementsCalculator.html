@@ -115,6 +115,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8d9ecf64f747bab4310b4f42cf56e46c"><td class="memItemLeft" align="right" valign="top">vtkCollection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a8d9ecf64f747bab4310b4f42cf56e46c">GetMeasurements</a> ()</td></tr>
 <tr class="separator:a8d9ecf64f747bab4310b4f42cf56e46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:acf18980119d4aacb48cf86afefcbb5a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#acf18980119d4aacb48cf86afefcbb5a0">SetCurveIsClosed</a> (bool)</td></tr>
+<tr class="separator:acf18980119d4aacb48cf86afefcbb5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e2efe364df5e01fb247d39ac77f61d5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a3e2efe364df5e01fb247d39ac77f61d5">GetCurveIsClosed</a> ()</td></tr>
+<tr class="separator:a3e2efe364df5e01fb247d39ac77f61d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9bff680d6137ceff15204988735843"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a7e9bff680d6137ceff15204988735843">CurveIsClosedOn</a> ()</td></tr>
+<tr class="separator:a7e9bff680d6137ceff15204988735843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a854bf8136597f1a71981034b9a9d3884"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a854bf8136597f1a71981034b9a9d3884">CurveIsClosedOff</a> ()</td></tr>
+<tr class="separator:a854bf8136597f1a71981034b9a9d3884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a59f81e166d02b5a4e566418f9592c994"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a59f81e166d02b5a4e566418f9592c994">SetCalculateCurvature</a> (bool)</td></tr>
 <tr class="memdesc:a59f81e166d02b5a4e566418f9592c994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set/Get flag determining whether to calculate curvature.  <a href="#a59f81e166d02b5a4e566418f9592c994">More...</a><br /></td></tr>
 <tr class="separator:a59f81e166d02b5a4e566418f9592c994"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,14 +180,23 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a95023980222eb2538d659e56662368d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a95023980222eb2538d659e56662368d3">CalculateCurvature</a> {false}</td></tr>
+<tr class="memdesc:a95023980222eb2538d659e56662368d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag determining whether the filter should calculate curvature.  <a href="#a95023980222eb2538d659e56662368d3">More...</a><br /></td></tr>
 <tr class="separator:a95023980222eb2538d659e56662368d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afebff7590ee52c7f7253c2b2ace3feab"><td class="memItemLeft" align="right" valign="top">vtkCallbackCommand *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#afebff7590ee52c7f7253c2b2ace3feab">ControlPointArrayModifiedCallbackCommand</a></td></tr>
 <tr class="memdesc:afebff7590ee52c7f7253c2b2ace3feab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command handling data array modified events.  <a href="#afebff7590ee52c7f7253c2b2ace3feab">More...</a><br /></td></tr>
 <tr class="separator:afebff7590ee52c7f7253c2b2ace3feab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f222633e69a17f4b4f0f9154d3907cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a9f222633e69a17f4b4f0f9154d3907cb">CurveIsClosed</a> {false}</td></tr>
+<tr class="memdesc:a9f222633e69a17f4b4f0f9154d3907cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether the current curve is closed.  <a href="#a9f222633e69a17f4b4f0f9154d3907cb">More...</a><br /></td></tr>
+<tr class="separator:a9f222633e69a17f4b4f0f9154d3907cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55217237518bd94af169d5a92ec09ce6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a55217237518bd94af169d5a92ec09ce6">InterpolateControlPointMeasurement</a> {false}</td></tr>
+<tr class="memdesc:a55217237518bd94af169d5a92ec09ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag determining whether the filter should interpolate control point measurements.  <a href="#a55217237518bd94af169d5a92ec09ce6">More...</a><br /></td></tr>
 <tr class="separator:a55217237518bd94af169d5a92ec09ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3360af7bf686efa1ec0ab0c17f0f1a20"><td class="memItemLeft" align="right" valign="top">vtkWeakPointer&lt; vtkCollection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a3360af7bf686efa1ec0ab0c17f0f1a20">Measurements</a></td></tr>
+<tr class="memdesc:a3360af7bf686efa1ec0ab0c17f0f1a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measurement list from the markups node for derived measurements (such as interpolation)  <a href="#a3360af7bf686efa1ec0ab0c17f0f1a20">More...</a><br /></td></tr>
 <tr class="separator:a3360af7bf686efa1ec0ab0c17f0f1a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0365c739a0e1f23624a9fa4560fab021"><td class="memItemLeft" align="right" valign="top">vtkCollection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a0365c739a0e1f23624a9fa4560fab021">ObservedControlPointArrays</a></td></tr>
+<tr class="memdesc:a0365c739a0e1f23624a9fa4560fab021"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of observed control point arrays (for removal of observations)  <a href="#a0365c739a0e1f23624a9fa4560fab021">More...</a><br /></td></tr>
+<tr class="separator:a0365c739a0e1f23624a9fa4560fab021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Filter that generates curves between points of an input polydata. </p>
@@ -355,6 +373,56 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a854bf8136597f1a71981034b9a9d3884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a854bf8136597f1a71981034b9a9d3884">&#9670;&nbsp;</a></span>CurveIsClosedOff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkCurveMeasurementsCalculator::CurveIsClosedOff </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e9bff680d6137ceff15204988735843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e9bff680d6137ceff15204988735843">&#9670;&nbsp;</a></span>CurveIsClosedOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkCurveMeasurementsCalculator::CurveIsClosedOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a50e9415115933e4c2ca41a810852cf80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50e9415115933e4c2ca41a810852cf80">&#9670;&nbsp;</a></span>FillInputPortInformation()</h2>
 
@@ -427,6 +495,31 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual const char* vtkCurveMeasurementsCalculator::GetClassName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e2efe364df5e01fb247d39ac77f61d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e2efe364df5e01fb247d39ac77f61d5">&#9670;&nbsp;</a></span>GetCurveIsClosed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool vtkCurveMeasurementsCalculator::GetCurveIsClosed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -843,6 +936,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acf18980119d4aacb48cf86afefcbb5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf18980119d4aacb48cf86afefcbb5a0">&#9670;&nbsp;</a></span>SetCurveIsClosed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkCurveMeasurementsCalculator::SetCurveIsClosed </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This indicates whether the curve loops back in on itself, connecting the last point back to the first point (disabled by default). </p>
+
+</div>
+</div>
 <a id="acdd7f7a988129aedf7a76e9f43f0d95c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acdd7f7a988129aedf7a76e9f43f0d95c">&#9670;&nbsp;</a></span>SetInterpolateControlPointMeasurement()</h2>
 
@@ -911,7 +1031,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00073">73</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p>Flag determining whether the filter should calculate curvature. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00087">87</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -937,7 +1059,33 @@ Protected Attributes</h2></td></tr>
 
 <p>Command handling data array modified events. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00077">77</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00093">93</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="a9f222633e69a17f4b4f0f9154d3907cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f222633e69a17f4b4f0f9154d3907cb">&#9670;&nbsp;</a></span>CurveIsClosed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkCurveMeasurementsCalculator::CurveIsClosed {false}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag indicating whether the current curve is closed. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00084">84</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -961,7 +1109,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00074">74</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p>Flag determining whether the filter should interpolate control point measurements. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00090">90</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -985,7 +1135,35 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00072">72</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p>Measurement list from the markups node for derived measurements (such as interpolation) </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00081">81</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+
+</div>
+</div>
+<a id="a0365c739a0e1f23624a9fa4560fab021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0365c739a0e1f23624a9fa4560fab021">&#9670;&nbsp;</a></span>ObservedControlPointArrays</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkCollection* vtkCurveMeasurementsCalculator::ObservedControlPointArrays</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of observed control point arrays (for removal of observations) </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00095">95</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -995,7 +1173,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 29 2020 03:50:37 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 29 2020 17:20:42 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
