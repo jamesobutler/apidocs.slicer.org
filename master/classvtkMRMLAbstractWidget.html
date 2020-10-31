@@ -159,6 +159,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18d9e1148c3d53ea6244c69265e6176a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d189163ef64605ec6038514256b4a41"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#a8d189163ef64605ec6038514256b4a41">GetClassName</a> ()</td></tr>
 <tr class="separator:a8d189163ef64605ec6038514256b4a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a777b8aa9f5c1c30c8303b4ee5fbb946f"><td class="memItemLeft" align="right" valign="top">virtual vtkWidgetEventTranslator *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#a777b8aa9f5c1c30c8303b4ee5fbb946f">GetEventTranslator</a> (int widgetState)</td></tr>
+<tr class="separator:a777b8aa9f5c1c30c8303b4ee5fbb946f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c392602e0f24051087853b355666f50"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#a6c392602e0f24051087853b355666f50">GetGrabFocus</a> ()</td></tr>
 <tr class="separator:a6c392602e0f24051087853b355666f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a244f9d1f69c0c86153c950d70624fa0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLInteractionNode.html">vtkMRMLInteractionNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#a244f9d1f69c0c86153c950d70624fa0d">GetInteractionNode</a> ()</td></tr>
@@ -171,6 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7d0c47df917025b0070726c14ff74704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22bd0d29afc01ebdb42f3e98a0c68f4e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#a22bd0d29afc01ebdb42f3e98a0c68f4e">GetNeedToRender</a> ()</td></tr>
 <tr class="separator:a22bd0d29afc01ebdb42f3e98a0c68f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b6d26e8288be1a30d8debd91f0aab6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#ac0b6d26e8288be1a30d8debd91f0aab6">GetNumberOfEventTranslators</a> ()</td></tr>
+<tr class="separator:ac0b6d26e8288be1a30d8debd91f0aab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9340bf8acf00239bebe059d0c812a665"><td class="memItemLeft" align="right" valign="top">vtkRenderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#a9340bf8acf00239bebe059d0c812a665">GetRenderer</a> ()</td></tr>
 <tr class="separator:a9340bf8acf00239bebe059d0c812a665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac44407a8fad1bc75afbf2698dd79161c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classvtkMRMLAbstractWidgetRepresentation.html">vtkMRMLAbstractWidgetRepresentation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractWidget.html#ac44407a8fad1bc75afbf2698dd79161c">GetRepresentation</a> ()</td></tr>
@@ -487,6 +491,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a777b8aa9f5c1c30c8303b4ee5fbb946f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a777b8aa9f5c1c30c8303b4ee5fbb946f">&#9670;&nbsp;</a></span>GetEventTranslator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vtkWidgetEventTranslator* vtkMRMLAbstractWidget::GetEventTranslator </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>widgetState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6c392602e0f24051087853b355666f50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c392602e0f24051087853b355666f50">&#9670;&nbsp;</a></span>GetGrabFocus()</h2>
 
@@ -611,6 +641,31 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual bool vtkMRMLAbstractWidget::GetNeedToRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0b6d26e8288be1a30d8debd91f0aab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0b6d26e8288be1a30d8debd91f0aab6">&#9670;&nbsp;</a></span>GetNumberOfEventTranslators()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int vtkMRMLAbstractWidget::GetNumberOfEventTranslators </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1356,7 +1411,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00192">192</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00196">196</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1435,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00198">198</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00202">202</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1404,7 +1459,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00190">190</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00194">194</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1428,7 +1483,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00202">202</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00206">206</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1452,7 +1507,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00200">200</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAbstractWidget_8h_source.html#l00204">204</a> of file <a class="el" href="vtkMRMLAbstractWidget_8h_source.html">vtkMRMLAbstractWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1462,7 +1517,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 31 2020 01:20:41 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 31 2020 04:38:07 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
