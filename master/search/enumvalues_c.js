@@ -21,6 +21,7 @@ var searchData=
   ['normal',['Normal',['../classvtkMRMLCrosshairNode.html#a2631f1838bcd1909a0300d32ffa1c1e5ac6a78c94774d7d6894936302f7e1f300',1,'vtkMRMLCrosshairNode::Normal()'],['../classvtkMRMLViewNode.html#a110e8b20d399e6a4cb224db3ce1c5dd9adbd30fe6cff41c32fa6ad36b38153e59',1,'vtkMRMLViewNode::Normal()']]],
   ['normalized_5fcorrelation_5fmetric',['NORMALIZED_CORRELATION_METRIC',['../classitk_1_1OptimizedImageToImageRegistrationMethod.html#a2f50f4f290fa16030ad7d5121c1bf798acd1b43f202dcf428f846b914fdf1f6f1',1,'itk::OptimizedImageToImageRegistrationMethod']]],
   ['nostereo',['NoStereo',['../classvtkMRMLViewNode.html#ad48ba35ec83612ced024f351c6db7905a096dbde969289c35b0a82b988b857ce2',1,'vtkMRMLViewNode']]],
+  ['notconfirmed',['NotConfirmed',['../classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2ade3a1f9dd154b93068ff8e90b2e301a3',1,'qSlicerSegmentEditorAbstractEffect']]],
   ['notstarted',['NotStarted',['../classvtkSlicerSegmentationsModuleLogic.html#ab170ee5954320b4f13ad31ac813e71a6a8e0cbf635a519641c3aa87d9c5280c53',1,'vtkSlicerSegmentationsModuleLogic']]],
   ['nrrd_5fsequence_5ffile',['NRRD_SEQUENCE_FILE',['../vtkMRMLLinearTransformSequenceStorageNode_8h.html#af27440b9ac467499ecb68e4d52e1cce3aa175218641b4beb4fde316d492130020',1,'vtkMRMLLinearTransformSequenceStorageNode.h']]],
   ['num_5fcp_5fattribute_5ftypes',['NUM_CP_ATTRIBUTE_TYPES',['../classvtkMRMLAnnotationControlPointsNode.html#a946ac53b5e20eb0386b8df954fc6b7bcab72972391355f1f4db212b44bf3bb1f2',1,'vtkMRMLAnnotationControlPointsNode']]],

@@ -16,4 +16,6 @@ digraph "Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstra
   Node5 [label="QList",height=0.2,width=0.4,color="grey75"];
   Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 [label="QVector3D",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vtkWeakPointer.h",height=0.2,width=0.4,color="grey75"];
 }

@@ -101,6 +101,7 @@ var searchData=
   ['nosceneviewtext',['NoSceneViewText',['../classqMRMLSceneViewMenu.html#a7049d07a7898023439571b9810a38580',1,'qMRMLSceneViewMenu::NoSceneViewText()'],['../classqMRMLSceneViewMenu.html#ae84b49d94121bc8fe39a5cf60a255a64',1,'qMRMLSceneViewMenu::noSceneViewText() const']]],
   ['nosplash',['noSplash',['../classqSlicerCommandOptions.html#a4e9d24bc6898d9f833bdda0f54fe6d7f',1,'qSlicerCommandOptions::noSplash()'],['../classqSlicerCommandOptions.html#ad569412f34139ce74cfc9a243eafd3bf',1,'qSlicerCommandOptions::noSplash() const']]],
   ['nostereo',['NoStereo',['../classvtkMRMLViewNode.html#ad48ba35ec83612ced024f351c6db7905a096dbde969289c35b0a82b988b857ce2',1,'vtkMRMLViewNode']]],
+  ['notconfirmed',['NotConfirmed',['../classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2ade3a1f9dd154b93068ff8e90b2e301a3',1,'qSlicerSegmentEditorAbstractEffect']]],
   ['notify',['notify',['../classqSlicerApplication.html#a8004a567cbda256b62a07e520006b77f',1,'qSlicerApplication']]],
   ['notstarted',['NotStarted',['../classvtkSlicerSegmentationsModuleLogic.html#ab170ee5954320b4f13ad31ac813e71a6a8e0cbf635a519641c3aa87d9c5280c53',1,'vtkSlicerSegmentationsModuleLogic']]],
   ['nrrd',['nrrd',['../classvtkTeemNRRDReader.html#afe0a53184221c22d56fbe4afb173dc11',1,'vtkTeemNRRDReader']]],

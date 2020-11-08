@@ -105,6 +105,11 @@ Collaboration diagram for qSlicerSegmentEditorAbstractEffect:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a64af7a8d13b52af5f6b4f54552da03d2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2">ConfirmationResult</a> { <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2ade3a1f9dd154b93068ff8e90b2e301a3">NotConfirmed</a>, 
+<a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2a622e3b17b98d3819923406fbbf4b6f23">ConfirmedWithoutDialog</a>, 
+<a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2a2d10734fe671a262b8f8f9575b6a774d">ConfirmedWithDialog</a>
+ }</td></tr>
+<tr class="separator:a64af7a8d13b52af5f6b4f54552da03d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c853fc425439e80eebee0238cb67690"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a5c853fc425439e80eebee0238cb67690">ModificationMode</a> { <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a5c853fc425439e80eebee0238cb67690a928c02cbf00f799fbf4f6fd54981da41">ModificationModeSet</a>, 
 <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a5c853fc425439e80eebee0238cb67690a299dd81236718d771979c7cf40acffbd">ModificationModeAdd</a>, 
 <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a5c853fc425439e80eebee0238cb67690a9b1040be05e1e42c547886c5f6f3c557">ModificationModeRemove</a>, 
@@ -159,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d146a69c0a48c94f9f14a474447177b"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a1d146a69c0a48c94f9f14a474447177b">commonParameterDefined</a> (QString <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a040e5c04c8850472130e2480a5e3c99a">name</a>)</td></tr>
 <tr class="memdesc:a1d146a69c0a48c94f9f14a474447177b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the common parameter is already defined.  <a href="#a1d146a69c0a48c94f9f14a474447177b">More...</a><br /></td></tr>
 <tr class="separator:a1d146a69c0a48c94f9f14a474447177b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857c7c1194cb2ebe39777b3218e45cc9"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a857c7c1194cb2ebe39777b3218e45cc9">confirmCurrentSegmentVisible</a> ()</td></tr>
+<tr class="separator:a857c7c1194cb2ebe39777b3218e45cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f4d7a7a9da5c73c660d8f54505f658b"><td class="memItemLeft" align="right" valign="top">virtual QCursor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a8f4d7a7a9da5c73c660d8f54505f658b">createCursor</a> (<a class="el" href="classqMRMLWidget.html">qMRMLWidget</a> *viewWidget)</td></tr>
 <tr class="memdesc:a8f4d7a7a9da5c73c660d8f54505f658b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a cursor customized for the given effect, potentially for each view.  <a href="#a8f4d7a7a9da5c73c660d8f54505f658b">More...</a><br /></td></tr>
 <tr class="separator:a8f4d7a7a9da5c73c660d8f54505f658b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -375,6 +382,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad775d56596963d52ba3acc86903e6655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac31b4202aa698d7547030236fe86f136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#ac31b4202aa698d7547030236fe86f136">m_Active</a> {false}</td></tr>
 <tr class="separator:ac31b4202aa698d7547030236fe86f136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979405140753b2e7613c2ddd562c7154"><td class="memItemLeft" align="right" valign="top">vtkWeakPointer&lt; <a class="el" href="classvtkSegment.html">vtkSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a979405140753b2e7613c2ddd562c7154">m_AlreadyConfirmedSegmentVisible</a></td></tr>
+<tr class="separator:a979405140753b2e7613c2ddd562c7154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a096210a45ef01a78c258f29820f57f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a7a096210a45ef01a78c258f29820f57f">m_EraseValue</a> {0.0}</td></tr>
 <tr class="separator:a7a096210a45ef01a78c258f29820f57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaee960f8ce354b9ee3bfc023159c8cc0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#aaee960f8ce354b9ee3bfc023159c8cc0">m_FillValue</a> {1.0}</td></tr>
@@ -394,7 +403,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class for segment editor effects. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00058">58</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00061">61</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ad2c973a4d0e4a6997062b2e93b6a9a04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2c973a4d0e4a6997062b2e93b6a9a04">&#9670;&nbsp;</a></span>Superclass</h2>
@@ -408,11 +417,32 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00090">90</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00094">94</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a64af7a8d13b52af5f6b4f54552da03d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64af7a8d13b52af5f6b4f54552da03d2">&#9670;&nbsp;</a></span>ConfirmationResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2">qSlicerSegmentEditorAbstractEffect::ConfirmationResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a64af7a8d13b52af5f6b4f54552da03d2ade3a1f9dd154b93068ff8e90b2e301a3"></a>NotConfirmed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64af7a8d13b52af5f6b4f54552da03d2a622e3b17b98d3819923406fbbf4b6f23"></a>ConfirmedWithoutDialog&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64af7a8d13b52af5f6b4f54552da03d2a2d10734fe671a262b8f8f9575b6a774d"></a>ConfirmedWithDialog&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00109">109</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+
+</div>
+</div>
 <a id="a5c853fc425439e80eebee0238cb67690"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c853fc425439e80eebee0238cb67690">&#9670;&nbsp;</a></span>ModificationMode</h2>
 
@@ -431,7 +461,7 @@ Protected Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a5c853fc425439e80eebee0238cb67690a908f4328f83de46cb0b332edebb3a491"></a>ModificationModeRemoveAll&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00097">97</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00101">101</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -459,7 +489,7 @@ Protected Attributes</h2></td></tr>
 <dd>
 <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#ab132340479779445070ebbf47823ba03">setName()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00067">67</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00071">71</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -486,7 +516,7 @@ Protected Attributes</h2></td></tr>
 <dd>
 <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#aa993e6cbe1226312aa65390106002961">setPerSegment</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00073">73</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00077">77</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -513,7 +543,7 @@ Protected Attributes</h2></td></tr>
 <dd>
 <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#a23535614e720ae805df94b56a7a8149c" title="If this property is set to true then this effect is enabled only when the segmentation has segment(s)...">setRequireSegments</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00079">79</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00083">83</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -538,7 +568,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Show effect cursor in slice view. If false then default arrow cursor will be shown. True by default. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00083">83</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00087">87</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -563,7 +593,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Show effect cursor in slice view. If false then default arrow cursor will be shown. False by default. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00087">87</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00091">91</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -916,6 +946,24 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a857c7c1194cb2ebe39777b3218e45cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a857c7c1194cb2ebe39777b3218e45cc9">&#9670;&nbsp;</a></span>confirmCurrentSegmentVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE int qSlicerSegmentEditorAbstractEffect::confirmCurrentSegmentVisible </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If current segment is not visible then asks the user to confirm that the operation is intended to be performed on the current segment. Returns NotConfirmed (0) if operation should not proceed with the current segment. Returns ConfirmedWithoutDialog if operation should proceed with the current segment and dialog was not displayed. Returns ConfirmedWithDialog if operation should proceed with the current segment and dialog was displayed. </p>
+
+</div>
+</div>
 <a id="a8f4d7a7a9da5c73c660d8f54505f658b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f4d7a7a9da5c73c660d8f54505f658b">&#9670;&nbsp;</a></span>createCursor()</h2>
 
@@ -1105,7 +1153,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a41245d4dc8d8f83ea3d805f82c5c2eca">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a70e057294b4e5cfb6f83fe88031c09c5">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#abf4ab329556fd889109e40fe19f7e4a2">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a2aa5cd79f28c05ee82864da61a757368">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a73963ad55956b7a912fb5efefa3e11c1">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#a6bd1d92b71ba27097f6881b750793565">qSlicerSegmentEditorEraseEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00109">109</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00120">120</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1184,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a0661a6a9171cbd338a30175ed20a80a9">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#af5e2387b555825501ae7d9b7fbc83214">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a26936e1125815b7072703e91dea13416">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#aa6aeaab5886c51f3acee1c0b4a0237c8">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a00895e759e595597c8c14b6328a7727c">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorEraseEffect.html#a6d0ac7c2892798ca279d81ae00665f5d">qSlicerSegmentEditorEraseEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00106">106</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00117">117</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1216,7 +1264,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a4320bc112a3630939c98ff0b0e7e2f60">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#abfdd3eb3ef5a6713f177e9dff01a7865">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a67715e53edd573df68d3b89a968a0f04">qSlicerSegmentEditorScriptedPaintEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00174">174</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00185">185</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1281,7 +1329,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#a6b82e4e1b2afb20097f5efa723fa5d99">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a7becb623b90fdf93de8850081dc27888">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a988e1bc38f1faf3dbc4f956c092eadda">qSlicerSegmentEditorScriptedPaintEffect</a>, and <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a099ee447d2771444df93b5c9e9f485e7">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00172">172</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00183">183</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1759,7 +1807,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#afb14a7953df1df71458072fb0dba06c6">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#aef231ecc7a8c221d91488401e6ef9dd0">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a80e87b7f6ba34faa1715a1320b91f12c">qSlicerSegmentEditorScissorsEffect</a>, and <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a6ee03d5ad748a4c6b7d0edfdfccfb306">qSlicerSegmentEditorPaintEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00153">153</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00164">164</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1824,7 +1872,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#ac3d56df0d6205d420e9134f8150ebf1f">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#afcab9266544e3d02efc3108b151467d8">qSlicerSegmentEditorScriptedLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a91cff00a5a41f2ea9de3a4514653e710">qSlicerSegmentEditorPaintEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00160">160</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00171">171</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -1930,7 +1978,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#aeff0fd08f73cdb8cd7aff14ec5a546e3">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#a021725dba7d19fae572bc65b31eaae64">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#aa9bf7b2773c6868c623efd08c8ff7c17">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#af0ae0efe298f817bc657208b12d62c90">qSlicerSegmentEditorPaintEffect</a>, and <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#aa45b9858ac2c46eec60afec82dee36d8">qSlicerSegmentEditorAbstractLabelEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00169">169</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00180">180</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -2827,7 +2875,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classqSlicerSegmentEditorScriptedEffect.html#ad792efea1e7a5925e2f2ae14e35c44ce">qSlicerSegmentEditorScriptedEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedLabelEffect.html#adb7e4e90637703d921421bd7af82da3c">qSlicerSegmentEditorScriptedLabelEffect</a>, <a class="el" href="classqSlicerSegmentEditorScriptedPaintEffect.html#a0598bbc81f635f060876ea7ce4915787">qSlicerSegmentEditorScriptedPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorPaintEffect.html#a7ac0a47c1f190670ec7a458765d00616">qSlicerSegmentEditorPaintEffect</a>, <a class="el" href="classqSlicerSegmentEditorAbstractLabelEffect.html#a8de23d124905f7e04cf4d3b5040e2c56">qSlicerSegmentEditorAbstractLabelEffect</a>, and <a class="el" href="classqSlicerSegmentEditorScissorsEffect.html#a3f7e3004eca40a9b96ddbdd082c62315">qSlicerSegmentEditorScissorsEffect</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00143">143</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00154">154</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3517,7 +3565,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00415">415</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00437">437</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3541,7 +3589,32 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00398">398</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00416">416</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+
+</div>
+</div>
+<a id="a979405140753b2e7613c2ddd562c7154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a979405140753b2e7613c2ddd562c7154">&#9670;&nbsp;</a></span>m_AlreadyConfirmedSegmentVisible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkWeakPointer&lt;<a class="el" href="classvtkSegment.html">vtkSegment</a>&gt; qSlicerSegmentEditorAbstractEffect::m_AlreadyConfirmedSegmentVisible</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>No confirmation will be displayed for editing this segment. This is needed to ensure that editing of a hidden segment is only asked once. </p>
+
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00434">434</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3565,7 +3638,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00412">412</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00430">430</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3589,7 +3662,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00411">411</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00429">429</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3615,7 +3688,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Name of the effect. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00397">397</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00415">415</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3640,7 +3713,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Flag indicating whether effect operates on individual segments (true) or the whole segmentation (false). If the selected effect works on whole segmentation, selection of the segments does not trigger creation of modifier labelmap, but it is set to empty in the parameter set node. True by default. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00404">404</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00422">422</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3664,7 +3737,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00406">406</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00424">424</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3688,7 +3761,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00408">408</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00426">426</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3712,7 +3785,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00409">409</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html#l00427">427</a> of file <a class="el" href="qSlicerSegmentEditorAbstractEffect_8h_source.html">qSlicerSegmentEditorAbstractEffect.h</a>.</p>
 
 </div>
 </div>
@@ -3722,7 +3795,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 8 2020 03:02:38 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 8 2020 03:25:26 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

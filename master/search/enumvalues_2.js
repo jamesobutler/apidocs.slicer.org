@@ -51,6 +51,8 @@ var searchData=
   ['composite',['Composite',['../classvtkMRMLViewNode.html#afca7f0472742bc6f297de5361daf6d14a7473cf6dee387b213b392320841d6d88',1,'vtkMRMLViewNode']]],
   ['compositeedgecoloring',['CompositeEdgeColoring',['../classvtkMRMLViewNode.html#afca7f0472742bc6f297de5361daf6d14a33298a2f1cd3e555871752ad291469c2',1,'vtkMRMLViewNode']]],
   ['compositemodifiedevent',['CompositeModifiedEvent',['../classvtkMRMLSliceLogic.html#af3f191bd3d6c56fdcd54216050ed039fa1085efc7b5312cb975574fda6944363f',1,'vtkMRMLSliceLogic']]],
+  ['confirmedwithdialog',['ConfirmedWithDialog',['../classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2a2d10734fe671a262b8f8f9575b6a774d',1,'qSlicerSegmentEditorAbstractEffect']]],
+  ['confirmedwithoutdialog',['ConfirmedWithoutDialog',['../classqSlicerSegmentEditorAbstractEffect.html#a64af7a8d13b52af5f6b4f54552da03d2a622e3b17b98d3819923406fbbf4b6f23',1,'qSlicerSegmentEditorAbstractEffect']]],
   ['containedrepresentationnamesmodified',['ContainedRepresentationNamesModified',['../classvtkSegmentation.html#ac2332102110f3eca37032defec45c36eadd4f1665257476ddcc994e1dbe882772',1,'vtkSegmentation']]],
   ['controlpointmodifiedevent',['ControlPointModifiedEvent',['../classvtkMRMLAnnotationControlPointsNode.html#a5e3e779f7d66362975d500b6448ae220a467c786415da95b2a28a9bddf2f19a6e',1,'vtkMRMLAnnotationControlPointsNode']]],
   ['cool1',['Cool1',['../classvtkMRMLColorTableNode.html#ae9dfde28ebaf318b3207569a7bd7c9e4a4b41055d070e016c39981990b83e543c',1,'vtkMRMLColorTableNode']]],

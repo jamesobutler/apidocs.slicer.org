@@ -250,6 +250,7 @@ var searchData=
   ['configurefordataexchange',['ConfigureForDataExchange',['../classvtkMRMLNRRDStorageNode.html#ac42c372ccb04056bafe42b3e2c30e374',1,'vtkMRMLNRRDStorageNode::ConfigureForDataExchange()'],['../classvtkMRMLStorageNode.html#a7b0a6a3a8bbf4f24f2db069f0c5c4855',1,'vtkMRMLStorageNode::ConfigureForDataExchange()'],['../classvtkMRMLVolumeArchetypeStorageNode.html#a507a5cec9aaf72bd29156ab4d2c49e39',1,'vtkMRMLVolumeArchetypeStorageNode::ConfigureForDataExchange()']]],
   ['configureticks',['ConfigureTicks',['../classvtkSlicerScalarBarActor.html#a7c60f4807395cc4bce63ccfb04b3afe0',1,'vtkSlicerScalarBarActor']]],
   ['confirmclose',['confirmClose',['../classqSlicerExtensionsManagerWidget.html#a3c643c1007733093064f40242eb864de',1,'qSlicerExtensionsManagerWidget']]],
+  ['confirmcurrentsegmentvisible',['confirmCurrentSegmentVisible',['../classqSlicerSegmentEditorAbstractEffect.html#a857c7c1194cb2ebe39777b3218e45cc9',1,'qSlicerSegmentEditorAbstractEffect']]],
   ['confirmrestart',['confirmRestart',['../classqSlicerApplication.html#a68c525cf3fe63773ca4c24a2442c1b32',1,'qSlicerApplication']]],
   ['confirmtypechange',['confirmTypeChange',['../classqSlicerTableColumnPropertiesWidget.html#aea9d8773f7de04e21d54407c17ca1f38',1,'qSlicerTableColumnPropertiesWidget']]],
   ['connect',['Connect',['../classvtkMRMLScene.html#afc593419da482cb2e582e5b6a0b9162a',1,'vtkMRMLScene::Connect()'],['../classitk_1_1TimeSeriesDatabase.html#a648832b484f7cf6e13db4bb044c890e6',1,'itk::TimeSeriesDatabase::Connect()']]],
