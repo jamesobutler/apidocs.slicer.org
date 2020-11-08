@@ -396,6 +396,7 @@ var searchData=
   ['getcurvedirectionatpointindexworld',['GetCurveDirectionAtPointIndexWorld',['../classvtkMRMLMarkupsCurveNode.html#a581ba9ad41bcec50d2638b0a41020ca3',1,'vtkMRMLMarkupsCurveNode']]],
   ['getcurvegenerator',['GetCurveGenerator',['../classvtkMRMLMarkupsNode.html#a61ccccdbbd4fd0f04a60a4b01ad20cb8',1,'vtkMRMLMarkupsNode']]],
   ['getcurveisclosed',['GetCurveIsClosed',['../classvtkCurveGenerator.html#aaec57444dc2565ed58ee984c84eef5ac',1,'vtkCurveGenerator::GetCurveIsClosed()'],['../classvtkCurveMeasurementsCalculator.html#a3e2efe364df5e01fb247d39ac77f61d5',1,'vtkCurveMeasurementsCalculator::GetCurveIsClosed()']]],
+  ['getcurveisloop',['GetCurveIsLoop',['../classvtkCurveGenerator.html#aba00a6d8c385d05c77df2d38f9b9f6e3',1,'vtkCurveGenerator']]],
   ['getcurvelength',['GetCurveLength',['../classvtkMRMLMarkupsCurveNode.html#abeceff588144c7924a3bf32288c20385',1,'vtkMRMLMarkupsCurveNode']]],
   ['getcurvelengthbetweenstartendpointsworld',['GetCurveLengthBetweenStartEndPointsWorld',['../classvtkMRMLMarkupsCurveNode.html#ada92d6338f6819cb8adcc60c22547c1b',1,'vtkMRMLMarkupsCurveNode']]],
   ['getcurvelengthworld',['GetCurveLengthWorld',['../classvtkMRMLMarkupsCurveNode.html#affa8b21587715faabc3b83e2d1db1446',1,'vtkMRMLMarkupsCurveNode']]],

@@ -756,6 +756,8 @@ var searchData=
   ['curveisclosed',['CurveIsClosed',['../classvtkCurveGenerator.html#a6452713dbd7fea2efd54af287c5cc258',1,'vtkCurveGenerator::CurveIsClosed()'],['../classvtkCurveMeasurementsCalculator.html#a9f222633e69a17f4b4f0f9154d3907cb',1,'vtkCurveMeasurementsCalculator::CurveIsClosed()']]],
   ['curveisclosedoff',['CurveIsClosedOff',['../classvtkCurveGenerator.html#a0c21831a480c22b4a71d7bce482b7619',1,'vtkCurveGenerator::CurveIsClosedOff()'],['../classvtkCurveMeasurementsCalculator.html#a854bf8136597f1a71981034b9a9d3884',1,'vtkCurveMeasurementsCalculator::CurveIsClosedOff()']]],
   ['curveisclosedon',['CurveIsClosedOn',['../classvtkCurveGenerator.html#ac82047ea3b485c8845890eb2eee2bfc5',1,'vtkCurveGenerator::CurveIsClosedOn()'],['../classvtkCurveMeasurementsCalculator.html#a7e9bff680d6137ceff15204988735843',1,'vtkCurveMeasurementsCalculator::CurveIsClosedOn()']]],
+  ['curveisloopoff',['CurveIsLoopOff',['../classvtkCurveGenerator.html#a08bd927f8f5628c0ab3b2322d6907ee1',1,'vtkCurveGenerator']]],
+  ['curveisloopon',['CurveIsLoopOn',['../classvtkCurveGenerator.html#a17569c9dbb3811c7453a6f77ced7e8b9',1,'vtkCurveGenerator']]],
   ['curvelinesizeisabsolute',['curveLineSizeIsAbsolute',['../classqMRMLMarkupsDisplayNodeWidget.html#abeeb2219e9c0e85931efb826206803da',1,'qMRMLMarkupsDisplayNodeWidget']]],
   ['curvelinesizemode',['CurveLineSizeMode',['../classvtkMRMLMarkupsDisplayNode.html#ac6d14ddefffdf5d3ea219082cd2ac858',1,'vtkMRMLMarkupsDisplayNode']]],
   ['curvelinesizemode_5flast',['CurveLineSizeMode_Last',['../classvtkMRMLMarkupsDisplayNode.html#a5e3be6d7c23cc26dcdaa0841fbbeabcba4050b12ff6b66b2bba300d22dc47c113',1,'vtkMRMLMarkupsDisplayNode']]],
