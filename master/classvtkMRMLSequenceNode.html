@@ -1108,7 +1108,7 @@ Copy the node's attributes to this object </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns <a class="el" href="classvtkMRMLVolumeSequenceStorageNode.html">vtkMRMLVolumeSequenceStorageNode</a> or <a class="el" href="classvtkMRMLLinearTransformSequenceStorageNode.html">vtkMRMLLinearTransformSequenceStorageNode</a> if applicable (sequence contains volumes with the same type and geometry; or a list of linear transforms) and generic <a class="el" href="classvtkMRMLSequenceStorageNode.html" title="MRML node for storing a sequence node on disk. ">vtkMRMLSequenceStorageNode</a> otherwise. </p>
+<p>Returns the most specific storage node possible (such as stvtkMRMLVolumeSequenceStorageNode if sequence contains volumes with the same type and geometry, or <a class="el" href="classvtkMRMLLinearTransformSequenceStorageNode.html">vtkMRMLLinearTransformSequenceStorageNode</a> if sequence contains a list of linear transforms) and generic <a class="el" href="classvtkMRMLSequenceStorageNode.html" title="MRML node for storing a sequence node on disk. ">vtkMRMLSequenceStorageNode</a> otherwise. </p>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLStorableNode.html#a3c7ac2015aaa5ced1098fa07ec0eb3c1">vtkMRMLStorableNode</a>.</p>
 
@@ -2164,7 +2164,7 @@ Copy the node's attributes to this object </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 15 2020 21:35:54 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 05:53:38 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
