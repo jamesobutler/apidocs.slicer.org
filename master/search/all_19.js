@@ -17,5 +17,5 @@ var searchData=
   ['yaxistitlevisibilityon',['YAxisTitleVisibilityOn',['../classvtkMRMLPlotChartNode.html#ad2393d1f435c8488610a3fbd66910093',1,'vtkMRMLPlotChartNode']]],
   ['ycolumnname',['YColumnName',['../classvtkMRMLPlotSeriesNode.html#a68237facb9993e34270a8a1264c3b845',1,'vtkMRMLPlotSeriesNode']]],
   ['yellow',['Yellow',['../classvtkMRMLColorTableNode.html#ae9dfde28ebaf318b3207569a7bd7c9e4a322fe7f254af659f3f2b9458a239bd1b',1,'vtkMRMLColorTableNode::Yellow()'],['../classqMRMLScreenShotDialog.html#ad0ea3e30c5a1d8327a4b547cdfab94a9aa12157fe8b3a18269c8f36fbef0792f5',1,'qMRMLScreenShotDialog::Yellow()']]],
-  ['yellowsliceclipstate',['YellowSliceClipState',['../classvtkMRMLClipModelsNode.html#a2fa1975afa020e54ad4b591ba12d2dec',1,'vtkMRMLClipModelsNode::YellowSliceClipState()'],['../classqMRMLClipNodeWidget.html#a0325619becc94d375f871929df191b6a',1,'qMRMLClipNodeWidget::yellowSliceClipState()']]]
+  ['yellowsliceclipstate',['yellowSliceClipState',['../classqMRMLClipNodeWidget.html#a0325619becc94d375f871929df191b6a',1,'qMRMLClipNodeWidget::yellowSliceClipState()'],['../classvtkMRMLClipModelsNode.html#a2fa1975afa020e54ad4b591ba12d2dec',1,'vtkMRMLClipModelsNode::YellowSliceClipState()']]]
 ];

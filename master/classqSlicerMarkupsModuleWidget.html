@@ -123,6 +123,9 @@ Public Slots</h2></td></tr>
 <tr class="separator:aaa3b3a544ee64a73067ee3d1539232de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acec8f57e439f5058657e2d5064079a5b"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#acec8f57e439f5058657e2d5064079a5b">getOtherMarkupNames</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *thisMarkup)</td></tr>
 <tr class="separator:acec8f57e439f5058657e2d5064079a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5341940b39ec131cda0317e54f495a0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#a5341940b39ec131cda0317e54f495a0a">observeMeasurementsInCurrentMarkupsNode</a> ()</td></tr>
+<tr class="memdesc:a5341940b39ec131cda0317e54f495a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make sure all measurements in the current markups node are observed.  <a href="#a5341940b39ec131cda0317e54f495a0a">More...</a><br /></td></tr>
+<tr class="separator:a5341940b39ec131cda0317e54f495a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd94269357b022fb67937ac2ec18c061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#afd94269357b022fb67937ac2ec18c061">onActiveMarkupItemChanged</a> (vtkIdType)</td></tr>
 <tr class="memdesc:afd94269357b022fb67937ac2ec18c061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the selection node from the tree view.  <a href="#afd94269357b022fb67937ac2ec18c061">More...</a><br /></td></tr>
 <tr class="separator:afd94269357b022fb67937ac2ec18c061"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,6 +205,15 @@ Public Slots</h2></td></tr>
 <tr class="separator:ad54a153f3678d516b14d15993b030930"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabfb93b4df7ad3e66272357f22b2a6fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#aabfb93b4df7ad3e66272357f22b2a6fe">onLockAllMarkupsInListToggled</a> ()</td></tr>
 <tr class="separator:aabfb93b4df7ad3e66272357f22b2a6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775fbd55290c6b5a9c5c7cc9028238c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#a775fbd55290c6b5a9c5c7cc9028238c1">onMeasurementEnabledCheckboxToggled</a> (bool on)</td></tr>
+<tr class="memdesc:a775fbd55290c6b5a9c5c7cc9028238c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable measurement when an enable checkbox has been toggled.  <a href="#a775fbd55290c6b5a9c5c7cc9028238c1">More...</a><br /></td></tr>
+<tr class="separator:a775fbd55290c6b5a9c5c7cc9028238c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3228cfe36530f26a693c3dbb0531c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#a2c3228cfe36530f26a693c3dbb0531c7">onMeasurementModified</a> (vtkObject *caller)</td></tr>
+<tr class="memdesc:a2c3228cfe36530f26a693c3dbb0531c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update measurement information on GUI when a measurement is modified.  <a href="#a2c3228cfe36530f26a693c3dbb0531c7">More...</a><br /></td></tr>
+<tr class="separator:a2c3228cfe36530f26a693c3dbb0531c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b902e37f6022d269ff2b2c8de5b2f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#ab6b902e37f6022d269ff2b2c8de5b2f1">onMeasurementsCollectionModified</a> ()</td></tr>
+<tr class="memdesc:ab6b902e37f6022d269ff2b2c8de5b2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update observations on measurements when their container is modified (i.e. measurement added or removed)  <a href="#ab6b902e37f6022d269ff2b2c8de5b2f1">More...</a><br /></td></tr>
+<tr class="separator:ab6b902e37f6022d269ff2b2c8de5b2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1db08b117b2cb568ff9f667d2f856c59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#a1db08b117b2cb568ff9f667d2f856c59">onMoveMarkupDownPushButtonClicked</a> ()</td></tr>
 <tr class="separator:a1db08b117b2cb568ff9f667d2f856c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c49ace9032852634a827263c6ebcfb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#a8c49ace9032852634a827263c6ebcfb8">onMoveMarkupUpPushButtonClicked</a> ()</td></tr>
@@ -271,6 +283,12 @@ Public Slots</h2></td></tr>
 <tr class="separator:a0c791680c188b22e5cdeecf68f2864e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a793d0c832312bd7747095b9a92270d12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#a793d0c832312bd7747095b9a92270d12">pasteSelectedFromClipboard</a> ()</td></tr>
 <tr class="separator:a793d0c832312bd7747095b9a92270d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eff0b3db3cdcb071ce8eeddf3e521b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#a6eff0b3db3cdcb071ce8eeddf3e521b0">populateMeasurementSettingsTable</a> ()</td></tr>
+<tr class="memdesc:a6eff0b3db3cdcb071ce8eeddf3e521b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate measurement settings frame from the available measurements in the current markup.  <a href="#a6eff0b3db3cdcb071ce8eeddf3e521b0">More...</a><br /></td></tr>
+<tr class="separator:a6eff0b3db3cdcb071ce8eeddf3e521b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae059abf7cdfeedec18f86b76130c79b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerMarkupsModuleWidget.html#ae059abf7cdfeedec18f86b76130c79b0">updateMeasurementsDescriptionLabel</a> ()</td></tr>
+<tr class="memdesc:ae059abf7cdfeedec18f86b76130c79b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update measurements description label.  <a href="#ae059abf7cdfeedec18f86b76130c79b0">More...</a><br /></td></tr>
+<tr class="separator:ae059abf7cdfeedec18f86b76130c79b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_slots_classqSlicerWidget"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_classqSlicerWidget')"><img src="closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="classqSlicerWidget.html">qSlicerWidget</a></td></tr>
 <tr class="memitem:a0af0e7dd98cd52de330409ae2ced82e3 inherit pub_slots_classqSlicerWidget"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerWidget.html#a0af0e7dd98cd52de330409ae2ced82e3">setMRMLScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene) override</td></tr>
 <tr class="separator:a0af0e7dd98cd52de330409ae2ced82e3 inherit pub_slots_classqSlicerWidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -703,6 +721,33 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns a confidence value (between 0.0 and 1.0) that defines how much this widget is suitable for editing the provided node. In general value of 0.5 should be used. If the returned value is 0 then it means the node should not be attempted to set as edited node. This node has to be overridden in child classes that want to use a non-default confidence value (for example, they look into the node contents and decide based on that if the node belongs to this module). </p>
 
 <p>Reimplemented from <a class="el" href="classqSlicerAbstractModuleWidget.html#adebae2ce9686043d7f9dee09620b28bb">qSlicerAbstractModuleWidget</a>.</p>
+
+</div>
+</div>
+<a id="a5341940b39ec131cda0317e54f495a0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5341940b39ec131cda0317e54f495a0a">&#9670;&nbsp;</a></span>observeMeasurementsInCurrentMarkupsNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerMarkupsModuleWidget::observeMeasurementsInCurrentMarkupsNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Make sure all measurements in the current markups node are observed. </p>
 
 </div>
 </div>
@@ -1578,6 +1623,89 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a775fbd55290c6b5a9c5c7cc9028238c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775fbd55290c6b5a9c5c7cc9028238c1">&#9670;&nbsp;</a></span>onMeasurementEnabledCheckboxToggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerMarkupsModuleWidget::onMeasurementEnabledCheckboxToggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>on</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable/disable measurement when an enable checkbox has been toggled. </p>
+
+</div>
+</div>
+<a id="a2c3228cfe36530f26a693c3dbb0531c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c3228cfe36530f26a693c3dbb0531c7">&#9670;&nbsp;</a></span>onMeasurementModified</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerMarkupsModuleWidget::onMeasurementModified </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *&#160;</td>
+          <td class="paramname"><em>caller</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update measurement information on GUI when a measurement is modified. </p>
+
+</div>
+</div>
+<a id="ab6b902e37f6022d269ff2b2c8de5b2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6b902e37f6022d269ff2b2c8de5b2f1">&#9670;&nbsp;</a></span>onMeasurementsCollectionModified</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerMarkupsModuleWidget::onMeasurementsCollectionModified </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update observations on measurements when their container is modified (i.e. measurement added or removed) </p>
+
+</div>
+</div>
 <a id="a1db08b117b2cb568ff9f667d2f856c59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1db08b117b2cb568ff9f667d2f856c59">&#9670;&nbsp;</a></span>onMoveMarkupDownPushButtonClicked</h2>
 
@@ -2336,6 +2464,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a6eff0b3db3cdcb071ce8eeddf3e521b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eff0b3db3cdcb071ce8eeddf3e521b0">&#9670;&nbsp;</a></span>populateMeasurementSettingsTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerMarkupsModuleWidget::populateMeasurementSettingsTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Populate measurement settings frame from the available measurements in the current markup. </p>
+
+</div>
+</div>
 <a id="a0a68fae0bc436791fd9497354ea7c22a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a68fae0bc436791fd9497354ea7c22a">&#9670;&nbsp;</a></span>setEditedNode()</h2>
 
@@ -2484,6 +2639,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ae059abf7cdfeedec18f86b76130c79b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae059abf7cdfeedec18f86b76130c79b0">&#9670;&nbsp;</a></span>updateMeasurementsDescriptionLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerMarkupsModuleWidget::updateMeasurementsDescriptionLabel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update measurements description label. </p>
+
+</div>
+</div>
 <a id="a9bc88c4af94cc58358951cd68cc02a0b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9bc88c4af94cc58358951cd68cc02a0b">&#9670;&nbsp;</a></span>updateRow()</h2>
 
@@ -2560,7 +2742,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html#l00237">237</a> of file <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html">qSlicerMarkupsModuleWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html#l00250">250</a> of file <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html">qSlicerMarkupsModuleWidget.h</a>.</p>
 
 </div>
 </div>
@@ -2585,7 +2767,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>A multiplication factor to apply to the maximum volume slice spacing when determining what the maximum value for the scale sliders should be. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerMarkupsModuleWidget.html#a19452253a1f6872f9113d4eace66a231">updateMaximumScaleFromVolumes</a> Default: 10.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html#l00244">244</a> of file <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html">qSlicerMarkupsModuleWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html#l00257">257</a> of file <a class="el" href="qSlicerMarkupsModuleWidget_8h_source.html">qSlicerMarkupsModuleWidget.h</a>.</p>
 
 </div>
 </div>
@@ -2595,7 +2777,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 16:34:43 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 18 2020 15:05:32 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

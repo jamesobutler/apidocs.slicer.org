@@ -44,6 +44,7 @@ var searchData=
   ['lastactivewidget',['LastActiveWidget',['../classvtkMRMLMarkupsDisplayableManager.html#ae4c1b41cea8913cbe26e81597ab850b1',1,'vtkMRMLMarkupsDisplayableManager']]],
   ['lastaddedcolor',['LastAddedColor',['../classvtkMRMLColorTableNode.html#a0b1c2ac619060c11a610313810f4fe34',1,'vtkMRMLColorTableNode']]],
   ['lastclickworldcoordinates',['LastClickWorldCoordinates',['../classvtkMRMLAnnotationDisplayableManager.html#af6a9d30f16227e5076cdb05a51ed2b67',1,'vtkMRMLAnnotationDisplayableManager::LastClickWorldCoordinates()'],['../classvtkMRMLMarkupsDisplayableManager.html#a8045f93fa536d966e808e6572ba5d4cc',1,'vtkMRMLMarkupsDisplayableManager::LastClickWorldCoordinates()']]],
+  ['lastcomputationresult',['LastComputationResult',['../classvtkMRMLMeasurement.html#abe35ced2cb9b9b54270b3e1fce6450dc',1,'vtkMRMLMeasurement']]],
   ['lastdisplaystring',['LastDisplayString',['../classvtkMRMLUnitNode.html#a50ab0e0afba93ee4ae2d96d63e63ed5a',1,'vtkMRMLUnitNode']]],
   ['lastelapsedtime',['LastElapsedTime',['../classvtkObservation.html#a4d8abfa6124f23387430350050734a4f',1,'vtkObservation']]],
   ['lasteventposition',['LastEventPosition',['../classvtkMRMLSliceIntersectionRepresentation2D.html#ab70ee338ec95102758f652cf99b7d598',1,'vtkMRMLSliceIntersectionRepresentation2D::LastEventPosition()'],['../classvtkAnnotationROIRepresentation.html#a25b5a0113b7998c490e473d9e71b7abe',1,'vtkAnnotationROIRepresentation::LastEventPosition()'],['../classvtkSlicerMarkupsWidget.html#afad80f5fd0f041c2d323bf0634f7a5eb',1,'vtkSlicerMarkupsWidget::LastEventPosition()']]],

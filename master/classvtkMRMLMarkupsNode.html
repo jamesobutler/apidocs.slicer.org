@@ -1006,7 +1006,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ae2c45684d7540dc25213194c4f2d09c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLMarkupsNode.html#a1733126d9ce30e4caaab532752e65d28">ControlPointsListType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ae2c45684d7540dc25213194c4f2d09c6">ControlPoints</a></td></tr>
 <tr class="memdesc:ae2c45684d7540dc25213194c4f2d09c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of control points.  <a href="#ae2c45684d7540dc25213194c4f2d09c6">More...</a><br /></td></tr>
 <tr class="separator:ae2c45684d7540dc25213194c4f2d09c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91e4b6bab896cbe8a5e99807e96ffdf2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a91e4b6bab896cbe8a5e99807e96ffdf2">CurveClosed</a></td></tr>
+<tr class="memitem:a91e4b6bab896cbe8a5e99807e96ffdf2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a91e4b6bab896cbe8a5e99807e96ffdf2">CurveClosed</a> {false}</td></tr>
 <tr class="separator:a91e4b6bab896cbe8a5e99807e96ffdf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b42d0bc409f25107e0e27b4ce2db6e6"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkFrenetSerretFrame &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8b42d0bc409f25107e0e27b4ce2db6e6">CurveCoordinateSystemGeneratorWorld</a></td></tr>
 <tr class="separator:a8b42d0bc409f25107e0e27b4ce2db6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1022,25 +1022,24 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a730d1886b295b1936a225f06726086d3"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkMatrix4x4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a730d1886b295b1936a225f06726086d3">InteractionHandleToWorldMatrix</a></td></tr>
 <tr class="memdesc:a730d1886b295b1936a225f06726086d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform that moves the xyz unit vectors and origin of the interaction handles to local coordinates.  <a href="#a730d1886b295b1936a225f06726086d3">More...</a><br /></td></tr>
 <tr class="separator:a730d1886b295b1936a225f06726086d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62680d6013f0a338afb25a41e0ceb6fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">IsUpdatingPoints</a></td></tr>
+<tr class="memitem:a62680d6013f0a338afb25a41e0ceb6fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">IsUpdatingPoints</a> {false}</td></tr>
 <tr class="memdesc:a62680d6013f0a338afb25a41e0ceb6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag set from SetControlPointPositionsWorld that pauses update of measurements until the update is complete.  <a href="#a62680d6013f0a338afb25a41e0ceb6fa">More...</a><br /></td></tr>
 <tr class="separator:a62680d6013f0a338afb25a41e0ceb6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6af157b9fbf26d79c52908210c56f4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab6af157b9fbf26d79c52908210c56f4d">LastUsedControlPointNumber</a></td></tr>
+<tr class="memitem:ab6af157b9fbf26d79c52908210c56f4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab6af157b9fbf26d79c52908210c56f4d">LastUsedControlPointNumber</a> {0}</td></tr>
 <tr class="separator:ab6af157b9fbf26d79c52908210c56f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3deafac79a2b081b4e8d9a326a002a92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">Locked</a></td></tr>
+<tr class="memitem:a3deafac79a2b081b4e8d9a326a002a92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">Locked</a> {0}</td></tr>
 <tr class="memdesc:a3deafac79a2b081b4e8d9a326a002a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locks all the points and GUI.  <a href="#a3deafac79a2b081b4e8d9a326a002a92">More...</a><br /></td></tr>
 <tr class="separator:a3deafac79a2b081b4e8d9a326a002a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8306f0d883b98891260c45695d15c7c1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8306f0d883b98891260c45695d15c7c1">MarkupLabelFormat</a></td></tr>
+<tr class="memitem:a8306f0d883b98891260c45695d15c7c1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8306f0d883b98891260c45695d15c7c1">MarkupLabelFormat</a> {&quot;%N-%d&quot;}</td></tr>
 <tr class="separator:a8306f0d883b98891260c45695d15c7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5333067636b6f4688decf15bed698fb2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">MaximumNumberOfControlPoints</a></td></tr>
-<tr class="memdesc:a5333067636b6f4688decf15bed698fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for limiting number of markups that may be placed.  <a href="#a5333067636b6f4688decf15bed698fb2">More...</a><br /></td></tr>
+<tr class="memitem:a5333067636b6f4688decf15bed698fb2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">MaximumNumberOfControlPoints</a> {0}</td></tr>
 <tr class="separator:a5333067636b6f4688decf15bed698fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a78cbbf321345b24e2679cfefb1dfc"><td class="memItemLeft" align="right" valign="top">vtkCollection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#af4a78cbbf321345b24e2679cfefb1dfc">Measurements</a></td></tr>
 <tr class="memdesc:af4a78cbbf321345b24e2679cfefb1dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of measurements stored for the markup.  <a href="#af4a78cbbf321345b24e2679cfefb1dfc">More...</a><br /></td></tr>
 <tr class="separator:af4a78cbbf321345b24e2679cfefb1dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4548f383ac7b97d0d49bfa7f7b3e23e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ac4548f383ac7b97d0d49bfa7f7b3e23e">PropertiesLabelText</a></td></tr>
 <tr class="separator:ac4548f383ac7b97d0d49bfa7f7b3e23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaae49cca766471f142f7c2964eaa454e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#aaae49cca766471f142f7c2964eaa454e">RequiredNumberOfControlPoints</a></td></tr>
+<tr class="memitem:aaae49cca766471f142f7c2964eaa454e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#aaae49cca766471f142f7c2964eaa454e">RequiredNumberOfControlPoints</a> {0}</td></tr>
 <tr class="separator:aaae49cca766471f142f7c2964eaa454e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1aff7a5a962a1978f36c8e42f1c5aac"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkStringArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab1aff7a5a962a1978f36c8e42f1c5aac">TextList</a></td></tr>
 <tr class="separator:ab1aff7a5a962a1978f36c8e42f1c5aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1096,6 +1095,8 @@ Flag to avoid event loops  <a href="classvtkMRMLNode.html#ad74a5ca8943bbc01cbfd8
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
+<tr class="memitem:a08d99cca7daa47ee2450467f6eabedfe"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a08d99cca7daa47ee2450467f6eabedfe">qSlicerMarkupsModuleWidget</a></td></tr>
+<tr class="separator:a08d99cca7daa47ee2450467f6eabedfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0260961526439c9499325dec25e8200e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a0260961526439c9499325dec25e8200e">vtkMRMLMarkupsFiducialStorageNode</a></td></tr>
 <tr class="separator:a0260961526439c9499325dec25e8200e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bfd9910ee2572090b67dbca94c5f1f2"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a2bfd9910ee2572090b67dbca94c5f1f2">vtkMRMLMarkupsJsonStorageNode</a></td></tr>
@@ -4115,7 +4116,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set the markup node label format strign that defines the markup names, then invoke the LabelFormatModifedEvent In standard printf notation, with the addition of N being replaced by the list name. d will resolve to the highest not yet used list index integer. Character strings will otherwise pass through Defaults to N-d which will yield markup names of Name-0, Name-1, Name-2 </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLMarkupsNode.html#a66d61c9ffa21b6d7195fda4a2036770a">GetMarkupLabelFormat</a> </dd></dl>
+<p>Set the markup node label format string that defines the markup names, then invoke the LabelFormatModifedEvent In standard printf notation, with the addition of N being replaced by the list name. d will resolve to the highest not yet used list index integer. Character strings will otherwise pass through Defaults to N-d which will yield markup names of Name-0, Name-1, Name-2 </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLMarkupsNode.html#a66d61c9ffa21b6d7195fda4a2036770a">GetMarkupLabelFormat</a> </dd></dl>
 
 </div>
 </div>
@@ -5140,9 +5141,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculates the updated measurements Should be overwritten by child classes to compute measurements </p>
+<p>Calculate the updated measurements. May be overridden in subclasses to compute special measurements (for example that apply on the curve polydata). </p>
 
-<p>Reimplemented in <a class="el" href="classvtkMRMLMarkupsCurveNode.html#a76ac51d97ce97b4a375c9b2a41128787">vtkMRMLMarkupsCurveNode</a>, <a class="el" href="classvtkMRMLMarkupsAngleNode.html#ae84d7717bcaaa836127f4b5fd972792d">vtkMRMLMarkupsAngleNode</a>, and <a class="el" href="classvtkMRMLMarkupsLineNode.html#ac049c800e91fdb326ac2ee900dd7f6e3">vtkMRMLMarkupsLineNode</a>.</p>
+<p>Reimplemented in <a class="el" href="classvtkMRMLMarkupsCurveNode.html#a76ac51d97ce97b4a375c9b2a41128787">vtkMRMLMarkupsCurveNode</a>.</p>
 
 </div>
 </div>
@@ -5283,6 +5284,30 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a08d99cca7daa47ee2450467f6eabedfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d99cca7daa47ee2450467f6eabedfe">&#9670;&nbsp;</a></span>qSlicerMarkupsModuleWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classqSlicerMarkupsModuleWidget.html">qSlicerMarkupsModuleWidget</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00711">711</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+
+</div>
+</div>
 <a id="a0260961526439c9499325dec25e8200e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0260961526439c9499325dec25e8200e">&#9670;&nbsp;</a></span>vtkMRMLMarkupsFiducialStorageNode</h2>
 
@@ -5379,7 +5404,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Markup centerpoint (in local coordinates). It may be used as rotation center or as a handle to grab the widget by. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00695">695</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00698">698</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5405,7 +5430,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Vector of control points. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00661">661</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00664">664</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5419,7 +5444,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool vtkMRMLMarkupsNode::CurveClosed</td>
+          <td class="memname">bool vtkMRMLMarkupsNode::CurveClosed {false}</td>
         </tr>
       </table>
   </td>
@@ -5429,7 +5454,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00658">658</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00661">661</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5454,7 +5479,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Computes tangent and smooth normal for each curve point. It provides a fully specified coordinate system at each point of the curve, which is useful for image reslicing or defining camera pose. Curve is defined in the world coordinate system. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00670">670</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00673">673</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5480,7 +5505,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Converts curve control points to curve points. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00664">664</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00667">667</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5505,7 +5530,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Stores control point positions in a polydata (in local coordinate system). Line cells connect all points into a curve. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00674">674</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00677">677</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5529,7 +5554,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00677">677</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00680">680</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5553,7 +5578,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00676">676</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00679">679</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5579,7 +5604,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Transform that moves the xyz unit vectors and origin of the interaction handles to local coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00703">703</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00706">706</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5593,7 +5618,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool vtkMRMLMarkupsNode::IsUpdatingPoints</td>
+          <td class="memname">bool vtkMRMLMarkupsNode::IsUpdatingPoints {false}</td>
         </tr>
       </table>
   </td>
@@ -5605,7 +5630,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Flag set from SetControlPointPositionsWorld that pauses update of measurements until the update is complete. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00706">706</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00709">709</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5619,7 +5644,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int vtkMRMLMarkupsNode::LastUsedControlPointNumber</td>
+          <td class="memname">int vtkMRMLMarkupsNode::LastUsedControlPointNumber {0}</td>
         </tr>
       </table>
   </td>
@@ -5630,7 +5655,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Keep track of the number of markups that were added to the list, always incrementing, not decreasing when they're removed. Used to help create unique names and ids. Reset to 0 when </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLMarkupsNode.html#ada30a4058fa169a86c7a21c534b8dc0e" title="Clear out the node of all control points. ">RemoveAllControlPoints</a> called </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00691">691</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00694">694</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5644,7 +5669,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int vtkMRMLMarkupsNode::Locked</td>
+          <td class="memname">int vtkMRMLMarkupsNode::Locked {0}</td>
         </tr>
       </table>
   </td>
@@ -5656,7 +5681,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Locks all the points and GUI. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00684">684</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00687">687</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5670,7 +5695,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string vtkMRMLMarkupsNode::MarkupLabelFormat</td>
+          <td class="memname">std::string vtkMRMLMarkupsNode::MarkupLabelFormat {&quot;%N-%d&quot;}</td>
         </tr>
       </table>
   </td>
@@ -5680,7 +5705,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00686">686</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00689">689</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5694,7 +5719,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int vtkMRMLMarkupsNode::MaximumNumberOfControlPoints</td>
+          <td class="memname">int vtkMRMLMarkupsNode::MaximumNumberOfControlPoints {0}</td>
         </tr>
       </table>
   </td>
@@ -5703,10 +5728,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Used for limiting number of control points that may be placed. This is a hard limit at which new control points cannot be added. </p>
 
-<p>Used for limiting number of markups that may be placed. </p>
-
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00655">655</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00659">659</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5732,7 +5756,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>List of measurements stored for the markup. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00698">698</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00701">701</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5756,7 +5780,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00700">700</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00703">703</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5770,7 +5794,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int vtkMRMLMarkupsNode::RequiredNumberOfControlPoints</td>
+          <td class="memname">int vtkMRMLMarkupsNode::RequiredNumberOfControlPoints {0}</td>
         </tr>
       </table>
   </td>
@@ -5779,6 +5803,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Used for limiting number of control points that may be placed. This is a soft limit at which automatic placement stops. </p>
 
 <p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00656">656</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
@@ -5829,7 +5854,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Point locator that allows quick finding of interpolated point in the world coordinate system (in transformed CurvePoly). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00681">681</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00684">684</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5839,7 +5864,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 16:34:45 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 18 2020 15:05:35 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

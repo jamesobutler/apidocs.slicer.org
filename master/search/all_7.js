@@ -952,6 +952,8 @@ var searchData=
   ['getlabelvisibility',['GetLabelVisibility',['../classvtkMRMLAnnotationAngleNode.html#a45686260df7bacf6660074e4b3b87bd1',1,'vtkMRMLAnnotationAngleNode::GetLabelVisibility()'],['../classvtkMRMLAnnotationLineDisplayNode.html#ac4a0a1a3eb42ecd8bf87a09f024b3c61',1,'vtkMRMLAnnotationLineDisplayNode::GetLabelVisibility()']]],
   ['getlabelvolumeid',['GetLabelVolumeID',['../classvtkMRMLSliceCompositeNode.html#ac5fc1901e82487b7bd754e35a5a02fb8',1,'vtkMRMLSliceCompositeNode']]],
   ['getlastcolorglyphby',['GetLastColorGlyphBy',['../classvtkMRMLDiffusionTensorDisplayPropertiesNode.html#a42157f184eff9ad9a2529a4b6b1d396c',1,'vtkMRMLDiffusionTensorDisplayPropertiesNode']]],
+  ['getlastcomputationresult',['GetLastComputationResult',['../classvtkMRMLMeasurement.html#aa98823a8ed6cb1773999af275e0829c6',1,'vtkMRMLMeasurement']]],
+  ['getlastcomputationresultasprintablestring',['GetLastComputationResultAsPrintableString',['../classvtkMRMLMeasurement.html#a0855a123dc0984d595a7d30ceb7b51be',1,'vtkMRMLMeasurement']]],
   ['getlastelapsedtime',['GetLastElapsedTime',['../classvtkObservation.html#a8ce7092dcd6e470b93fa77ddd621d5bf',1,'vtkObservation']]],
   ['getlastglypheigenvector',['GetLastGlyphEigenvector',['../classvtkMRMLDiffusionTensorDisplayPropertiesNode.html#aeffee7925f0f492ed79e6a88096b1f2d',1,'vtkMRMLDiffusionTensorDisplayPropertiesNode']]],
   ['getlastglyphgeometry',['GetLastGlyphGeometry',['../classvtkMRMLDiffusionTensorDisplayPropertiesNode.html#a5a2870b53816033b82ea854c9d5e186b',1,'vtkMRMLDiffusionTensorDisplayPropertiesNode']]],

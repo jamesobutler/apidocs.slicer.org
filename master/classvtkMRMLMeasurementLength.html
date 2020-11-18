@@ -102,6 +102,11 @@ Public Types</h2></td></tr>
 <tr class="memitem:a664f4839ef83c3d7a3d2e3376e234a32"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classvtkMRMLMeasurement.html">vtkMRMLMeasurement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurementLength.html#a664f4839ef83c3d7a3d2e3376e234a32">Superclass</a></td></tr>
 <tr class="separator:a664f4839ef83c3d7a3d2e3376e234a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classvtkMRMLMeasurement"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classvtkMRMLMeasurement')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classvtkMRMLMeasurement.html">vtkMRMLMeasurement</a></td></tr>
+<tr class="memitem:a07b5d78f96b2ec2eab8c2d5ad8cb0257 inherit pub_types_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a07b5d78f96b2ec2eab8c2d5ad8cb0257">ComputationResult</a> { <a class="el" href="classvtkMRMLMeasurement.html#a07b5d78f96b2ec2eab8c2d5ad8cb0257ab1bea337600fbb00ba7c1df0a12634bf">OK</a> = 0, 
+<a class="el" href="classvtkMRMLMeasurement.html#a07b5d78f96b2ec2eab8c2d5ad8cb0257a1b80380fe8c027d5b6aa646e5f670c08">InsufficientInput</a>, 
+<a class="el" href="classvtkMRMLMeasurement.html#a07b5d78f96b2ec2eab8c2d5ad8cb0257a04c70fbaa0088fc2f7f33838920237f2">InternalError</a>
+ }</td></tr>
+<tr class="separator:a07b5d78f96b2ec2eab8c2d5ad8cb0257 inherit pub_types_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addbf3dcdb9a54d6aa6ed3f8618dcfb01 inherit pub_types_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">typedef vtkObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#addbf3dcdb9a54d6aa6ed3f8618dcfb01">Superclass</a></td></tr>
 <tr class="separator:addbf3dcdb9a54d6aa6ed3f8618dcfb01 inherit pub_types_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -141,6 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac63b6641ea38dbf8ce9410d2e8062dc2 inherit pub_methods_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#ac63b6641ea38dbf8ce9410d2e8062dc2">GetInputMRMLNode</a> ()</td></tr>
 <tr class="memdesc:ac63b6641ea38dbf8ce9410d2e8062dc2 inherit pub_methods_classvtkMRMLMeasurement"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get input MRML node used for calculating the measurement.  <a href="classvtkMRMLMeasurement.html#ac63b6641ea38dbf8ce9410d2e8062dc2">More...</a><br /></td></tr>
 <tr class="separator:ac63b6641ea38dbf8ce9410d2e8062dc2 inherit pub_methods_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa98823a8ed6cb1773999af275e0829c6 inherit pub_methods_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#aa98823a8ed6cb1773999af275e0829c6">GetLastComputationResult</a> ()</td></tr>
+<tr class="memdesc:aa98823a8ed6cb1773999af275e0829c6 inherit pub_methods_classvtkMRMLMeasurement"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get last computation result.  <a href="classvtkMRMLMeasurement.html#aa98823a8ed6cb1773999af275e0829c6">More...</a><br /></td></tr>
+<tr class="separator:aa98823a8ed6cb1773999af275e0829c6 inherit pub_methods_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0855a123dc0984d595a7d30ceb7b51be inherit pub_methods_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a0855a123dc0984d595a7d30ceb7b51be">GetLastComputationResultAsPrintableString</a> ()</td></tr>
+<tr class="memdesc:a0855a123dc0984d595a7d30ceb7b51be inherit pub_methods_classvtkMRMLMeasurement"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get last computation result as human-readable string.  <a href="classvtkMRMLMeasurement.html#a0855a123dc0984d595a7d30ceb7b51be">More...</a><br /></td></tr>
+<tr class="separator:a0855a123dc0984d595a7d30ceb7b51be inherit pub_methods_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab833fb8fe07c2838c53826b189980299 inherit pub_methods_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classvtkCodedEntry.html">vtkCodedEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#ab833fb8fe07c2838c53826b189980299">GetMethodCode</a> ()</td></tr>
 <tr class="separator:ab833fb8fe07c2838c53826b189980299 inherit pub_methods_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72639117b9ccb0985e7b064caddfff2f inherit pub_methods_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">virtual char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a72639117b9ccb0985e7b064caddfff2f">GetName</a> ()</td></tr>
@@ -250,6 +261,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aded8e0bd6a2ff3a435d80cfd689d5eb0 inherit pro_attribs_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">vtkWeakPointer&lt; <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#aded8e0bd6a2ff3a435d80cfd689d5eb0">InputMRMLNode</a></td></tr>
 <tr class="memdesc:aded8e0bd6a2ff3a435d80cfd689d5eb0 inherit pro_attribs_classvtkMRMLMeasurement"><td class="mdescLeft">&#160;</td><td class="mdescRight">MRML node used to calculate the measurement.  <a href="classvtkMRMLMeasurement.html#aded8e0bd6a2ff3a435d80cfd689d5eb0">More...</a><br /></td></tr>
 <tr class="separator:aded8e0bd6a2ff3a435d80cfd689d5eb0 inherit pro_attribs_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe35ced2cb9b9b54270b3e1fce6450dc inherit pro_attribs_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLMeasurement.html#a07b5d78f96b2ec2eab8c2d5ad8cb0257">ComputationResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#abe35ced2cb9b9b54270b3e1fce6450dc">LastComputationResult</a> {<a class="el" href="classvtkMRMLMeasurement.html#a07b5d78f96b2ec2eab8c2d5ad8cb0257a1b80380fe8c027d5b6aa646e5f670c08">InsufficientInput</a>}</td></tr>
+<tr class="separator:abe35ced2cb9b9b54270b3e1fce6450dc inherit pro_attribs_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab03f0c96e733437f1ab179bb0567c60c inherit pro_attribs_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkCodedEntry.html">vtkCodedEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#ab03f0c96e733437f1ab179bb0567c60c">MethodCode</a> {nullptr}</td></tr>
 <tr class="separator:ab03f0c96e733437f1ab179bb0567c60c inherit pro_attribs_classvtkMRMLMeasurement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a761fb7ff090e5e44781ada1d75e30ce7 inherit pro_attribs_classvtkMRMLMeasurement"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a761fb7ff090e5e44781ada1d75e30ce7">Name</a> {nullptr}</td></tr>
@@ -594,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 16:34:45 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 18 2020 15:05:35 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

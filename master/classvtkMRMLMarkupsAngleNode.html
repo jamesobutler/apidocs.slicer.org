@@ -921,8 +921,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:afdbd1ac9305a56b0daf7be1ddb0295f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsAngleNode.html#afdbd1ac9305a56b0daf7be1ddb0295f7">UpdateInteractionHandleToWorldMatrix</a> () override</td></tr>
 <tr class="memdesc:afdbd1ac9305a56b0daf7be1ddb0295f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the handle to world matrix based on the current control points.  <a href="#afdbd1ac9305a56b0daf7be1ddb0295f7">More...</a><br /></td></tr>
 <tr class="separator:afdbd1ac9305a56b0daf7be1ddb0295f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae84d7717bcaaa836127f4b5fd972792d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsAngleNode.html#ae84d7717bcaaa836127f4b5fd972792d">UpdateMeasurementsInternal</a> () override</td></tr>
-<tr class="separator:ae84d7717bcaaa836127f4b5fd972792d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35a32ae40e8df5e8a6fe5fc3946a649b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsAngleNode.html#a35a32ae40e8df5e8a6fe5fc3946a649b">vtkMRMLMarkupsAngleNode</a> ()</td></tr>
 <tr class="separator:a35a32ae40e8df5e8a6fe5fc3946a649b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a8a74b6082ddd8fcd664314bdaa876d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsAngleNode.html#a0a8a74b6082ddd8fcd664314bdaa876d">vtkMRMLMarkupsAngleNode</a> (const <a class="el" href="classvtkMRMLMarkupsAngleNode.html">vtkMRMLMarkupsAngleNode</a> &amp;)</td></tr>
@@ -950,6 +948,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a9006418e9ca5da714b3645e84ed0ad87 inherit pro_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a9006418e9ca5da714b3645e84ed0ad87">UpdateMeasurements</a> ()</td></tr>
 <tr class="memdesc:a9006418e9ca5da714b3645e84ed0ad87 inherit pro_methods_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <a class="el" href="classvtkMRMLMarkupsNode.html#a7e03f0b3ac5fe946eb0595dbf37cd2dc">UpdateMeasurementsInternal()</a>  <a href="classvtkMRMLMarkupsNode.html#a9006418e9ca5da714b3645e84ed0ad87">More...</a><br /></td></tr>
 <tr class="separator:a9006418e9ca5da714b3645e84ed0ad87 inherit pro_methods_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e03f0b3ac5fe946eb0595dbf37cd2dc inherit pro_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a7e03f0b3ac5fe946eb0595dbf37cd2dc">UpdateMeasurementsInternal</a> ()</td></tr>
+<tr class="separator:a7e03f0b3ac5fe946eb0595dbf37cd2dc inherit pro_methods_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bde3016e8a240c8fd2d67b5a7451866 inherit pro_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8bde3016e8a240c8fd2d67b5a7451866">vtkMRMLMarkupsNode</a> ()</td></tr>
 <tr class="separator:a8bde3016e8a240c8fd2d67b5a7451866 inherit pro_methods_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a675b34f62ad6a5331bd7a3ed689cbb inherit pro_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a0a675b34f62ad6a5331bd7a3ed689cbb">vtkMRMLMarkupsNode</a> (const <a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> &amp;)</td></tr>
@@ -1070,7 +1070,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ae2c45684d7540dc25213194c4f2d09c6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLMarkupsNode.html#a1733126d9ce30e4caaab532752e65d28">ControlPointsListType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ae2c45684d7540dc25213194c4f2d09c6">ControlPoints</a></td></tr>
 <tr class="memdesc:ae2c45684d7540dc25213194c4f2d09c6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of control points.  <a href="classvtkMRMLMarkupsNode.html#ae2c45684d7540dc25213194c4f2d09c6">More...</a><br /></td></tr>
 <tr class="separator:ae2c45684d7540dc25213194c4f2d09c6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91e4b6bab896cbe8a5e99807e96ffdf2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a91e4b6bab896cbe8a5e99807e96ffdf2">CurveClosed</a></td></tr>
+<tr class="memitem:a91e4b6bab896cbe8a5e99807e96ffdf2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a91e4b6bab896cbe8a5e99807e96ffdf2">CurveClosed</a> {false}</td></tr>
 <tr class="separator:a91e4b6bab896cbe8a5e99807e96ffdf2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b42d0bc409f25107e0e27b4ce2db6e6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkFrenetSerretFrame &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8b42d0bc409f25107e0e27b4ce2db6e6">CurveCoordinateSystemGeneratorWorld</a></td></tr>
 <tr class="separator:a8b42d0bc409f25107e0e27b4ce2db6e6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1086,25 +1086,24 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a730d1886b295b1936a225f06726086d3 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkMatrix4x4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a730d1886b295b1936a225f06726086d3">InteractionHandleToWorldMatrix</a></td></tr>
 <tr class="memdesc:a730d1886b295b1936a225f06726086d3 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform that moves the xyz unit vectors and origin of the interaction handles to local coordinates.  <a href="classvtkMRMLMarkupsNode.html#a730d1886b295b1936a225f06726086d3">More...</a><br /></td></tr>
 <tr class="separator:a730d1886b295b1936a225f06726086d3 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">IsUpdatingPoints</a></td></tr>
+<tr class="memitem:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">IsUpdatingPoints</a> {false}</td></tr>
 <tr class="memdesc:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag set from SetControlPointPositionsWorld that pauses update of measurements until the update is complete.  <a href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">More...</a><br /></td></tr>
 <tr class="separator:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6af157b9fbf26d79c52908210c56f4d inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab6af157b9fbf26d79c52908210c56f4d">LastUsedControlPointNumber</a></td></tr>
+<tr class="memitem:ab6af157b9fbf26d79c52908210c56f4d inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab6af157b9fbf26d79c52908210c56f4d">LastUsedControlPointNumber</a> {0}</td></tr>
 <tr class="separator:ab6af157b9fbf26d79c52908210c56f4d inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">Locked</a></td></tr>
+<tr class="memitem:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">Locked</a> {0}</td></tr>
 <tr class="memdesc:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locks all the points and GUI.  <a href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">More...</a><br /></td></tr>
 <tr class="separator:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8306f0d883b98891260c45695d15c7c1 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8306f0d883b98891260c45695d15c7c1">MarkupLabelFormat</a></td></tr>
+<tr class="memitem:a8306f0d883b98891260c45695d15c7c1 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8306f0d883b98891260c45695d15c7c1">MarkupLabelFormat</a> {&quot;%N-%d&quot;}</td></tr>
 <tr class="separator:a8306f0d883b98891260c45695d15c7c1 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">MaximumNumberOfControlPoints</a></td></tr>
-<tr class="memdesc:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for limiting number of markups that may be placed.  <a href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">More...</a><br /></td></tr>
+<tr class="memitem:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">MaximumNumberOfControlPoints</a> {0}</td></tr>
 <tr class="separator:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a78cbbf321345b24e2679cfefb1dfc inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkCollection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#af4a78cbbf321345b24e2679cfefb1dfc">Measurements</a></td></tr>
 <tr class="memdesc:af4a78cbbf321345b24e2679cfefb1dfc inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of measurements stored for the markup.  <a href="classvtkMRMLMarkupsNode.html#af4a78cbbf321345b24e2679cfefb1dfc">More...</a><br /></td></tr>
 <tr class="separator:af4a78cbbf321345b24e2679cfefb1dfc inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4548f383ac7b97d0d49bfa7f7b3e23e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ac4548f383ac7b97d0d49bfa7f7b3e23e">PropertiesLabelText</a></td></tr>
 <tr class="separator:ac4548f383ac7b97d0d49bfa7f7b3e23e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaae49cca766471f142f7c2964eaa454e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#aaae49cca766471f142f7c2964eaa454e">RequiredNumberOfControlPoints</a></td></tr>
+<tr class="memitem:aaae49cca766471f142f7c2964eaa454e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#aaae49cca766471f142f7c2964eaa454e">RequiredNumberOfControlPoints</a> {0}</td></tr>
 <tr class="separator:aaae49cca766471f142f7c2964eaa454e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1aff7a5a962a1978f36c8e42f1c5aac inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkStringArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab1aff7a5a962a1978f36c8e42f1c5aac">TextList</a></td></tr>
 <tr class="separator:ab1aff7a5a962a1978f36c8e42f1c5aac inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2025,34 +2024,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae84d7717bcaaa836127f4b5fd972792d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae84d7717bcaaa836127f4b5fd972792d">&#9670;&nbsp;</a></span>UpdateMeasurementsInternal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void vtkMRMLMarkupsAngleNode::UpdateMeasurementsInternal </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Calculates the updated measurements Should be overwritten by child classes to compute measurements </p>
-
-<p>Reimplemented from <a class="el" href="classvtkMRMLMarkupsNode.html#a7e03f0b3ac5fe946eb0595dbf37cd2dc">vtkMRMLMarkupsNode</a>.</p>
-
-</div>
-</div>
 <a id="ac2ba27139b9f7997bb4ab07fe115561c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2ba27139b9f7997bb4ab07fe115561c">&#9670;&nbsp;</a></span>vtkMRMLCopyContentMacro()</h2>
 
@@ -2139,7 +2110,7 @@ Additional Inherited Members</h2></td></tr>
 <li>OrientedPositive: [0..360), using OrientationRotationAxis in right-hand rule </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html#l00141">141</a> of file <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html">vtkMRMLMarkupsAngleNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html#l00139">139</a> of file <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html">vtkMRMLMarkupsAngleNode.h</a>.</p>
 
 </div>
 </div>
@@ -2164,7 +2135,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Rotation axis for calculating right-hand rule angles. Right-hand rule: angle is positive if p2-&gt;p1 is rotated to p2-&gt;p3 by counter-clockwise rotation Applies if </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLMarkupsAngleNode.html#ab62227aa4e854edee399de656936ce86">AngleMeasurementMode</a> is oriented (<a class="el" href="classvtkMRMLMarkupsAngleNode.html#a6af14810aa03a888d5dbb6af4060aea7a58b096450ac73a03d1fcd0b9ec9bbea0">OrientedSigned</a> or <a class="el" href="classvtkMRMLMarkupsAngleNode.html#a6af14810aa03a888d5dbb6af4060aea7a9f41bfd8ade8bd7205edce6e612adf16">OrientedPositive</a>). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html#l00134">134</a> of file <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html">vtkMRMLMarkupsAngleNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html#l00132">132</a> of file <a class="el" href="vtkMRMLMarkupsAngleNode_8h_source.html">vtkMRMLMarkupsAngleNode.h</a>.</p>
 
 </div>
 </div>
@@ -2174,7 +2145,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 16:34:45 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 18 2020 15:05:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

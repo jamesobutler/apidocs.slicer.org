@@ -83,6 +83,7 @@ var searchData=
   ['populatecategorytable',['populateCategoryTable',['../classqSlicerTerminologyNavigatorWidget.html#aa0c86e750686fc2f9ecd84cd25cd7c58',1,'qSlicerTerminologyNavigatorWidget']]],
   ['populatecontextmenuforitem',['populateContextMenuForItem',['../classqMRMLSubjectHierarchyTreeView.html#a88d4a444632fb57f4cdef480d03b65fe',1,'qMRMLSubjectHierarchyTreeView']]],
   ['populateitksupportedwritefiletypes',['PopulateITKSupportedWriteFileTypes',['../classvtkDataFileFormatHelper.html#acdcb95c71bb4700172ad8c19928c4e2e',1,'vtkDataFileFormatHelper']]],
+  ['populatemeasurementsettingstable',['populateMeasurementSettingsTable',['../classqSlicerMarkupsModuleWidget.html#a6eff0b3db3cdcb071ce8eeddf3e521b0',1,'qSlicerMarkupsModuleWidget']]],
   ['populateparameterstable',['populateParametersTable',['../classqMRMLSegmentationConversionParametersWidget.html#ae9419a718aca9133928291e40957c5f6',1,'qMRMLSegmentationConversionParametersWidget']]],
   ['populatepathstable',['populatePathsTable',['../classqMRMLSegmentationConversionParametersWidget.html#a200926272f73bff525bea15813680731',1,'qMRMLSegmentationConversionParametersWidget']]],
   ['populateregionmodifiercombobox',['populateRegionModifierComboBox',['../classqSlicerTerminologyNavigatorWidget.html#ad4cc019d3faba1ca823e94eae09dc3f8',1,'qSlicerTerminologyNavigatorWidget']]],

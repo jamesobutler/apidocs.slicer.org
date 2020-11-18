@@ -70,6 +70,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">vtkMRMLMarkupsCurveNode Class Reference<div class="ingroups"><a class="el" href="group__Slicer__QtModules.html">Slicer Qt Loadable Modules</a> &raquo; <a class="el" href="group__Slicer__QtModules__Markups.html">Markups</a></div></div>  </div>
@@ -1127,10 +1128,22 @@ alternative method to propagate events generated in Display nodes  <a href="#a54
 <tr class="memdesc:af4c38fe402fd46df793d779eb977c373 inherit pro_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">critical to have a virtual destructor!  <a href="classvtkMRMLNode.html#af4c38fe402fd46df793d779eb977c373">More...</a><br /></td></tr>
 <tr class="separator:af4c38fe402fd46df793d779eb977c373 inherit pro_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a1737a0bab3499e8aa93702b0a3e5371a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsCurveNode.html#a1737a0bab3499e8aa93702b0a3e5371a">OnCurvatureMeasurementModified</a> (vtkObject *caller, unsigned long eid, void *clientData, void *callData)</td></tr>
+<tr class="memdesc:a1737a0bab3499e8aa93702b0a3e5371a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function observing curvature measurement modified events to propagate enabled state.  <a href="#a1737a0bab3499e8aa93702b0a3e5371a">More...</a><br /></td></tr>
+<tr class="separator:a1737a0bab3499e8aa93702b0a3e5371a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classvtkMRMLNode"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classvtkMRMLNode')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a></td></tr>
+<tr class="memitem:afe7e8fe18b3d23d2d9ebd52d7c3161fd inherit pro_static_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#afe7e8fe18b3d23d2d9ebd52d7c3161fd">MRMLCallback</a> (vtkObject *caller, unsigned long eid, void *clientData, void *callData)</td></tr>
+<tr class="separator:afe7e8fe18b3d23d2d9ebd52d7c3161fd inherit pro_static_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aa3a193fee47989585841c7fa94727411"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkCleanPolyData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsCurveNode.html#aa3a193fee47989585841c7fa94727411">CleanFilter</a></td></tr>
 <tr class="separator:aa3a193fee47989585841c7fa94727411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836f42e27cdfa284df60d55114d887c7"><td class="memItemLeft" align="right" valign="top">vtkCallbackCommand *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsCurveNode.html#a836f42e27cdfa284df60d55114d887c7">CurvatureMeasurementModifiedCallbackCommand</a></td></tr>
+<tr class="memdesc:a836f42e27cdfa284df60d55114d887c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command handling curvature measurement modified events to propagate enabled state.  <a href="#a836f42e27cdfa284df60d55114d887c7">More...</a><br /></td></tr>
+<tr class="separator:a836f42e27cdfa284df60d55114d887c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa17fd8544ad249e85739a87d50b714f1"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; <a class="el" href="classvtkCurveMeasurementsCalculator.html">vtkCurveMeasurementsCalculator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsCurveNode.html#aa17fd8544ad249e85739a87d50b714f1">CurveMeasurementsCalculator</a></td></tr>
 <tr class="separator:aa17fd8544ad249e85739a87d50b714f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0e34718434fdd47c094f3d25b8ede0b"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkAssignAttribute &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsCurveNode.html#af0e34718434fdd47c094f3d25b8ede0b">ScalarDisplayAssignAttribute</a></td></tr>
@@ -1151,7 +1164,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ae2c45684d7540dc25213194c4f2d09c6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLMarkupsNode.html#a1733126d9ce30e4caaab532752e65d28">ControlPointsListType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ae2c45684d7540dc25213194c4f2d09c6">ControlPoints</a></td></tr>
 <tr class="memdesc:ae2c45684d7540dc25213194c4f2d09c6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of control points.  <a href="classvtkMRMLMarkupsNode.html#ae2c45684d7540dc25213194c4f2d09c6">More...</a><br /></td></tr>
 <tr class="separator:ae2c45684d7540dc25213194c4f2d09c6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91e4b6bab896cbe8a5e99807e96ffdf2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a91e4b6bab896cbe8a5e99807e96ffdf2">CurveClosed</a></td></tr>
+<tr class="memitem:a91e4b6bab896cbe8a5e99807e96ffdf2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a91e4b6bab896cbe8a5e99807e96ffdf2">CurveClosed</a> {false}</td></tr>
 <tr class="separator:a91e4b6bab896cbe8a5e99807e96ffdf2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b42d0bc409f25107e0e27b4ce2db6e6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkFrenetSerretFrame &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8b42d0bc409f25107e0e27b4ce2db6e6">CurveCoordinateSystemGeneratorWorld</a></td></tr>
 <tr class="separator:a8b42d0bc409f25107e0e27b4ce2db6e6 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1167,25 +1180,24 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a730d1886b295b1936a225f06726086d3 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkMatrix4x4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a730d1886b295b1936a225f06726086d3">InteractionHandleToWorldMatrix</a></td></tr>
 <tr class="memdesc:a730d1886b295b1936a225f06726086d3 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform that moves the xyz unit vectors and origin of the interaction handles to local coordinates.  <a href="classvtkMRMLMarkupsNode.html#a730d1886b295b1936a225f06726086d3">More...</a><br /></td></tr>
 <tr class="separator:a730d1886b295b1936a225f06726086d3 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">IsUpdatingPoints</a></td></tr>
+<tr class="memitem:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">IsUpdatingPoints</a> {false}</td></tr>
 <tr class="memdesc:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag set from SetControlPointPositionsWorld that pauses update of measurements until the update is complete.  <a href="classvtkMRMLMarkupsNode.html#a62680d6013f0a338afb25a41e0ceb6fa">More...</a><br /></td></tr>
 <tr class="separator:a62680d6013f0a338afb25a41e0ceb6fa inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6af157b9fbf26d79c52908210c56f4d inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab6af157b9fbf26d79c52908210c56f4d">LastUsedControlPointNumber</a></td></tr>
+<tr class="memitem:ab6af157b9fbf26d79c52908210c56f4d inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab6af157b9fbf26d79c52908210c56f4d">LastUsedControlPointNumber</a> {0}</td></tr>
 <tr class="separator:ab6af157b9fbf26d79c52908210c56f4d inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">Locked</a></td></tr>
+<tr class="memitem:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">Locked</a> {0}</td></tr>
 <tr class="memdesc:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locks all the points and GUI.  <a href="classvtkMRMLMarkupsNode.html#a3deafac79a2b081b4e8d9a326a002a92">More...</a><br /></td></tr>
 <tr class="separator:a3deafac79a2b081b4e8d9a326a002a92 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8306f0d883b98891260c45695d15c7c1 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8306f0d883b98891260c45695d15c7c1">MarkupLabelFormat</a></td></tr>
+<tr class="memitem:a8306f0d883b98891260c45695d15c7c1 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a8306f0d883b98891260c45695d15c7c1">MarkupLabelFormat</a> {&quot;%N-%d&quot;}</td></tr>
 <tr class="separator:a8306f0d883b98891260c45695d15c7c1 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">MaximumNumberOfControlPoints</a></td></tr>
-<tr class="memdesc:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for limiting number of markups that may be placed.  <a href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">More...</a><br /></td></tr>
+<tr class="memitem:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a5333067636b6f4688decf15bed698fb2">MaximumNumberOfControlPoints</a> {0}</td></tr>
 <tr class="separator:a5333067636b6f4688decf15bed698fb2 inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a78cbbf321345b24e2679cfefb1dfc inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkCollection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#af4a78cbbf321345b24e2679cfefb1dfc">Measurements</a></td></tr>
 <tr class="memdesc:af4a78cbbf321345b24e2679cfefb1dfc inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of measurements stored for the markup.  <a href="classvtkMRMLMarkupsNode.html#af4a78cbbf321345b24e2679cfefb1dfc">More...</a><br /></td></tr>
 <tr class="separator:af4a78cbbf321345b24e2679cfefb1dfc inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4548f383ac7b97d0d49bfa7f7b3e23e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ac4548f383ac7b97d0d49bfa7f7b3e23e">PropertiesLabelText</a></td></tr>
 <tr class="separator:ac4548f383ac7b97d0d49bfa7f7b3e23e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaae49cca766471f142f7c2964eaa454e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#aaae49cca766471f142f7c2964eaa454e">RequiredNumberOfControlPoints</a></td></tr>
+<tr class="memitem:aaae49cca766471f142f7c2964eaa454e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#aaae49cca766471f142f7c2964eaa454e">RequiredNumberOfControlPoints</a> {0}</td></tr>
 <tr class="separator:aaae49cca766471f142f7c2964eaa454e inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1aff7a5a962a1978f36c8e42f1c5aac inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkStringArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab1aff7a5a962a1978f36c8e42f1c5aac">TextList</a></td></tr>
 <tr class="separator:ab1aff7a5a962a1978f36c8e42f1c5aac inherit pro_attribs_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1250,9 +1262,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a064c889622717b46feb1d32c349774b3 inherit pro_types_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44337ed8af95b73a6dde4dbc67770b5a inherit pro_types_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <a class="el" href="classvtkMRMLNode.html#a064c889622717b46feb1d32c349774b3">NodeReferenceListType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a44337ed8af95b73a6dde4dbc67770b5a">NodeReferencesType</a></td></tr>
 <tr class="separator:a44337ed8af95b73a6dde4dbc67770b5a inherit pro_types_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_static_methods_classvtkMRMLNode"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classvtkMRMLNode')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a></td></tr>
-<tr class="memitem:afe7e8fe18b3d23d2d9ebd52d7c3161fd inherit pro_static_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#afe7e8fe18b3d23d2d9ebd52d7c3161fd">MRMLCallback</a> (vtkObject *caller, unsigned long eid, void *clientData, void *callData)</td></tr>
-<tr class="separator:afe7e8fe18b3d23d2d9ebd52d7c3161fd inherit pro_static_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classvtkMRMLDisplayableNode"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classvtkMRMLDisplayableNode')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classvtkMRMLDisplayableNode.html">vtkMRMLDisplayableNode</a></td></tr>
 <tr class="memitem:afd20f712990e9d834451f38461f22948 inherit pro_static_attribs_classvtkMRMLDisplayableNode"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLDisplayableNode.html#afd20f712990e9d834451f38461f22948">DisplayNodeReferenceMRMLAttributeName</a></td></tr>
 <tr class="separator:afd20f712990e9d834451f38461f22948 inherit pro_static_attribs_classvtkMRMLDisplayableNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1280,7 +1289,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Markups measurement pipeline:</p>
 <p>+---------------------------------------&mdash;vtkMarkupsCurveNode--------------------------------------------&mdash;+ | +-vtkMRMLMarkupsNode-+ === : Display pipeline | | | | +-vtkCurveGenerator-+ | | | CurveInputPoly============= | : Generate interpolated curve from the control points | | | Measurements-----&mdash;+ +------&mdash;║------&mdash;+ | | | | | ║ | | +-----------------&mdash;+ | ║ | | ++-vtkCurveMeasurementsCalculator-+ | | | | : Add measurements as data arrays to the curve | | +-------------&mdash;║-------------&mdash;+ poly data | | ║ | | ║ | | +&mdash;vtkTransformPolyDataFilter-&mdash;+ | | | (CurvePolyToWorldTransformer) | | | +-------------&mdash;║-------------&mdash;+ | | ║ | +---------------------------------------&mdash;║--------------------------------------------------------------&mdash;+ ║ +--------------&mdash;║----&mdash;vtkSlicerCurveRepresentation3D-------------------&mdash;+ | ║ | | ║(vtkCleaner in between) | | +&ndash;vtkTubeFilter&ndash;+ | | | =========&gt; vtkPolyDataMapper =&gt; vtkActor | | +--------------&mdash;+ | +--------------------------------------------------------------------------&mdash;+ </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00087">87</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00088">88</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ac6a02ebf9842109d30d94686793f0067"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6a02ebf9842109d30d94686793f0067">&#9670;&nbsp;</a></span>Superclass</h2>
@@ -1294,7 +1303,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00091">91</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00092">92</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -1927,7 +1936,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLMarkupsNode.html#a2c94cb93a1a411c0d693a18f7b60d4e4">vtkMRMLMarkupsNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00095">95</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00096">96</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -1977,7 +1986,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classvtkMRMLDisplayableNode.html#a91987371d18b6b4be33617cd9e99eec1">vtkMRMLDisplayableNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00103">103</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00104">104</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -2212,7 +2221,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00228">228</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00229">229</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -2241,7 +2250,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Node reference role for the surface that is used in the shortest surface distance curve type. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00227">227</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00228">228</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -2411,6 +2420,56 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1737a0bab3499e8aa93702b0a3e5371a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1737a0bab3499e8aa93702b0a3e5371a">&#9670;&nbsp;</a></span>OnCurvatureMeasurementModified()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void vtkMRMLMarkupsCurveNode::OnCurvatureMeasurementModified </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *&#160;</td>
+          <td class="paramname"><em>caller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>eid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>clientData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>callData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback function observing curvature measurement modified events to propagate enabled state. </p>
 
 </div>
 </div>
@@ -3121,7 +3180,7 @@ alternative method to propagate events generated in Display nodes </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculates the updated measurements Should be overwritten by child classes to compute measurements </p>
+<p>Calculate the updated measurements. May be overridden in subclasses to compute special measurements (for example that apply on the curve polydata). </p>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLMarkupsNode.html#a7e03f0b3ac5fe946eb0595dbf37cd2dc">vtkMRMLMarkupsNode</a>.</p>
 
@@ -3232,7 +3291,33 @@ alternative method to propagate events generated in Display nodes </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00270">270</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00271">271</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+
+</div>
+</div>
+<a id="a836f42e27cdfa284df60d55114d887c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836f42e27cdfa284df60d55114d887c7">&#9670;&nbsp;</a></span>CurvatureMeasurementModifiedCallbackCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkCallbackCommand* vtkMRMLMarkupsCurveNode::CurvatureMeasurementModifiedCallbackCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Command handling curvature measurement modified events to propagate enabled state. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00285">285</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3256,7 +3341,7 @@ alternative method to propagate events generated in Display nodes </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00275">275</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00276">276</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3281,7 +3366,7 @@ alternative method to propagate events generated in Display nodes </p>
 </div><div class="memdoc">
 <p>Filter that changes the active scalar of the input mesh using the ActiveScalarName and ActiveAttributeLocation properties. This can be useful to specify what field array is the color array that needs to be used by the VTK mappers. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00281">281</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00282">282</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3305,7 +3390,7 @@ alternative method to propagate events generated in Display nodes </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00276">276</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00277">277</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3329,7 +3414,7 @@ alternative method to propagate events generated in Display nodes </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00273">273</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00274">274</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3353,7 +3438,7 @@ alternative method to propagate events generated in Display nodes </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00274">274</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00275">275</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3377,7 +3462,7 @@ alternative method to propagate events generated in Display nodes </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00272">272</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00273">273</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3401,7 +3486,7 @@ alternative method to propagate events generated in Display nodes </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00271">271</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html#l00272">272</a> of file <a class="el" href="vtkMRMLMarkupsCurveNode_8h_source.html">vtkMRMLMarkupsCurveNode.h</a>.</p>
 
 </div>
 </div>
@@ -3411,7 +3496,7 @@ alternative method to propagate events generated in Display nodes </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 16:34:45 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 18 2020 15:05:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

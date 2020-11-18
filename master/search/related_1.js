@@ -9,6 +9,7 @@ var searchData=
   ['qslicerabstractmodulerepresentation',['qSlicerAbstractModuleRepresentation',['../classqSlicerAbstractCoreModule.html#ac130daf562b8ef0e2d2c8fcd65dbd826',1,'qSlicerAbstractCoreModule']]],
   ['qslicerextensionsitemdelegate',['qSlicerExtensionsItemDelegate',['../classqSlicerExtensionsManageWidget.html#aeb6c439173f1450cfd28a2fe2acab4a7',1,'qSlicerExtensionsManageWidget']]],
   ['qslicerfiledialog',['qSlicerFileDialog',['../classqSlicerIOManager.html#afc089f6f6343aa421b462874f971ca79',1,'qSlicerIOManager']]],
+  ['qslicermarkupsmodulewidget',['qSlicerMarkupsModuleWidget',['../classvtkMRMLMarkupsNode.html#a08d99cca7daa47ee2450467f6eabedfe',1,'vtkMRMLMarkupsNode']]],
   ['qslicersegmenteditoreffectfactorycleanup',['qSlicerSegmentEditorEffectFactoryCleanup',['../classqSlicerSegmentEditorEffectFactory.html#a9c30d7d953742cb01f585f46b7baf295',1,'qSlicerSegmentEditorEffectFactory']]],
   ['qslicersubjecthierarchypluginhandler',['qSlicerSubjectHierarchyPluginHandler',['../classqSlicerSubjectHierarchyPluginLogic.html#ae5e9e7aba15e62a857a8a3a14ff32a33',1,'qSlicerSubjectHierarchyPluginLogic']]],
   ['qslicersubjecthierarchypluginhandlercleanup',['qSlicerSubjectHierarchyPluginHandlerCleanup',['../classqSlicerSubjectHierarchyPluginHandler.html#a0d1d37a6b75d7e92d394add248bd9249',1,'qSlicerSubjectHierarchyPluginHandler']]],
