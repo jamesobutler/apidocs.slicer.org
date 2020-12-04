@@ -66,6 +66,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="classvtkMRMLSubjectHierarchyNode-members.html">List of all members</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -101,6 +102,11 @@ Collaboration diagram for vtkMRMLSubjectHierarchyNode:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structvtkMRMLSubjectHierarchyNode_1_1SubjectHierarchyItemsShowInViewRequestedEventData.html">SubjectHierarchyItemsShowInViewRequestedEventData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a0f819eb33cc16aa81a5ee51627e49bd9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
@@ -116,7 +122,8 @@ Public Types</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a0f819eb33cc16aa81a5ee51627e49bd9a907df0ce974024e09bd1fd5f323d79ec">SubjectHierarchyItemOwnerPluginSearchRequested</a>, 
 <a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a0f819eb33cc16aa81a5ee51627e49bd9a9105f831ff7944d770545cd15ecc13a6">SubjectHierarchyStartResolveEvent</a>, 
-<a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a0f819eb33cc16aa81a5ee51627e49bd9ab7d2ad2c0d67cb2ca9746d0c2efa7416">SubjectHierarchyEndResolveEvent</a>
+<a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a0f819eb33cc16aa81a5ee51627e49bd9ab7d2ad2c0d67cb2ca9746d0c2efa7416">SubjectHierarchyEndResolveEvent</a>, 
+<a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a0f819eb33cc16aa81a5ee51627e49bd9a4969bbaebba8e2083dd58ac126e5575e">SubjectHierarchyItemsShowInViewRequestedEvent</a>
 <br />
  }</td></tr>
 <tr class="separator:a0f819eb33cc16aa81a5ee51627e49bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,6 +306,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a038eba26e3d0d1ddeef183bfd1a64eb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a038eba26e3d0d1ddeef183bfd1a64eb8">SetItemUID</a> (vtkIdType itemID, std::string uidName, std::string uidValue)</td></tr>
 <tr class="memdesc:a038eba26e3d0d1ddeef183bfd1a64eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set UID to the subject hierarchy item.  <a href="#a038eba26e3d0d1ddeef183bfd1a64eb8">More...</a><br /></td></tr>
 <tr class="separator:a038eba26e3d0d1ddeef183bfd1a64eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35020ca6412021375e1c8e7b8def916e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a35020ca6412021375e1c8e7b8def916e">ShowItemsInView</a> (vtkIdList *itemIDs, <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *viewNode)</td></tr>
+<tr class="memdesc:a35020ca6412021375e1c8e7b8def916e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show items in selected view (used for drag&amp;drop of subject hierarchy items into the viewer)  <a href="#a35020ca6412021375e1c8e7b8def916e">More...</a><br /></td></tr>
+<tr class="separator:a35020ca6412021375e1c8e7b8def916e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fdd2ba3117ebf2bf0610ad8eac00628"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a1fdd2ba3117ebf2bf0610ad8eac00628">WriteNodeBodyXML</a> (ostream &amp;of, int indent) override</td></tr>
 <tr class="memdesc:a1fdd2ba3117ebf2bf0610ad8eac00628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write this node's body to a MRML file in XML format.  <a href="#a1fdd2ba3117ebf2bf0610ad8eac00628">More...</a><br /></td></tr>
 <tr class="separator:a1fdd2ba3117ebf2bf0610ad8eac00628"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -718,7 +728,7 @@ Additional Inherited Members</h2></td></tr>
 <a class="el" href="classvtkMRMLSubjectHierarchyNode.html#ac89795a8f5b69a8515c0c2222811bca3" title="Ensure the consistency and validity of the SH node in the scene. ">ResolveSubjectHierarchy()</a></dd></dl>
 <p>The node entries are encapsulated in SubjectHierarchyItem classes, which contain the hierarchy information for the contained nodes, and represent the non-leaf nodes of the tree. Accessor functions can be used to get/set the properties of the individual items. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00054">54</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00056">56</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a8ca1cad21f2badf82406c6427dd744d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ca1cad21f2badf82406c6427dd744d5">&#9670;&nbsp;</a></span>Superclass</h2>
@@ -732,7 +742,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00090">90</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00106">106</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -764,9 +774,11 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a0f819eb33cc16aa81a5ee51627e49bd9ab7d2ad2c0d67cb2ca9746d0c2efa7416"></a>SubjectHierarchyEndResolveEvent&#160;</td><td class="fielddoc"><p>Event invoked when item resolving finished (e.g. after scene import) </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a0f819eb33cc16aa81a5ee51627e49bd9a4969bbaebba8e2083dd58ac126e5575e"></a>SubjectHierarchyItemsShowInViewRequestedEvent&#160;</td><td class="fielddoc"><p>Event invoked when showing of subject hierarchy items in a specific view is requested (processed by the widget classes, by delegating to the owner subject hierarchy plugin). For internal use only. Use <a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a35020ca6412021375e1c8e7b8def916e" title="Show items in selected view (used for drag&amp;drop of subject hierarchy items into the viewer) ...">vtkMRMLSubjectHierarchyNode::ShowItemsInView</a> or <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a5501df3c3b4507a04a3bf2cd30288bde" title="Show a list of items in a selected view (used for drag&amp;drop of items into a view node) ...">qSlicerSubjectHierarchyPluginHandler::showItemsInView</a> method to request view of subject hierarchy items in a view. </p>
+</td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00066">66</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00068">68</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -1365,7 +1377,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p><a class="el" href="namespacePython.html">Python</a> accessor for the invalid ID. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00171">171</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00187">187</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3224,6 +3236,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a35020ca6412021375e1c8e7b8def916e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35020ca6412021375e1c8e7b8def916e">&#9670;&nbsp;</a></span>ShowItemsInView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLSubjectHierarchyNode::ShowItemsInView </td>
+          <td>(</td>
+          <td class="paramtype">vtkIdList *&#160;</td>
+          <td class="paramname"><em>itemIDs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show items in selected view (used for drag&amp;drop of subject hierarchy items into the viewer) </p>
+
+</div>
+</div>
 <a id="a1fdd2ba3117ebf2bf0610ad8eac00628"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fdd2ba3117ebf2bf0610ad8eac00628">&#9670;&nbsp;</a></span>WriteNodeBodyXML()</h2>
 
@@ -3325,7 +3367,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00405">405</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00424">424</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3350,7 +3392,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00403">403</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00422">422</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3374,7 +3416,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00057">57</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00059">59</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3400,7 +3442,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Command handling events from subject hierarchy items. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00408">408</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00427">427</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3424,7 +3466,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00061">61</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00063">63</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3448,7 +3490,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00060">60</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00062">62</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3472,7 +3514,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00064">64</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html#l00066">66</a> of file <a class="el" href="vtkMRMLSubjectHierarchyNode_8h_source.html">vtkMRMLSubjectHierarchyNode.h</a>.</p>
 
 </div>
 </div>
@@ -3482,7 +3524,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:38 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:49 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

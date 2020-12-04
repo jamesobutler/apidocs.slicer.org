@@ -4,5 +4,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="vtkSlicerTerminologiesModule\lLogic::CodeIdentifier",height=0.2,width=0.4,color="black",URL="$classvtkSlicerTerminologiesModuleLogic_1_1CodeIdentifier.html",tooltip="Information needed to uniquely identify a terminology code. "];
+  Node29 [label="vtkScalarBarActor",height=0.2,width=0.4,color="grey75"];
+  Node29 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="vtkSlicerScalarBarActor",height=0.2,width=0.4,color="black",URL="$classvtkSlicerScalarBarActor.html"];
 }

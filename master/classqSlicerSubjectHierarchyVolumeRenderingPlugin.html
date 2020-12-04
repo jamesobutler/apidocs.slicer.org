@@ -69,6 +69,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-slots">Protected Slots</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">qSlicerSubjectHierarchyVolumeRenderingPlugin Class Reference</div>  </div>
@@ -108,8 +109,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b643eb4c4933b12ce54970a341209ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#a1b643eb4c4933b12ce54970a341209ee">setVolumeRenderingLogic</a> (<a class="el" href="classvtkSlicerVolumeRenderingLogic.html">vtkSlicerVolumeRenderingLogic</a> *volumeRenderingLogic)</td></tr>
 <tr class="memdesc:a1b643eb4c4933b12ce54970a341209ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set volume rendering module logic. Required for accessing display nodes and setting up volume rendering related nodes.  <a href="#a1b643eb4c4933b12ce54970a341209ee">More...</a><br /></td></tr>
 <tr class="separator:a1b643eb4c4933b12ce54970a341209ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3276428647f69c06e3c90a17d828a10c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#a3276428647f69c06e3c90a17d828a10c">showItemInView</a> (vtkIdType itemID, <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *viewNode, vtkIdList *allItemsToShow) override</td></tr>
+<tr class="separator:a3276428647f69c06e3c90a17d828a10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a209c11a48d721767134b6f0a8f5ccad2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#a209c11a48d721767134b6f0a8f5ccad2">showVisibilityContextMenuActionsForItem</a> (vtkIdType itemID) override</td></tr>
 <tr class="separator:a209c11a48d721767134b6f0a8f5ccad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778114b9b8d9ebbb23ba01d86a1207e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#a778114b9b8d9ebbb23ba01d86a1207e9">showVolumeRendering</a> (bool show, vtkIdType itemID, <a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *viewNode=nullptr)</td></tr>
+<tr class="separator:a778114b9b8d9ebbb23ba01d86a1207e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d78d47838661aaad2b9f9ba5a888be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQList.html">QList</a>&lt; QAction * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#a75d78d47838661aaad2b9f9ba5a888be">visibilityContextMenuActions</a> () const override</td></tr>
 <tr class="separator:a75d78d47838661aaad2b9f9ba5a888be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e754c6e93f39764374e65719e6a1699"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#a6e754c6e93f39764374e65719e6a1699">~qSlicerSubjectHierarchyVolumeRenderingPlugin</a> () override</td></tr>
@@ -184,6 +189,14 @@ Protected Slots</h2></td></tr>
 <tr class="memdesc:ad0c43934b1ff9133138b9879f80f3932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle volume rendering option for current volume item.  <a href="#ad0c43934b1ff9133138b9879f80f3932">More...</a><br /></td></tr>
 <tr class="separator:ad0c43934b1ff9133138b9879f80f3932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aae8a94746ee6495c47ac93f07b7da667"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#aae8a94746ee6495c47ac93f07b7da667">resetFieldOfView</a> (<a class="el" href="classvtkMRMLDisplayNode.html">vtkMRMLDisplayNode</a> *displayNode, <a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *viewNode=nullptr)</td></tr>
+<tr class="separator:aae8a94746ee6495c47ac93f07b7da667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classqSlicerSubjectHierarchyAbstractPlugin')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html">qSlicerSubjectHierarchyAbstractPlugin</a></td></tr>
+<tr class="memitem:a5333bd5aad5ffe078708af75fa06e659 inherit pro_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a5333bd5aad5ffe078708af75fa06e659">hideAllContextMenuActions</a> () const</td></tr>
+<tr class="separator:a5333bd5aad5ffe078708af75fa06e659 inherit pro_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a51b3ab6319367ddaaf6368d490edf39f"><td class="memItemLeft" align="right" valign="top">QScopedPointer&lt; qSlicerSubjectHierarchyVolumeRenderingPluginPrivate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumeRenderingPlugin.html#a51b3ab6319367ddaaf6368d490edf39f">d_ptr</a></td></tr>
@@ -207,13 +220,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classqSlicerSubjectHierarchyAbstractPlugin')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html">qSlicerSubjectHierarchyAbstractPlugin</a></td></tr>
 <tr class="memitem:a0b651f9819dc4490b801f1c690e2f951 inherit pub_static_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memItemLeft" align="right" valign="top">static Q_INVOKABLE <a class="el" href="classqSlicerAbstractModuleWidget.html">qSlicerAbstractModuleWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a0b651f9819dc4490b801f1c690e2f951">switchToModule</a> (QString moduleName)</td></tr>
 <tr class="separator:a0b651f9819dc4490b801f1c690e2f951 inherit pub_static_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classqSlicerSubjectHierarchyAbstractPlugin')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html">qSlicerSubjectHierarchyAbstractPlugin</a></td></tr>
-<tr class="memitem:a5333bd5aad5ffe078708af75fa06e659 inherit pro_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a5333bd5aad5ffe078708af75fa06e659">hideAllContextMenuActions</a> () const</td></tr>
-<tr class="separator:a5333bd5aad5ffe078708af75fa06e659 inherit pro_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html#l00035">35</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html">qSlicerSubjectHierarchyVolumeRenderingPlugin.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html#l00037">37</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html">qSlicerSubjectHierarchyVolumeRenderingPlugin.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a6d3ae362fbc022836ea0eb281b654b1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d3ae362fbc022836ea0eb281b654b1a">&#9670;&nbsp;</a></span>Superclass</h2>
@@ -227,7 +237,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html#l00041">41</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html">qSlicerSubjectHierarchyVolumeRenderingPlugin.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html#l00043">43</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html">qSlicerSubjectHierarchyVolumeRenderingPlugin.h</a>.</p>
 
 </div>
 </div>
@@ -276,6 +286,42 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aae8a94746ee6495c47ac93f07b7da667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae8a94746ee6495c47ac93f07b7da667">&#9670;&nbsp;</a></span>resetFieldOfView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerSubjectHierarchyVolumeRenderingPlugin::resetFieldOfView </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLDisplayNode.html">vtkMRMLDisplayNode</a> *&#160;</td>
+          <td class="paramname"><em>displayNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1b643eb4c4933b12ce54970a341209ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b643eb4c4933b12ce54970a341209ee">&#9670;&nbsp;</a></span>setVolumeRenderingLogic()</h2>
 
@@ -293,6 +339,51 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set volume rendering module logic. Required for accessing display nodes and setting up volume rendering related nodes. </p>
+
+</div>
+</div>
+<a id="a3276428647f69c06e3c90a17d828a10c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3276428647f69c06e3c90a17d828a10c">&#9670;&nbsp;</a></span>showItemInView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qSlicerSubjectHierarchyVolumeRenderingPlugin::showItemInView </td>
+          <td>(</td>
+          <td class="paramtype">vtkIdType&#160;</td>
+          <td class="paramname"><em>itemID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIdList *&#160;</td>
+          <td class="paramname"><em>allItemsToShow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Show an item in a selected view. Calls Volumes plugin's showItemInView implementation and adds support for showing a volume in 3D views using volume rendering. Returns true on success. </p>
+
+<p>Reimplemented from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a75f348c4afc18a3df3b8bfd3929ae294">qSlicerSubjectHierarchyAbstractPlugin</a>.</p>
 
 </div>
 </div>
@@ -327,6 +418,41 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Reimplemented from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#ad73bf2f51458126fab6fb6334730cb55">qSlicerSubjectHierarchyAbstractPlugin</a>.</p>
+
+</div>
+</div>
+<a id="a778114b9b8d9ebbb23ba01d86a1207e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a778114b9b8d9ebbb23ba01d86a1207e9">&#9670;&nbsp;</a></span>showVolumeRendering()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qSlicerSubjectHierarchyVolumeRenderingPlugin::showVolumeRendering </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>show</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIdType&#160;</td>
+          <td class="paramname"><em>itemID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Show/hide volume rendering in a view. If viewNode is nullptr then it is displayed in all 3D views in the current layout. </p>
 
 </div>
 </div>
@@ -434,7 +560,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html#l00064">64</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html">qSlicerSubjectHierarchyVolumeRenderingPlugin.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html#l00076">76</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumeRenderingPlugin_8h_source.html">qSlicerSubjectHierarchyVolumeRenderingPlugin.h</a>.</p>
 
 </div>
 </div>
@@ -444,7 +570,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:46 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

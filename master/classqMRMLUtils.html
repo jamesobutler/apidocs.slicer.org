@@ -117,6 +117,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ac48acb32b19472f16bac3f727365efdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7667040723ef096bbe6feb9e149d4016"><td class="memItemLeft" align="right" valign="top">static Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLUtils.html#a7667040723ef096bbe6feb9e149d4016">getTransformInCoordinateSystem</a> (<a class="el" href="classvtkMRMLTransformNode.html">vtkMRMLTransformNode</a> *transformNode, bool global, vtkTransform *transform)</td></tr>
 <tr class="separator:a7667040723ef096bbe6feb9e149d4016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9688fe1268cf21a6d041da37966fcc74"><td class="memItemLeft" align="right" valign="top">static Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLUtils.html#a9688fe1268cf21a6d041da37966fcc74">mimeDataToSubjectHierarchyItemIDs</a> (const QMimeData *mimeData, vtkIdList *idList)</td></tr>
+<tr class="separator:a9688fe1268cf21a6d041da37966fcc74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83d79a07ebcbb654552bee8d0ce3e0a5"><td class="memItemLeft" align="right" valign="top">static Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLUtils.html#a83d79a07ebcbb654552bee8d0ce3e0a5">qColorToColor</a> (const QColor &amp;qcolor, double *color)</td></tr>
 <tr class="memdesc:a83d79a07ebcbb654552bee8d0ce3e0a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert QColor to C++ RGB array.  <a href="#a83d79a07ebcbb654552bee8d0ce3e0a5">More...</a><br /></td></tr>
 <tr class="separator:a83d79a07ebcbb654552bee8d0ce3e0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,7 +135,7 @@ Convert a vtkMatrix to a QVector  <a href="#abfbb9ebc51edc7aeeb129e8e12527e82">M
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="qMRMLUtils_8h_source.html#l00042">42</a> of file <a class="el" href="qMRMLUtils_8h_source.html">qMRMLUtils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLUtils_8h_source.html#l00044">44</a> of file <a class="el" href="qMRMLUtils_8h_source.html">qMRMLUtils.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="af8e40a078ccae16bf2dfd165d43cd0f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8e40a078ccae16bf2dfd165d43cd0f9">&#9670;&nbsp;</a></span>Self</h2>
@@ -147,7 +149,7 @@ Convert a vtkMatrix to a QVector  <a href="#abfbb9ebc51edc7aeeb129e8e12527e82">M
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qMRMLUtils_8h_source.html#l00044">44</a> of file <a class="el" href="qMRMLUtils_8h_source.html">qMRMLUtils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLUtils_8h_source.html#l00046">46</a> of file <a class="el" href="qMRMLUtils_8h_source.html">qMRMLUtils.h</a>.</p>
 
 </div>
 </div>
@@ -384,6 +386,42 @@ Convert a vtkMatrix to a QVector  <a href="#abfbb9ebc51edc7aeeb129e8e12527e82">M
 
 </div>
 </div>
+<a id="a9688fe1268cf21a6d041da37966fcc74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9688fe1268cf21a6d041da37966fcc74">&#9670;&nbsp;</a></span>mimeDataToSubjectHierarchyItemIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Q_INVOKABLE void qMRMLUtils::mimeDataToSubjectHierarchyItemIDs </td>
+          <td>(</td>
+          <td class="paramtype">const QMimeData *&#160;</td>
+          <td class="paramname"><em>mimeData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIdList *&#160;</td>
+          <td class="paramname"><em>idList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a83d79a07ebcbb654552bee8d0ce3e0a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83d79a07ebcbb654552bee8d0ce3e0a5">&#9670;&nbsp;</a></span>qColorToColor()</h2>
 
@@ -543,7 +581,7 @@ Convert a vtkMatrix to a QVector </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:32 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:45 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -190,6 +190,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c29e0e97156989386063f40b91b9baa"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a3c29e0e97156989386063f40b91b9baa">setPluginLogic</a> (<a class="el" href="classqSlicerSubjectHierarchyPluginLogic.html">qSlicerSubjectHierarchyPluginLogic</a> *<a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a756cc224e83c4dd0d3432d73ebc93a29">pluginLogic</a>)</td></tr>
 <tr class="memdesc:a3c29e0e97156989386063f40b91b9baa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set plugin logic.  <a href="#a3c29e0e97156989386063f40b91b9baa">More...</a><br /></td></tr>
 <tr class="separator:a3c29e0e97156989386063f40b91b9baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5501df3c3b4507a04a3bf2cd30288bde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a5501df3c3b4507a04a3bf2cd30288bde">showItemsInView</a> (vtkIdList *itemIDsToShow, <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *viewNode)</td></tr>
+<tr class="memdesc:a5501df3c3b4507a04a3bf2cd30288bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show a list of items in a selected view (used for drag&amp;drop of items into a view node)  <a href="#a5501df3c3b4507a04a3bf2cd30288bde">More...</a><br /></td></tr>
+<tr class="separator:a5501df3c3b4507a04a3bf2cd30288bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25e942c1f7ebdd6f2805b83b88656769"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classvtkMRMLSubjectHierarchyNode.html">vtkMRMLSubjectHierarchyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a25e942c1f7ebdd6f2805b83b88656769">subjectHierarchyNode</a> () const</td></tr>
 <tr class="memdesc:a25e942c1f7ebdd6f2805b83b88656769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get subject hierarchy node.  <a href="#a25e942c1f7ebdd6f2805b83b88656769">More...</a><br /></td></tr>
 <tr class="separator:a25e942c1f7ebdd6f2805b83b88656769"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1173,6 +1176,36 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a5501df3c3b4507a04a3bf2cd30288bde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5501df3c3b4507a04a3bf2cd30288bde">&#9670;&nbsp;</a></span>showItemsInView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerSubjectHierarchyPluginHandler::showItemsInView </td>
+          <td>(</td>
+          <td class="paramtype">vtkIdList *&#160;</td>
+          <td class="paramname"><em>itemIDsToShow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show a list of items in a selected view (used for drag&amp;drop of items into a view node) </p>
+
+</div>
+</div>
 <a id="a25e942c1f7ebdd6f2805b83b88656769"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25e942c1f7ebdd6f2805b83b88656769">&#9670;&nbsp;</a></span>subjectHierarchyNode()</h2>
 
@@ -1213,7 +1246,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00238">238</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00241">241</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1232,7 +1265,7 @@ Friends</h2></td></tr>
 
 <p>Timestamp of the last plugin registration. Used to allow context menus be repopulated if needed. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00234">234</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00237">237</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1258,7 +1291,7 @@ Friends</h2></td></tr>
 
 <p>Callback handling deletion of the subject hierarchy node. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00223">223</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00226">226</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1283,7 +1316,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Current subject hierarchy item(s) (selected items in the tree view e.g. for context menu request) </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00214">214</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00217">217</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1308,7 +1341,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Instance of the default plugin to access it if there is no suitable plugin found (the default plugin instance cannot be in the registered list, as then it would never be returned) </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00210">210</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00213">213</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1334,7 +1367,7 @@ Friends</h2></td></tr>
 
 <p>MRML scene (to get new subject hierarchy node if the stored one is deleted) </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00217">217</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00220">220</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1360,7 +1393,7 @@ Friends</h2></td></tr>
 
 <p>Plugin logic. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00220">220</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00223">223</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1386,7 +1419,7 @@ Friends</h2></td></tr>
 
 <p>List of registered plugin instances. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00206">206</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html#l00209">209</a> of file <a class="el" href="qSlicerSubjectHierarchyPluginHandler_8h_source.html">qSlicerSubjectHierarchyPluginHandler.h</a>.</p>
 
 </div>
 </div>
@@ -1396,7 +1429,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:46 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

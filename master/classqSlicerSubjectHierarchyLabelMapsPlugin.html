@@ -118,6 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2137edd6aa3080abf19aa117a2d68df1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyLabelMapsPlugin.html#a2137edd6aa3080abf19aa117a2d68df1">setDisplayVisibility</a> (vtkIdType itemID, int visible) override</td></tr>
 <tr class="memdesc:a2137edd6aa3080abf19aa117a2d68df1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set display visibility of a owned subject hierarchy item.  <a href="#a2137edd6aa3080abf19aa117a2d68df1">More...</a><br /></td></tr>
 <tr class="separator:a2137edd6aa3080abf19aa117a2d68df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabfd17f60b55a9eb3369f39894d1be2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyLabelMapsPlugin.html#aabfd17f60b55a9eb3369f39894d1be2f">showItemInView</a> (vtkIdType itemID, <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *viewNode, vtkIdList *allItemsToShow) override</td></tr>
+<tr class="separator:aabfd17f60b55a9eb3369f39894d1be2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e6119620457ee9591ee3efb04f2ad96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyLabelMapsPlugin.html#a1e6119620457ee9591ee3efb04f2ad96">showLabelMapInAllViews</a> (<a class="el" href="classvtkMRMLLabelMapVolumeNode.html">vtkMRMLLabelMapVolumeNode</a> *node)</td></tr>
 <tr class="memdesc:a1e6119620457ee9591ee3efb04f2ad96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show labelmap in all slice views. The argument node replaces any labelmap shown on the label layer.  <a href="#a1e6119620457ee9591ee3efb04f2ad96">More...</a><br /></td></tr>
 <tr class="separator:a1e6119620457ee9591ee3efb04f2ad96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -480,6 +482,51 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aabfd17f60b55a9eb3369f39894d1be2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabfd17f60b55a9eb3369f39894d1be2f">&#9670;&nbsp;</a></span>showItemInView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qSlicerSubjectHierarchyLabelMapsPlugin::showItemInView </td>
+          <td>(</td>
+          <td class="paramtype">vtkIdType&#160;</td>
+          <td class="paramname"><em>itemID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIdList *&#160;</td>
+          <td class="paramname"><em>allItemsToShow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Show an item in a selected view. Calls Volumes plugin's showItemInView implementation. </p>
+
+<p>Reimplemented from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a75f348c4afc18a3df3b8bfd3929ae294">qSlicerSubjectHierarchyAbstractPlugin</a>.</p>
+
+</div>
+</div>
 <a id="a1e6119620457ee9591ee3efb04f2ad96"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e6119620457ee9591ee3efb04f2ad96">&#9670;&nbsp;</a></span>showLabelMapInAllViews()</h2>
 
@@ -671,7 +718,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyLabelMapsPlugin_8h_source.html#l00103">103</a> of file <a class="el" href="qSlicerSubjectHierarchyLabelMapsPlugin_8h_source.html">qSlicerSubjectHierarchyLabelMapsPlugin.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyLabelMapsPlugin_8h_source.html#l00107">107</a> of file <a class="el" href="qSlicerSubjectHierarchyLabelMapsPlugin_8h_source.html">qSlicerSubjectHierarchyLabelMapsPlugin.h</a>.</p>
 
 </div>
 </div>
@@ -681,7 +728,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:46 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

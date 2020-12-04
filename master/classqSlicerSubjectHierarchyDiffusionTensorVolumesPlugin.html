@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae7d1ad7df2af2c3865a8cd9807794cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa64c3268e62d4870dd407e499aea57b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.html#afa64c3268e62d4870dd407e499aea57b">showContextMenuActionsForItem</a> (vtkIdType itemID) override</td></tr>
 <tr class="separator:afa64c3268e62d4870dd407e499aea57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ce2ba02d73a47208567a1bd1e1ff9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.html#a19ce2ba02d73a47208567a1bd1e1ff9f">showItemInView</a> (vtkIdType itemID, <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *viewNode, vtkIdList *allItemsToShow) override</td></tr>
+<tr class="separator:a19ce2ba02d73a47208567a1bd1e1ff9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada46366593ca0d85a5b381ab81f0aa31"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.html#ada46366593ca0d85a5b381ab81f0aa31">tooltip</a> (vtkIdType itemID) const override</td></tr>
 <tr class="memdesc:ada46366593ca0d85a5b381ab81f0aa31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate tooltip for a owned subject hierarchy item.  <a href="#ada46366593ca0d85a5b381ab81f0aa31">More...</a><br /></td></tr>
 <tr class="separator:ada46366593ca0d85a5b381ab81f0aa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -592,6 +594,51 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a19ce2ba02d73a47208567a1bd1e1ff9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ce2ba02d73a47208567a1bd1e1ff9f">&#9670;&nbsp;</a></span>showItemInView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin::showItemInView </td>
+          <td>(</td>
+          <td class="paramtype">vtkIdType&#160;</td>
+          <td class="paramname"><em>itemID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIdList *&#160;</td>
+          <td class="paramname"><em>allItemsToShow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Show an item in a selected view. Calls Volumes plugin's showItemInView implementation. </p>
+
+<p>Reimplemented from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a75f348c4afc18a3df3b8bfd3929ae294">qSlicerSubjectHierarchyAbstractPlugin</a>.</p>
+
+</div>
+</div>
 <a id="ada46366593ca0d85a5b381ab81f0aa31"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada46366593ca0d85a5b381ab81f0aa31">&#9670;&nbsp;</a></span>tooltip()</h2>
 
@@ -673,7 +720,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin_8h_source.html#l00098">98</a> of file <a class="el" href="qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin_8h_source.html">qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin_8h_source.html#l00102">102</a> of file <a class="el" href="qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin_8h_source.html">qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.h</a>.</p>
 
 </div>
 </div>
@@ -683,7 +730,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:46 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

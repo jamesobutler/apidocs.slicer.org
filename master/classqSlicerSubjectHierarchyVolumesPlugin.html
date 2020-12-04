@@ -123,6 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a755a016ee2ec2333d5e038af163b3bcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumesPlugin.html#a755a016ee2ec2333d5e038af163b3bcd">setDisplayVisibility</a> (vtkIdType itemID, int visible) override</td></tr>
 <tr class="memdesc:a755a016ee2ec2333d5e038af163b3bcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set display visibility of a owned subject hierarchy item.  <a href="#a755a016ee2ec2333d5e038af163b3bcd">More...</a><br /></td></tr>
 <tr class="separator:a755a016ee2ec2333d5e038af163b3bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60796948e71a0d8ed614af330da9495"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumesPlugin.html#aa60796948e71a0d8ed614af330da9495">showItemInView</a> (vtkIdType itemID, <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *viewNode, vtkIdList *allItemsToShow) override</td></tr>
+<tr class="memdesc:aa60796948e71a0d8ed614af330da9495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show an item in a selected view.  <a href="#aa60796948e71a0d8ed614af330da9495">More...</a><br /></td></tr>
+<tr class="separator:aa60796948e71a0d8ed614af330da9495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06330096edfcef1b04c1143586d905a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumesPlugin.html#a06330096edfcef1b04c1143586d905a6">showVisibilityContextMenuActionsForItem</a> (vtkIdType itemID) override</td></tr>
 <tr class="separator:a06330096edfcef1b04c1143586d905a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a51903624376f037f3dd9316588c8c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVolumesPlugin.html#a0a51903624376f037f3dd9316588c8c4">showVolumeInAllViews</a> (<a class="el" href="classvtkMRMLScalarVolumeNode.html">vtkMRMLScalarVolumeNode</a> *node, int layer=<a class="el" href="classvtkMRMLApplicationLogic.html#a6acb9b231811c17bc7b1f68c99dae05da18a13e8ddb6c5fad58c20dfbdd786c43">vtkMRMLApplicationLogic::BackgroundLayer</a>)</td></tr>
@@ -631,6 +634,52 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa60796948e71a0d8ed614af330da9495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60796948e71a0d8ed614af330da9495">&#9670;&nbsp;</a></span>showItemInView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool qSlicerSubjectHierarchyVolumesPlugin::showItemInView </td>
+          <td>(</td>
+          <td class="paramtype">vtkIdType&#160;</td>
+          <td class="paramname"><em>itemID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *&#160;</td>
+          <td class="paramname"><em>viewNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIdList *&#160;</td>
+          <td class="paramname"><em>allItemsToShow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Show an item in a selected view. </p>
+
+<p>Reimplemented from <a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a75f348c4afc18a3df3b8bfd3929ae294">qSlicerSubjectHierarchyAbstractPlugin</a>.</p>
+
+</div>
+</div>
 <a id="a06330096edfcef1b04c1143586d905a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06330096edfcef1b04c1143586d905a6">&#9670;&nbsp;</a></span>showVisibilityContextMenuActionsForItem()</h2>
 
@@ -889,7 +938,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumesPlugin_8h_source.html#l00140">140</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumesPlugin_8h_source.html">qSlicerSubjectHierarchyVolumesPlugin.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVolumesPlugin_8h_source.html#l00143">143</a> of file <a class="el" href="qSlicerSubjectHierarchyVolumesPlugin_8h_source.html">qSlicerSubjectHierarchyVolumesPlugin.h</a>.</p>
 
 </div>
 </div>
@@ -899,7 +948,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:46 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

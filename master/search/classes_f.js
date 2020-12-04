@@ -15,5 +15,6 @@ var searchData=
   ['separatecomponentsofadiffusiontensorimage',['SeparateComponentsOfADiffusionTensorImage',['../classitk_1_1SeparateComponentsOfADiffusionTensorImage.html',1,'itk']]],
   ['skel_5fbranch',['skel_branch',['../structskel__branch.html',1,'']]],
   ['skelgraph',['SkelGraph',['../classSkelGraph.html',1,'']]],
-  ['structcolumninfo',['StructColumnInfo',['../structvtkMRMLTableStorageNode_1_1StructColumnInfo.html',1,'vtkMRMLTableStorageNode']]]
+  ['structcolumninfo',['StructColumnInfo',['../structvtkMRMLTableStorageNode_1_1StructColumnInfo.html',1,'vtkMRMLTableStorageNode']]],
+  ['subjecthierarchyitemsshowinviewrequestedeventdata',['SubjectHierarchyItemsShowInViewRequestedEventData',['../structvtkMRMLSubjectHierarchyNode_1_1SubjectHierarchyItemsShowInViewRequestedEventData.html',1,'vtkMRMLSubjectHierarchyNode']]]
 ];

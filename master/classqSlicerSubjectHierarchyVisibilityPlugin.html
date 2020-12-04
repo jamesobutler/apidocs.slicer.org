@@ -159,6 +159,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2acadd845f1e4584af4b49b178714141 inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb1a9deedefdef8876364c8e6d6f6111 inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#aeb1a9deedefdef8876364c8e6d6f6111">showContextMenuActionsForItem</a> (vtkIdType itemID)</td></tr>
 <tr class="separator:aeb1a9deedefdef8876364c8e6d6f6111 inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75f348c4afc18a3df3b8bfd3929ae294 inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a75f348c4afc18a3df3b8bfd3929ae294">showItemInView</a> (vtkIdType itemID, <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *viewNode, vtkIdList *allItemsToShow)</td></tr>
+<tr class="separator:a75f348c4afc18a3df3b8bfd3929ae294 inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd063a990008482c60a0ac050388ae39 inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#abd063a990008482c60a0ac050388ae39">showViewContextMenuActionsForItem</a> (vtkIdType itemID, <a class="el" href="qSlicerQListQVariantMapMetaType_8h.html#aa90e6cbf54a8e79153d35230f332a7aa">QVariantMap</a> eventData)</td></tr>
 <tr class="separator:abd063a990008482c60a0ac050388ae39 inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c748f1c4437fb4f63f88324b68157ef inherit pub_methods_classqSlicerSubjectHierarchyAbstractPlugin"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyAbstractPlugin.html#a7c748f1c4437fb4f63f88324b68157ef">tooltip</a> (vtkIdType itemID) const</td></tr>
@@ -174,6 +176,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-slots"></a>
 Protected Slots</h2></td></tr>
+<tr class="memitem:a1583f860ebe49e34cf5dc3dd1ee5f1cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVisibilityPlugin.html#a1583f860ebe49e34cf5dc3dd1ee5f1cb">showInAllViews</a> ()</td></tr>
+<tr class="memdesc:a1583f860ebe49e34cf5dc3dd1ee5f1cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the node visible in all views (otherwise it is just visible in selected views)  <a href="#a1583f860ebe49e34cf5dc3dd1ee5f1cb">More...</a><br /></td></tr>
+<tr class="separator:a1583f860ebe49e34cf5dc3dd1ee5f1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32dd99268bde3ac177dcbce12c3c968d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerSubjectHierarchyVisibilityPlugin.html#a32dd99268bde3ac177dcbce12c3c968d">toggleCurrentItemVisibility2D</a> (bool on)</td></tr>
 <tr class="memdesc:a32dd99268bde3ac177dcbce12c3c968d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle 2D visibility on currently selected subject hierarchy item.  <a href="#a32dd99268bde3ac177dcbce12c3c968d">More...</a><br /></td></tr>
 <tr class="separator:a32dd99268bde3ac177dcbce12c3c968d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,6 +278,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1583f860ebe49e34cf5dc3dd1ee5f1cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1583f860ebe49e34cf5dc3dd1ee5f1cb">&#9670;&nbsp;</a></span>showInAllViews</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerSubjectHierarchyVisibilityPlugin::showInAllViews </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes the node visible in all views (otherwise it is just visible in selected views) </p>
+
+</div>
+</div>
 <a id="a84a51cd947470062e7f710bae4d9375d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84a51cd947470062e7f710bae4d9375d">&#9670;&nbsp;</a></span>showVisibilityContextMenuActionsForItem()</h2>
 
@@ -412,7 +444,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVisibilityPlugin_8h_source.html#l00060">60</a> of file <a class="el" href="qSlicerSubjectHierarchyVisibilityPlugin_8h_source.html">qSlicerSubjectHierarchyVisibilityPlugin.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSubjectHierarchyVisibilityPlugin_8h_source.html#l00062">62</a> of file <a class="el" href="qSlicerSubjectHierarchyVisibilityPlugin_8h_source.html">qSlicerSubjectHierarchyVisibilityPlugin.h</a>.</p>
 
 </div>
 </div>
@@ -422,7 +454,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2020 20:16:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 4 2020 06:38:46 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
