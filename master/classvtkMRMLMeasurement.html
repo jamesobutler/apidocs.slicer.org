@@ -163,6 +163,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1890cf42787be046d29c71d798db32c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#ad1890cf42787be046d29c71d798db32c">GetValue</a> ()</td></tr>
 <tr class="memdesc:ad1890cf42787be046d29c71d798db32c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measured quantity value.  <a href="#ad1890cf42787be046d29c71d798db32c">More...</a><br /></td></tr>
 <tr class="separator:ad1890cf42787be046d29c71d798db32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6375dd7b89b7d8f9a9ea14066bc4fb23"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a6375dd7b89b7d8f9a9ea14066bc4fb23">GetValueDefined</a> ()</td></tr>
+<tr class="memdesc:a6375dd7b89b7d8f9a9ea14066bc4fb23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value defined flag (whether a computed value has been set or not)  <a href="#a6375dd7b89b7d8f9a9ea14066bc4fb23">More...</a><br /></td></tr>
+<tr class="separator:a6375dd7b89b7d8f9a9ea14066bc4fb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae83739293167544504ea87dc34b50e9b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#ae83739293167544504ea87dc34b50e9b">GetValueWithUnitsAsPrintableString</a> ()</td></tr>
 <tr class="memdesc:ae83739293167544504ea87dc34b50e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get measurement value and units as a single human-readable string.  <a href="#ae83739293167544504ea87dc34b50e9b">More...</a><br /></td></tr>
 <tr class="separator:ae83739293167544504ea87dc34b50e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,8 +207,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa5ee1151dd1cf951d1babee62077f9a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#aa5ee1151dd1cf951d1babee62077f9a1">SetUnitsCode</a> (<a class="el" href="classvtkCodedEntry.html">vtkCodedEntry</a> *entry)</td></tr>
 <tr class="memdesc:aa5ee1151dd1cf951d1babee62077f9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy content of coded entry.  <a href="#aa5ee1151dd1cf951d1babee62077f9a1">More...</a><br /></td></tr>
 <tr class="separator:aa5ee1151dd1cf951d1babee62077f9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b8d69bf6ed5d7cc5ef9673d37d173f4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a9b8d69bf6ed5d7cc5ef9673d37d173f4">SetValue</a> (double)</td></tr>
-<tr class="separator:a9b8d69bf6ed5d7cc5ef9673d37d173f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c3d120280d11d010fa743611a215e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a58c3d120280d11d010fa743611a215e1">SetValue</a> (double value)</td></tr>
+<tr class="separator:a58c3d120280d11d010fa743611a215e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -255,6 +258,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a05451650f61e4d07fedc5515e0a4f916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ad2c685147389e1ecfc36a833fbcc55"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a0ad2c685147389e1ecfc36a833fbcc55">Value</a> {0.0}</td></tr>
 <tr class="separator:a0ad2c685147389e1ecfc36a833fbcc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b3946e7dd7ffd22b13b7a3afec10e4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMeasurement.html#a5b3946e7dd7ffd22b13b7a3afec10e4a">ValueDefined</a> {false}</td></tr>
+<tr class="separator:a5b3946e7dd7ffd22b13b7a3afec10e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for storing well-defined measurement results, using coded entries. </p>
@@ -909,6 +914,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6375dd7b89b7d8f9a9ea14066bc4fb23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6375dd7b89b7d8f9a9ea14066bc4fb23">&#9670;&nbsp;</a></span>GetValueDefined()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool vtkMRMLMeasurement::GetValueDefined </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Value defined flag (whether a computed value has been set or not) </p>
+
+</div>
+</div>
 <a id="ae83739293167544504ea87dc34b50e9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae83739293167544504ea87dc34b50e9b">&#9670;&nbsp;</a></span>GetValueWithUnitsAsPrintableString()</h2>
 
@@ -1369,28 +1401,20 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b8d69bf6ed5d7cc5ef9673d37d173f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b8d69bf6ed5d7cc5ef9673d37d173f4">&#9670;&nbsp;</a></span>SetValue()</h2>
+<a id="a58c3d120280d11d010fa743611a215e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58c3d120280d11d010fa743611a215e1">&#9670;&nbsp;</a></span>SetValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void vtkMRMLMeasurement::SetValue </td>
+          <td class="memname">void vtkMRMLMeasurement::SetValue </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1418,7 +1442,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Per-control point measurements. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00155">155</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00159">159</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1442,7 +1466,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00149">149</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00153">153</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1466,7 +1490,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00146">146</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00150">150</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1490,7 +1514,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00142">142</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00145">145</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1517,7 +1541,7 @@ Protected Attributes</h2></td></tr>
 <p>MRML node used to calculate the measurement. </p>
 <dl class="section see"><dt>See also</dt><dd>Execute </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00161">161</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00165">165</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1541,7 +1565,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00152">152</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00156">156</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1565,7 +1589,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00151">151</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00155">155</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1589,7 +1613,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00143">143</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00146">146</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1613,7 +1637,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00147">147</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00151">151</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1637,7 +1661,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00148">148</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00152">152</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1661,7 +1685,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00145">145</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00149">149</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1685,7 +1709,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00150">150</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00154">154</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1709,7 +1733,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00144">144</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00147">147</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
+
+</div>
+</div>
+<a id="a5b3946e7dd7ffd22b13b7a3afec10e4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b3946e7dd7ffd22b13b7a3afec10e4a">&#9670;&nbsp;</a></span>ValueDefined</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLMeasurement::ValueDefined {false}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMeasurement_8h_source.html#l00148">148</a> of file <a class="el" href="vtkMRMLMeasurement_8h_source.html">vtkMRMLMeasurement.h</a>.</p>
 
 </div>
 </div>
@@ -1719,7 +1767,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 12 2020 02:33:37 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 13 2020 14:49:54 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

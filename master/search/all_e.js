@@ -48,7 +48,7 @@ var searchData=
   ['nodeabouttoberemoved',['nodeAboutToBeRemoved',['../classqMRMLNodeComboBox.html#ad59fd6613d3826f2a1609a2b3cf12f11',1,'qMRMLNodeComboBox']]],
   ['nodeabouttoberemovedevent',['NodeAboutToBeRemovedEvent',['../classvtkMRMLScene.html#a8ccb4e378bdb987a4e95ac6cc1067c94a2a51ee0218f53512c95cbc94d5e4dab4',1,'vtkMRMLScene']]],
   ['nodeactivated',['nodeActivated',['../classqMRMLNodeComboBox.html#a3702ced56aea5b0d0486e4c30715a6f3',1,'qMRMLNodeComboBox']]],
-  ['nodeadded',['NodeAdded',['../classvtkMRMLScene.html#a81275489672be6f3f9b08479e047c57a',1,'vtkMRMLScene::NodeAdded(vtkMRMLNode *n)'],['../classvtkMRMLScene.html#aef165a9570ab5d7f587ec88adf644c8d',1,'vtkMRMLScene::NodeAdded()'],['../classqMRMLNodeComboBox.html#ae68003931e0227e9f6b757bee01ed336',1,'qMRMLNodeComboBox::nodeAdded()'],['../classqMRMLNodeFactory.html#aa2463d07cb6e79164dfa69fcf6e67b0c',1,'qMRMLNodeFactory::nodeAdded()']]],
+  ['nodeadded',['nodeAdded',['../classqMRMLNodeComboBox.html#ae68003931e0227e9f6b757bee01ed336',1,'qMRMLNodeComboBox::nodeAdded()'],['../classqMRMLNodeFactory.html#aa2463d07cb6e79164dfa69fcf6e67b0c',1,'qMRMLNodeFactory::nodeAdded()'],['../classvtkMRMLScene.html#a81275489672be6f3f9b08479e047c57a',1,'vtkMRMLScene::NodeAdded(vtkMRMLNode *n)'],['../classvtkMRMLScene.html#aef165a9570ab5d7f587ec88adf644c8d',1,'vtkMRMLScene::NodeAdded()']]],
   ['nodeaddedbyuser',['nodeAddedByUser',['../classqMRMLNodeComboBox.html#a2b01a81ef4d8621cb971b987d2611d99',1,'qMRMLNodeComboBox']]],
   ['nodeaddedevent',['NodeAddedEvent',['../classvtkMRMLScene.html#a8ccb4e378bdb987a4e95ac6cc1067c94a883501afca47bd5809645023742ddcd3',1,'vtkMRMLScene']]],
   ['nodeclassnames',['nodeClassNames',['../classqSlicerNodeWriter.html#acc56a7661c1e6a675b71fb4e4f5d428d',1,'qSlicerNodeWriter']]],

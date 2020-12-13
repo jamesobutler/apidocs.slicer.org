@@ -459,7 +459,7 @@ var searchData=
   ['restorepreviewedsegmenttransparency',['restorePreviewedSegmentTransparency',['../classSegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html#a89fffe7a1f68bb6295e018e672b76166',1,'SegmentEditorThresholdEffect::SegmentEditorThresholdEffect']]],
   ['restorepreviousstate',['RestorePreviousState',['../classvtkSegmentationHistory.html#a1369baf015c08e8d6b6499c6f509cfcf',1,'vtkSegmentationHistory']]],
   ['restorescene',['RestoreScene',['../classvtkMRMLSceneViewNode.html#a7549ab31467206c8d9ce790a6081b0a5',1,'vtkMRMLSceneViewNode']]],
-  ['restoresceneview',['restoreSceneView',['../classqSlicerSceneViewsModuleWidget.html#a200d75fc287c47fdd6a9617f888be6a2',1,'qSlicerSceneViewsModuleWidget::restoreSceneView()'],['../classvtkSlicerSceneViewsModuleLogic.html#a76dc12773f8d19fec23d45029687b807',1,'vtkSlicerSceneViewsModuleLogic::RestoreSceneView()']]],
+  ['restoresceneview',['RestoreSceneView',['../classvtkSlicerSceneViewsModuleLogic.html#a76dc12773f8d19fec23d45029687b807',1,'vtkSlicerSceneViewsModuleLogic::RestoreSceneView()'],['../classqSlicerSceneViewsModuleWidget.html#a200d75fc287c47fdd6a9617f888be6a2',1,'qSlicerSceneViewsModuleWidget::restoreSceneView()']]],
   ['restorestate',['RestoreState',['../classvtkMRMLScene.html#a72f8846a9216214430e05638bcead65fa306aba6622a46f02ac12a8b66da9cd3a',1,'vtkMRMLScene::RestoreState()'],['../classvtkSegmentationHistory.html#a3db0f1c3f54cd9c3a826e5e47896f3ba',1,'vtkSegmentationHistory::RestoreState()']]],
   ['restorestateinprogress',['RestoreStateInProgress',['../classvtkSegmentationHistory.html#ab043cea78edd433f4403cfd124e78e61',1,'vtkSegmentationHistory']]],
   ['restoretoolbars',['restoreToolbars',['../classqSlicerMainWindow.html#a2b3c9239308a4ab20c288f0e7999e27d',1,'qSlicerMainWindow']]],
