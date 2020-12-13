@@ -37,7 +37,7 @@ var searchData=
   ['activescalarname',['activeScalarName',['../classqMRMLScalarsDisplayWidget.html#a988905d550725ff7e1b91f178443309e',1,'qMRMLScalarsDisplayWidget']]],
   ['activetablerenderer',['activeTableRenderer',['../classqMRMLLayoutManager.html#ad00c4699a9add3879e2dfdd8a17d4795',1,'qMRMLLayoutManager']]],
   ['activetablerendererchanged',['activeTableRendererChanged',['../classqMRMLLayoutManager.html#a17062bd44e349287afcc7c7c6015fcd8',1,'qMRMLLayoutManager']]],
-  ['activetaskcount',['activeTaskCount',['../classqSlicerExtensionsManagerModel.html#af0a9034b492a16ede7783cda6eb6edf2',1,'qSlicerExtensionsManagerModel']]],
+  ['activetasks',['activeTasks',['../classqSlicerExtensionsManagerModel.html#a111846139de4b2a63b39ba7da08583b9',1,'qSlicerExtensionsManagerModel']]],
   ['activethreedrenderer',['activeThreeDRenderer',['../classqMRMLLayoutManager.html#ad9ab58cd6c9cbc124fa9af71783bb292',1,'qMRMLLayoutManager']]],
   ['activethreedrendererchanged',['activeThreeDRendererChanged',['../classqMRMLLayoutManager.html#a092ccee4ab0e3f644d9753e444bdc477',1,'qMRMLLayoutManager']]],
   ['activeviewnode',['activeViewNode',['../classqMRMLLayoutViewFactory.html#a287a0a79e8a0d7cf870cc4e8b3bb100e',1,'qMRMLLayoutViewFactory']]],
