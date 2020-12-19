@@ -70,7 +70,7 @@ var searchData=
   ['interpolatedpointidsforcontrolpoints',['InterpolatedPointIdsForControlPoints',['../classvtkCurveGenerator.html#afee1d97c085cf70436a28c7c5e9964c0',1,'vtkCurveGenerator']]],
   ['interpolatetexture',['InterpolateTexture',['../classvtkMRMLDisplayNode.html#a187ee3087d934a496055ac766018bb28',1,'vtkMRMLDisplayNode']]],
   ['interpolation',['Interpolation',['../classvtkMRMLDisplayNode.html#a8a5f5084c60e57dddcff9094611bc045',1,'vtkMRMLDisplayNode']]],
-  ['interpolationmode',['InterpolationMode',['../classvtkMRMLCropVolumeParametersNode.html#a6647398af3e0dd1bb2c56d46a63542b4',1,'vtkMRMLCropVolumeParametersNode']]],
+  ['interpolationmode',['InterpolationMode',['../classvtkMRMLSliceLayerLogic.html#a28526f20eb4bc742b6538ba6512aff2c',1,'vtkMRMLSliceLayerLogic::InterpolationMode()'],['../classvtkMRMLCropVolumeParametersNode.html#a6647398af3e0dd1bb2c56d46a63542b4',1,'vtkMRMLCropVolumeParametersNode::InterpolationMode()']]],
   ['intersectionactors',['IntersectionActors',['../classvtkAnnotationROIRepresentation2D.html#a7bef7f24584c8d3e466f5d174543169b',1,'vtkAnnotationROIRepresentation2D']]],
   ['intersectionfaces',['IntersectionFaces',['../classvtkAnnotationROIRepresentation2D.html#ab50acc3d6217dc0fea04aa4ba4860ff1',1,'vtkAnnotationROIRepresentation2D']]],
   ['intersectionlines',['IntersectionLines',['../classvtkAnnotationROIRepresentation2D.html#ae8d85ca76aeabeeaafa18900d1736d4f',1,'vtkAnnotationROIRepresentation2D']]],

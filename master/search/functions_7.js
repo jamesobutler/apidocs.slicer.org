@@ -858,7 +858,7 @@ var searchData=
   ['getinterpolatedcropoutputgeometry',['GetInterpolatedCropOutputGeometry',['../classvtkSlicerCropVolumeLogic.html#a58bd823014be75acdfd157566d203ebd',1,'vtkSlicerCropVolumeLogic']]],
   ['getinterpolatetexture',['GetInterpolateTexture',['../classvtkMRMLDisplayNode.html#a15b7d39cff34551522925cfa5a6301e1',1,'vtkMRMLDisplayNode']]],
   ['getinterpolation',['GetInterpolation',['../classvtkMRMLDisplayNode.html#a624cfbf0e93010fa8c9ff26e7e1f4642',1,'vtkMRMLDisplayNode']]],
-  ['getinterpolationmode',['GetInterpolationMode',['../classvtkMRMLCropVolumeParametersNode.html#ac293d46ac51f7e6c8574a546a2181a4b',1,'vtkMRMLCropVolumeParametersNode']]],
+  ['getinterpolationmode',['GetInterpolationMode',['../classvtkMRMLSliceLayerLogic.html#a378badb80c13a59942039814685123fd',1,'vtkMRMLSliceLayerLogic::GetInterpolationMode()'],['../classvtkMRMLCropVolumeParametersNode.html#ac293d46ac51f7e6c8574a546a2181a4b',1,'vtkMRMLCropVolumeParametersNode::GetInterpolationMode()']]],
   ['getinterpolationtype',['GetInterpolationType',['../classvtkMRMLVolumePropertyNode.html#a71d08e9c1fb31d9f578efecb62447a3d',1,'vtkMRMLVolumePropertyNode']]],
   ['getinterpolationtypefieldname',['GetInterpolationTypeFieldName',['../classvtkSegmentationConverter.html#ac6961bb92e57b6929a32ff8c4485a2f2',1,'vtkSegmentationConverter']]],
   ['getintersectionactors',['GetIntersectionActors',['../classvtkAnnotationROIRepresentation2D.html#a17dc2f825fa04066e5f9c334edf403f0',1,'vtkAnnotationROIRepresentation2D']]],
