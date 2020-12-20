@@ -406,6 +406,15 @@ toggle the view linking  <a href="#a510eaf3d3c954092fa6980f396efc73a">More...</a
 <tr class="memitem:aa34ce25a2c14214f2fb5bf3df4462b24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#aa34ce25a2c14214f2fb5bf3df4462b24">WriteXML</a> (ostream &amp;of, int indent) override</td></tr>
 <tr class="memdesc:aa34ce25a2c14214f2fb5bf3df4462b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write this node's information to a MRML file in XML format.  <a href="#aa34ce25a2c14214f2fb5bf3df4462b24">More...</a><br /></td></tr>
 <tr class="separator:aa34ce25a2c14214f2fb5bf3df4462b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a2c6c23b0931786bcfbf228f14d2e4fb5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#a2c6c23b0931786bcfbf228f14d2e4fb5">SetAutoReleaseGraphicsResources</a> (bool)</td></tr>
+<tr class="separator:a2c6c23b0931786bcfbf228f14d2e4fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb716f7dcaf95e1b213cad5cf11156b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#a4fb716f7dcaf95e1b213cad5cf11156b">GetAutoReleaseGraphicsResources</a> ()</td></tr>
+<tr class="separator:a4fb716f7dcaf95e1b213cad5cf11156b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ecad49d5ce2da0a6da6786bb9ec1af8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#a6ecad49d5ce2da0a6da6786bb9ec1af8">AutoReleaseGraphicsResourcesOn</a> ()</td></tr>
+<tr class="separator:a6ecad49d5ce2da0a6da6786bb9ec1af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9fb8a55975517e0d3512cb7eea1d2f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#ab9fb8a55975517e0d3512cb7eea1d2f3">AutoReleaseGraphicsResourcesOff</a> ()</td></tr>
+<tr class="separator:ab9fb8a55975517e0d3512cb7eea1d2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classvtkMRMLAbstractViewNode"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classvtkMRMLAbstractViewNode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a></td></tr>
 <tr class="memitem:acff10a4ee24edf22de47f84d4de9dfab inherit pub_methods_classvtkMRMLAbstractViewNode"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractViewNode.html#acff10a4ee24edf22de47f84d4de9dfab">GetActive</a> ()</td></tr>
 <tr class="memdesc:acff10a4ee24edf22de47f84d4de9dfab inherit pub_methods_classvtkMRMLAbstractViewNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether or not the view is active.  <a href="classvtkMRMLAbstractViewNode.html#acff10a4ee24edf22de47f84d4de9dfab">More...</a><br /></td></tr>
@@ -917,6 +926,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad94cf8a3ecfc4acbaaa38795b9ec1fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b7075c261890f737e3eda9032c66b56"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#a9b7075c261890f737e3eda9032c66b56">AnimationMs</a></td></tr>
 <tr class="separator:a9b7075c261890f737e3eda9032c66b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2d2b600b60825534ae5b0b3cb1c50f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#ae2d2b600b60825534ae5b0b3cb1c50f5">AutoReleaseGraphicsResources</a></td></tr>
+<tr class="memdesc:ae2d2b600b60825534ae5b0b3cb1c50f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediately release graphics resources when they are not in use.  <a href="#ae2d2b600b60825534ae5b0b3cb1c50f5">More...</a><br /></td></tr>
+<tr class="separator:ae2d2b600b60825534ae5b0b3cb1c50f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a938b5f7c3c8b1936865c97259d2045c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#a938b5f7c3c8b1936865c97259d2045c5">AxisLabelsCameraDependent</a></td></tr>
 <tr class="separator:a938b5f7c3c8b1936865c97259d2045c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae166af25451aae047dce8d8cec9f83e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewNode.html#ae166af25451aae047dce8d8cec9f83e5">AxisLabelsVisible</a></td></tr>
@@ -1124,7 +1136,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="aa2bb7d377ddd5cff233eb8c411924abaaed0ec660c173db34c4246b12c7179553"></a>ViewAxisMode_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00174">174</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00186">186</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1151,7 +1163,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a84da09cbfa3efc34d21a4a80c0299956a8812d4c061878d1aefb74733fc0931ef"></a>SpinDirection_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00182">182</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00194">194</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1180,7 +1192,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="ad48ba35ec83612ced024f351c6db7905a33cc29ba9ded3688a17f10b85e88fb98"></a>StereoType_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00194">194</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00206">206</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1203,7 +1215,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a30ad62056026b93df2ecca1cc01cd3bda74b7463406341a41ae4076ce82536995"></a>RenderMode_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00208">208</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00220">220</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1227,7 +1239,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a2fdec6e16de5d0da35f08b12e10298b5a13d05e4a821355fa01fda4bcf7b3058b"></a>AnimationMode_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00216">216</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00228">228</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1255,7 +1267,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a110e8b20d399e6a4cb224db3ce1c5dd9a8d881235b039a66a04e11b63c3a4f3fe"></a>VolumeRenderingQuality_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00225">225</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00237">237</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1282,7 +1294,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="afca7f0472742bc6f297de5361daf6d14a298614c3905d277ec28695807b69671a"></a>RaycastTechnique_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00234">234</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00246">246</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1304,7 +1316,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a6342c3f3d2101a51141df611b7b6eb38a2efd5f0641d1cd48a8b42fe76abb2eb4"></a>ResetFocalPointRequestedEvent&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00246">246</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00258">258</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1336,7 +1348,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a0808d1f461ee3b95ad6cfbf2ef050a87a97312a2de58fddadef2aa78d65f6a0be"></a>FPSVisibleFlag&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00267">267</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00279">279</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -1418,6 +1430,56 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab9fb8a55975517e0d3512cb7eea1d2f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9fb8a55975517e0d3512cb7eea1d2f3">&#9670;&nbsp;</a></span>AutoReleaseGraphicsResourcesOff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLViewNode::AutoReleaseGraphicsResourcesOff </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ecad49d5ce2da0a6da6786bb9ec1af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ecad49d5ce2da0a6da6786bb9ec1af8">&#9670;&nbsp;</a></span>AutoReleaseGraphicsResourcesOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLViewNode::AutoReleaseGraphicsResourcesOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3d019c9186831256652a86363e8923ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d019c9186831256652a86363e8923ac">&#9670;&nbsp;</a></span>CreateNodeInstance()</h2>
 
@@ -1602,6 +1664,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Amount of wait time between spin increments. </p>
+
+</div>
+</div>
+<a id="a4fb716f7dcaf95e1b213cad5cf11156b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb716f7dcaf95e1b213cad5cf11156b">&#9670;&nbsp;</a></span>GetAutoReleaseGraphicsResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool vtkMRMLViewNode::GetAutoReleaseGraphicsResources </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3005,6 +3092,33 @@ toggle the view linking </p>
 
 </div>
 </div>
+<a id="a2c6c23b0931786bcfbf228f14d2e4fb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c6c23b0931786bcfbf228f14d2e4fb5">&#9670;&nbsp;</a></span>SetAutoReleaseGraphicsResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLViewNode::SetAutoReleaseGraphicsResources </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Enable/Disable automatic immediate release of graphics resources when not in use. If GPU volume rendering is used, enabling this option makes the volume immediately unloaded from GPU memory when visibility is turned off. Disabled by default to allow faster toggling of visibility. </p>
+
+</div>
+</div>
 <a id="a01613f7e2820599134040731732c19b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01613f7e2820599134040731732c19b6">&#9670;&nbsp;</a></span>SetAxisLabelsCameraDependent()</h2>
 
@@ -3754,7 +3868,7 @@ toggle the view linking </p>
 
 <p>Parameters of automatic spin. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00313">313</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00325">325</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3778,7 +3892,33 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00316">316</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00328">328</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+
+</div>
+</div>
+<a id="ae2d2b600b60825534ae5b0b3cb1c50f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2d2b600b60825534ae5b0b3cb1c50f5">&#9670;&nbsp;</a></span>AutoReleaseGraphicsResources</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLViewNode::AutoReleaseGraphicsResources</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Immediately release graphics resources when they are not in use. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00360">360</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3802,7 +3942,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00308">308</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00320">320</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3826,7 +3966,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00307">307</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00319">319</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3850,7 +3990,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00306">306</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00318">318</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3876,7 +4016,7 @@ toggle the view linking </p>
 
 <p>Expected frame per second rendered. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00348">348</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00363">363</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3900,7 +4040,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00305">305</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00317">317</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3924,7 +4064,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00304">304</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00316">316</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3948,7 +4088,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00309">309</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00321">321</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3974,7 +4114,7 @@ toggle the view linking </p>
 
 <p>Show the Frame per second as text on the lower right part of the view. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00340">340</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00352">352</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -3999,7 +4139,7 @@ toggle the view linking </p>
 </div><div class="memdoc">
 <p>Tracking GPU memory size in MB. Not saved into scene file because different machines may have different GPU memory values. A value of 0 indicates to use the default value in the settings </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00345">345</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00357">357</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4023,7 +4163,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00375">375</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00390">390</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4047,7 +4187,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00376">376</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00391">391</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4071,7 +4211,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00310">310</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00322">322</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4095,7 +4235,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00374">374</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00389">389</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4120,7 +4260,7 @@ toggle the view linking </p>
 </div><div class="memdoc">
 <p>Techniques for volume rendering ray cast 0: Composite with directional lighting (default) 1: Composite with fake lighting (edge coloring, faster) - Not used 2: MIP 3: MINIP 4: Gradient Magnitude Opacity Modulation - Not used 5: Illustrative Context Preserving Exploration - Not used </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00363">363</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00378">378</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4146,7 +4286,7 @@ toggle the view linking </p>
 
 <p>Specifies orthographic or perspective rendering. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00330">330</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00342">342</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4170,7 +4310,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00320">320</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00332">332</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4196,7 +4336,7 @@ toggle the view linking </p>
 
 <p>Parameters of automatic rock. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00319">319</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00331">331</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4221,7 +4361,7 @@ toggle the view linking </p>
 </div><div class="memdoc">
 <p>Increment used to rotate the view once about an axis. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00324">324</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00336">336</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4245,7 +4385,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00315">315</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00327">327</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4269,7 +4409,7 @@ toggle the view linking </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00314">314</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00326">326</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4295,7 +4435,7 @@ toggle the view linking </p>
 
 <p>Parameters for stereo viewing. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00327">327</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00339">339</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4321,7 +4461,7 @@ toggle the view linking </p>
 
 <p>Use the depth peeling rendering mode. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00337">337</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00349">349</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4346,7 +4486,7 @@ toggle the view linking </p>
 </div><div class="memdoc">
 <p>Parameters for look-from or rotate-around automatic view control </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00334">334</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00346">346</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4373,7 +4513,7 @@ toggle the view linking </p>
 <dd>
 <a class="el" href="classvtkMRMLViewNode.html#a06a5cc7eea42837098a7e519b87ecba9">VolumeRenderingQuality</a> is set to maximum quality, then a fix oversampling factor of 10 is used. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00372">372</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00387">387</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4398,7 +4538,7 @@ toggle the view linking </p>
 </div><div class="memdoc">
 <p>Volume rendering quality control mode 0: Adaptive 1: Normal Quality 2: Maximum Quality </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00354">354</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00369">369</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4424,7 +4564,7 @@ toggle the view linking </p>
 
 <p>Make surface appearance smoother in volume rendering. Off by default. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00366">366</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewNode_8h_source.html#l00381">381</a> of file <a class="el" href="vtkMRMLViewNode_8h_source.html">vtkMRMLViewNode.h</a>.</p>
 
 </div>
 </div>
@@ -4434,7 +4574,7 @@ toggle the view linking </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 19 2020 04:14:09 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 20 2020 15:00:15 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -169,6 +169,7 @@ var searchData=
   ['getattributetypesenumasstring',['GetAttributeTypesEnumAsString',['../classvtkMRMLAnnotationControlPointsNode.html#ac49aec4455ba73f2fe7282fc9ec437f4',1,'vtkMRMLAnnotationControlPointsNode::GetAttributeTypesEnumAsString()'],['../classvtkMRMLAnnotationLinesNode.html#a1ed8882674b7b23ef9aa2457dafefcb7',1,'vtkMRMLAnnotationLinesNode::GetAttributeTypesEnumAsString()'],['../classvtkMRMLAnnotationNode.html#a9064e1e164c9e9edaf79138b2bf0a3cb',1,'vtkMRMLAnnotationNode::GetAttributeTypesEnumAsString()']]],
   ['getautocreatedisplaynodes',['GetAutoCreateDisplayNodes',['../classvtkSlicerMarkupsLogic.html#a7aaf67b5884b36fab6de306a902b7e00',1,'vtkSlicerMarkupsLogic']]],
   ['getautofindschema',['GetAutoFindSchema',['../classvtkMRMLTableStorageNode.html#a7196c891729d320ff22c2d6e744a4e86',1,'vtkMRMLTableStorageNode']]],
+  ['getautoreleasegraphicsresources',['GetAutoReleaseGraphicsResources',['../classvtkMRMLViewNode.html#a4fb716f7dcaf95e1b213cad5cf11156b',1,'vtkMRMLViewNode']]],
   ['getautorun',['GetAutoRun',['../classvtkMRMLCommandLineModuleNode.html#ab81c051f5640a2aa8544f3079982a526',1,'vtkMRMLCommandLineModuleNode']]],
   ['getautorundelay',['GetAutoRunDelay',['../classvtkMRMLCommandLineModuleNode.html#a811aff8fa7133e465c38060af3217018',1,'vtkMRMLCommandLineModuleNode']]],
   ['getautorunmode',['GetAutoRunMode',['../classvtkMRMLCommandLineModuleNode.html#aab3af3b5aeb0873d91a6cd9012b88484',1,'vtkMRMLCommandLineModuleNode']]],

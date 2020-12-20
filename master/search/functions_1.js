@@ -312,6 +312,8 @@ var searchData=
   ['autodeletesubjecthierarchychildren',['autoDeleteSubjectHierarchyChildren',['../classqSlicerSubjectHierarchyPluginHandler.html#a3b358f0d0e80f48fa50575fca70398ca',1,'qSlicerSubjectHierarchyPluginHandler']]],
   ['autofindschemaoff',['AutoFindSchemaOff',['../classvtkMRMLTableStorageNode.html#a8e835e875f32951edfded046d3d98166',1,'vtkMRMLTableStorageNode']]],
   ['autofindschemaon',['AutoFindSchemaOn',['../classvtkMRMLTableStorageNode.html#aa3e2af9a2d527d0c0eafa520d4d2c884',1,'vtkMRMLTableStorageNode']]],
+  ['autoreleasegraphicsresourcesoff',['AutoReleaseGraphicsResourcesOff',['../classvtkMRMLViewNode.html#ab9fb8a55975517e0d3512cb7eea1d2f3',1,'vtkMRMLViewNode']]],
+  ['autoreleasegraphicsresourceson',['AutoReleaseGraphicsResourcesOn',['../classvtkMRMLViewNode.html#a6ecad49d5ce2da0a6da6786bb9ec1af8',1,'vtkMRMLViewNode']]],
   ['autorun',['AutoRun',['../classvtkSlicerCLIModuleLogic.html#a908d5e2a4baa2c82ddfe11f18b528b83',1,'vtkSlicerCLIModuleLogic']]],
   ['autosavechanged',['autoSaveChanged',['../classqMRMLTextWidget.html#a371c1eee16d675e9385bfdbe576b2aa9',1,'qMRMLTextWidget']]],
   ['autoscalarrangeoff',['AutoScalarRangeOff',['../classvtkMRMLDisplayNode.html#a4650f8aa4c066cf340766b0ae7b21573',1,'vtkMRMLDisplayNode']]],

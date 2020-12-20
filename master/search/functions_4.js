@@ -26,6 +26,8 @@ var searchData=
   ['deepcopymetadata',['DeepCopyMetadata',['../classvtkSegment.html#a0e24bb87662d559986c2612378531bad',1,'vtkSegment']]],
   ['deepcopynodetoscene',['DeepCopyNodeToScene',['../classvtkMRMLSequenceNode.html#a58cc4e8fa89d889873665ab18f7d1fe3',1,'vtkMRMLSequenceNode']]],
   ['deepcopytransform',['DeepCopyTransform',['../classvtkMRMLTransformNode.html#a7c76a107de0c86375fe6fda1d31b9733',1,'vtkMRMLTransformNode']]],
+  ['defaultautoreleasegraphicsresources',['defaultAutoReleaseGraphicsResources',['../classqSlicerVolumeRenderingSettingsPanel.html#a5c20c66f185ac1596a87d34ec8994273',1,'qSlicerVolumeRenderingSettingsPanel']]],
+  ['defaultautoreleasegraphicsresourceschanged',['defaultAutoReleaseGraphicsResourcesChanged',['../classqSlicerVolumeRenderingSettingsPanel.html#a42d14967a058fa3b2b1e6db5316f8a93',1,'qSlicerVolumeRenderingSettingsPanel']]],
   ['defaultbackgroundcolor',['defaultBackgroundColor',['../classvtkMRMLViewNode.html#a1f2170ef96cf648fc8d471edbb7be816',1,'vtkMRMLViewNode']]],
   ['defaultbackgroundcolor2',['defaultBackgroundColor2',['../classvtkMRMLViewNode.html#a7b06897884ba719673cf06883336e9f5',1,'vtkMRMLViewNode']]],
   ['defaultdocumentationlink',['defaultDocumentationLink',['../classqSlicerAbstractCoreModule.html#a494695b79168e6bf0085d5404d9acd1b',1,'qSlicerAbstractCoreModule']]],

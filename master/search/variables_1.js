@@ -73,6 +73,7 @@ var searchData=
   ['attributes',['Attributes',['../classvtkMRMLNode.html#a586d6c8174134fbf289e29e43c2b74b7',1,'vtkMRMLNode::Attributes()'],['../classvtkTeemNRRDWriter.html#a1c57240caf23fec5e6d5a0c3e37c8b05',1,'vtkTeemNRRDWriter::Attributes()']]],
   ['author',['author',['../namespaceconf.html#a637c239d256432248aa8d9f3ab0b8c52',1,'conf']]],
   ['autofindschema',['AutoFindSchema',['../classvtkMRMLTableStorageNode.html#a9d4fd894a215a7fc4f91948a0fb97b5f',1,'vtkMRMLTableStorageNode']]],
+  ['autoreleasegraphicsresources',['AutoReleaseGraphicsResources',['../classvtkMRMLViewNode.html#ae2d2b600b60825534ae5b0b3cb1c50f5',1,'vtkMRMLViewNode']]],
   ['autoremovedisplayandstoragenodes',['AutoRemoveDisplayAndStorageNodes',['../classvtkSlicerDataModuleLogic.html#a7b844a40a4e6958e76d60bd42f98e51a',1,'vtkSlicerDataModuleLogic']]],
   ['autosave',['AutoSave',['../classqMRMLTextWidget.html#a1f40b831ebdb32ec1d040714e5d36a73',1,'qMRMLTextWidget']]],
   ['autosizescalingfactor',['AutoSizeScalingFactor',['../classvtkMRMLMarkupsPlaneNode.html#a57a0c14da3d68db779ae88f9e7f0b3c0',1,'vtkMRMLMarkupsPlaneNode']]],
