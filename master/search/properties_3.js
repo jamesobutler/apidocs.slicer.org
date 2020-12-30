@@ -2,6 +2,7 @@ var searchData=
 [
   ['datatypeeditable',['dataTypeEditable',['../classqMRMLVolumeInfoWidget.html#a9a131fc42980448cf11849b2dc955a68',1,'qMRMLVolumeInfoWidget']]],
   ['decimals',['decimals',['../classqMRMLTransformSliders.html#ae64dd1a305a03eb9a1a78413312da476',1,'qMRMLTransformSliders']]],
+  ['defaultactivecolor',['defaultActiveColor',['../classqSlicerMarkupsSettingsPanel.html#a36d0af5ae2e0de55d955d69e28b57c1a',1,'qSlicerMarkupsSettingsPanel']]],
   ['defaultautoreleasegraphicsresources',['defaultAutoReleaseGraphicsResources',['../classqSlicerVolumeRenderingSettingsPanel.html#a0a5e9ef06b6d7286519c2fcbdb573e99',1,'qSlicerVolumeRenderingSettingsPanel']]],
   ['defaultdocumentationlink',['defaultDocumentationLink',['../classqSlicerAbstractCoreModule.html#a598a23f733ae50dce40cf594a62acc4a',1,'qSlicerAbstractCoreModule']]],
   ['defaultglyphscale',['defaultGlyphScale',['../classqSlicerMarkupsSettingsPanel.html#af58a2d09b4ec5cfbddbb24a6cdc6249f',1,'qSlicerMarkupsSettingsPanel']]],

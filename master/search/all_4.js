@@ -45,6 +45,8 @@ var searchData=
   ['deepcopymetadata',['DeepCopyMetadata',['../classvtkSegment.html#a0e24bb87662d559986c2612378531bad',1,'vtkSegment']]],
   ['deepcopynodetoscene',['DeepCopyNodeToScene',['../classvtkMRMLSequenceNode.html#a58cc4e8fa89d889873665ab18f7d1fe3',1,'vtkMRMLSequenceNode']]],
   ['deepcopytransform',['DeepCopyTransform',['../classvtkMRMLTransformNode.html#a7c76a107de0c86375fe6fda1d31b9733',1,'vtkMRMLTransformNode']]],
+  ['defaultactivecolor',['defaultActiveColor',['../classqSlicerMarkupsSettingsPanel.html#a36d0af5ae2e0de55d955d69e28b57c1a',1,'qSlicerMarkupsSettingsPanel::defaultActiveColor()'],['../classqSlicerMarkupsSettingsPanel.html#a1894d51f00f25b5ad1cf1a544be8c150',1,'qSlicerMarkupsSettingsPanel::defaultActiveColor() const']]],
+  ['defaultactivecolorchanged',['defaultActiveColorChanged',['../classqSlicerMarkupsSettingsPanel.html#a17c7a552e116c3f6e1b4eb068da8f18a',1,'qSlicerMarkupsSettingsPanel']]],
   ['defaultautoreleasegraphicsresources',['defaultAutoReleaseGraphicsResources',['../classqSlicerVolumeRenderingSettingsPanel.html#a0a5e9ef06b6d7286519c2fcbdb573e99',1,'qSlicerVolumeRenderingSettingsPanel::defaultAutoReleaseGraphicsResources()'],['../classqSlicerVolumeRenderingSettingsPanel.html#a5c20c66f185ac1596a87d34ec8994273',1,'qSlicerVolumeRenderingSettingsPanel::defaultAutoReleaseGraphicsResources() const']]],
   ['defaultautoreleasegraphicsresourceschanged',['defaultAutoReleaseGraphicsResourcesChanged',['../classqSlicerVolumeRenderingSettingsPanel.html#a42d14967a058fa3b2b1e6db5316f8a93',1,'qSlicerVolumeRenderingSettingsPanel']]],
   ['defaultbackgroundcolor',['defaultBackgroundColor',['../classvtkMRMLViewNode.html#a1f2170ef96cf648fc8d471edbb7be816',1,'vtkMRMLViewNode']]],

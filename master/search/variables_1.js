@@ -7,6 +7,7 @@ var searchData=
   ['actionstate',['actionState',['../classSegmentEditorDrawEffect_1_1DrawPipeline.html#a3ff5bee7fe898df103c98c5b7827c73f',1,'SegmentEditorDrawEffect.DrawPipeline.actionState()'],['../classSegmentEditorLevelTracingEffect_1_1LevelTracingPipeline.html#a86d5b60999646e99a788c9d5291d2d32',1,'SegmentEditorLevelTracingEffect.LevelTracingPipeline.actionState()']]],
   ['active',['Active',['../classvtkMRMLAbstractViewNode.html#a4927fa3ffa4e3d15e780255e25675d3c',1,'vtkMRMLAbstractViewNode']]],
   ['activeattributelocation',['ActiveAttributeLocation',['../classvtkMRMLDisplayNode.html#ab5f46cc855a43358ec3877ab42aa0943',1,'vtkMRMLDisplayNode']]],
+  ['activecolor',['ActiveColor',['../classvtkMRMLMarkupsDisplayNode.html#a65d64d245674b7e9c6bc538fcf750f3c',1,'vtkMRMLMarkupsDisplayNode']]],
   ['activecomponents',['ActiveComponents',['../classvtkMRMLMarkupsDisplayNode.html#aeae6f426f003d7f1d34f0092b5670216',1,'vtkMRMLMarkupsDisplayNode']]],
   ['activeeffectname',['ActiveEffectName',['../classvtkMRMLSegmentEditorNode.html#a2e17b4b8cdbf59ffc389b04b803695e4',1,'vtkMRMLSegmentEditorNode']]],
   ['activeplacenodeclassname',['ActivePlaceNodeClassName',['../classvtkMRMLSelectionNode.html#ac739cd729ae1706c2ce935cd19a2ff8b',1,'vtkMRMLSelectionNode']]],

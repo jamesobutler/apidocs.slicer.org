@@ -55,6 +55,7 @@ var searchData=
   ['activecamerachangedevent',['ActiveCameraChangedEvent',['../classvtkMRMLCameraDisplayableManager.html#ad618c7be1fae0e5fed1be41116d363efaad5d5d4f9043200385966c6ce51371aa',1,'vtkMRMLCameraDisplayableManager']]],
   ['activechartrenderer',['activeChartRenderer',['../classqMRMLLayoutManager.html#ab307874a6774ca32420f5f9a91ed1cd6',1,'qMRMLLayoutManager']]],
   ['activechartrendererchanged',['activeChartRendererChanged',['../classqMRMLLayoutManager.html#a516141139948cf7489d1d109156503ab',1,'qMRMLLayoutManager']]],
+  ['activecolor',['ActiveColor',['../classvtkMRMLMarkupsDisplayNode.html#a65d64d245674b7e9c6bc538fcf750f3c',1,'vtkMRMLMarkupsDisplayNode']]],
   ['activecomponents',['ActiveComponents',['../classvtkMRMLMarkupsDisplayNode.html#aeae6f426f003d7f1d34f0092b5670216',1,'vtkMRMLMarkupsDisplayNode']]],
   ['activeeffect',['activeEffect',['../classqMRMLSegmentEditorWidget.html#a964a11a8a54d92a3a87cf8edc9c0d105',1,'qMRMLSegmentEditorWidget']]],
   ['activeeffectname',['ActiveEffectName',['../classvtkMRMLSegmentEditorNode.html#a2e17b4b8cdbf59ffc389b04b803695e4',1,'vtkMRMLSegmentEditorNode']]],
