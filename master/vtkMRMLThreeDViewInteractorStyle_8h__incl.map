@@ -1,10 +1,10 @@
 <map id="Libs/MRML/DisplayableManager/vtkMRMLThreeDViewInteractorStyle.h" name="Libs/MRML/DisplayableManager/vtkMRMLThreeDViewInteractorStyle.h">
-<area shape="rect" id="node3" href="$vtkMRMLCameraNode_8h.html" title="vtkMRMLCameraNode.h" alt="" coords="830,95,1005,121"/>
-<area shape="rect" id="node23" href="$vtkMRMLViewInteractorStyle_8h.html" title="vtkMRMLViewInteractorStyle.h" alt="" coords="271,95,483,121"/>
-<area shape="rect" id="node4" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="1025,177,1237,203"/>
-<area shape="rect" id="node5" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="1041,259,1220,285"/>
-<area shape="rect" id="node6" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="1069,333,1193,360"/>
-<area shape="rect" id="node7" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="987,483,1077,509"/>
-<area shape="rect" id="node9" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="591,408,758,435"/>
-<area shape="rect" id="node17" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1331,408,1555,435"/>
+<area shape="rect" id="node3" href="$vtkMRMLCameraNode_8h.html" title="vtkMRMLCameraNode.h" alt="" coords="818,95,993,121"/>
+<area shape="rect" id="node24" href="$vtkMRMLViewInteractorStyle_8h.html" title="vtkMRMLViewInteractorStyle.h" alt="" coords="1215,95,1427,121"/>
+<area shape="rect" id="node4" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="790,177,1002,203"/>
+<area shape="rect" id="node5" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="661,259,840,285"/>
+<area shape="rect" id="node6" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="689,333,813,360"/>
+<area shape="rect" id="node7" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="648,483,739,509"/>
+<area shape="rect" id="node9" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="182,408,349,435"/>
+<area shape="rect" id="node17" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1071,408,1295,435"/>
 </map>

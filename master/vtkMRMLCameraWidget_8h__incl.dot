@@ -48,13 +48,15 @@ digraph "Libs/MRML/DisplayableManager/vtkMRMLCameraWidget.h"
   Node18 [label="vtkMRMLNodePropertyMacros.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLNodePropertyMacros_8h.html"];
   Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node19 [label="sstream",height=0.2,width=0.4,color="grey75"];
+  Node18 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="vtksys/SystemTools.hxx",height=0.2,width=0.4,color="grey75"];
   Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node10 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node20 [label="set",height=0.2,width=0.4,color="grey75"];
   Node10 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node21 [label="string",height=0.2,width=0.4,color="grey75"];
+  Node21 [label="set",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="string",height=0.2,width=0.4,color="grey75"];
   Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node22 [label="vtkVector.h",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="vtkVector.h",height=0.2,width=0.4,color="grey75"];
 }

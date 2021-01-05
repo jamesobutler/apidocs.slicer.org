@@ -136,7 +136,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00173">173</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00174">174</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -168,7 +168,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    this-&gt;Set##propertyName(strcmp(xmlReadAttValue,<span class="stringliteral">&quot;true&quot;</span>) ? <span class="keyword">false</span> : <span class="keyword">true</span>); \</div><div class="line">    }</div></div><!-- fragment -->
 <p>Macro for reading bool node property from XML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00192">192</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00193">193</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -189,7 +189,7 @@ Macros</h2></td></tr>
 
 <p>This macro must be placed after the last value reading macro. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00188">188</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00189">189</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -220,7 +220,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    int propertyValue = this-&gt;Get##propertyName##FromString(xmlReadAttValue); \</div><div class="line">    if (propertyValue &gt;= 0) \</div><div class="line">      { \</div><div class="line">      this-&gt;Set##propertyName(propertyValue); \</div><div class="line">      } \</div><div class="line">    else \</div><div class="line">      { \</div><div class="line">      vtkErrorMacro(<span class="stringliteral">&quot;Failed to read #xmlAttributeName attribute value from string &#39;&quot;</span> &lt;&lt; xmlReadAttValue &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>); \</div><div class="line">      } \</div><div class="line">    }</div></div><!-- fragment --><p>Macro for reading enum node property from XML. Requires Get(propertyName)FromString method to convert from string to numeric value. XML decoding is not needed as attribute values are already decoded by the XML parser. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00217">217</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00218">218</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -252,7 +252,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vtkVariant variantValue(xmlReadAttValue); \</div><div class="line">    bool valid = <span class="keyword">false</span>; \</div><div class="line">    double scalarValue =  variantValue.ToDouble(&amp;valid); \</div><div class="line">    if (valid) \</div><div class="line">      { \</div><div class="line">      this-&gt;Set##propertyName(scalarValue); \</div><div class="line">      } \</div><div class="line">    else \</div><div class="line">      { \</div><div class="line">      vtkErrorMacro(<span class="stringliteral">&quot;Failed to read #xmlAttributeName attribute value from string &#39;&quot;</span> &lt;&lt; xmlReadAttValue &lt;&lt; <span class="stringliteral">&quot;&#39;: float expected&quot;</span>); \</div><div class="line">      } \</div><div class="line">    }</div></div><!-- fragment -->
 <p>Macro for reading floating-point (float or double) node property from XML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00249">249</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00250">250</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -284,7 +284,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vtkVariant variantValue(xmlReadAttValue); \</div><div class="line">    bool valid = <span class="keyword">false</span>; \</div><div class="line">    int intValue =  variantValue.ToInt(&amp;valid); \</div><div class="line">    if (valid) \</div><div class="line">      { \</div><div class="line">      this-&gt;Set##propertyName(intValue); \</div><div class="line">      } \</div><div class="line">    else \</div><div class="line">      { \</div><div class="line">      vtkErrorMacro(<span class="stringliteral">&quot;Failed to read #xmlAttributeName attribute value from string &#39;&quot;</span> &lt;&lt; xmlReadAttValue &lt;&lt; <span class="stringliteral">&quot;&#39;: integer expected&quot;</span>); \</div><div class="line">      } \</div><div class="line">    }</div></div><!-- fragment -->
 <p>Macro for reading int node property from XML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00232">232</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00233">233</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vtkNew&lt;vtkMatrix4x4&gt; matrix; \</div><div class="line">    std::stringstream ss; \</div><div class="line">    double val; \</div><div class="line">    ss &lt;&lt; xmlReadAttValue; \</div><div class="line">    for (<span class="keywordtype">int</span> row = 0; row &lt; 4; row++) \</div><div class="line">      { \</div><div class="line">      for (<span class="keywordtype">int</span> col = 0; col &lt; 4; col++) \</div><div class="line">        { \</div><div class="line">        ss &gt;&gt; val; \</div><div class="line">        matrix-&gt;SetElement(row, col, val); \</div><div class="line">        }  \</div><div class="line">      }  \</div><div class="line">    this-&gt;Get##propertyName()-&gt;DeepCopy(matrix); \</div><div class="line">  }</div></div><!-- fragment --><p>Macro for reading a vtkMatrix4x4* node property from XML. "Owned" means that the node owns the matrix, the object is always valid and cannot be replaced from outside (there is no public Set...() method for the matrix). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00353">353</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00347">347</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -353,7 +353,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vectorType vector; \</div><div class="line">    std::string valueString(xmlReadAttValue); \</div><div class="line">    size_t separatorPosition = valueString.find(<span class="stringliteral">&quot; &quot;</span>); \</div><div class="line">    while(separatorPosition != std::string::npos) \</div><div class="line">      { \</div><div class="line">      std::string attributeValue = valueString.substr(0, separatorPosition); \</div><div class="line">      vtkVariant variantValue(attributeValue); \</div><div class="line">      bool valid = <span class="keyword">false</span>; \</div><div class="line">      vectorType::value_type scalarValue = variantValue.ToDouble(&amp;valid); \</div><div class="line">      if (valid) \</div><div class="line">        { \</div><div class="line">        vector.insert(vector.end(), scalarValue); \</div><div class="line">        } \</div><div class="line">      valueString = valueString.substr(separatorPosition+1); \</div><div class="line">      separatorPosition = valueString.find(<span class="stringliteral">&quot; &quot;</span>); \</div><div class="line">      } \</div><div class="line">    this-&gt;Set##propertyName(vector); \</div><div class="line">  }</div></div><!-- fragment -->
 <p>Macro for reading an iterable container (float or double) node property from XML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00282">282</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00283">283</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -388,10 +388,10 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vectorType vector; \</div><div class="line">    std::string valueString(xmlReadAttValue); \</div><div class="line">    size_t separatorPosition = valueString.find(<span class="stringliteral">&quot; &quot;</span>); \</div><div class="line">    while(separatorPosition != std::string::npos) \</div><div class="line">      { \</div><div class="line">      std::string attributeValue = valueString.substr(0, separatorPosition); \</div><div class="line">      vtkVariant variantValue(attributeValue); \</div><div class="line">      bool valid = <span class="keyword">false</span>; \</div><div class="line">      vectorType::value_type scalarValue = variantValue.ToInt(&amp;valid); \</div><div class="line">      if (valid) \</div><div class="line">        { \</div><div class="line">        vector.insert(vector.end(), scalarValue); \</div><div class="line">        } \</div><div class="line">      valueString = valueString.substr(separatorPosition+1); \</div><div class="line">      separatorPosition = valueString.find(<span class="stringliteral">&quot; &quot;</span>); \</div><div class="line">      } \</div><div class="line">    this-&gt;Set##propertyName(vector); \</div><div class="line">  }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vectorType vector; \</div><div class="line">    std::string valueString(xmlReadAttValue); \</div><div class="line">    size_t separatorPosition = valueString.find(<span class="stringliteral">&quot; &quot;</span>); \</div><div class="line">    while(separatorPosition != std::string::npos) \</div><div class="line">      { \</div><div class="line">      std::string attributeValue = valueString.substr(0, separatorPosition); \</div><div class="line">      vtkVariant variantValue(attributeValue); \</div><div class="line">      bool valid = <span class="keyword">false</span>; \</div><div class="line">      vectorType::value_type scalarValue = variantValue.ToInt(&amp;valid); \</div><div class="line">      if (valid) \</div><div class="line">        { \</div><div class="line">        vector.insert(vector.end(), scalarValue); \</div><div class="line">        } \</div><div class="line">      valueString = valueString.substr(separatorPosition+1); \</div><div class="line">      separatorPosition = valueString.find(<span class="stringliteral">&quot; &quot;</span>); \</div><div class="line">      } \</div><div class="line">    this-&gt;Set##propertyName(vector); \</div><div class="line">    }</div></div><!-- fragment -->
 <p>Macro for reading an iterable container (int) node property from XML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00305">305</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00306">306</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -422,7 +422,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    this-&gt;Set##propertyName(xmlReadAttValue); \</div><div class="line">    }</div></div><!-- fragment --><p>Macro for reading std::string node property from XML. XML decoding is not needed as attribute values are already decoded by the XML parser. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00208">208</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00209">209</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -457,10 +457,10 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vectorType&lt;std::string&gt; vector; \</div><div class="line">    std::string valueString(xmlReadAttValue); \</div><div class="line">    size_t separatorPosition = valueString.find(<span class="stringliteral">&quot;;&quot;</span>); \</div><div class="line">    while(separatorPosition != std::string::npos) \</div><div class="line">      { \</div><div class="line">      std::string attributeValue = valueString.substr(0,separatorPosition); \</div><div class="line">      vtksys::SystemTools::ReplaceString(attributeValue, <span class="stringliteral">&quot;%3B&quot;</span>, <span class="stringliteral">&quot;;&quot;</span>); \</div><div class="line">      vtksys::SystemTools::ReplaceString(attributeValue, <span class="stringliteral">&quot;%25&quot;</span>, <span class="stringliteral">&quot;%&quot;</span>); \</div><div class="line">      vector.insert(vector.end(), attributeValue); \</div><div class="line">      valueString = valueString.substr(separatorPosition+1); \</div><div class="line">      separatorPosition = valueString.find(<span class="stringliteral">&quot;;&quot;</span>); \</div><div class="line">      } \</div><div class="line">    if (!valueString.empty()) \</div><div class="line">      { \</div><div class="line">      vector.push_back(valueString); \</div><div class="line">      } \</div><div class="line">    this-&gt;Set##propertyName(vector); \</div><div class="line">    }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vectorType&lt;std::string&gt; attributeValues; \</div><div class="line">    std::string valueString(xmlReadAttValue); \</div><div class="line">    std::vector&lt;vtksys::String&gt; splitXmlReadAttValue = vtksys::SystemTools::SplitString(valueString, <span class="charliteral">&#39;;&#39;</span>); \</div><div class="line">    for (std::string attributeValue : splitXmlReadAttValue) \</div><div class="line">      { \</div><div class="line">      vtksys::SystemTools::ReplaceString(attributeValue, <span class="stringliteral">&quot;%3B&quot;</span>, <span class="stringliteral">&quot;;&quot;</span>); \</div><div class="line">      vtksys::SystemTools::ReplaceString(attributeValue, <span class="stringliteral">&quot;%25&quot;</span>, <span class="stringliteral">&quot;%&quot;</span>); \</div><div class="line">      attributeValues.emplace_back(attributeValue); \</div><div class="line">      } \</div><div class="line">    this-&gt;Set##propertyName(attributeValues); \</div><div class="line">    }</div></div><!-- fragment -->
 <p>Macro for reading an iterable container (of std::string) node property from XML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00328">328</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00329">329</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -491,7 +491,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    this-&gt;Set##propertyName(xmlReadAttValue); \</div><div class="line">    }</div></div><!-- fragment --><p>Macro for reading char* node property from XML. XML decoding is not needed as attribute values are already decoded by the XML parser. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00200">200</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00201">201</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -535,14 +535,14 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (!strcmp(xmlReadAttName, #xmlAttributeName)) \</div><div class="line">    { \</div><div class="line">    vectorType vectorValue[vectorSize] = {0}; \</div><div class="line">    std::stringstream ss; \</div><div class="line">    ss &lt;&lt; xmlReadAttValue; \</div><div class="line">    for (<span class="keywordtype">int</span> i=0; i&lt;vectorSize; i++) \</div><div class="line">      { \</div><div class="line">      vectorType val; \</div><div class="line">      ss &gt;&gt; val; \</div><div class="line">      vectorValue[i] = val; \</div><div class="line">      } \</div><div class="line">    this-&gt;Set##propertyName(vectorValue); \</div><div class="line">    }</div></div><!-- fragment -->
 <p>Macro for reading floating-point (float or double) vector node property from XML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00266">266</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00267">267</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 4 2021 20:10:59 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 5 2021 03:00:01 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

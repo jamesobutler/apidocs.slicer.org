@@ -1,9 +1,9 @@
 <map id="Libs/MRML/Core/vtkMRMLSequenceStorageNode.h" name="Libs/MRML/Core/vtkMRMLSequenceStorageNode.h">
-<area shape="rect" id="node2" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="1423,393,1513,420"/>
-<area shape="rect" id="node4" href="$vtkMRMLStorageNode_8h.html" title="vtkMRMLStorageNode.h" alt="" coords="982,169,1157,196"/>
-<area shape="rect" id="node20" href="$vtkMRMLSequenceNode_8h.html" title="vtkMRMLSequenceNode.h" alt="" coords="1327,95,1515,121"/>
-<area shape="rect" id="node5" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="905,244,1029,271"/>
-<area shape="rect" id="node6" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="822,319,989,345"/>
-<area shape="rect" id="node14" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1064,319,1288,345"/>
-<area shape="rect" id="node21" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="1265,169,1444,196"/>
+<area shape="rect" id="node2" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="1464,393,1555,420"/>
+<area shape="rect" id="node4" href="$vtkMRMLStorageNode_8h.html" title="vtkMRMLStorageNode.h" alt="" coords="1031,169,1206,196"/>
+<area shape="rect" id="node21" href="$vtkMRMLSequenceNode_8h.html" title="vtkMRMLSequenceNode.h" alt="" coords="1385,95,1573,121"/>
+<area shape="rect" id="node5" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="1046,244,1170,271"/>
+<area shape="rect" id="node6" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1151,319,1318,345"/>
+<area shape="rect" id="node14" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="5,319,229,345"/>
+<area shape="rect" id="node22" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="1341,169,1520,196"/>
 </map>
