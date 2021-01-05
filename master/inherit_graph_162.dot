@@ -4,9 +4,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1062 [label="ControlPointsPipeline",height=0.2,width=0.4,color="grey75"];
-  Node1062 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1063 [label="ControlPointsPipeline",height=0.2,width=0.4,color="grey75"];
+  Node1063 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="vtkSlicerMarkupsWidgetRepresentation2\lD::ControlPointsPipeline2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerMarkupsWidgetRepresentation2D_1_1ControlPointsPipeline2D.html"];
-  Node1062 -> Node1064 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1064 [label="vtkSlicerMarkupsWidgetRepresentation3\lD::ControlPointsPipeline3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerMarkupsWidgetRepresentation3D_1_1ControlPointsPipeline3D.html"];
+  Node1063 -> Node1065 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1065 [label="vtkSlicerMarkupsWidgetRepresentation3\lD::ControlPointsPipeline3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerMarkupsWidgetRepresentation3D_1_1ControlPointsPipeline3D.html"];
 }

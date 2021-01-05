@@ -330,6 +330,7 @@ var searchData=
   ['qslicerqtguiabstractplugin',['qSlicerQTGUIAbstractPlugin',['../classqSlicerQTGUIAbstractPlugin.html#aa53c5b1cdf050ed883286d28865f3a37',1,'qSlicerQTGUIAbstractPlugin']]],
   ['qslicerreformatmodule',['qSlicerReformatModule',['../classqSlicerReformatModule.html#a2b43b0664b8f6d9419d6304ff3e40b09',1,'qSlicerReformatModule']]],
   ['qslicerreformatmodulewidget',['qSlicerReformatModuleWidget',['../classqSlicerReformatModuleWidget.html#a88ee3c5c424a2d7e231c39f1c7e3e2da',1,'qSlicerReformatModuleWidget']]],
+  ['qslicerrelativepathmapper',['qSlicerRelativePathMapper',['../classqSlicerRelativePathMapper.html#a65ef3ce89c18baf7bec718423422e021',1,'qSlicerRelativePathMapper']]],
   ['qslicersavedatadialog',['qSlicerSaveDataDialog',['../classqSlicerSaveDataDialog.html#a89801d9c54b3941a1e5d4c233c1b840c',1,'qSlicerSaveDataDialog']]],
   ['qslicerscalarvolumedisplaywidget',['qSlicerScalarVolumeDisplayWidget',['../classqSlicerScalarVolumeDisplayWidget.html#a7f108755b6d2eee33bc17342e4e89400',1,'qSlicerScalarVolumeDisplayWidget']]],
   ['qslicerscenebundlereader',['qSlicerSceneBundleReader',['../classqSlicerSceneBundleReader.html#a824582679573784a34dd413c364e8b29',1,'qSlicerSceneBundleReader']]],

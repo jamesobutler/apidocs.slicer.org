@@ -67,6 +67,8 @@ var searchData=
   ['emitnodeactivated',['emitNodeActivated',['../classqMRMLNodeComboBox.html#af5833113d56855394deedafc288f158e',1,'qMRMLNodeComboBox']]],
   ['emitnodesabouttoberemoved',['emitNodesAboutToBeRemoved',['../classqMRMLNodeComboBox.html#a2737e492171942ab508bc51b103a5229',1,'qMRMLNodeComboBox']]],
   ['emitnodesadded',['emitNodesAdded',['../classqMRMLNodeComboBox.html#aa6fb89292c2a46997fc6ff1bf4124fa9',1,'qMRMLNodeComboBox']]],
+  ['emitpathchanged',['emitPathChanged',['../classqSlicerRelativePathMapper.html#a4e02653c6345b27417d7a86eccffcb10',1,'qSlicerRelativePathMapper']]],
+  ['emitpathschanged',['emitPathsChanged',['../classqSlicerRelativePathMapper.html#a0ec1fffb7c32a25502e9af6e7f7b785e',1,'qSlicerRelativePathMapper']]],
   ['emitprogress',['emitProgress',['../classqSlicerExtensionDownloadTask.html#afdca83c5220472e30dc67e3c1e8397a6',1,'qSlicerExtensionDownloadTask']]],
   ['empty',['empty',['../classitk_1_1TimeSeriesDatabaseHelper_1_1LRUCache.html#a626afb35a638f81c19194dea15262350',1,'itk::TimeSeriesDatabaseHelper::LRUCache']]],
   ['enablecolortablecombobox',['enableColorTableComboBox',['../classqSlicerScalarVolumeDisplayWidget.html#ac1e8e6963f90748a648b67a38333eb8d',1,'qSlicerScalarVolumeDisplayWidget']]],

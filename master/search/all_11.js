@@ -675,6 +675,8 @@ var searchData=
   ['qslicerreformatmodule_2eh',['qSlicerReformatModule.h',['../qSlicerReformatModule_8h.html',1,'']]],
   ['qslicerreformatmodulewidget',['qSlicerReformatModuleWidget',['../classqSlicerReformatModuleWidget.html',1,'qSlicerReformatModuleWidget'],['../classqSlicerReformatModuleWidget.html#a88ee3c5c424a2d7e231c39f1c7e3e2da',1,'qSlicerReformatModuleWidget::qSlicerReformatModuleWidget()']]],
   ['qslicerreformatmodulewidget_2eh',['qSlicerReformatModuleWidget.h',['../qSlicerReformatModuleWidget_8h.html',1,'']]],
+  ['qslicerrelativepathmapper',['qSlicerRelativePathMapper',['../classqSlicerRelativePathMapper.html',1,'qSlicerRelativePathMapper'],['../classqSlicerRelativePathMapper.html#a65ef3ce89c18baf7bec718423422e021',1,'qSlicerRelativePathMapper::qSlicerRelativePathMapper()']]],
+  ['qslicerrelativepathmapper_2eh',['qSlicerRelativePathMapper.h',['../qSlicerRelativePathMapper_8h.html',1,'']]],
   ['qslicersavedatadialog',['qSlicerSaveDataDialog',['../classqSlicerSaveDataDialog.html',1,'qSlicerSaveDataDialog'],['../classqSlicerSaveDataDialog.html#a89801d9c54b3941a1e5d4c233c1b840c',1,'qSlicerSaveDataDialog::qSlicerSaveDataDialog()']]],
   ['qslicersavedatadialog_2eh',['qSlicerSaveDataDialog.h',['../qSlicerSaveDataDialog_8h.html',1,'']]],
   ['qslicerscalarvolumedisplaywidget',['qSlicerScalarVolumeDisplayWidget',['../classqSlicerScalarVolumeDisplayWidget.html',1,'qSlicerScalarVolumeDisplayWidget'],['../classqSlicerScalarVolumeDisplayWidget.html#a7f108755b6d2eee33bc17342e4e89400',1,'qSlicerScalarVolumeDisplayWidget::qSlicerScalarVolumeDisplayWidget()']]],

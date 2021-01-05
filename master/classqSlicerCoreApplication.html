@@ -365,6 +365,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5eb81d76f3a1bd93c1797f8ffe95500f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#a5eb81d76f3a1bd93c1797f8ffe95500f">temporaryPath</a> () const</td></tr>
 <tr class="memdesc:a5eb81d76f3a1bd93c1797f8ffe95500f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get slicer temporary directory.  <a href="#a5eb81d76f3a1bd93c1797f8ffe95500f">More...</a><br /></td></tr>
 <tr class="separator:a5eb81d76f3a1bd93c1797f8ffe95500f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a598ce2ebf29c2eb01e1d459e6676a75f"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#a598ce2ebf29c2eb01e1d459e6676a75f">toSlicerHomeAbsolutePath</a> (const QString &amp;path) const</td></tr>
+<tr class="separator:a598ce2ebf29c2eb01e1d459e6676a75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d7df97eee46f3fb2f267b57262c8f8"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#a69d7df97eee46f3fb2f267b57262c8f8">toSlicerHomeAbsolutePaths</a> (const QStringList &amp;path) const</td></tr>
+<tr class="separator:a69d7df97eee46f3fb2f267b57262c8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a73d0c02a937072aeb3b7e0ce844d0"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#ac3a73d0c02a937072aeb3b7e0ce844d0">toSlicerHomeRelativePath</a> (const QString &amp;path) const</td></tr>
+<tr class="separator:ac3a73d0c02a937072aeb3b7e0ce844d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ebf5a322ce3b25768a19ed4a49030a"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#a19ebf5a322ce3b25768a19ed4a49030a">toSlicerHomeRelativePaths</a> (const QStringList &amp;path) const</td></tr>
+<tr class="separator:a19ebf5a322ce3b25768a19ed4a49030a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5dffc2bc58783be2f1dfeb357dafe89"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QSettings *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#aa5dffc2bc58783be2f1dfeb357dafe89">userSettings</a> () const</td></tr>
 <tr class="separator:aa5dffc2bc58783be2f1dfeb357dafe89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeba6b136b3cdb063e4323ebbe1c4f0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#adeba6b136b3cdb063e4323ebbe1c4f0b">~qSlicerCoreApplication</a> () override</td></tr>
@@ -1670,7 +1678,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Editing of a MRML node has been requested. Implemented in <a class="el" href="classqSlicerApplication.html">qSlicerApplication</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00523">523</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00539">539</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
 
 </div>
 </div>
@@ -2615,7 +2623,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Equivalent to setRenderPaused(true) </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerCoreApplication.html#acae0a46f03dc6a663d21f6a3a0afa4f3">setRenderPaused</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00491">491</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00507">507</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
 
 </div>
 </div>
@@ -2958,7 +2966,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Equivalent to setRenderPaused(false) </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerCoreApplication.html#acae0a46f03dc6a663d21f6a3a0afa4f3">setRenderPaused</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00494">494</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00510">510</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
 
 </div>
 </div>
@@ -3269,7 +3277,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Calls setRenderPaused(pause) on the current layout manager. Emits pauseRenderRequested() if pause is true and resumeRenderRequested() if pause is false. The caller is responsible for making sure that each setRenderPaused(true) is paired with setRenderPaused(false). Implemented in <a class="el" href="classqSlicerApplication.html">qSlicerApplication</a> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerApplication.html#a9aff5d687bcb4ac0582b743c3d986303">qSlicerApplication::setRenderPaused()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00488">488</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00504">504</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
 
 </div>
 </div>
@@ -3534,6 +3542,82 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a598ce2ebf29c2eb01e1d459e6676a75f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a598ce2ebf29c2eb01e1d459e6676a75f">&#9670;&nbsp;</a></span>toSlicerHomeAbsolutePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE QString qSlicerCoreApplication::toSlicerHomeAbsolutePath </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts relative path to absolute path using slicerHome directory. Returns absolute path unchanged. </p>
+
+</div>
+</div>
+<a id="a69d7df97eee46f3fb2f267b57262c8f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d7df97eee46f3fb2f267b57262c8f8">&#9670;&nbsp;</a></span>toSlicerHomeAbsolutePaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE QStringList qSlicerCoreApplication::toSlicerHomeAbsolutePaths </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts relative path to absolute path using slicerHome directory. Returns absolute path unchanged. </p>
+
+</div>
+</div>
+<a id="ac3a73d0c02a937072aeb3b7e0ce844d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3a73d0c02a937072aeb3b7e0ce844d0">&#9670;&nbsp;</a></span>toSlicerHomeRelativePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE QString qSlicerCoreApplication::toSlicerHomeRelativePath </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts paths within slicerHome directory to relative paths. Leaves other paths unchanged. </p>
+
+</div>
+</div>
+<a id="a19ebf5a322ce3b25768a19ed4a49030a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ebf5a322ce3b25768a19ed4a49030a">&#9670;&nbsp;</a></span>toSlicerHomeRelativePaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE QStringList qSlicerCoreApplication::toSlicerHomeRelativePaths </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts paths within slicerHome directory to relative paths. Leaves other paths unchanged. </p>
+
+</div>
+</div>
 <a id="a9b7bcc878765ee838b565bb320863cf1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b7bcc878765ee838b565bb320863cf1">&#9670;&nbsp;</a></span>unregisterResource</h2>
 
@@ -3627,7 +3711,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00563">563</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00579">579</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
 
 </div>
 </div>
@@ -3637,7 +3721,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 5 2021 19:22:40 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 5 2021 21:04:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

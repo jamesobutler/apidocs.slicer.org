@@ -335,6 +335,7 @@ var searchData=
   ['qslicerqtguiplugins',['qSlicerQTGUIPlugins',['../classqSlicerQTGUIPlugins.html',1,'']]],
   ['qslicerreformatmodule',['qSlicerReformatModule',['../classqSlicerReformatModule.html',1,'']]],
   ['qslicerreformatmodulewidget',['qSlicerReformatModuleWidget',['../classqSlicerReformatModuleWidget.html',1,'']]],
+  ['qslicerrelativepathmapper',['qSlicerRelativePathMapper',['../classqSlicerRelativePathMapper.html',1,'']]],
   ['qslicersavedatadialog',['qSlicerSaveDataDialog',['../classqSlicerSaveDataDialog.html',1,'']]],
   ['qslicerscalarvolumedisplaywidget',['qSlicerScalarVolumeDisplayWidget',['../classqSlicerScalarVolumeDisplayWidget.html',1,'']]],
   ['qslicerscenebundlereader',['qSlicerSceneBundleReader',['../classqSlicerSceneBundleReader.html',1,'']]],

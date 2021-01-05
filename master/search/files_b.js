@@ -326,6 +326,7 @@ var searchData=
   ['qslicerqtguiplugins_2eh',['qSlicerQTGUIPlugins.h',['../qSlicerQTGUIPlugins_8h.html',1,'']]],
   ['qslicerreformatmodule_2eh',['qSlicerReformatModule.h',['../qSlicerReformatModule_8h.html',1,'']]],
   ['qslicerreformatmodulewidget_2eh',['qSlicerReformatModuleWidget.h',['../qSlicerReformatModuleWidget_8h.html',1,'']]],
+  ['qslicerrelativepathmapper_2eh',['qSlicerRelativePathMapper.h',['../qSlicerRelativePathMapper_8h.html',1,'']]],
   ['qslicersavedatadialog_2eh',['qSlicerSaveDataDialog.h',['../qSlicerSaveDataDialog_8h.html',1,'']]],
   ['qslicerscalarvolumedisplaywidget_2eh',['qSlicerScalarVolumeDisplayWidget.h',['../qSlicerScalarVolumeDisplayWidget_8h.html',1,'']]],
   ['qslicerscenebundlereader_2eh',['qSlicerSceneBundleReader.h',['../qSlicerSceneBundleReader_8h.html',1,'']]],
