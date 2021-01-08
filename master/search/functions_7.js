@@ -288,7 +288,7 @@ var searchData=
   ['getcolorglyphby',['GetColorGlyphBy',['../classvtkMRMLDiffusionTensorDisplayPropertiesNode.html#a2a731df08ba1167cdabb3a16796eec6a',1,'vtkMRMLDiffusionTensorDisplayPropertiesNode']]],
   ['getcolorglyphbyasstring',['GetColorGlyphByAsString',['../classvtkMRMLDiffusionTensorDisplayPropertiesNode.html#ac140be128c4ce4802d87a9eecdc31c76',1,'vtkMRMLDiffusionTensorDisplayPropertiesNode']]],
   ['getcolorindexbyname',['GetColorIndexByName',['../classvtkMRMLColorNode.html#a896e1d41b2a340875a8b806a45f9a9df',1,'vtkMRMLColorNode']]],
-  ['getcolorlogic',['GetColorLogic',['../classvtkMRMLApplicationLogic.html#af1f025b6ef5d4bc2e2ea8b0cbe8bfebe',1,'vtkMRMLApplicationLogic::GetColorLogic()'],['../classvtkSlicerModelsLogic.html#aec6269741e270abbdb70c126e026c6c9',1,'vtkSlicerModelsLogic::GetColorLogic()'],['../classvtkSlicerVolumesLogic.html#a33c72c50bc3a035d203163c874c9d372',1,'vtkSlicerVolumesLogic::GetColorLogic()']]],
+  ['getcolorlogic',['GetColorLogic',['../classvtkMRMLApplicationLogic.html#af1f025b6ef5d4bc2e2ea8b0cbe8bfebe',1,'vtkMRMLApplicationLogic::GetColorLogic()'],['../classvtkSlicerVolumesLogic.html#a33c72c50bc3a035d203163c874c9d372',1,'vtkSlicerVolumesLogic::GetColorLogic()']]],
   ['getcolormap',['GetColorMap',['../classvtkMRMLTransformDisplayNode.html#ae622edae4fe39a60d0173c72c92e8c17',1,'vtkMRMLTransformDisplayNode']]],
   ['getcolormode',['GetColorMode',['../classvtkMRMLGlyphableVolumeSliceDisplayNode.html#a345a41a401323cc102ab6afd8da8194b',1,'vtkMRMLGlyphableVolumeSliceDisplayNode']]],
   ['getcolorname',['GetColorName',['../classvtkMRMLColorNode.html#ac8d63bffb7cd4a002dac67c7414f6f0c',1,'vtkMRMLColorNode']]],

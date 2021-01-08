@@ -1,5 +1,4 @@
 <map id="vtkSlicerModelsLogic" name="vtkSlicerModelsLogic">
-<area shape="rect" id="node2" href="$classvtkSlicerModuleLogic.html" title="vtkSlicerModuleLogic" alt="" coords="5,157,160,184"/>
-<area shape="rect" id="node3" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="51,81,216,108"/>
-<area shape="rect" id="node5" href="$classvtkMRMLColorLogic.html" title="MRML logic class for color manipulation. " alt="" coords="184,157,328,184"/>
+<area shape="rect" id="node2" href="$classvtkSlicerModuleLogic.html" title="vtkSlicerModuleLogic" alt="" coords="11,155,165,181"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="5,80,171,107"/>
 </map>
