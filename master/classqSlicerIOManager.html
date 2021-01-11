@@ -151,10 +151,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af6dbdb7eb5c9c2eb765fa26ea264a435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8381715e259b8fb4765621277bda17b"><td class="memItemLeft" align="right" valign="top">const QStringList &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerIOManager.html#ae8381715e259b8fb4765621277bda17b">history</a> () const</td></tr>
 <tr class="separator:ae8381715e259b8fb4765621277bda17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af618f0c0ff7246e7631cbae387a24c94"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerIOManager.html#af618f0c0ff7246e7631cbae387a24c94">loadNodes</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;<a class="el" href="classqSlicerCoreIOManager.html#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, vtkCollection *loadedNodes=nullptr) override</td></tr>
-<tr class="separator:af618f0c0ff7246e7631cbae387a24c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3551fee7bcac6361974c5b4a88bc60de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerIOManager.html#a3551fee7bcac6361974c5b4a88bc60de">loadNodes</a> (const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &gt; &amp;files, vtkCollection *loadedNodes=nullptr) override</td></tr>
-<tr class="separator:a3551fee7bcac6361974c5b4a88bc60de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddbbe6249526ab5ad6cfc34c62effb5"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerIOManager.html#a0ddbbe6249526ab5ad6cfc34c62effb5">loadNodes</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;<a class="el" href="classqSlicerCoreIOManager.html#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, vtkCollection *loadedNodes=nullptr, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr) override</td></tr>
+<tr class="separator:a0ddbbe6249526ab5ad6cfc34c62effb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63066333828bddc3895e0bdadd7f4219"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerIOManager.html#a63066333828bddc3895e0bdadd7f4219">loadNodes</a> (const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &gt; &amp;files, vtkCollection *loadedNodes=nullptr, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr) override</td></tr>
+<tr class="separator:a63066333828bddc3895e0bdadd7f4219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a340920e66585a5ef5aff8d2b80f984ee"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerIOManager.html#a340920e66585a5ef5aff8d2b80f984ee">openDialog</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="classqSlicerCoreIOManager.html#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, <a class="el" href="classqSlicerFileDialog.html#afdc37c61d71fcc0e81c05b9756017e45">qSlicerFileDialog::IOAction</a> action, <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> ioProperties=<a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a>(), vtkCollection *loadedNodes=nullptr)</td></tr>
 <tr class="separator:a340920e66585a5ef5aff8d2b80f984ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df4b733256a3d06f709623355a243b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerIOManager.html#a3df4b733256a3d06f709623355a243b4">qSlicerIOManager</a> (QObject *parent=nullptr)</td></tr>
@@ -204,20 +204,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3595d2dd2a5c803c8db4345e76cce178 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1b5a81afd57bc642fb2397f354a7207 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#aa1b5a81afd57bc642fb2397f354a7207">fileWriterOptions</a> (vtkObject *object, const QString &amp;extension) const</td></tr>
 <tr class="separator:aa1b5a81afd57bc642fb2397f354a7207 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee05e01f62f07ba56605dc39a222eb0 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a9ee05e01f62f07ba56605dc39a222eb0">loadFile</a> (const QString &amp;fileName)</td></tr>
-<tr class="separator:a9ee05e01f62f07ba56605dc39a222eb0 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36a78dba553b52f395f997fe11aaff23 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a36a78dba553b52f395f997fe11aaff23">loadNodesAndGetFirst</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="classqSlicerCoreIOManager.html#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters)</td></tr>
-<tr class="separator:a36a78dba553b52f395f997fe11aaff23 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a693305f2272d0a4c44d610c031e6f00e inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a693305f2272d0a4c44d610c031e6f00e">loadScene</a> (const QString &amp;fileName, bool clear=true)</td></tr>
-<tr class="separator:a693305f2272d0a4c44d610c031e6f00e inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1210c76f3f83bf3d2b3ea5df5a16b6f5 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a1210c76f3f83bf3d2b3ea5df5a16b6f5">loadFile</a> (const QString &amp;fileName, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
+<tr class="separator:a1210c76f3f83bf3d2b3ea5df5a16b6f5 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34dd299ff58fa5a2d8c79a076986d174 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a34dd299ff58fa5a2d8c79a076986d174">loadNodesAndGetFirst</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="classqSlicerCoreIOManager.html#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
+<tr class="separator:a34dd299ff58fa5a2d8c79a076986d174 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36bf83f56e45c548cb9a600b5ae5ab7d inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a36bf83f56e45c548cb9a600b5ae5ab7d">loadScene</a> (const QString &amp;fileName, bool clear=true, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
+<tr class="separator:a36bf83f56e45c548cb9a600b5ae5ab7d inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81389988cec2c05940661996e1812f1 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#ac81389988cec2c05940661996e1812f1">qSlicerCoreIOManager</a> (QObject *parent=nullptr)</td></tr>
 <tr class="separator:ac81389988cec2c05940661996e1812f1 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41c71061a48a9e81944a49024fbaba64 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a41c71061a48a9e81944a49024fbaba64">registerIO</a> (<a class="el" href="classqSlicerIO.html">qSlicerIO</a> *io)</td></tr>
 <tr class="separator:a41c71061a48a9e81944a49024fbaba64 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16298c4bab755146221b0f6e2e68a61d inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a16298c4bab755146221b0f6e2e68a61d">saveNodes</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="classqSlicerCoreIOManager.html#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters)</td></tr>
-<tr class="separator:a16298c4bab755146221b0f6e2e68a61d inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf6e3c3fb5bd5f1455ba2eeffae81341 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#acf6e3c3fb5bd5f1455ba2eeffae81341">saveScene</a> (const QString &amp;fileName, QImage screenShot)</td></tr>
-<tr class="separator:acf6e3c3fb5bd5f1455ba2eeffae81341 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae275395e4593990f5a4250c3a057e31c inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#ae275395e4593990f5a4250c3a057e31c">saveNodes</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="classqSlicerCoreIOManager.html#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
+<tr class="separator:ae275395e4593990f5a4250c3a057e31c inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47f6aac4f72dfc48b1a7ada8a20f07d inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#ab47f6aac4f72dfc48b1a7ada8a20f07d">saveScene</a> (const QString &amp;fileName, QImage screenShot, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
+<tr class="separator:ab47f6aac4f72dfc48b1a7ada8a20f07d inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50ff553c63c2b70fa425f825e4cee0f3 inherit pub_methods_classqSlicerCoreIOManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreIOManager.html#a50ff553c63c2b70fa425f825e4cee0f3">~qSlicerCoreIOManager</a> () override</td></tr>
 <tr class="separator:a50ff553c63c2b70fa425f825e4cee0f3 inherit pub_methods_classqSlicerCoreIOManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -431,8 +431,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af618f0c0ff7246e7631cbae387a24c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af618f0c0ff7246e7631cbae387a24c94">&#9670;&nbsp;</a></span>loadNodes() <span class="overload">[1/2]</span></h2>
+<a id="a0ddbbe6249526ab5ad6cfc34c62effb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddbbe6249526ab5ad6cfc34c62effb5">&#9670;&nbsp;</a></span>loadNodes() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,7 +456,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">vtkCollection *&#160;</td>
-          <td class="paramname"><em>loadedNodes</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>loadedNodes</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *&#160;</td>
+          <td class="paramname"><em>userMessages</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -472,12 +478,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Displays a progress dialog if it takes too long to load There is no way to know in advance how long the loading will take, so the progress dialog listens to the scene and increment the progress anytime a node is added. </p>
 
-<p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a5d48e26dcc151b121fb70e58d06dc80f">qSlicerCoreIOManager</a>.</p>
+<p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a068dc9928564f2f0ad9a73da1018d4bf">qSlicerCoreIOManager</a>.</p>
 
 </div>
 </div>
-<a id="a3551fee7bcac6361974c5b4a88bc60de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3551fee7bcac6361974c5b4a88bc60de">&#9670;&nbsp;</a></span>loadNodes() <span class="overload">[2/2]</span></h2>
+<a id="a63066333828bddc3895e0bdadd7f4219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63066333828bddc3895e0bdadd7f4219">&#9670;&nbsp;</a></span>loadNodes() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -495,7 +501,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">vtkCollection *&#160;</td>
-          <td class="paramname"><em>loadedNodes</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>loadedNodes</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *&#160;</td>
+          <td class="paramname"><em>userMessages</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -509,9 +521,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>If you have a list of nodes to load, it's best to use this function in order to have a unique progress dialog instead of multiple ones. It internally calls <a class="el" href="classqSlicerIOManager.html#af618f0c0ff7246e7631cbae387a24c94">loadNodes()</a> for each file. </p>
+<p>If you have a list of nodes to load, it's best to use this function in order to have a unique progress dialog instead of multiple ones. It internally calls <a class="el" href="classqSlicerIOManager.html#a0ddbbe6249526ab5ad6cfc34c62effb5">loadNodes()</a> for each file. </p>
 
-<p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#af3b24baa140ac429782febfb7d80c8a9">qSlicerCoreIOManager</a>.</p>
+<p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a3ac2e518410735291c8dfbcc3811d3fb">qSlicerCoreIOManager</a>.</p>
 
 </div>
 </div>
@@ -538,7 +550,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00166">166</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00165">165</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -565,7 +577,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00128">128</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00127">127</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -593,7 +605,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00120">120</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00119">119</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -620,7 +632,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00184">184</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00183">183</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -647,7 +659,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00172">172</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00171">171</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -674,7 +686,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00178">178</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00177">177</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -701,7 +713,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00148">148</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00147">147</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -728,7 +740,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00154">154</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00153">153</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -780,7 +792,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00160">160</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00159">159</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -807,7 +819,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00134">134</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00133">133</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -834,7 +846,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00140">140</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00139">139</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -927,7 +939,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00190">190</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00189">189</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1124,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00109">109</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00108">108</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1137,7 +1149,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00112">112</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00111">111</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1147,7 +1159,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 11 2021 15:12:48 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 11 2021 17:52:14 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

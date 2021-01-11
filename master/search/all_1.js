@@ -181,6 +181,7 @@ var searchData=
   ['addmeasurement',['AddMeasurement',['../classvtkMRMLMarkupsNode.html#a4eab5bba1d0643aa8c7fed582de99aab',1,'vtkMRMLMarkupsNode']]],
   ['addmenuaction',['addMenuAction',['../classqMRMLNodeComboBox.html#ade098b56d6c856c8e22b615498556873',1,'qMRMLNodeComboBox']]],
   ['addmessage',['AddMessage',['../classvtkMRMLMessageCollection.html#afe3f47c7ff28441b0273c28d7855de78',1,'vtkMRMLMessageCollection']]],
+  ['addmessages',['AddMessages',['../classvtkMRMLMessageCollection.html#a92a98c4e40255a33cf71067148f42f0d',1,'vtkMRMLMessageCollection']]],
   ['addmissingnodes',['AddMissingNodes',['../classvtkMRMLSceneViewNode.html#a0818531c370ed8ea3d6155a04adc8eeb',1,'vtkMRMLSceneViewNode']]],
   ['addmodel',['AddModel',['../classvtkSlicerModelsLogic.html#ac97eb62f99df881aa0816f599cdb1a7c',1,'vtkSlicerModelsLogic::AddModel(vtkPolyData *polyData=nullptr)'],['../classvtkSlicerModelsLogic.html#a2ca281b3d1a392af125f55afd5388a51',1,'vtkSlicerModelsLogic::AddModel(vtkAlgorithmOutput *polyData=nullptr)'],['../classvtkSlicerModelsLogic.html#aca5518e139d7a0f2a22b7bca9a34ef68',1,'vtkSlicerModelsLogic::AddModel(const char *filename, int coordinateSystem=vtkMRMLStorageNode::CoordinateSystemLPS)']]],
   ['addmodels',['AddModels',['../classvtkSlicerModelsLogic.html#a451d56d39b96d55199597d9877f913f0',1,'vtkSlicerModelsLogic']]],
