@@ -138,6 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a02fd6d906385ce5c0c08062c773a8769"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLInteractionNode.html">vtkMRMLInteractionNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a02fd6d906385ce5c0c08062c773a8769">GetInteractionNode</a> () const</td></tr>
 <tr class="memdesc:a02fd6d906385ce5c0c08062c773a8769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default Interaction node.  <a href="#a02fd6d906385ce5c0c08062c773a8769">More...</a><br /></td></tr>
 <tr class="separator:a02fd6d906385ce5c0c08062c773a8769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a394ddb0e1794f54a65451ed3b7574045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLAbstractLogic.html">vtkMRMLAbstractLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a394ddb0e1794f54a65451ed3b7574045">GetModuleLogic</a> (const char *moduleName) const</td></tr>
+<tr class="separator:a394ddb0e1794f54a65451ed3b7574045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a09ade19f0a6271f895fc80e96cd5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLSelectionNode.html">vtkMRMLSelectionNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#ac4a09ade19f0a6271f895fc80e96cd5d">GetSelectionNode</a> () const</td></tr>
 <tr class="memdesc:ac4a09ade19f0a6271f895fc80e96cd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default Selection node.  <a href="#ac4a09ade19f0a6271f895fc80e96cd5d">More...</a><br /></td></tr>
 <tr class="separator:ac4a09ade19f0a6271f895fc80e96cd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,6 +196,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2b65673fc734110c4e1f54a8ab1369c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1fd66514c47ee5b21ecd15593b6d056"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#aa1fd66514c47ee5b21ecd15593b6d056">SetColorLogic</a> (<a class="el" href="classvtkMRMLColorLogic.html">vtkMRMLColorLogic</a> *newColorLogic)</td></tr>
 <tr class="separator:aa1fd66514c47ee5b21ecd15593b6d056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc7a74c7815e25ab709887747a2c3ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a2cc7a74c7815e25ab709887747a2c3ea">SetModuleLogic</a> (const char *moduleName, <a class="el" href="classvtkMRMLAbstractLogic.html">vtkMRMLAbstractLogic</a> *moduleLogic)</td></tr>
+<tr class="separator:a2cc7a74c7815e25ab709887747a2c3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9619509c7c9255e3fb3587047c74703d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a9619509c7c9255e3fb3587047c74703d">SetSliceLogics</a> (vtkCollection *sliceLogics)</td></tr>
 <tr class="memdesc:a9619509c7c9255e3fb3587047c74703d"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the slice logics in the application.  <a href="#a9619509c7c9255e3fb3587047c74703d">More...</a><br /></td></tr>
 <tr class="separator:a9619509c7c9255e3fb3587047c74703d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -630,6 +634,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get default Interaction node. </p>
+
+</div>
+</div>
+<a id="a394ddb0e1794f54a65451ed3b7574045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a394ddb0e1794f54a65451ed3b7574045">&#9670;&nbsp;</a></span>GetModuleLogic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classvtkMRMLAbstractLogic.html">vtkMRMLAbstractLogic</a>* vtkMRMLApplicationLogic::GetModuleLogic </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>moduleName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a constant pointer to module logic associated with a given module </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">moduleName</td><td>name of the module associated to the logic </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>constant pointer to <a class="el" href="classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. ">vtkMRMLAbstractLogic</a> corresponding to the logic associated to th logic </dd></dl>
 
 </div>
 </div>
@@ -1432,6 +1461,41 @@ Layers::LabelLayer </dd></dl>
 
 </div>
 </div>
+<a id="a2cc7a74c7815e25ab709887747a2c3ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc7a74c7815e25ab709887747a2c3ea">&#9670;&nbsp;</a></span>SetModuleLogic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLApplicationLogic::SetModuleLogic </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>moduleName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLAbstractLogic.html">vtkMRMLAbstractLogic</a> *&#160;</td>
+          <td class="paramname"><em>moduleLogic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets a module with its corresponding logic to the application logic. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">moduleName</td><td>name of the module. </td></tr>
+    <tr><td class="paramname">moduleLogic</td><td>pointer to logic to be associated to the module. If this parameter is nullptr, then the module logic will be removed from the application logic. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aecf613915641a44d6ecfe18f5b273e6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aecf613915641a44d6ecfe18f5b273e6a">&#9670;&nbsp;</a></span>SetMRMLSceneInternal()</h2>
 
@@ -1642,7 +1706,7 @@ Layers::LabelLayer </dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 12 2021 19:59:32 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 12 2021 22:16:11 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

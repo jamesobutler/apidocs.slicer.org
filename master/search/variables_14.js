@@ -14,7 +14,6 @@ var searchData=
   ['templates_5fpath',['templates_path',['../namespaceconf.html#ae850ae634911b713e036b43894fdd525',1,'conf']]],
   ['tensorrotationmatrix',['TensorRotationMatrix',['../classvtkDiffusionTensorGlyph.html#a850d2ef35e247e5c62ecf0003320a6ab',1,'vtkDiffusionTensorGlyph::TensorRotationMatrix()'],['../classvtkDiffusionTensorMathematics.html#a58189e91c9d98f2eddc8723220864980',1,'vtkDiffusionTensorMathematics::TensorRotationMatrix()']]],
   ['tensorvisibility',['TensorVisibility',['../classvtkMRMLDisplayNode.html#a6f62f3ea031e0946a87cdbe2e6523283',1,'vtkMRMLDisplayNode']]],
-  ['terminologieslogic',['TerminologiesLogic',['../classvtkSlicerSegmentationsModuleLogic.html#ae6b3bcb1882b21f32590a3812f8a80be',1,'vtkSlicerSegmentationsModuleLogic']]],
   ['terminologycontextname',['TerminologyContextName',['../classvtkSlicerTerminologyEntry.html#a10960c37a4e819ab5e792299dc6b5e0b',1,'vtkSlicerTerminologyEntry']]],
   ['texinfo_5fdocuments',['texinfo_documents',['../namespaceconf.html#a54b0faed214ac92017d5689efbb10672',1,'conf']]],
   ['text',['Text',['../classvtkMRMLTextNode.html#a45fa2113c11bff6dc7d112e79e02f573',1,'vtkMRMLTextNode']]],
