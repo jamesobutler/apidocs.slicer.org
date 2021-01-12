@@ -121,8 +121,16 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a964c8209934840b4ebc2bae967ae46e3"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a964c8209934840b4ebc2bae967ae46e3">GetClassName</a> ()</td></tr>
 <tr class="separator:a964c8209934840b4ebc2bae967ae46e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d5350cee42a8150f2d9ff9c59915ef"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#af2d5350cee42a8150f2d9ff9c59915ef">GetPickedNodeID</a> () override</td></tr>
+<tr class="memdesc:af2d5350cee42a8150f2d9ff9c59915ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the MRML ID of the picked node, returns empty string if no pick.  <a href="#af2d5350cee42a8150f2d9ff9c59915ef">More...</a><br /></td></tr>
+<tr class="separator:af2d5350cee42a8150f2d9ff9c59915ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f35d3272a9ffeab7562578fbe1a3aa"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#ad1f35d3272a9ffeab7562578fbe1a3aa">GetPickedSegmentID</a> ()</td></tr>
+<tr class="memdesc:ad1f35d3272a9ffeab7562578fbe1a3aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ID of the picked segment, returns empty string if no pick.  <a href="#ad1f35d3272a9ffeab7562578fbe1a3aa">More...</a><br /></td></tr>
+<tr class="separator:ad1f35d3272a9ffeab7562578fbe1a3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23de6d64fd228ca2b1034a65b7d255e2"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a23de6d64fd228ca2b1034a65b7d255e2">IsA</a> (const char *type)</td></tr>
 <tr class="separator:a23de6d64fd228ca2b1034a65b7d255e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7850c4869f8f238771476a1597b78bb3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a7850c4869f8f238771476a1597b78bb3">Pick3D</a> (double ras[3]) override</td></tr>
+<tr class="separator:a7850c4869f8f238771476a1597b78bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6255b9bd37f60e89c4fe1ad2882f67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a6c6255b9bd37f60e89c4fe1ad2882f67">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:a6c6255b9bd37f60e89c4fe1ad2882f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classvtkMRMLAbstractThreeDViewDisplayableManager"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classvtkMRMLAbstractThreeDViewDisplayableManager')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classvtkMRMLAbstractThreeDViewDisplayableManager.html">vtkMRMLAbstractThreeDViewDisplayableManager</a></td></tr>
@@ -226,12 +234,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a11e5e87aa996f4436df3776bd660790b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a11e5e87aa996f4436df3776bd660790b">Create</a> () override</td></tr>
 <tr class="memdesc:a11e5e87aa996f4436df3776bd660790b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the displayable manager.  <a href="#a11e5e87aa996f4436df3776bd660790b">More...</a><br /></td></tr>
 <tr class="separator:a11e5e87aa996f4436df3776bd660790b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2d5350cee42a8150f2d9ff9c59915ef"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#af2d5350cee42a8150f2d9ff9c59915ef">GetPickedNodeID</a> () override</td></tr>
-<tr class="memdesc:af2d5350cee42a8150f2d9ff9c59915ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the MRML ID of the picked node, returns empty string if no pick.  <a href="#af2d5350cee42a8150f2d9ff9c59915ef">More...</a><br /></td></tr>
-<tr class="separator:af2d5350cee42a8150f2d9ff9c59915ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f35d3272a9ffeab7562578fbe1a3aa"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#ad1f35d3272a9ffeab7562578fbe1a3aa">GetPickedSegmentID</a> ()</td></tr>
-<tr class="memdesc:ad1f35d3272a9ffeab7562578fbe1a3aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ID of the picked segment, returns empty string if no pick.  <a href="#ad1f35d3272a9ffeab7562578fbe1a3aa">More...</a><br /></td></tr>
-<tr class="separator:ad1f35d3272a9ffeab7562578fbe1a3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bd061ee8d27802392e1d2f785d3f276"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a7bd061ee8d27802392e1d2f785d3f276">OnMRMLSceneEndBatchProcess</a> () override</td></tr>
 <tr class="separator:a7bd061ee8d27802392e1d2f785d3f276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3a25290087cc9379a54cb26c2aec1ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#ab3a25290087cc9379a54cb26c2aec1ea">OnMRMLSceneEndClose</a> () override</td></tr>
@@ -242,8 +244,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a7417298e26349abbfcffc801a69baf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a81536a7a54794f5d10c09249d2b8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a77a81536a7a54794f5d10c09249d2b8e">OnMRMLSceneStartClose</a> () override</td></tr>
 <tr class="separator:a77a81536a7a54794f5d10c09249d2b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7850c4869f8f238771476a1597b78bb3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a7850c4869f8f238771476a1597b78bb3">Pick3D</a> (double ras[3]) override</td></tr>
-<tr class="separator:a7850c4869f8f238771476a1597b78bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65eb47f05cc0cc132b956f2d0961ccc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#a65eb47f05cc0cc132b956f2d0961ccc8">ProcessMRMLNodesEvents</a> (vtkObject *caller, unsigned long event, void *callData) override</td></tr>
 <tr class="separator:a65eb47f05cc0cc132b956f2d0961ccc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa6a7b7e3d6aec8b1e281def6627f9e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSegmentationsDisplayableManager3D.html#aaa6a7b7e3d6aec8b1e281def6627f9e5">UnobserveMRMLScene</a> () override</td></tr>
@@ -590,7 +590,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -619,7 +619,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -878,7 +878,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1081,7 +1081,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 11 2021 18:11:52 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 12 2021 19:59:33 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
