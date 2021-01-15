@@ -1112,7 +1112,7 @@ var searchData=
   ['getmodifiers',['GetModifiers',['../classvtkMRMLInteractionEventData.html#a1061e0de0a369eb4c9018c4e73eb4043',1,'vtkMRMLInteractionEventData']]],
   ['getmoduledescription',['GetModuleDescription',['../classvtkMRMLCommandLineModuleNode.html#a429245bbae164098c8843d3a09573e18',1,'vtkMRMLCommandLineModuleNode::GetModuleDescription() const'],['../classvtkMRMLCommandLineModuleNode.html#a56cffda2f7b3f3861f0d792aa0cadf59',1,'vtkMRMLCommandLineModuleNode::GetModuleDescription()']]],
   ['getmoduledescriptionasstring',['GetModuleDescriptionAsString',['../classvtkMRMLCommandLineModuleNode.html#a0a1f5e5d30476eda63b29c6cf21b361d',1,'vtkMRMLCommandLineModuleNode']]],
-  ['getmodulelogic',['GetModuleLogic',['../classvtkMRMLApplicationLogic.html#a394ddb0e1794f54a65451ed3b7574045',1,'vtkMRMLApplicationLogic']]],
+  ['getmodulelogic',['GetModuleLogic',['../classvtkSlicerModuleLogic.html#a7d7ca329e0cc60869ed8a20829eaa9ae',1,'vtkSlicerModuleLogic::GetModuleLogic()'],['../classvtkMRMLApplicationLogic.html#a394ddb0e1794f54a65451ed3b7574045',1,'vtkMRMLApplicationLogic::GetModuleLogic()']]],
   ['getmodulename',['GetModuleName',['../classvtkMRMLScriptedModuleNode.html#ae80fafd57d9950a7f4576e04351e66cf',1,'vtkMRMLScriptedModuleNode']]],
   ['getmodulesharedirectory',['GetModuleShareDirectory',['../classvtkSlicerApplicationLogic.html#ace2969d1302f1ce32f54e0505f126ec8',1,'vtkSlicerApplicationLogic::GetModuleShareDirectory()'],['../classvtkSlicerModuleLogic.html#aef42603c86610d6a6e93f3d48323f7ef',1,'vtkSlicerModuleLogic::GetModuleShareDirectory()']]],
   ['getmoduleslicerxylibdirectory',['GetModuleSlicerXYLibDirectory',['../classvtkSlicerApplicationLogic.html#aa72cfd0fce0fecc4e0e5d5390031f0ff',1,'vtkSlicerApplicationLogic']]],
