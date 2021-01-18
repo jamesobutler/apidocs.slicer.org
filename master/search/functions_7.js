@@ -856,7 +856,6 @@ var searchData=
   ['getinteractorabortflag',['GetInteractorAbortFlag',['../classvtkMRMLAbstractDisplayableManager.html#a7990f8e3b99b1b754b327b6cc76bda1a',1,'vtkMRMLAbstractDisplayableManager']]],
   ['getinteractorstyleabortflag',['GetInteractorStyleAbortFlag',['../classvtkMRMLAbstractDisplayableManager.html#a99615cf933f9926e975d2e74d6122ae2',1,'vtkMRMLAbstractDisplayableManager']]],
   ['getinterpolate',['GetInterpolate',['../classvtkMRMLScalarVolumeDisplayNode.html#ac524f069eead3bf4414eadfc3e563483',1,'vtkMRMLScalarVolumeDisplayNode']]],
-  ['getinterpolatecontrolpointmeasurement',['GetInterpolateControlPointMeasurement',['../classvtkCurveMeasurementsCalculator.html#af7bf1b2c63b69bf34d232c2a3264fc5c',1,'vtkCurveMeasurementsCalculator::GetInterpolateControlPointMeasurement()'],['../classvtkMRMLMarkupsCurveNode.html#aa136d2a7c13fad4b7215f98207a42cea',1,'vtkMRMLMarkupsCurveNode::GetInterpolateControlPointMeasurement()']]],
   ['getinterpolatedcropoutputgeometry',['GetInterpolatedCropOutputGeometry',['../classvtkSlicerCropVolumeLogic.html#a58bd823014be75acdfd157566d203ebd',1,'vtkSlicerCropVolumeLogic']]],
   ['getinterpolatetexture',['GetInterpolateTexture',['../classvtkMRMLDisplayNode.html#a15b7d39cff34551522925cfa5a6301e1',1,'vtkMRMLDisplayNode']]],
   ['getinterpolation',['GetInterpolation',['../classvtkMRMLDisplayNode.html#a624cfbf0e93010fa8c9ff26e7e1f4642',1,'vtkMRMLDisplayNode']]],

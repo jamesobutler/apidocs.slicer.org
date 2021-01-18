@@ -109,7 +109,7 @@ var searchData=
   ['redblue',['RedBlue',['../classvtkMRMLViewNode.html#ad48ba35ec83612ced024f351c6db7905a218ab4b2c5744d035904ff5298291fe5',1,'vtkMRMLViewNode']]],
   ['redirectmodulestreamsoff',['RedirectModuleStreamsOff',['../classvtkSlicerCLIModuleLogic.html#abff5756501435a0453145da24989d9b3',1,'vtkSlicerCLIModuleLogic']]],
   ['redirectmodulestreamson',['RedirectModuleStreamsOn',['../classvtkSlicerCLIModuleLogic.html#a0e33ee51b8a8ba001cb8d3305817ca02',1,'vtkSlicerCLIModuleLogic']]],
-  ['redo',['Redo',['../classvtkMRMLScene.html#af3820eb754fe72190a4363bccfffee1d',1,'vtkMRMLScene::Redo()'],['../classqMRMLSegmentEditorWidget.html#a5031e8773adfea2c0eb51f994c3f29d7',1,'qMRMLSegmentEditorWidget::redo()']]],
+  ['redo',['redo',['../classqMRMLSegmentEditorWidget.html#a5031e8773adfea2c0eb51f994c3f29d7',1,'qMRMLSegmentEditorWidget::redo()'],['../classvtkMRMLScene.html#af3820eb754fe72190a4363bccfffee1d',1,'vtkMRMLScene::Redo()']]],
   ['redostack',['RedoStack',['../classvtkMRMLScene.html#a1dc71154c1958a88dae08642441f4559',1,'vtkMRMLScene']]],
   ['redostate',['RedoState',['../classvtkMRMLScene.html#a72f8846a9216214430e05638bcead65fa7c22d2b176cb80ab4127ad1c72e78fe2',1,'vtkMRMLScene']]],
   ['redsliceclipstate',['redSliceClipState',['../classqMRMLClipNodeWidget.html#a628d06fca435faeac2ffe4c9382b83fe',1,'qMRMLClipNodeWidget::redSliceClipState()'],['../classvtkMRMLClipModelsNode.html#ae9746171247c23406283df47ffce814b',1,'vtkMRMLClipModelsNode::RedSliceClipState()']]],

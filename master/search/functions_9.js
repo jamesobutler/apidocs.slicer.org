@@ -127,8 +127,6 @@ var searchData=
   ['interpolate1ton',['Interpolate1toN',['../classitk_1_1MorphologicalContourInterpolator.html#aeb5603c2bcd32400ecf6537d8ab59dad',1,'itk::MorphologicalContourInterpolator']]],
   ['interpolatealong',['InterpolateAlong',['../classitk_1_1MorphologicalContourInterpolator.html#a972dba6c7b924269a63ce535d31928ea',1,'itk::MorphologicalContourInterpolator']]],
   ['interpolatebetweentwo',['InterpolateBetweenTwo',['../classitk_1_1MorphologicalContourInterpolator.html#a1cbefce7e363c3f129e5c9a190be2eb0',1,'itk::MorphologicalContourInterpolator']]],
-  ['interpolatecontrolpointmeasurementoff',['InterpolateControlPointMeasurementOff',['../classvtkCurveMeasurementsCalculator.html#ae80d102e469f5d7e539f61268a777d99',1,'vtkCurveMeasurementsCalculator']]],
-  ['interpolatecontrolpointmeasurementon',['InterpolateControlPointMeasurementOn',['../classvtkCurveMeasurementsCalculator.html#a4090d0e708b8c55fde84375570a0ae01',1,'vtkCurveMeasurementsCalculator']]],
   ['interpolatecontrolpointmeasurementtopolydata',['InterpolateControlPointMeasurementToPolyData',['../classvtkCurveMeasurementsCalculator.html#acfee11cdc3058169d3d02a7ed489c8bc',1,'vtkCurveMeasurementsCalculator']]],
   ['interpolateoff',['InterpolateOff',['../classvtkMRMLScalarVolumeDisplayNode.html#a82ff5a7d9e28366208ad4cf169d32105',1,'vtkMRMLScalarVolumeDisplayNode']]],
   ['interpolateon',['InterpolateOn',['../classvtkMRMLScalarVolumeDisplayNode.html#a38237b51c5ecd2340fc6bbcc0442b51a',1,'vtkMRMLScalarVolumeDisplayNode']]],
