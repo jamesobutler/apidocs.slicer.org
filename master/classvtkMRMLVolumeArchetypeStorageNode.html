@@ -668,6 +668,8 @@ Convert between coordinate system ID and name  <a href="classvtkMRMLStorageNode.
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a478a6a4c422ffc7dbc03e4a0014dca29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeArchetypeStorageNode.html#a478a6a4c422ffc7dbc03e4a0014dca29">ConvertSpatialVectorVoxelsBetweenRasLps</a> (vtkImageData *imageData)</td></tr>
+<tr class="separator:a478a6a4c422ffc7dbc03e4a0014dca29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d34aa7d8d8c1d2952d26e5ce1a69cf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeArchetypeStorageNode.html#a8d34aa7d8d8c1d2952d26e5ce1a69cf2">InitializeSupportedWriteFileTypes</a> () override</td></tr>
 <tr class="memdesc:a8d34aa7d8d8c1d2952d26e5ce1a69cf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all the supported write file types.  <a href="#a8d34aa7d8d8c1d2952d26e5ce1a69cf2">More...</a><br /></td></tr>
 <tr class="separator:a8d34aa7d8d8c1d2952d26e5ce1a69cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1040,6 +1042,32 @@ Additional Inherited Members</h2></td></tr>
 <p>Configure the storage node for data exchange. This is an opportunity to optimize the storage node's settings, for instance to turn off compression. </p>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLStorageNode.html#a7b0a6a3a8bbf4f24f2db069f0c5c4855">vtkMRMLStorageNode</a>.</p>
+
+</div>
+</div>
+<a id="a478a6a4c422ffc7dbc03e4a0014dca29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478a6a4c422ffc7dbc03e4a0014dca29">&#9670;&nbsp;</a></span>ConvertSpatialVectorVoxelsBetweenRasLps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLVolumeArchetypeStorageNode::ConvertSpatialVectorVoxelsBetweenRasLps </td>
+          <td>(</td>
+          <td class="paramtype">vtkImageData *&#160;</td>
+          <td class="paramname"><em>imageData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1766,7 +1794,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html#l00110">110</a> of file <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html">vtkMRMLVolumeArchetypeStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html#l00112">112</a> of file <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html">vtkMRMLVolumeArchetypeStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1790,7 +1818,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html#l00111">111</a> of file <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html">vtkMRMLVolumeArchetypeStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html#l00113">113</a> of file <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html">vtkMRMLVolumeArchetypeStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1814,7 +1842,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html#l00112">112</a> of file <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html">vtkMRMLVolumeArchetypeStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html#l00114">114</a> of file <a class="el" href="vtkMRMLVolumeArchetypeStorageNode_8h_source.html">vtkMRMLVolumeArchetypeStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1824,7 +1852,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 19 2021 00:15:58 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 19 2021 17:09:30 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

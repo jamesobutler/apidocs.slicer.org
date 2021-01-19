@@ -99,12 +99,12 @@ Public Types</h2></td></tr>
 <tr class="memitem:ad5dab3f8ddee10fe440fc60a4ac25eb5"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classvtkITKArchetypeImageSeriesReader.html">vtkITKArchetypeImageSeriesReader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesVectorReaderFile.html#ad5dab3f8ddee10fe440fc60a4ac25eb5">Superclass</a></td></tr>
 <tr class="separator:ad5dab3f8ddee10fe440fc60a4ac25eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classvtkITKArchetypeImageSeriesReader"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classvtkITKArchetypeImageSeriesReader')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classvtkITKArchetypeImageSeriesReader.html">vtkITKArchetypeImageSeriesReader</a></td></tr>
-<tr class="memitem:a5a746e5b2400893fdcda90a2358a4d56 inherit pub_types_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a5a746e5b2400893fdcda90a2358a4d56a029ea1519e3e6e87f48bdf6c00f1ea18">GDCM</a> = 0, 
-<a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a5a746e5b2400893fdcda90a2358a4d56a178b05de4159d01012e31f251d08f8b7">DCMTK</a>
+<tr class="memitem:a99a20b04d80163c58c867670279315ea inherit pub_types_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a99a20b04d80163c58c867670279315eaa029ea1519e3e6e87f48bdf6c00f1ea18">GDCM</a> = 0, 
+<a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a99a20b04d80163c58c867670279315eaa178b05de4159d01012e31f251d08f8b7">DCMTK</a>
  }</td></tr>
-<tr class="memdesc:a5a746e5b2400893fdcda90a2358a4d56"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
-Reader to use when reading as a scalar image data  <a href="classvtkITKArchetypeImageSeriesReader.html#a5a746e5b2400893fdcda90a2358a4d56">More...</a><br /></td></tr>
-<tr class="separator:a5a746e5b2400893fdcda90a2358a4d56 inherit pub_types_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a99a20b04d80163c58c867670279315ea"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
+Reader to use when reading as a scalar image data  <a href="classvtkITKArchetypeImageSeriesReader.html#a99a20b04d80163c58c867670279315ea">More...</a><br /></td></tr>
+<tr class="separator:a99a20b04d80163c58c867670279315ea inherit pub_types_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4adc0e5698c568f4f113640e7a6c9a1 inherit pub_types_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">typedef itk::SpatialOrientation::ValidCoordinateOrientationFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#ad4adc0e5698c568f4f113640e7a6c9a1">CoordinateOrientationCode</a></td></tr>
 <tr class="separator:ad4adc0e5698c568f4f113640e7a6c9a1 inherit pub_types_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba52ed3259144f1a7a39581e5108f367 inherit pub_types_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">typedef vtkImageAlgorithm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#aba52ed3259144f1a7a39581e5108f367">Superclass</a></td></tr>
@@ -280,6 +280,8 @@ Returns an IJK to RAS transformation matrix  <a href="classvtkITKArchetypeImageS
 <tr class="separator:a5ffe5c50acb3db92f0b6a204dddf9944 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fcdc40e899363c1a753b81c710933bc inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a1fcdc40e899363c1a753b81c710933bc">GetUseOrientationFromFile</a> ()</td></tr>
 <tr class="separator:a1fcdc40e899363c1a753b81c710933bc inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad294f0cc8a85be9bbf80a18c6756adf inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#aad294f0cc8a85be9bbf80a18c6756adf">GetVoxelVectorType</a> ()</td></tr>
+<tr class="separator:aad294f0cc8a85be9bbf80a18c6756adf inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd78018229a838654a1a1d748d00afdd inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#abd78018229a838654a1a1d748d00afdd">GroupFiles</a> (int idxSeriesInstanceUID, int idxContentTime, int idxTriggerTime, int idxEchoNumbers, int idxDiffusionGradientOrientation, int idxSliceLocation, int idxImageOrientationPatient)</td></tr>
 <tr class="separator:abd78018229a838654a1a1d748d00afdd inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25877bb754e0784e80eca5e0e99215f9 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a25877bb754e0784e80eca5e0e99215f9">HasKey</a> (char *tag)</td></tr>
@@ -316,10 +318,10 @@ Whether try analyzing the dicom headers  <a href="classvtkITKArchetypeImageSerie
 <tr class="memdesc:ab3dd02d6d301da6b606609d8fc6742f9 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
 Specify the archetype filename for the series.  <a href="classvtkITKArchetypeImageSeriesReader.html#ab3dd02d6d301da6b606609d8fc6742f9">More...</a><br /></td></tr>
 <tr class="separator:ab3dd02d6d301da6b606609d8fc6742f9 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae962345372726d184552281776fcb69 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#aae962345372726d184552281776fcb69">SetDefaultDataOrigin</a> (double, double, double)</td></tr>
-<tr class="separator:aae962345372726d184552281776fcb69 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac29ebeb315f989a5787055f582b5fe13 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#ac29ebeb315f989a5787055f582b5fe13">SetDefaultDataOrigin</a> (double [3])</td></tr>
 <tr class="separator:ac29ebeb315f989a5787055f582b5fe13 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae962345372726d184552281776fcb69 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#aae962345372726d184552281776fcb69">SetDefaultDataOrigin</a> (double, double, double)</td></tr>
+<tr class="separator:aae962345372726d184552281776fcb69 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ee3dd943dc2a432d3c338ac2d9c1fcc inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a2ee3dd943dc2a432d3c338ac2d9c1fcc">SetDefaultDataSpacing</a> (double [3])</td></tr>
 <tr class="separator:a2ee3dd943dc2a432d3c338ac2d9c1fcc inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4cb395d7a86afd97b728a49ebdea93e inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#ab4cb395d7a86afd97b728a49ebdea93e">SetDefaultDataSpacing</a> (double, double, double)</td></tr>
@@ -411,6 +413,9 @@ Use image origin from the file  <a href="classvtkITKArchetypeImageSeriesReader.h
 <tr class="memdesc:a3e9967387c1352b1b7d1131096ce4188 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
 Whether to use orientation from file  <a href="classvtkITKArchetypeImageSeriesReader.html#a3e9967387c1352b1b7d1131096ce4188">More...</a><br /></td></tr>
 <tr class="separator:a3e9967387c1352b1b7d1131096ce4188 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae15140b69cf911be0ee35df26e4efd0 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#aae15140b69cf911be0ee35df26e4efd0">SetVoxelVectorType</a> (int)</td></tr>
+<tr class="memdesc:aae15140b69cf911be0ee35df26e4efd0 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how to interpret voxel components.  <a href="classvtkITKArchetypeImageSeriesReader.html#aae15140b69cf911be0ee35df26e4efd0">More...</a><br /></td></tr>
+<tr class="separator:aae15140b69cf911be0ee35df26e4efd0 inherit pub_methods_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -577,6 +582,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ae91311717ccce023a26559eb633fd7ae inherit pro_attribs_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6091397b7cadd874718b835861895f0d inherit pro_attribs_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a6091397b7cadd874718b835861895f0d">UseOrientationFromFile</a></td></tr>
 <tr class="separator:a6091397b7cadd874718b835861895f0d inherit pro_attribs_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362fc613c542970fe04d09a288d9033b inherit pro_attribs_classvtkITKArchetypeImageSeriesReader"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a362fc613c542970fe04d09a288d9033b">VoxelVectorType</a></td></tr>
+<tr class="separator:a362fc613c542970fe04d09a288d9033b inherit pro_attribs_classvtkITKArchetypeImageSeriesReader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -902,7 +909,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 19 2021 00:15:55 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 19 2021 17:09:24 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

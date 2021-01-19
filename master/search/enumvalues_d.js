@@ -12,9 +12,9 @@ var searchData=
   ['onplane',['ONPLANE',['../classqSlicerReformatModuleWidget.html#ac648bb5112292ca2cf6082ecdf2deaa7a912290ff455ef983fe47fee4a5b773be',1,'qSlicerReformatModuleWidget']]],
   ['onscreen_5frendering',['ONSCREEN_RENDERING',['../classvtkSystemInformation.html#a747d1c2e9d0229cfb2a327bb5879b49ca4e00402fa1ca4372053ad7b40f1e3975',1,'vtkSystemInformation']]],
   ['opengl',['OPENGL',['../classvtkSystemInformation.html#a747d1c2e9d0229cfb2a327bb5879b49cad4e1f95484efe5a22efc14443cafe878',1,'vtkSystemInformation']]],
-  ['operation_5fmasking',['OPERATION_MASKING',['../classvtkOrientedImageDataResample.html#a480cb976bb7d2c208a7705fcb1e1bce3af83408c0c3dd96a5ec3224508d2e19f9',1,'vtkOrientedImageDataResample']]],
-  ['operation_5fmaximum',['OPERATION_MAXIMUM',['../classvtkOrientedImageDataResample.html#a480cb976bb7d2c208a7705fcb1e1bce3af2ed0207217f069770128f6bc1115bfe',1,'vtkOrientedImageDataResample']]],
-  ['operation_5fminimum',['OPERATION_MINIMUM',['../classvtkOrientedImageDataResample.html#a480cb976bb7d2c208a7705fcb1e1bce3a7a4e7854c16eaf24ad1b50a665a59dcb',1,'vtkOrientedImageDataResample']]],
+  ['operation_5fmasking',['OPERATION_MASKING',['../classvtkOrientedImageDataResample.html#ad09528fa3414892d8eac7775345fa447af83408c0c3dd96a5ec3224508d2e19f9',1,'vtkOrientedImageDataResample']]],
+  ['operation_5fmaximum',['OPERATION_MAXIMUM',['../classvtkOrientedImageDataResample.html#ad09528fa3414892d8eac7775345fa447af2ed0207217f069770128f6bc1115bfe',1,'vtkOrientedImageDataResample']]],
+  ['operation_5fminimum',['OPERATION_MINIMUM',['../classvtkOrientedImageDataResample.html#ad09528fa3414892d8eac7775345fa447a7a4e7854c16eaf24ad1b50a665a59dcb',1,'vtkOrientedImageDataResample']]],
   ['orientationflag',['OrientationFlag',['../classvtkMRMLSliceNode.html#a1b7b61096af69498c285080dc851d746aeffce77b88dc51b330f89f3df9e58ae9',1,'vtkMRMLSliceNode']]],
   ['orientationmarkersize_5flast',['OrientationMarkerSize_Last',['../classvtkMRMLAbstractViewNode.html#a2c9e1596158b208755cf556e4fc996dda32b45006a7734e850a228727bcf62c64',1,'vtkMRMLAbstractViewNode']]],
   ['orientationmarkersizeflag',['OrientationMarkerSizeFlag',['../classvtkMRMLViewNode.html#a0808d1f461ee3b95ad6cfbf2ef050a87a639540fb2ef858c9009fa89c48862ff6',1,'vtkMRMLViewNode']]],
@@ -31,9 +31,9 @@ var searchData=
   ['orientedpositive',['OrientedPositive',['../classvtkMRMLMarkupsAngleNode.html#a6af14810aa03a888d5dbb6af4060aea7a9f41bfd8ade8bd7205edce6e612adf16',1,'vtkMRMLMarkupsAngleNode']]],
   ['orientedsigned',['OrientedSigned',['../classvtkMRMLMarkupsAngleNode.html#a6af14810aa03a888d5dbb6af4060aea7a58b096450ac73a03d1fcd0b9ec9bbea0',1,'vtkMRMLMarkupsAngleNode']]],
   ['orthographic',['Orthographic',['../classvtkMRMLViewNode.html#a30ad62056026b93df2ecca1cc01cd3bda9b383235332ca214ab9221ccd62d9d83',1,'vtkMRMLViewNode']]],
-  ['outside',['Outside',['../classvtkAnnotationROIRepresentation.html#a493447cb114191a0c54beeafa118ef4aaa143f0b6a1b317b3605e1367562117e7',1,'vtkAnnotationROIRepresentation']]],
-  ['overwrite_5flast',['Overwrite_Last',['../classvtkMRMLSegmentEditorNode.html#adc4f2aeb9e1b26408a39df14528a83b6aa7b54be6d963750e9caac9252e126d21',1,'vtkMRMLSegmentEditorNode']]],
-  ['overwriteallsegments',['OverwriteAllSegments',['../classvtkMRMLSegmentEditorNode.html#adc4f2aeb9e1b26408a39df14528a83b6a25df107cf5f6fc1d04753c08f05dfa47',1,'vtkMRMLSegmentEditorNode']]],
-  ['overwritenone',['OverwriteNone',['../classvtkMRMLSegmentEditorNode.html#adc4f2aeb9e1b26408a39df14528a83b6ab8e73fee7b52bb5df95ef2eedcad0a64',1,'vtkMRMLSegmentEditorNode']]],
-  ['overwritevisiblesegments',['OverwriteVisibleSegments',['../classvtkMRMLSegmentEditorNode.html#adc4f2aeb9e1b26408a39df14528a83b6ad92c396e7a53edd77a7e56a8baa1ee35',1,'vtkMRMLSegmentEditorNode']]]
+  ['outside',['Outside',['../classvtkAnnotationROIRepresentation.html#a7622685147b79fb84a7f6b154476f9e3aa143f0b6a1b317b3605e1367562117e7',1,'vtkAnnotationROIRepresentation']]],
+  ['overwrite_5flast',['Overwrite_Last',['../classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3aa7b54be6d963750e9caac9252e126d21',1,'vtkMRMLSegmentEditorNode']]],
+  ['overwriteallsegments',['OverwriteAllSegments',['../classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3a25df107cf5f6fc1d04753c08f05dfa47',1,'vtkMRMLSegmentEditorNode']]],
+  ['overwritenone',['OverwriteNone',['../classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3ab8e73fee7b52bb5df95ef2eedcad0a64',1,'vtkMRMLSegmentEditorNode']]],
+  ['overwritevisiblesegments',['OverwriteVisibleSegments',['../classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3ad92c396e7a53edd77a7e56a8baa1ee35',1,'vtkMRMLSegmentEditorNode']]]
 ];

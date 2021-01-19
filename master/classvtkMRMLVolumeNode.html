@@ -115,10 +115,20 @@ Collaboration diagram for vtkMRMLVolumeNode:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a15767d7a14cf8e47258728d669dd2a5b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkMRMLVolumeNode.html#a15767d7a14cf8e47258728d669dd2a5ba0ce595fc4b88f93df94560b92c280a5b">ImageDataModifiedEvent</a> = 18001
+<tr class="memitem:a15767d7a14cf8e47258728d669dd2a5b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="classvtkMRMLVolumeNode.html#a15767d7a14cf8e47258728d669dd2a5ba20d099365b4f3eca42c6913eb15890d3">VoxelVectorTypeUndefined</a>, 
+<a class="el" href="classvtkMRMLVolumeNode.html#a15767d7a14cf8e47258728d669dd2a5ba0eff6df9132c310b064d5f6dda5e3744">VoxelVectorTypeSpatial</a>, 
+<a class="el" href="classvtkMRMLVolumeNode.html#a15767d7a14cf8e47258728d669dd2a5ba7c607720cf007782f2c7a184dedb7c0e">VoxelVectorTypeColorRGB</a>, 
+<a class="el" href="classvtkMRMLVolumeNode.html#a15767d7a14cf8e47258728d669dd2a5ba5c48b2fa89d72f06661c80bff659912c">VoxelVectorTypeColorRGBA</a>, 
+<br />
+&#160;&#160;<a class="el" href="classvtkMRMLVolumeNode.html#a15767d7a14cf8e47258728d669dd2a5ba3f256e845fecad386a2cf03482d030bf">VoxelVectorType_Last</a>
+<br />
  }</td></tr>
-<tr class="memdesc:a15767d7a14cf8e47258728d669dd2a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImageDataModifiedEvent is generated when image data is changed.  <a href="classvtkMRMLVolumeNode.html#a15767d7a14cf8e47258728d669dd2a5b">More...</a><br /></td></tr>
 <tr class="separator:a15767d7a14cf8e47258728d669dd2a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d8702b4e3b893ea772914ef10282ce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkMRMLVolumeNode.html#a15d8702b4e3b893ea772914ef10282cea0ce595fc4b88f93df94560b92c280a5b">ImageDataModifiedEvent</a> = 18001
+ }</td></tr>
+<tr class="memdesc:a15d8702b4e3b893ea772914ef10282ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImageDataModifiedEvent is generated when image data is changed.  <a href="classvtkMRMLVolumeNode.html#a15d8702b4e3b893ea772914ef10282ce">More...</a><br /></td></tr>
+<tr class="separator:a15d8702b4e3b893ea772914ef10282ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86a28b58b38258914bdf3fe9ce428916"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classvtkMRMLDisplayableNode.html">vtkMRMLDisplayableNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a86a28b58b38258914bdf3fe9ce428916">Superclass</a></td></tr>
 <tr class="separator:a86a28b58b38258914bdf3fe9ce428916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classvtkMRMLDisplayableNode"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classvtkMRMLDisplayableNode')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classvtkMRMLDisplayableNode.html">vtkMRMLDisplayableNode</a></td></tr>
@@ -235,6 +245,8 @@ Get node XML tag name (like Volume, Model)  <a href="#ad6a5ae201bd77690a2e05e373
 <tr class="memdesc:ae4eec4c00414f370929a92d76779fad0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
 Associated display MRML node  <a href="#ae4eec4c00414f370929a92d76779fad0">More...</a><br /></td></tr>
 <tr class="separator:ae4eec4c00414f370929a92d76779fad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa76ea5d5dd680dfe4af0e9adaf8621"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a9fa76ea5d5dd680dfe4af0e9adaf8621">GetVoxelVectorType</a> ()</td></tr>
+<tr class="separator:a9fa76ea5d5dd680dfe4af0e9adaf8621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dcf7365844a8b929d116fe06b62951a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a2dcf7365844a8b929d116fe06b62951a">IsA</a> (const char *type)</td></tr>
 <tr class="separator:a2dcf7365844a8b929d116fe06b62951a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00e781f692e1f1ae08e9837a13a9d17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#ae00e781f692e1f1ae08e9837a13a9d17">IsCentered</a> ()</td></tr>
@@ -282,6 +294,8 @@ Set/Get the ITK MetaDataDictionary  <a href="#aa092c8910a6f3dd13d1179f01ca96038"
 <tr class="separator:aba811485373b79ecef790d32370b5ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc95f1f9dd6e5092f4c126212b80b2c8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#afc95f1f9dd6e5092f4c126212b80b2c8">SetSpacing</a> (double arg[3])</td></tr>
 <tr class="separator:afc95f1f9dd6e5092f4c126212b80b2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37edc8369657d33efa6e08a1f909c3fa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a37edc8369657d33efa6e08a1f909c3fa">SetVoxelVectorType</a> (int)</td></tr>
+<tr class="separator:a37edc8369657d33efa6e08a1f909c3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad486e45a318709c847b7d34974897d1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#ad486e45a318709c847b7d34974897d1d">ShiftImageDataExtentToZeroStart</a> ()</td></tr>
 <tr class="separator:ad486e45a318709c847b7d34974897d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a128146a79c7389c409719fb5e9e4ae84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a128146a79c7389c409719fb5e9e4ae84">UpdateScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene) override</td></tr>
@@ -653,6 +667,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:afa70fb5da41dd86705e0e71127a86112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa667ad7e8904e537ec500752e6045e43"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#aa667ad7e8904e537ec500752e6045e43">ComputeScanOrderFromIJKToRAS</a> (vtkMatrix4x4 *IJKToRAS)</td></tr>
 <tr class="separator:aa667ad7e8904e537ec500752e6045e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc4c0fd8afb5e5e2163e819d5ba4133"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#afbc4c0fd8afb5e5e2163e819d5ba4133">GetVoxelVectorTypeAsString</a> (int id)</td></tr>
+<tr class="memdesc:afbc4c0fd8afb5e5e2163e819d5ba4133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert between voxel type ID and name.  <a href="#afbc4c0fd8afb5e5e2163e819d5ba4133">More...</a><br /></td></tr>
+<tr class="separator:afbc4c0fd8afb5e5e2163e819d5ba4133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89512cc8194e03547b87f3854944bf8e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a89512cc8194e03547b87f3854944bf8e">GetVoxelVectorTypeFromString</a> (const char *name)</td></tr>
+<tr class="separator:a89512cc8194e03547b87f3854944bf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17cbc9897371ce575e12c77afabfb400"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a17cbc9897371ce575e12c77afabfb400">IsTypeOf</a> (const char *type)</td></tr>
 <tr class="separator:a17cbc9897371ce575e12c77afabfb400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a520d3dafa74ded05eb6aefcbc1512d50"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkMRMLVolumeNode.html">vtkMRMLVolumeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a520d3dafa74ded05eb6aefcbc1512d50">SafeDownCast</a> (vtkObject *o)</td></tr>
@@ -810,6 +829,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad19e3323828ec6562b45b5f7d8f487d8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#ad19e3323828ec6562b45b5f7d8f487d8">Spacing</a> [3]</td></tr>
 <tr class="memdesc:ad19e3323828ec6562b45b5f7d8f487d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">these are mappings to mm space  <a href="#ad19e3323828ec6562b45b5f7d8f487d8">More...</a><br /></td></tr>
 <tr class="separator:ad19e3323828ec6562b45b5f7d8f487d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1efa411311b92dc38137ce38afe681a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLVolumeNode.html#a1efa411311b92dc38137ce38afe681a1">VoxelVectorType</a></td></tr>
+<tr class="separator:a1efa411311b92dc38137ce38afe681a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classvtkMRMLStorableNode"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classvtkMRMLStorableNode')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classvtkMRMLStorableNode.html">vtkMRMLStorableNode</a></td></tr>
 <tr class="memitem:a0b4635f5d23896c7ab81cfde5c76e172 inherit pro_attribs_classvtkMRMLStorableNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLStorableNode.html#a0b4635f5d23896c7ab81cfde5c76e172">SlicerDataType</a></td></tr>
 <tr class="separator:a0b4635f5d23896c7ab81cfde5c76e172 inherit pro_attribs_classvtkMRMLStorableNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -922,13 +943,36 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a15767d7a14cf8e47258728d669dd2a5ba20d099365b4f3eca42c6913eb15890d3"></a>VoxelVectorTypeUndefined&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a15767d7a14cf8e47258728d669dd2a5ba0eff6df9132c310b064d5f6dda5e3744"></a>VoxelVectorTypeSpatial&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a15767d7a14cf8e47258728d669dd2a5ba7c607720cf007782f2c7a184dedb7c0e"></a>VoxelVectorTypeColorRGB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a15767d7a14cf8e47258728d669dd2a5ba5c48b2fa89d72f06661c80bff659912c"></a>VoxelVectorTypeColorRGBA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a15767d7a14cf8e47258728d669dd2a5ba3f256e845fecad386a2cf03482d030bf"></a>VoxelVectorType_Last&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00046">46</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+
+</div>
+</div>
+<a id="a15d8702b4e3b893ea772914ef10282ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d8702b4e3b893ea772914ef10282ce">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 <p>ImageDataModifiedEvent is generated when image data is changed. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a15767d7a14cf8e47258728d669dd2a5ba0ce595fc4b88f93df94560b92c280a5b"></a>ImageDataModifiedEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a15d8702b4e3b893ea772914ef10282cea0ce595fc4b88f93df94560b92c280a5b"></a>ImageDataModifiedEvent&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00197">197</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00206">206</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -2057,6 +2101,86 @@ Associated display MRML node </p>
 
 </div>
 </div>
+<a id="a9fa76ea5d5dd680dfe4af0e9adaf8621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa76ea5d5dd680dfe4af0e9adaf8621">&#9670;&nbsp;</a></span>GetVoxelVectorType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int vtkMRMLVolumeNode::GetVoxelVectorType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get/Set how to interpret a scalar components of a voxel. VoxelVectorTypeUndefined: voxel type is not specified, scalar or independent scalar components. VoxelVectorTypeSpatialVector: 3-component spatial vector with RAS components, (sign of first two values are inverted when stored in files as LPS)/ VoxelVectorTypeColorRGB: 3-component vector stores red, green, blue values. VoxelVectorTypeColorRGBA: 4-component vector stores red, green, blue, alpha values. </p>
+
+</div>
+</div>
+<a id="afbc4c0fd8afb5e5e2163e819d5ba4133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbc4c0fd8afb5e5e2163e819d5ba4133">&#9670;&nbsp;</a></span>GetVoxelVectorTypeAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const char* vtkMRMLVolumeNode::GetVoxelVectorTypeAsString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert between voxel type ID and name. </p>
+
+</div>
+</div>
+<a id="a89512cc8194e03547b87f3854944bf8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89512cc8194e03547b87f3854944bf8e">&#9670;&nbsp;</a></span>GetVoxelVectorTypeFromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int vtkMRMLVolumeNode::GetVoxelVectorTypeFromString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2dcf7365844a8b929d116fe06b62951a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2dcf7365844a8b929d116fe06b62951a">&#9670;&nbsp;</a></span>IsA()</h2>
 
@@ -2871,6 +2995,32 @@ Set/Get the ITK MetaDataDictionary </p>
 
 </div>
 </div>
+<a id="a37edc8369657d33efa6e08a1f909c3fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37edc8369657d33efa6e08a1f909c3fa">&#9670;&nbsp;</a></span>SetVoxelVectorType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLVolumeNode::SetVoxelVectorType </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad486e45a318709c847b7d34974897d1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad486e45a318709c847b7d34974897d1d">&#9670;&nbsp;</a></span>ShiftImageDataExtentToZeroStart()</h2>
 
@@ -3028,7 +3178,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00274">274</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00296">296</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -3052,7 +3202,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00276">276</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00299">299</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -3078,7 +3228,7 @@ Write this node's information to a MRML file in XML format. </p>
 
 <p>these are unit length direction cosines </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00267">267</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00289">289</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -3102,7 +3252,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00273">273</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00295">295</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -3126,7 +3276,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00271">271</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00293">293</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -3152,7 +3302,31 @@ Write this node's information to a MRML file in XML format. </p>
 
 <p>these are mappings to mm space </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00270">270</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00292">292</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
+
+</div>
+</div>
+<a id="a1efa411311b92dc38137ce38afe681a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1efa411311b92dc38137ce38afe681a1">&#9670;&nbsp;</a></span>VoxelVectorType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int vtkMRMLVolumeNode::VoxelVectorType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLVolumeNode_8h_source.html#l00298">298</a> of file <a class="el" href="vtkMRMLVolumeNode_8h_source.html">vtkMRMLVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -3162,7 +3336,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 19 2021 00:15:58 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 19 2021 17:09:30 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
