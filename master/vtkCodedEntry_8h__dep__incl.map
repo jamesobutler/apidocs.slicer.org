@@ -1,11 +1,11 @@
 <map id="Libs/MRML/Core/vtkCodedEntry.h" name="Libs/MRML/Core/vtkCodedEntry.h">
-<area shape="rect" id="node2" href="$vtkMRMLMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLMeasurement.h" alt="" coords="2560,87,2843,114"/>
+<area shape="rect" id="node2" href="$vtkMRMLMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLMeasurement.h" alt="" coords="2596,87,2879,114"/>
 <area shape="rect" id="node37" href="$vtkSlicerTerminologyCategory_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyCategory.h" alt="" coords="4037,80,4299,121"/>
 <area shape="rect" id="node42" href="$vtkSlicerTerminologyType_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyType.h" alt="" coords="3779,80,4013,121"/>
-<area shape="rect" id="node3" href="$vtkMRMLMeasurementConstant_8h.html" title="Libs/MRML/Core/vtkMRMLMeasurement\lConstant.h" alt="" coords="2859,169,3130,211"/>
-<area shape="rect" id="node4" href="$vtkMRMLMarkupsNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsNode.h" alt="" coords="1335,169,1558,211"/>
-<area shape="rect" id="node35" href="$vtkMRMLMeasurementAngle_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementAngle.h" alt="" coords="2283,169,2543,211"/>
-<area shape="rect" id="node36" href="$vtkMRMLMeasurementLength_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h" alt="" coords="2567,169,2835,211"/>
+<area shape="rect" id="node3" href="$vtkMRMLStaticMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLStatic\lMeasurement.h" alt="" coords="2896,169,3115,211"/>
+<area shape="rect" id="node4" href="$vtkMRMLMarkupsNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsNode.h" alt="" coords="1363,169,1586,211"/>
+<area shape="rect" id="node35" href="$vtkMRMLMeasurementAngle_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementAngle.h" alt="" coords="2319,169,2579,211"/>
+<area shape="rect" id="node36" href="$vtkMRMLMeasurementLength_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h" alt="" coords="2603,169,2871,211"/>
 <area shape="rect" id="node5" href="$vtkMRMLMarkupsDisplayNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsDisplayNode.h" alt="" coords="1029,266,1299,307"/>
 <area shape="rect" id="node6" href="$vtkMRMLMarkupsAngleNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsAngleNode.h" alt="" coords="1484,370,1743,411"/>
 <area shape="rect" id="node8" href="$vtkMRMLMarkupsCurveNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsCurveNode.h" alt="" coords="573,370,833,411"/>

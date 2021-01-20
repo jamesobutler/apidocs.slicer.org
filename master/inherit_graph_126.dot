@@ -212,9 +212,9 @@ digraph "Graphical Class Hierarchy"
   Node163 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node164 [label="vtkMRMLMeasurementAngle",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMeasurementAngle.html",tooltip="Measurement class calculating angle. "];
   Node163 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node165 [label="vtkMRMLMeasurementConstant",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMeasurementConstant.html",tooltip="Measurement class storing a constant measurement. "];
+  Node165 [label="vtkMRMLMeasurementLength",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMeasurementLength.html",tooltip="Measurement class calculating curve length. "];
   Node163 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node166 [label="vtkMRMLMeasurementLength",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMeasurementLength.html",tooltip="Measurement class calculating curve length. "];
+  Node166 [label="vtkMRMLStaticMeasurement",height=0.2,width=0.4,color="black",URL="$classvtkMRMLStaticMeasurement.html",tooltip="Measurement class storing a constant measurement. "];
   Node61 -> Node167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node167 [label="vtkMRMLMessageCollection",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMessageCollection.html"];
   Node61 -> Node168 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

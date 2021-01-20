@@ -1,5 +1,5 @@
 <map id="vtkMRMLMeasurement" name="vtkMRMLMeasurement">
 <area shape="rect" id="node3" href="$classvtkMRMLMeasurementAngle.html" title="Measurement class calculating angle. " alt="" coords="5,155,208,181"/>
-<area shape="rect" id="node4" href="$classvtkMRMLMeasurementConstant.html" title="Measurement class storing a constant measurement. " alt="" coords="233,155,458,181"/>
-<area shape="rect" id="node5" href="$classvtkMRMLMeasurementLength.html" title="Measurement class calculating curve length. " alt="" coords="481,155,692,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLMeasurementLength.html" title="Measurement class calculating curve length. " alt="" coords="232,155,443,181"/>
+<area shape="rect" id="node5" href="$classvtkMRMLStaticMeasurement.html" title="Measurement class storing a constant measurement. " alt="" coords="467,155,671,181"/>
 </map>

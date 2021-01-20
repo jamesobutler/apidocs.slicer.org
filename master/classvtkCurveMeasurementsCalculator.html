@@ -105,6 +105,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a21266b956ecb375ae09066a668794110"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a21266b956ecb375ae09066a668794110">GetClassName</a> ()</td></tr>
 <tr class="separator:a21266b956ecb375ae09066a668794110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412e5f8c5451e9978e1b45470844c7a9"><td class="memItemLeft" align="right" valign="top">vtkMTimeType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#a412e5f8c5451e9978e1b45470844c7a9">GetMTime</a> () override</td></tr>
+<tr class="separator:a412e5f8c5451e9978e1b45470844c7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6fc2d05e495d356e7020aa0beea4d5b"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#ae6fc2d05e495d356e7020aa0beea4d5b">IsA</a> (const char *type)</td></tr>
 <tr class="separator:ae6fc2d05e495d356e7020aa0beea4d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab427c7203b55d3b85496e63036f277fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkCurveMeasurementsCalculator.html#ab427c7203b55d3b85496e63036f277fc">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
@@ -602,6 +604,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a412e5f8c5451e9978e1b45470844c7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412e5f8c5451e9978e1b45470844c7a9">&#9670;&nbsp;</a></span>GetMTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkMTimeType vtkCurveMeasurementsCalculator::GetMTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acfee11cdc3058169d3d02a7ed489c8bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acfee11cdc3058169d3d02a7ed489c8bc">&#9670;&nbsp;</a></span>InterpolateControlPointMeasurementToPolyData()</h2>
 
@@ -981,7 +1008,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Flag determining whether the filter should calculate curvature. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00085">85</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00087">87</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1007,7 +1034,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Command handling data array modified events. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00088">88</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00090">90</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1060,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Flag indicating whether the current curve is closed. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00082">82</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00084">84</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1059,7 +1086,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Measurement list from the markups node for derived measurements (such as interpolation) </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00079">79</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00081">81</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1085,7 +1112,7 @@ Protected Attributes</h2></td></tr>
 
 <p>List of observed control point arrays (for removal of observations) </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00090">90</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html#l00092">92</a> of file <a class="el" href="vtkCurveMeasurementsCalculator_8h_source.html">vtkCurveMeasurementsCalculator.h</a>.</p>
 
 </div>
 </div>
@@ -1095,7 +1122,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 19 2021 18:42:50 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 20 2021 05:19:16 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

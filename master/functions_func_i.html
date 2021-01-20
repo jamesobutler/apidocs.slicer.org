@@ -1003,7 +1003,6 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsStorageNode.html#a4a3b71416001223f69c147940ea654f6">vtkMRMLMarkupsStorageNode</a>
 , <a class="el" href="classvtkMRMLMeasurement.html#a5c2ba0c8dd473a03898ca54a392f8e69">vtkMRMLMeasurement</a>
 , <a class="el" href="classvtkMRMLMeasurementAngle.html#a0c9979c6bce18aa8c768f7f6452a5dea">vtkMRMLMeasurementAngle</a>
-, <a class="el" href="classvtkMRMLMeasurementConstant.html#a98f360faca5402ac1af564dc640be315">vtkMRMLMeasurementConstant</a>
 , <a class="el" href="classvtkMRMLMeasurementLength.html#a3cb50cd63ac169c41b69e9935770e343">vtkMRMLMeasurementLength</a>
 , <a class="el" href="classvtkMRMLMessageCollection.html#a2985dd69ee0d247c6cde83ba477f118a">vtkMRMLMessageCollection</a>
 , <a class="el" href="classvtkMRMLModelDisplayableManager.html#a565954651db074b32079daafcfec7e48">vtkMRMLModelDisplayableManager</a>
@@ -1059,6 +1058,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLSliceViewDisplayableManagerFactory.html#afcf888bb4a605d6ca6de12f1ec415e81">vtkMRMLSliceViewDisplayableManagerFactory</a>
 , <a class="el" href="classvtkMRMLSliceViewInteractorStyle.html#a2fcd1ed1d29267df5aeaa083b1e720b7">vtkMRMLSliceViewInteractorStyle</a>
 , <a class="el" href="classvtkMRMLSnapshotClipNode.html#a05a0f23e613ad7f7914d9021688f55b1">vtkMRMLSnapshotClipNode</a>
+, <a class="el" href="classvtkMRMLStaticMeasurement.html#a50ac5f2914cc422619eb00b420131874">vtkMRMLStaticMeasurement</a>
 , <a class="el" href="classvtkMRMLStorableNode.html#aa8d733df5e81c98e191c9456d821c46a">vtkMRMLStorableNode</a>
 , <a class="el" href="classvtkMRMLStorageNode.html#a19305dd6c6b6e680aac301c34d546b3f">vtkMRMLStorageNode</a>
 , <a class="el" href="classvtkMRMLStreamingVolumeNode.html#a26c623d6a4bc021c6c1ee1dd75cc31d0">vtkMRMLStreamingVolumeNode</a>
@@ -1954,7 +1954,6 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsStorageNode.html#a5807f3c4f82eae90c64201954729bed8">vtkMRMLMarkupsStorageNode</a>
 , <a class="el" href="classvtkMRMLMeasurement.html#a734febe919205f9462b966e4f26ff199">vtkMRMLMeasurement</a>
 , <a class="el" href="classvtkMRMLMeasurementAngle.html#ac8a37e7ff4fd0685c16ae7289c719900">vtkMRMLMeasurementAngle</a>
-, <a class="el" href="classvtkMRMLMeasurementConstant.html#ad8a7460a6c2387552797900ab40d17da">vtkMRMLMeasurementConstant</a>
 , <a class="el" href="classvtkMRMLMeasurementLength.html#a068f6d2f6e08631ce01bced505292cb7">vtkMRMLMeasurementLength</a>
 , <a class="el" href="classvtkMRMLMessageCollection.html#a4a3e9ca9b76d0e60e9ec7557f055de36">vtkMRMLMessageCollection</a>
 , <a class="el" href="classvtkMRMLModelDisplayableManager.html#add3a2c4468b7331d320080af2114da50">vtkMRMLModelDisplayableManager</a>
@@ -2010,6 +2009,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLSliceViewDisplayableManagerFactory.html#a5b1037539d3f98b6601cfb666ae0adca">vtkMRMLSliceViewDisplayableManagerFactory</a>
 , <a class="el" href="classvtkMRMLSliceViewInteractorStyle.html#abf63c40704425ced373d9e8748f531e8">vtkMRMLSliceViewInteractorStyle</a>
 , <a class="el" href="classvtkMRMLSnapshotClipNode.html#ad4f7e434019664c055881cd933947b1a">vtkMRMLSnapshotClipNode</a>
+, <a class="el" href="classvtkMRMLStaticMeasurement.html#a764bf3013c0badc9938c82c526d9a8ba">vtkMRMLStaticMeasurement</a>
 , <a class="el" href="classvtkMRMLStorableNode.html#aab836a140455b19bf5b3de67ce9f8e17">vtkMRMLStorableNode</a>
 , <a class="el" href="classvtkMRMLStorageNode.html#a70eade7e5a2ab15c666344ae3bb5420d">vtkMRMLStorageNode</a>
 , <a class="el" href="classvtkMRMLStreamingVolumeNode.html#a2d6621ca3148b8c6e285a38a0d09ceaa">vtkMRMLStreamingVolumeNode</a>
@@ -2236,7 +2236,7 @@ $(function() {
 : <a class="el" href="classqSlicerIOManager.html#a3df4b733256a3d06f709623355a243b4">qSlicerIOManager</a>
 </li>
 <li>qSlicerIOOptions()
-: <a class="el" href="classqSlicerIOOptions.html#a1df840a442c6ecea0e4c8004a1096fc8">qSlicerIOOptions</a>
+: <a class="el" href="classqSlicerIOOptions.html#a4c56952efc95c7de1aca3307f23f1647">qSlicerIOOptions</a>
 </li>
 <li>qSlicerIOOptionsWidget()
 : <a class="el" href="classqSlicerIOOptionsWidget.html#a92c5afb5e3c506706a2295d252423139">qSlicerIOOptionsWidget</a>
@@ -2359,7 +2359,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 19 2021 18:42:55 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 20 2021 05:19:29 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
