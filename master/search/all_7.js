@@ -1183,6 +1183,7 @@ var searchData=
   ['getnthcontrolpointdisplayposition',['GetNthControlPointDisplayPosition',['../classvtkSlicerMarkupsWidgetRepresentation.html#a5fb0b5848e8618d7b831703fcb2533a5',1,'vtkSlicerMarkupsWidgetRepresentation::GetNthControlPointDisplayPosition()'],['../classvtkSlicerMarkupsWidgetRepresentation2D.html#a27691983841657a3ce191281e5147be7',1,'vtkSlicerMarkupsWidgetRepresentation2D::GetNthControlPointDisplayPosition()']]],
   ['getnthcontrolpointid',['GetNthControlPointID',['../classvtkMRMLMarkupsNode.html#a93987d8fa8945246026efb50ae8288f5',1,'vtkMRMLMarkupsNode']]],
   ['getnthcontrolpointindexbyid',['GetNthControlPointIndexByID',['../classvtkMRMLMarkupsNode.html#a65d949031bd9ab6ec1d127451a4ed7f5',1,'vtkMRMLMarkupsNode']]],
+  ['getnthcontrolpointindexbypositionstatus',['GetNthControlPointIndexByPositionStatus',['../classvtkMRMLMarkupsNode.html#a1865ea0c1f30e8b3a1e6ca843e869151',1,'vtkMRMLMarkupsNode']]],
   ['getnthcontrolpointlabel',['GetNthControlPointLabel',['../classvtkMRMLMarkupsNode.html#aa654560258b5ad557e7ac07aaa08cb1f',1,'vtkMRMLMarkupsNode']]],
   ['getnthcontrolpointlocked',['GetNthControlPointLocked',['../classvtkMRMLMarkupsNode.html#a597258996b2c476cb2389f80cbca1a00',1,'vtkMRMLMarkupsNode']]],
   ['getnthcontrolpointnormal',['GetNthControlPointNormal',['../classvtkMRMLMarkupsNode.html#a827b04cf17645279500d396ce3b6fd89',1,'vtkMRMLMarkupsNode']]],

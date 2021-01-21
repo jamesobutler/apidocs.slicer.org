@@ -279,6 +279,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65d949031bd9ab6ec1d127451a4ed7f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a65d949031bd9ab6ec1d127451a4ed7f5">GetNthControlPointIndexByID</a> (const char *controlPointID)</td></tr>
 <tr class="memdesc:a65d949031bd9ab6ec1d127451a4ed7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Nth control point index based on it's ID.  <a href="#a65d949031bd9ab6ec1d127451a4ed7f5">More...</a><br /></td></tr>
 <tr class="separator:a65d949031bd9ab6ec1d127451a4ed7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1865ea0c1f30e8b3a1e6ca843e869151"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a1865ea0c1f30e8b3a1e6ca843e869151">GetNthControlPointIndexByPositionStatus</a> (int pointIndex, int positionStatus)</td></tr>
+<tr class="separator:a1865ea0c1f30e8b3a1e6ca843e869151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa654560258b5ad557e7ac07aaa08cb1f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#aa654560258b5ad557e7ac07aaa08cb1f">GetNthControlPointLabel</a> (int n=0)</td></tr>
 <tr class="separator:aa654560258b5ad557e7ac07aaa08cb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a597258996b2c476cb2389f80cbca1a00"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a597258996b2c476cb2389f80cbca1a00">GetNthControlPointLocked</a> (int n=0)</td></tr>
@@ -2047,7 +2049,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>The internal instance of the curve generator to allow use of the curve for other computations. Any custom overrides of the interpolation modes are not persisted in MRML. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00575">575</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00581">581</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -2574,6 +2576,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1865ea0c1f30e8b3a1e6ca843e869151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1865ea0c1f30e8b3a1e6ca843e869151">&#9670;&nbsp;</a></span>GetNthControlPointIndexByPositionStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int vtkMRMLMarkupsNode::GetNthControlPointIndexByPositionStatus </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pointIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>positionStatus</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get index of N-th control point of the specified status. (for example, get index of N-th placed control point). pointIndex is zero-based, so to get index of the first control point, use pointIndex=0. Return -1 if no such control point is found. </p>
+
+</div>
+</div>
 <a id="aa654560258b5ad557e7ac07aaa08cb1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa654560258b5ad557e7ac07aaa08cb1f">&#9670;&nbsp;</a></span>GetNthControlPointLabel()</h2>
 
@@ -2909,7 +2940,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000065">Deprecated:</a></b></dt><dd>Use GetNthControlPointAssociatedNodeID instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00431">431</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00437">437</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -2938,7 +2969,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000067">Deprecated:</a></b></dt><dd>Use GetNthControlPointID instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00439">439</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00445">445</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -2967,7 +2998,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000070">Deprecated:</a></b></dt><dd>Use GetNthControlPointLabel instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00488">488</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00494">494</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -2996,7 +3027,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000068">Deprecated:</a></b></dt><dd>Use GetNthControlPointLocked instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00465">465</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00471">471</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -3827,7 +3858,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000064">Deprecated:</a></b></dt><dd>Use RemoveNthControlPoint instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00335">335</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00341">341</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -4790,7 +4821,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000066">Deprecated:</a></b></dt><dd>Use SetNthControlPointAssociatedNodeID instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00433">433</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00439">439</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -4829,7 +4860,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000071">Deprecated:</a></b></dt><dd>Use SetNthControlPointLabel instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00490">490</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00496">496</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -4868,7 +4899,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000069">Deprecated:</a></b></dt><dd>Use SetNthControlPointLocked instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00467">467</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00473">473</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5054,7 +5085,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classvtkMRMLMarkupsCurveNode.html#ac0b618d811385d6c646175bdde3ce9f6">vtkMRMLMarkupsCurveNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00603">603</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00609">609</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5324,7 +5355,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00712">712</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00718">718</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5424,7 +5455,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Markup centerpoint (in local coordinates). It may be used as rotation center or as a handle to grab the widget by. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00699">699</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00705">705</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5450,7 +5481,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Vector of control points. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00665">665</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00671">671</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5474,7 +5505,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00662">662</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00668">668</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5499,7 +5530,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Computes tangent and smooth normal for each curve point. It provides a fully specified coordinate system at each point of the curve, which is useful for image reslicing or defining camera pose. Curve is defined in the world coordinate system. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00674">674</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00680">680</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5525,7 +5556,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Converts curve control points to curve points. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00668">668</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00674">674</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5550,7 +5581,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Stores control point positions in a polydata (in local coordinate system). Line cells connect all points into a curve. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00678">678</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00684">684</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5574,7 +5605,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00681">681</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00687">687</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5598,7 +5629,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00680">680</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00686">686</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5624,7 +5655,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Transform that moves the xyz unit vectors and origin of the interaction handles to local coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00707">707</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00713">713</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5650,7 +5681,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Flag set from SetControlPointPositionsWorld that pauses update of measurements until the update is complete. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00710">710</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00716">716</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5675,7 +5706,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Keep track of the number of markups that were added to the list, always incrementing, not decreasing when they're removed. Used to help create unique names and ids. Reset to 0 when </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLMarkupsNode.html#ada30a4058fa169a86c7a21c534b8dc0e" title="Clear out the node of all control points. ">RemoveAllControlPoints</a> called </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00695">695</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00701">701</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5701,7 +5732,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Locks all the points and GUI. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00688">688</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00694">694</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5725,7 +5756,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00690">690</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00696">696</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5750,7 +5781,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Used for limiting number of control points that may be placed. This is a hard limit at which new control points cannot be added. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00660">660</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00666">666</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5776,7 +5807,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>List of measurements stored for the markup. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00702">702</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00708">708</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5800,7 +5831,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00704">704</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00710">710</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5825,7 +5856,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Used for limiting number of control points that may be placed. This is a soft limit at which automatic placement stops. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00657">657</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00663">663</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5849,7 +5880,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00611">611</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00617">617</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5874,7 +5905,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Point locator that allows quick finding of interpolated point in the world coordinate system (in transformed CurvePoly). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00685">685</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsNode_8h_source.html#l00691">691</a> of file <a class="el" href="vtkMRMLMarkupsNode_8h_source.html">vtkMRMLMarkupsNode.h</a>.</p>
 
 </div>
 </div>
@@ -5884,7 +5915,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 20 2021 16:52:30 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 21 2021 02:25:58 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
