@@ -87,7 +87,6 @@ var searchData=
   ['converterrules',['ConverterRules',['../classvtkSegmentationConverter.html#ad8d6053042c5f204958147b9518c802a',1,'vtkSegmentationConverter']]],
   ['converttopolydatafilter',['ConvertToPolyDataFilter',['../classvtkMRMLModelDisplayNode.html#a90573e0f7d536b2e3d6476d513f5ed8f',1,'vtkMRMLModelDisplayNode']]],
   ['coordinatesystem',['CoordinateSystem',['../classvtkMRMLModelStorageNode.html#a01cc033ce1d750cb6e30870f53a76f14',1,'vtkMRMLModelStorageNode']]],
-  ['copyimportedcameras',['CopyImportedCameras',['../classvtkSlicerCamerasModuleLogic.html#a6da34c304bc70eba91625131ca541818',1,'vtkSlicerCamerasModuleLogic']]],
   ['copyright',['copyright',['../namespaceconf.html#a33fa97cf51dcb25970fbf53f10159589',1,'conf']]],
   ['cornerpoint1',['CornerPoint1',['../classvtkMRMLRubberBandWidgetRepresentation.html#a8c1c0fc329cb3c84266ffa2874cd712d',1,'vtkMRMLRubberBandWidgetRepresentation']]],
   ['cornerpoint2',['CornerPoint2',['../classvtkMRMLRubberBandWidgetRepresentation.html#af6fa3276933f80c020805eb1f0b86530',1,'vtkMRMLRubberBandWidgetRepresentation']]],

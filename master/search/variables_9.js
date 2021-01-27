@@ -38,7 +38,6 @@ var searchData=
   ['indexunit',['IndexUnit',['../classvtkMRMLSequenceNode.html#aeadce13b2e7ef0720607cb0108d1ed73',1,'vtkMRMLSequenceNode']]],
   ['indexvalue',['IndexValue',['../structvtkMRMLSequenceNode_1_1IndexEntryType.html#ae9dcdd3ceaf63f18e5eaa67b26076f22',1,'vtkMRMLSequenceNode::IndexEntryType']]],
   ['ineventqueue',['InEventQueue',['../classvtkObservation.html#ac14fcdc1848772049d8d9684e8ca2f9e',1,'vtkObservation']]],
-  ['initialized',['Initialized',['../classvtkMRMLSliceLogic.html#ad072477af65275ef2a4e83b596f6c52c',1,'vtkMRMLSliceLogic']]],
   ['initializelinesflag',['InitializeLinesFlag',['../classvtkMRMLAnnotationLinesNode.html#a1ec38b62b82cf44089b5b909833ed7c5',1,'vtkMRMLAnnotationLinesNode']]],
   ['inmrmlcallbackflag',['InMRMLCallbackFlag',['../classvtkMRMLNode.html#ad74a5ca8943bbc01cbfd86e40eaaf1e7',1,'vtkMRMLNode']]],
   ['innermarginmm',['InnerMarginMM',['../classvtkITKImageMargin.html#a7ef44d13f067e827f510af126a9cc0d6',1,'vtkITKImageMargin']]],

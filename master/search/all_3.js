@@ -501,7 +501,6 @@ var searchData=
   ['copydisplaytovolumerenderingdisplaynode',['CopyDisplayToVolumeRenderingDisplayNode',['../classvtkSlicerVolumeRenderingLogic.html#a891c08127a0b292a4f4b25f1d235d0fa',1,'vtkSlicerVolumeRenderingLogic']]],
   ['copyeffects',['copyEffects',['../classqSlicerSegmentEditorEffectFactory.html#aa124cd3c8a8ab61a6594a735b0afa034',1,'qSlicerSegmentEditorEffectFactory']]],
   ['copyimage',['CopyImage',['../classvtkOrientedImageDataResample.html#a03c7b5ab2d840d840cce31d8cfac2dc9',1,'vtkOrientedImageDataResample']]],
-  ['copyimportedcameras',['CopyImportedCameras',['../classvtkSlicerCamerasModuleLogic.html#a6da34c304bc70eba91625131ca541818',1,'vtkSlicerCamerasModuleLogic']]],
   ['copylabelmapdisplaytovolumerenderingdisplaynode',['CopyLabelMapDisplayToVolumeRenderingDisplayNode',['../classvtkSlicerVolumeRenderingLogic.html#aa7e374938040f05bd8858040f24b8d70',1,'vtkSlicerVolumeRenderingLogic']]],
   ['copynode',['CopyNode',['../classvtkMRMLScene.html#af9612cb5490c465012c911e55217e389',1,'vtkMRMLScene::CopyNode()'],['../classvtkMRMLColorLogic.html#a2b6d2d6168d3737b6cbb1f2a07043012',1,'vtkMRMLColorLogic::CopyNode()']]],
   ['copynodechangedids',['CopyNodeChangedIDs',['../classvtkMRMLScene.html#a38776171f9bb8cb6ba1cb052608be0b8',1,'vtkMRMLScene']]],
