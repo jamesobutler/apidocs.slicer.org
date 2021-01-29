@@ -58,6 +58,7 @@ var searchData=
   ['rotate',['Rotate',['../classvtkMRMLSliceViewInteractorStyle.html#a544826263a64017fb39eee48133c5d49a27d7d9ebacf0213fa5f218a8b3c80707',1,'vtkMRMLSliceViewInteractorStyle']]],
   ['rotatearound',['RotateAround',['../classvtkMRMLViewNode.html#aa2bb7d377ddd5cff233eb8c411924abaaf5daf5e83e8cce00603ff8a8d120ab33',1,'vtkMRMLViewNode']]],
   ['rotatesliceintersection',['RotateSliceIntersection',['../classvtkMRMLSliceViewInteractorStyle.html#a544826263a64017fb39eee48133c5d49a822685e82c12663548661701c0c55898',1,'vtkMRMLSliceViewInteractorStyle']]],
+  ['rotatetobackgroundvolumeplaneflag',['RotateToBackgroundVolumePlaneFlag',['../classvtkMRMLSliceNode.html#a1b7b61096af69498c285080dc851d746ae5624dbb235f03c7a1871f0eb2e811c2',1,'vtkMRMLSliceNode']]],
   ['rotating',['Rotating',['../classvtkAnnotationROIRepresentation.html#a7622685147b79fb84a7f6b154476f9e3a156fe287beb34339dd701d602e570c9e',1,'vtkAnnotationROIRepresentation']]],
   ['rotation',['ROTATION',['../classqMRMLTransformSliders.html#a9106d0b033547d20589d624fa2d6563aa336b51b75a0ce3783bb3365f40f4bab2',1,'qMRMLTransformSliders']]],
   ['rotation_5fis',['ROTATION_IS',['../classqMRMLLinearTransformSlider.html#aaf4755e6c2a748d08a002d6edcd232e1a76db51ed509e4d696c9bdb66c0d75c56',1,'qMRMLLinearTransformSlider']]],

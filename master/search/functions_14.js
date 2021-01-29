@@ -65,6 +65,7 @@ var searchData=
   ['togglelockforselected',['toggleLockForSelected',['../classqMRMLAnnotationTreeView.html#a169660c68a452474bc7e590caa22b9d5',1,'qMRMLAnnotationTreeView']]],
   ['togglemastervolumeintensitymaskenabled',['toggleMasterVolumeIntensityMaskEnabled',['../classqMRMLSegmentEditorWidget.html#a2654d9a4b8971a91277948cef33d947b',1,'qMRMLSegmentEditorWidget']]],
   ['toggleresetfieldofviewonshowaction',['toggleResetFieldOfViewOnShowAction',['../classqSlicerSubjectHierarchyVolumesPlugin.html#a0545b45b3da91aaf9ee862a9186e96cc',1,'qSlicerSubjectHierarchyVolumesPlugin']]],
+  ['toggleresetvieworientationonshowaction',['toggleResetViewOrientationOnShowAction',['../classqSlicerSubjectHierarchyVolumesPlugin.html#a1fde91959f9b1d65fa4a0daeb5a74491',1,'qSlicerSubjectHierarchyVolumesPlugin']]],
   ['togglesegmentationoutlinefill',['toggleSegmentationOutlineFill',['../classqMRMLSliceControllerWidget.html#a6cfc9e101f04add8fac98befc139282c',1,'qMRMLSliceControllerWidget']]],
   ['toggleselectpoint',['toggleSelectPoint',['../classqSlicerSubjectHierarchyMarkupsPlugin.html#adc94c3779a5388fd8b81443fba942ab2',1,'qSlicerSubjectHierarchyMarkupsPlugin']]],
   ['togglesubjecthierarchyitemvisibility',['toggleSubjectHierarchyItemVisibility',['../classqMRMLSubjectHierarchyTreeView.html#ab8d1283224a5fc4401825981fd3ab89e',1,'qMRMLSubjectHierarchyTreeView']]],

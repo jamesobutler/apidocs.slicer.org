@@ -268,6 +268,9 @@ Get the size of the volume, transformed to slice space  <a href="#a316d3f14fcead
 <tr class="separator:a1d2a860012938107fa7d8a6a69646e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dba7dc9609cf397f5159c9727653eb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSliceLogic.html#a9dba7dc9609cf397f5159c9727653eb4">ResizeSliceNode</a> (double newWidth, double newHeight)</td></tr>
 <tr class="separator:a9dba7dc9609cf397f5159c9727653eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ae9ccb15496d65eabd1977aa445afeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSliceLogic.html#a8ae9ccb15496d65eabd1977aa445afeb">RotateSliceToLowestVolumeAxes</a> ()</td></tr>
+<tr class="memdesc:a8ae9ccb15496d65eabd1977aa445afeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate slice view to match axes of the lowest volume layer (background, foreground, label).  <a href="#a8ae9ccb15496d65eabd1977aa445afeb">More...</a><br /></td></tr>
+<tr class="separator:a8ae9ccb15496d65eabd1977aa445afeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd77a96c107802ec8c51806cfae35e31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSliceLogic.html#acd77a96c107802ec8c51806cfae35e31">SetBackgroundLayer</a> (<a class="el" href="classvtkMRMLSliceLayerLogic.html">vtkMRMLSliceLayerLogic</a> *<a class="el" href="classvtkMRMLSliceLogic.html#aace932b903dca8a9745d42e2c497077c">BackgroundLayer</a>)</td></tr>
 <tr class="separator:acd77a96c107802ec8c51806cfae35e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78cdb8e4c78e3d89bdb8642924e2a9e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLSliceLogic.html#a78cdb8e4c78e3d89bdb8642924e2a9e6">SetBackgroundWindowLevel</a> (double window, double level)</td></tr>
@@ -2437,6 +2440,25 @@ process logic events </p>
 
 </div>
 </div>
+<a id="a8ae9ccb15496d65eabd1977aa445afeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ae9ccb15496d65eabd1977aa445afeb">&#9670;&nbsp;</a></span>RotateSliceToLowestVolumeAxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLSliceLogic::RotateSliceToLowestVolumeAxes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotate slice view to match axes of the lowest volume layer (background, foreground, label). </p>
+
+</div>
+</div>
 <a id="a590bc3c51f6a7e20773b9c57e8b79938"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a590bc3c51f6a7e20773b9c57e8b79938">&#9670;&nbsp;</a></span>SafeDownCast()</h2>
 
@@ -3067,7 +3089,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00421">421</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00424">424</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3091,7 +3113,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00408">408</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00411">411</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3115,7 +3137,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00413">413</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00416">416</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3139,7 +3161,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00419">419</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00422">422</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3163,7 +3185,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00414">414</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00417">417</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3187,7 +3209,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00420">420</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00423">423</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3211,7 +3233,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00415">415</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00418">418</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3235,7 +3257,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00410">410</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00413">413</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3259,7 +3281,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00417">417</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00420">420</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3283,7 +3305,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00418">418</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00421">421</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3307,7 +3329,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00321">321</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00324">324</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3331,7 +3353,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00320">320</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00323">323</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3355,7 +3377,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00319">319</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00322">322</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3380,7 +3402,7 @@ Update slicer node given a layout name </p>
 </div><div class="memdoc">
 <p>Default node name suffix for use with volume slice models to distinguish them as built in models rather than user accessible. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLSliceLogic.html#a8140886a9a4e3e149355ad1214477d21">IsSliceModelNode</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00356">356</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00359">359</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3404,7 +3426,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00412">412</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00415">415</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3428,7 +3450,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00424">424</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00427">427</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3452,7 +3474,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00423">423</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00426">426</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3476,7 +3498,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00425">425</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00428">428</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3500,7 +3522,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00411">411</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00414">414</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3524,7 +3546,7 @@ Update slicer node given a layout name </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00426">426</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSliceLogic_8h_source.html#l00429">429</a> of file <a class="el" href="vtkMRMLSliceLogic_8h_source.html">vtkMRMLSliceLogic.h</a>.</p>
 
 </div>
 </div>
@@ -3534,7 +3556,7 @@ Update slicer node given a layout name </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 29 2021 22:12:37 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 29 2021 22:18:15 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
