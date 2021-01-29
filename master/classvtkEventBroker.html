@@ -166,6 +166,8 @@ Accessors for Observations  <a href="#a7456a823f40d47fb48f8d91a8797abf9">More...
 <tr class="separator:af395cb81f4f2432f4834adab70c498db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac996943f96b15dbd9123834330efe351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkEventBroker.html#ace07d7256e1b42149d0e58e6d4f4410e">ObservationVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#ac996943f96b15dbd9123834330efe351">GetObservationsForSubjectByTag</a> (vtkObject *subject, unsigned long tag)</td></tr>
 <tr class="separator:ac996943f96b15dbd9123834330efe351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad75511eb6e6958e3122c8b1aa3e4179"><td class="memItemLeft" align="right" valign="top">virtual vtkCallbackCommand *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#aad75511eb6e6958e3122c8b1aa3e4179">GetRequestModifiedCallback</a> ()</td></tr>
+<tr class="separator:aad75511eb6e6958e3122c8b1aa3e4179"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa00479ae822173f6de6d2d29539805b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkEventBroker.html#ace07d7256e1b42149d0e58e6d4f4410e">ObservationVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#aa00479ae822173f6de6d2d29539805b5">GetSubjectObservations</a> (vtkObject *subject)</td></tr>
 <tr class="memdesc:aa00479ae822173f6de6d2d29539805b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast retrieve of all observations of a given subject.  <a href="#aa00479ae822173f6de6d2d29539805b5">More...</a><br /></td></tr>
 <tr class="separator:aa00479ae822173f6de6d2d29539805b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,6 +210,8 @@ Remove observation from the broker and event queue  <a href="#a624fee5c5cfe1bfa8
 <tr class="separator:af874d439b5937a9f41bd012405b06aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2bc37735378d8275b770b294d83fb8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#ab2bc37735378d8275b770b294d83fb8d">RemoveObservationsForSubjectByTag</a> (vtkObject *subject, unsigned long tag)</td></tr>
 <tr class="separator:ab2bc37735378d8275b770b294d83fb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c482ffca656ff936b8f74e874adc22c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#a4c482ffca656ff936b8f74e874adc22c">RequestModified</a> (vtkObject *object)</td></tr>
+<tr class="separator:a4c482ffca656ff936b8f74e874adc22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab08adf267df88e2914dc89b32a92a6c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#ab08adf267df88e2914dc89b32a92a6c0">SetCompressCallData</a> (int)</td></tr>
 <tr class="separator:ab08adf267df88e2914dc89b32a92a6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c69759a841248860a4dabe6e38b313f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#a7c69759a841248860a4dabe6e38b313f">SetEventLogging</a> (int)</td></tr>
@@ -224,6 +228,8 @@ Remove observation from the broker and event queue  <a href="#a624fee5c5cfe1bfa8
 <tr class="memdesc:a6df0583b2959e0506a4591936f9a8396"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
 File to write event logs to when EventLoging is turned on  <a href="#a6df0583b2959e0506a4591936f9a8396">More...</a><br /></td></tr>
 <tr class="separator:a6df0583b2959e0506a4591936f9a8396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d55863be8fcd29baeed8fd35934f8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#a39d55863be8fcd29baeed8fd35934f8e">SetRequestModifiedCallback</a> (vtkCallbackCommand *callback)</td></tr>
+<tr class="separator:a39d55863be8fcd29baeed8fd35934f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9019bd9215bd83167644533277251130"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#a9019bd9215bd83167644533277251130">SetScriptHandler</a> (void(*scriptHandler)(const char *script, void *clientData), void *clientData)</td></tr>
 <tr class="memdesc:a9019bd9215bd83167644533277251130"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
 Sets the method pointer to be used for processing script observations  <a href="#a9019bd9215bd83167644533277251130">More...</a><br /></td></tr>
@@ -298,6 +304,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:abeaee5e928e456a12bf946e5381eb8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af581cf042a5301c8dbfdb927fe07f24e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkEventBroker.html#a705c44161e727fc7a7c59614fc3bbd54">ObjectToObservationVectorMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#af581cf042a5301c8dbfdb927fe07f24e">ObserverMap</a></td></tr>
 <tr class="separator:af581cf042a5301c8dbfdb927fe07f24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf213470ca49be6cbaa51276fef42540"><td class="memItemLeft" align="right" valign="top">vtkCallbackCommand *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#acf213470ca49be6cbaa51276fef42540">RequestModifiedCallback</a></td></tr>
+<tr class="separator:acf213470ca49be6cbaa51276fef42540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae53bebb63f4030abff7eb104cfcc731c"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#ae53bebb63f4030abff7eb104cfcc731c">ScriptHandler</a> )(const char *script, void *clientData)</td></tr>
 <tr class="separator:ae53bebb63f4030abff7eb104cfcc731c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b20e2a7b728604a448e621467bfb5ad"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkEventBroker.html#a3b20e2a7b728604a448e621467bfb5ad">ScriptHandlerClientData</a></td></tr>
@@ -342,7 +350,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00269">269</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00280">280</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -382,7 +390,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00265">265</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00276">276</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -1358,6 +1366,31 @@ Accessors for Observations </p>
 
 </div>
 </div>
+<a id="aad75511eb6e6958e3122c8b1aa3e4179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad75511eb6e6958e3122c8b1aa3e4179">&#9670;&nbsp;</a></span>GetRequestModifiedCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vtkCallbackCommand* vtkEventBroker::GetRequestModifiedCallback </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa00479ae822173f6de6d2d29539805b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa00479ae822173f6de6d2d29539805b5">&#9670;&nbsp;</a></span>GetSubjectObservations()</h2>
 
@@ -1906,6 +1939,33 @@ Remove observation from the broker and event queue </p>
 
 </div>
 </div>
+<a id="a4c482ffca656ff936b8f74e874adc22c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c482ffca656ff936b8f74e874adc22c">&#9670;&nbsp;</a></span>RequestModified()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool vtkEventBroker::RequestModified </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Request invoking modified event. Modified event is called later (e.g., when the application becomes idle) on the main thread (therefore it is safe to call this method from any thread). Returns true if the request was successfully submitted. </p>
+
+</div>
+</div>
 <a id="a97bd3d4df7e6bb1411e92d3378a53d4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97bd3d4df7e6bb1411e92d3378a53d4b">&#9670;&nbsp;</a></span>SafeDownCast()</h2>
 
@@ -2122,6 +2182,33 @@ File to write event logs to when EventLoging is turned on </p>
 
 </div>
 </div>
+<a id="a39d55863be8fcd29baeed8fd35934f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39d55863be8fcd29baeed8fd35934f8e">&#9670;&nbsp;</a></span>SetRequestModifiedCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkEventBroker::SetRequestModifiedCallback </td>
+          <td>(</td>
+          <td class="paramtype">vtkCallbackCommand *&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set callback command for RequestModified. This command must be implemented so that it is safe to be called from any thread. </p>
+
+</div>
+</div>
 <a id="a9019bd9215bd83167644533277251130"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9019bd9215bd83167644533277251130">&#9670;&nbsp;</a></span>SetScriptHandler()</h2>
 
@@ -2213,7 +2300,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00264">264</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00275">275</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2239,7 +2326,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 
 <p><a class="el" href="classvtkObservation.html" title="Stores information about the relationship between a Subject and an Observer. ">vtkObservation</a> can call these methods </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00296">296</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00310">310</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2264,7 +2351,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00287">287</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00298">298</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2288,7 +2375,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00281">281</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00292">292</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2312,7 +2399,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00286">286</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00297">297</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2336,7 +2423,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00282">282</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00293">293</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2362,7 +2449,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 
 <p>The event queue of triggered but not-yet-invoked observations. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00276">276</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00287">287</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2386,7 +2473,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00289">289</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00300">300</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2410,7 +2497,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00283">283</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00294">294</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2434,7 +2521,31 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00273">273</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00284">284</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+
+</div>
+</div>
+<a id="acf213470ca49be6cbaa51276fef42540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf213470ca49be6cbaa51276fef42540">&#9670;&nbsp;</a></span>RequestModifiedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkCallbackCommand* vtkEventBroker::RequestModifiedCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00302">302</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2458,7 +2569,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00278">278</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00289">289</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2482,7 +2593,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00279">279</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00290">290</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2508,7 +2619,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 
 <p>maps to manage quick lookup by object </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00272">272</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00283">283</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2532,7 +2643,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00284">284</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkEventBroker_8h_source.html#l00295">295</a> of file <a class="el" href="vtkEventBroker_8h_source.html">vtkEventBroker.h</a>.</p>
 
 </div>
 </div>
@@ -2542,7 +2653,7 @@ Timer log class for calculating elapsed time for event invocations </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 29 2021 22:18:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 29 2021 23:03:01 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -300,6 +300,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aefa517404c7a27a217fd01b55dfbcb47"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkSlicerApplicationLogic.html">vtkSlicerApplicationLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerApplicationLogic.html#aefa517404c7a27a217fd01b55dfbcb47">New</a> ()</td></tr>
 <tr class="memdesc:aefa517404c7a27a217fd01b55dfbcb47"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Usual vtk class functions.  <a href="#aefa517404c7a27a217fd01b55dfbcb47">More...</a><br /></td></tr>
 <tr class="separator:aefa517404c7a27a217fd01b55dfbcb47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6cb8e27dbe28fbc5b33f092046be0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerApplicationLogic.html#a0f6cb8e27dbe28fbc5b33f092046be0a">RequestModifiedCallback</a> (vtkObject *caller, unsigned long eid, void *clientData, void *callData)</td></tr>
+<tr class="separator:a0f6cb8e27dbe28fbc5b33f092046be0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79325fc6bc821287eeb286ab592e0589"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkSlicerApplicationLogic.html">vtkSlicerApplicationLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerApplicationLogic.html#a79325fc6bc821287eeb286ab592e0589">SafeDownCast</a> (vtkObject *o)</td></tr>
 <tr class="separator:a79325fc6bc821287eeb286ab592e0589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classvtkMRMLApplicationLogic"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classvtkMRMLApplicationLogic')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classvtkMRMLApplicationLogic.html">vtkMRMLApplicationLogic</a></td></tr>
@@ -1265,6 +1267,55 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0f6cb8e27dbe28fbc5b33f092046be0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f6cb8e27dbe28fbc5b33f092046be0a">&#9670;&nbsp;</a></span>RequestModifiedCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void vtkSlicerApplicationLogic::RequestModifiedCallback </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *&#160;</td>
+          <td class="paramname"><em>caller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>eid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>clientData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>callData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Callback function to request invoking a modified event on the main thread. This function may be called from any thread. </p>
+
+</div>
+</div>
 <a id="ad18f883bce71e2907225d6b466c6dfe9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad18f883bce71e2907225d6b466c6dfe9">&#9670;&nbsp;</a></span>RequestReadFile()</h2>
 
@@ -1628,7 +1679,7 @@ Static Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 29 2021 22:18:16 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 29 2021 23:03:06 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
