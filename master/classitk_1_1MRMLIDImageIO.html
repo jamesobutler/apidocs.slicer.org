@@ -137,6 +137,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a277867c08d6dd5eec56ef1053d87492d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3f149113d7a7723c42b065b1ec7c72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classitk_1_1MRMLIDImageIO.html#a4b3f149113d7a7723c42b065b1ec7c72">PrintSelf</a> (std::ostream &amp;os, Indent indent) const override</td></tr>
 <tr class="separator:a4b3f149113d7a7723c42b065b1ec7c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7627fd2e7995036c05d0b6c8bc4f02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classitk_1_1MRMLIDImageIO.html#adc7627fd2e7995036c05d0b6c8bc4f02">RequestModified</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *modifiedObject)</td></tr>
+<tr class="separator:adc7627fd2e7995036c05d0b6c8bc4f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077ccd74604e057e2ea21f4e74b168f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classitk_1_1MRMLIDImageIO.html#a077ccd74604e057e2ea21f4e74b168f6">SetDTDictionaryValues</a> (MetaDataDictionary &amp;dict, <a class="el" href="classvtkMRMLDiffusionImageVolumeNode.html">vtkMRMLDiffusionImageVolumeNode</a> *di)</td></tr>
 <tr class="separator:a077ccd74604e057e2ea21f4e74b168f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a269dac735a23bcf155979829df71cabe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classitk_1_1MRMLIDImageIO.html#a269dac735a23bcf155979829df71cabe">SetDTNodeValues</a> (<a class="el" href="classvtkMRMLDiffusionImageVolumeNode.html">vtkMRMLDiffusionImageVolumeNode</a> *di, MetaDataDictionary &amp;dict)</td></tr>
@@ -156,7 +158,7 @@ Protected Member Functions</h2></td></tr>
 <p>The "filename" specified will look like a URI: <code>slicer:&lt;scene id&gt;#&lt;node id&gt;</code> - local slicer <code>slicer://&lt;hostname&gt;/&lt;scene id&gt;#&lt;node id&gt;</code> - remote slicer</p>
 <p>This code was written on the Massachusettes Turnpike with extreme glare on the LCD. </p>
 
-<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00053">53</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00054">54</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a369a313c21cf26df62779626b27ce167"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a369a313c21cf26df62779626b27ce167">&#9670;&nbsp;</a></span>Pointer</h2>
@@ -170,7 +172,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00059">59</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00060">60</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
 
 </div>
 </div>
@@ -187,7 +189,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Standard class typedefs. </p>
 
-<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00057">57</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00058">58</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
 
 </div>
 </div>
@@ -203,7 +205,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00058">58</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="itkMRMLIDImageIO_8h_source.html#l00059">59</a> of file <a class="el" href="itkMRMLIDImageIO_8h_source.html">itkMRMLIDImageIO.h</a>.</p>
 
 </div>
 </div>
@@ -525,6 +527,32 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adc7627fd2e7995036c05d0b6c8bc4f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7627fd2e7995036c05d0b6c8bc4f02">&#9670;&nbsp;</a></span>RequestModified()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void itk::MRMLIDImageIO::RequestModified </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td>
+          <td class="paramname"><em>modifiedObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a077ccd74604e057e2ea21f4e74b168f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a077ccd74604e057e2ea21f4e74b168f6">&#9670;&nbsp;</a></span>SetDTDictionaryValues()</h2>
 
@@ -781,7 +809,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 29 2021 23:09:57 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 29 2021 23:25:36 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
