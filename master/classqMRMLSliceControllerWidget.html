@@ -140,9 +140,9 @@ Public Slots</h2></td></tr>
 <tr class="separator:a067149dc26d81d062af527a4d52fad7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a660e409dc9c62efb904157f54c74b9c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSliceControllerWidget.html#a660e409dc9c62efb904157f54c74b9c8">moveBackgroundComboBox</a> (bool move)</td></tr>
 <tr class="separator:a660e409dc9c62efb904157f54c74b9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae142d4d24861d1848b9c56507ef1861d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSliceControllerWidget.html#ae142d4d24861d1848b9c56507ef1861d">rotateSliceToBackground</a> ()</td></tr>
-<tr class="memdesc:ae142d4d24861d1848b9c56507ef1861d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate to volume plane.  <a href="#ae142d4d24861d1848b9c56507ef1861d">More...</a><br /></td></tr>
-<tr class="separator:ae142d4d24861d1848b9c56507ef1861d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735a4bd5d07c6c8bd00cfa64ad8b4043"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSliceControllerWidget.html#a735a4bd5d07c6c8bd00cfa64ad8b4043">rotateSliceToLowestVolumeAxes</a> ()</td></tr>
+<tr class="memdesc:a735a4bd5d07c6c8bd00cfa64ad8b4043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate to volume plane (first of background, foreground, or label)  <a href="#a735a4bd5d07c6c8bd00cfa64ad8b4043">More...</a><br /></td></tr>
+<tr class="separator:a735a4bd5d07c6c8bd00cfa64ad8b4043"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f783693e447e57fe79306f7470c0959"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSliceControllerWidget.html#a7f783693e447e57fe79306f7470c0959">setBackgroundHidden</a> (bool hide)</td></tr>
 <tr class="separator:a7f783693e447e57fe79306f7470c0959"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fefecdb5a477575b37462216e8c7005"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSliceControllerWidget.html#a0fefecdb5a477575b37462216e8c7005">setBackgroundInterpolation</a> (bool nearestNeighbor)</td></tr>
@@ -974,8 +974,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae142d4d24861d1848b9c56507ef1861d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae142d4d24861d1848b9c56507ef1861d">&#9670;&nbsp;</a></span>rotateSliceToBackground</h2>
+<a id="a735a4bd5d07c6c8bd00cfa64ad8b4043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735a4bd5d07c6c8bd00cfa64ad8b4043">&#9670;&nbsp;</a></span>rotateSliceToLowestVolumeAxes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -984,7 +984,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void qMRMLSliceControllerWidget::rotateSliceToBackground </td>
+          <td class="memname">void qMRMLSliceControllerWidget::rotateSliceToLowestVolumeAxes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -997,7 +997,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Rotate to volume plane. </p>
+<p>Rotate to volume plane (first of background, foreground, or label) </p>
 
 </div>
 </div>
@@ -2996,7 +2996,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 29 2021 23:02:57 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 29 2021 23:09:49 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
