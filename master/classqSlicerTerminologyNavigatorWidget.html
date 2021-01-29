@@ -131,6 +131,9 @@ Signals</h2></td></tr>
 <tr class="memitem:acc22a2bbc74da0411760ec612a68ce51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerTerminologyNavigatorWidget.html#acc22a2bbc74da0411760ec612a68ce51">selectionValidityChanged</a> (bool)</td></tr>
 <tr class="memdesc:acc22a2bbc74da0411760ec612a68ce51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when selection becomes valid (true argument) or invalid (false argument)  <a href="#acc22a2bbc74da0411760ec612a68ce51">More...</a><br /></td></tr>
 <tr class="separator:acc22a2bbc74da0411760ec612a68ce51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28abc12c23cbfcedb069c9347953206"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerTerminologyNavigatorWidget.html#aa28abc12c23cbfcedb069c9347953206">typeDoubleClicked</a> ()</td></tr>
+<tr class="memdesc:aa28abc12c23cbfcedb069c9347953206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when type is double clicked. It can be interpreted as having made a selection.  <a href="#aa28abc12c23cbfcedb069c9347953206">More...</a><br /></td></tr>
+<tr class="separator:aa28abc12c23cbfcedb069c9347953206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header signals_classqMRMLWidget"><td colspan="2" onclick="javascript:toggleInherit('signals_classqMRMLWidget')"><img src="closed.png" alt="-"/>&#160;Signals inherited from <a class="el" href="classqMRMLWidget.html">qMRMLWidget</a></td></tr>
 <tr class="memitem:aec54ec9b5c2f22b5f2d366a1522efe74 inherit signals_classqMRMLWidget"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLWidget.html#aec54ec9b5c2f22b5f2d366a1522efe74">mrmlSceneChanged</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *)</td></tr>
 <tr class="separator:aec54ec9b5c2f22b5f2d366a1522efe74 inherit signals_classqMRMLWidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,6 +225,8 @@ Protected Slots</h2></td></tr>
 <tr class="separator:a33985f41edc3e94e91bb87c41bf05762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a325c3b043de02360c4d60e9dbd05a9b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerTerminologyNavigatorWidget.html#a325c3b043de02360c4d60e9dbd05a9b1">onTerminologySelectionChanged</a> (int)</td></tr>
 <tr class="separator:a325c3b043de02360c4d60e9dbd05a9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d2e22bab4a255cb405eb7d0dd10390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerTerminologyNavigatorWidget.html#a51d2e22bab4a255cb405eb7d0dd10390">onTypeCellDoubleClicked</a> (int, int)</td></tr>
+<tr class="separator:a51d2e22bab4a255cb405eb7d0dd10390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43e9c0bee07952406b2579e48d5fbbeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerTerminologyNavigatorWidget.html#a43e9c0bee07952406b2579e48d5fbbeb">onTypeModifierSelectionChanged</a> (int)</td></tr>
 <tr class="separator:a43e9c0bee07952406b2579e48d5fbbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a140496624d0664df6142a18dfeac6ea8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerTerminologyNavigatorWidget.html#a140496624d0664df6142a18dfeac6ea8">onTypeSearchTextChanged</a> (QString)</td></tr>
@@ -900,6 +905,42 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51d2e22bab4a255cb405eb7d0dd10390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d2e22bab4a255cb405eb7d0dd10390">&#9670;&nbsp;</a></span>onTypeCellDoubleClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerTerminologyNavigatorWidget::onTypeCellDoubleClicked </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1611,6 +1652,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa28abc12c23cbfcedb069c9347953206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa28abc12c23cbfcedb069c9347953206">&#9670;&nbsp;</a></span>typeDoubleClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerTerminologyNavigatorWidget::typeDoubleClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when type is double clicked. It can be interpreted as having made a selection. </p>
+
+</div>
+</div>
 <a id="a16c0b14674bf321aabdaf710178bb843"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16c0b14674bf321aabdaf710178bb843">&#9670;&nbsp;</a></span>updateWidgetFromCurrentCategory()</h2>
 
@@ -1659,7 +1727,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerTerminologyNavigatorWidget_8h_source.html#l00206">206</a> of file <a class="el" href="qSlicerTerminologyNavigatorWidget_8h_source.html">qSlicerTerminologyNavigatorWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerTerminologyNavigatorWidget_8h_source.html#l00209">209</a> of file <a class="el" href="qSlicerTerminologyNavigatorWidget_8h_source.html">qSlicerTerminologyNavigatorWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1669,7 +1737,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 29 2021 09:12:49 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 29 2021 14:51:19 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
