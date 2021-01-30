@@ -10,6 +10,7 @@ var searchData=
   ['segmenteditorleveltracingeffect',['SegmentEditorLevelTracingEffect',['../classSegmentEditorLevelTracingEffect_1_1SegmentEditorLevelTracingEffect.html',1,'SegmentEditorLevelTracingEffect']]],
   ['segmenteditorlogicaleffect',['SegmentEditorLogicalEffect',['../classSegmentEditorLogicalEffect_1_1SegmentEditorLogicalEffect.html',1,'SegmentEditorLogicalEffect']]],
   ['segmenteditormargineffect',['SegmentEditorMarginEffect',['../classSegmentEditorMarginEffect_1_1SegmentEditorMarginEffect.html',1,'SegmentEditorMarginEffect']]],
+  ['segmenteditormaskvolumeeffect',['SegmentEditorMaskVolumeEffect',['../classSegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html',1,'SegmentEditorMaskVolumeEffect']]],
   ['segmenteditorsmoothingeffect',['SegmentEditorSmoothingEffect',['../classSegmentEditorSmoothingEffect_1_1SegmentEditorSmoothingEffect.html',1,'SegmentEditorSmoothingEffect']]],
   ['segmenteditorthresholdeffect',['SegmentEditorThresholdEffect',['../classSegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html',1,'SegmentEditorThresholdEffect']]],
   ['separatecomponentsofadiffusiontensorimage',['SeparateComponentsOfADiffusionTensorImage',['../classitk_1_1SeparateComponentsOfADiffusionTensorImage.html',1,'itk']]],

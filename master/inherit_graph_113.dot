@@ -14,5 +14,7 @@ digraph "Graphical Class Hierarchy"
   Node1088 -> Node1092 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1092 [label="SegmentEditorMarginEffect.\lSegmentEditorMarginEffect",height=0.2,width=0.4,color="black",URL="$classSegmentEditorMarginEffect_1_1SegmentEditorMarginEffect.html"];
   Node1088 -> Node1093 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1093 [label="SegmentEditorThresholdEffect.\lSegmentEditorThresholdEffect",height=0.2,width=0.4,color="black",URL="$classSegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html"];
+  Node1093 [label="SegmentEditorMaskVolumeEffect.\lSegmentEditorMaskVolumeEffect",height=0.2,width=0.4,color="black",URL="$classSegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html"];
+  Node1088 -> Node1094 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1094 [label="SegmentEditorThresholdEffect.\lSegmentEditorThresholdEffect",height=0.2,width=0.4,color="black",URL="$classSegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html"];
 }

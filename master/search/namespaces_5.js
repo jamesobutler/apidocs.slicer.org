@@ -8,6 +8,7 @@ var searchData=
   ['segmenteditorleveltracingeffect',['SegmentEditorLevelTracingEffect',['../namespaceSegmentEditorLevelTracingEffect.html',1,'']]],
   ['segmenteditorlogicaleffect',['SegmentEditorLogicalEffect',['../namespaceSegmentEditorLogicalEffect.html',1,'']]],
   ['segmenteditormargineffect',['SegmentEditorMarginEffect',['../namespaceSegmentEditorMarginEffect.html',1,'']]],
+  ['segmenteditormaskvolumeeffect',['SegmentEditorMaskVolumeEffect',['../namespaceSegmentEditorMaskVolumeEffect.html',1,'']]],
   ['segmenteditorsmoothingeffect',['SegmentEditorSmoothingEffect',['../namespaceSegmentEditorSmoothingEffect.html',1,'']]],
   ['segmenteditorthresholdeffect',['SegmentEditorThresholdEffect',['../namespaceSegmentEditorThresholdEffect.html',1,'']]]
 ];

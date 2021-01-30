@@ -123,7 +123,7 @@ var searchData=
   ['thresholdenabled',['ThresholdEnabled',['../classvtkMRMLModelDisplayNode.html#aaf2054c8443972d52f50d97666619227',1,'vtkMRMLModelDisplayNode']]],
   ['thresholdenabledoff',['ThresholdEnabledOff',['../classvtkMRMLModelDisplayNode.html#a87be2541ab0fbad7faffd7b15c61e946',1,'vtkMRMLModelDisplayNode']]],
   ['thresholdenabledon',['ThresholdEnabledOn',['../classvtkMRMLModelDisplayNode.html#a29a5769e912138b82f3219df48cf7a6f',1,'vtkMRMLModelDisplayNode']]],
-  ['thresholdfilter',['ThresholdFilter',['../classvtkMRMLModelDisplayNode.html#a4eaa67ce254b2b0871bde170fd91bdfa',1,'vtkMRMLModelDisplayNode::ThresholdFilter()'],['../classSegmentEditorThresholdEffect_1_1PreviewPipeline.html#a971e624c3eb1927325d2a3e06e98c22b',1,'SegmentEditorThresholdEffect.PreviewPipeline.thresholdFilter()']]],
+  ['thresholdfilter',['thresholdFilter',['../classSegmentEditorThresholdEffect_1_1PreviewPipeline.html#a971e624c3eb1927325d2a3e06e98c22b',1,'SegmentEditorThresholdEffect.PreviewPipeline.thresholdFilter()'],['../classvtkMRMLModelDisplayNode.html#a4eaa67ce254b2b0871bde170fd91bdfa',1,'vtkMRMLModelDisplayNode::ThresholdFilter()']]],
   ['thresholdrangetemp',['ThresholdRangeTemp',['../classvtkMRMLModelDisplayNode.html#af755d075d4895fdcc3e9a4b47d9f479a',1,'vtkMRMLModelDisplayNode']]],
   ['thresholdslider',['thresholdSlider',['../classSegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html#a0977e76181d00e15fe9f97850e8e8783',1,'SegmentEditorThresholdEffect::SegmentEditorThresholdEffect']]],
   ['thresholdsliderlabel',['thresholdSliderLabel',['../classSegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html#aec2d6ee7e3d6b9fbc475e5c08f60eafe',1,'SegmentEditorThresholdEffect::SegmentEditorThresholdEffect']]],

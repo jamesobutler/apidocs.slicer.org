@@ -9,6 +9,7 @@ var searchData=
   ['segmenteditorleveltracingeffect_2epy',['SegmentEditorLevelTracingEffect.py',['../SegmentEditorLevelTracingEffect_8py.html',1,'']]],
   ['segmenteditorlogicaleffect_2epy',['SegmentEditorLogicalEffect.py',['../SegmentEditorLogicalEffect_8py.html',1,'']]],
   ['segmenteditormargineffect_2epy',['SegmentEditorMarginEffect.py',['../SegmentEditorMarginEffect_8py.html',1,'']]],
+  ['segmenteditormaskvolumeeffect_2epy',['SegmentEditorMaskVolumeEffect.py',['../SegmentEditorMaskVolumeEffect_8py.html',1,'']]],
   ['segmenteditorsmoothingeffect_2epy',['SegmentEditorSmoothingEffect.py',['../SegmentEditorSmoothingEffect_8py.html',1,'']]],
   ['segmenteditorthresholdeffect_2epy',['SegmentEditorThresholdEffect.py',['../SegmentEditorThresholdEffect_8py.html',1,'']]],
   ['sfls_2eh',['SFLS.h',['../SFLS_8h.html',1,'']]],

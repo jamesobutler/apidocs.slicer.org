@@ -26,6 +26,7 @@ var searchData=
   ['maskglyphsoff',['MaskGlyphsOff',['../classvtkDiffusionTensorGlyph.html#a97fcbeb33f51e028d58f4e2b7d37ce4d',1,'vtkDiffusionTensorGlyph']]],
   ['maskglyphson',['MaskGlyphsOn',['../classvtkDiffusionTensorGlyph.html#a529079998de39f2bc4e8abe4f74111c4',1,'vtkDiffusionTensorGlyph']]],
   ['masklabelmap',['maskLabelmap',['../classqSlicerSegmentEditorAbstractEffect.html#a47ce820a02ee7bde3cdc2615e65cecd6',1,'qSlicerSegmentEditorAbstractEffect']]],
+  ['maskvolumewithsegment',['maskVolumeWithSegment',['../classSegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html#a3bfd965d26600c55fe36dd8ce5696758',1,'SegmentEditorMaskVolumeEffect::SegmentEditorMaskVolumeEffect']]],
   ['maskwithscalarsoff',['MaskWithScalarsOff',['../classvtkDiffusionTensorMathematics.html#a6bbef4c8b954fa3cdc2d9bd1f08bbd5b',1,'vtkDiffusionTensorMathematics']]],
   ['maskwithscalarson',['MaskWithScalarsOn',['../classvtkDiffusionTensorMathematics.html#a89032c0afa8adbe6dd5504488eeabed8',1,'vtkDiffusionTensorMathematics']]],
   ['mastervolumeimagedata',['masterVolumeImageData',['../classqSlicerSegmentEditorAbstractEffect.html#a573466791b71a50f0f5795d91ed6abf7',1,'qSlicerSegmentEditorAbstractEffect']]],

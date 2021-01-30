@@ -32,6 +32,9 @@ var searchData=
   ['bidimensionalnode',['BidimensionalNode',['../classqSlicerAnnotationModuleWidget.html#a79408b56e467c24cf6a8326f3db50477aa7dbb0ca219f6b3c94b7e2ad0862d366',1,'qSlicerAnnotationModuleWidget']]],
   ['bidimensionalnodeaddedevent',['BidimensionalNodeAddedEvent',['../classvtkMRMLAnnotationBidimensionalNode.html#a2b5751126a607a8b3a71381827c3755ea2871d4409e7f2581929c2b2eb2a3e490',1,'vtkMRMLAnnotationBidimensionalNode']]],
   ['binarizertype',['BinarizerType',['../classitk_1_1MorphologicalContourInterpolator.html#af774c63f26800220e9a287eb1d007640',1,'itk::MorphologicalContourInterpolator']]],
+  ['binarymaskfillbutton',['binaryMaskFillButton',['../classSegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html#a4cf62abaf1e03b1c5c39be191d25f917',1,'SegmentEditorMaskVolumeEffect::SegmentEditorMaskVolumeEffect']]],
+  ['binarymaskfillinsideedit',['binaryMaskFillInsideEdit',['../classSegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html#a5f5ae5b92d1e0c23a2962589b6368322',1,'SegmentEditorMaskVolumeEffect::SegmentEditorMaskVolumeEffect']]],
+  ['binarymaskfilloutsideedit',['binaryMaskFillOutsideEdit',['../classSegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html#a0d755bf4149ef61d1f7aa058d532519a',1,'SegmentEditorMaskVolumeEffect::SegmentEditorMaskVolumeEffect']]],
   ['blend',['Blend',['../classvtkMRMLSliceViewInteractorStyle.html#a544826263a64017fb39eee48133c5d49acc319305298c1f4222b542c9396ba30b',1,'vtkMRMLSliceViewInteractorStyle']]],
   ['blue',['Blue',['../classvtkMRMLColorTableNode.html#ae9dfde28ebaf318b3207569a7bd7c9e4ac9a0f93771fff91e76fecf642d40a9ab',1,'vtkMRMLColorTableNode']]],
   ['boolimagetype',['BoolImageType',['../classitk_1_1MorphologicalContourInterpolator.html#a120969338a2111d63e37bcfc3f99573e',1,'itk::MorphologicalContourInterpolator']]],
@@ -81,6 +84,7 @@ var searchData=
   ['buttongroup',['buttonGroup',['../classButtonGroupWidgetWrapper.html#a55604a03cc28a65192dd6c5876e4cf7d',1,'ButtonGroupWidgetWrapper']]],
   ['buttongroupwidgetwrapper',['ButtonGroupWidgetWrapper',['../classButtonGroupWidgetWrapper.html',1,'ButtonGroupWidgetWrapper'],['../classButtonGroupWidgetWrapper.html#a0cb0afcee49ff301a9096e8fd7bbe78d',1,'ButtonGroupWidgetWrapper::ButtonGroupWidgetWrapper()']]],
   ['buttonsvisible',['buttonsVisible',['../classqSlicerMarkupsPlaceWidget.html#ac825a8d10981a5a1c51614ca42cf6364',1,'qSlicerMarkupsPlaceWidget::buttonsVisible()'],['../classqSlicerMarkupsPlaceWidget.html#afadfc4dcb26dc6b514fdcb2baa5176ef',1,'qSlicerMarkupsPlaceWidget::buttonsVisible() const']]],
+  ['buttontooperationnamemap',['buttonToOperationNameMap',['../classSegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html#a25c1cb82120b16f5b16a059eb4ca647d',1,'SegmentEditorMaskVolumeEffect::SegmentEditorMaskVolumeEffect']]],
   ['bvalues',['BValues',['../classvtkMRMLDiffusionWeightedVolumeNode.html#a322cb5ce46121f763f20b281504103a7',1,'vtkMRMLDiffusionWeightedVolumeNode::BValues()'],['../classvtkTeemNRRDWriter.html#a6e863b478bfc46979b1afff6fbc59acd',1,'vtkTeemNRRDWriter::BValues()']]],
   ['bypassmaskingcheckbox',['bypassMaskingCheckBox',['../classSegmentEditorLogicalEffect_1_1SegmentEditorLogicalEffect.html#a0e36c0c2d855a5278a3776d4fe99beb3',1,'SegmentEditorLogicalEffect::SegmentEditorLogicalEffect']]]
 ];
