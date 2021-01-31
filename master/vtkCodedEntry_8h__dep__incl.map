@@ -1,11 +1,12 @@
 <map id="Libs/MRML/Core/vtkCodedEntry.h" name="Libs/MRML/Core/vtkCodedEntry.h">
-<area shape="rect" id="node2" href="$vtkMRMLMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLMeasurement.h" alt="" coords="2596,87,2879,114"/>
-<area shape="rect" id="node37" href="$vtkSlicerTerminologyCategory_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyCategory.h" alt="" coords="4037,80,4299,121"/>
-<area shape="rect" id="node42" href="$vtkSlicerTerminologyType_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyType.h" alt="" coords="3779,80,4013,121"/>
-<area shape="rect" id="node3" href="$vtkMRMLStaticMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLStatic\lMeasurement.h" alt="" coords="2896,169,3115,211"/>
-<area shape="rect" id="node4" href="$vtkMRMLMarkupsNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsNode.h" alt="" coords="1363,169,1586,211"/>
-<area shape="rect" id="node35" href="$vtkMRMLMeasurementAngle_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementAngle.h" alt="" coords="2319,169,2579,211"/>
-<area shape="rect" id="node36" href="$vtkMRMLMeasurementLength_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h" alt="" coords="2603,169,2871,211"/>
+<area shape="rect" id="node2" href="$vtkMRMLMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLMeasurement.h" alt="" coords="2751,87,3033,114"/>
+<area shape="rect" id="node38" href="$vtkSlicerTerminologyCategory_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyCategory.h" alt="" coords="4037,80,4299,121"/>
+<area shape="rect" id="node43" href="$vtkSlicerTerminologyType_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyType.h" alt="" coords="3779,80,4013,121"/>
+<area shape="rect" id="node3" href="$vtkMRMLStaticMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLStatic\lMeasurement.h" alt="" coords="3193,169,3412,211"/>
+<area shape="rect" id="node4" href="$vtkMRMLMarkupsNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsNode.h" alt="" coords="1335,169,1558,211"/>
+<area shape="rect" id="node35" href="$vtkMRMLMeasurementAngle_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementAngle.h" alt="" coords="2338,169,2598,211"/>
+<area shape="rect" id="node36" href="$vtkMRMLMeasurementArea_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementArea.h" alt="" coords="2622,169,2877,211"/>
+<area shape="rect" id="node37" href="$vtkMRMLMeasurementLength_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h" alt="" coords="2901,169,3169,211"/>
 <area shape="rect" id="node5" href="$vtkMRMLMarkupsDisplayNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsDisplayNode.h" alt="" coords="1029,266,1299,307"/>
 <area shape="rect" id="node6" href="$vtkMRMLMarkupsAngleNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsAngleNode.h" alt="" coords="1484,370,1743,411"/>
 <area shape="rect" id="node8" href="$vtkMRMLMarkupsCurveNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsCurveNode.h" alt="" coords="573,370,833,411"/>
@@ -36,8 +37,8 @@
 <area shape="rect" id="node32" href="$vtkSlicerLineWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerLineWidget.h" alt="" coords="2341,370,2579,411"/>
 <area shape="rect" id="node33" href="$vtkSlicerPlaneWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPlaneWidget.h" alt="" coords="2604,370,2852,411"/>
 <area shape="rect" id="node34" href="$vtkSlicerPointsWidget_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPointsWidget.h" alt="" coords="2877,370,3129,411"/>
-<area shape="rect" id="node38" href="$vtkSlicerTerminologyEntry_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyEntry.h" alt="" coords="4050,169,4286,211"/>
-<area shape="rect" id="node39" href="$qSlicerTerminologyNavigatorWidget_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologyNavigator\lWidget.h" alt="" coords="4037,259,4299,315"/>
-<area shape="rect" id="node40" href="$qSlicerTerminologySelectorButton_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologySelector\lButton.h" alt="" coords="4291,363,4543,419"/>
-<area shape="rect" id="node41" href="$qSlicerTerminologySelectorDialog_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologySelector\lDialog.h" alt="" coords="4015,363,4267,419"/>
+<area shape="rect" id="node39" href="$vtkSlicerTerminologyEntry_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologyEntry.h" alt="" coords="4050,169,4286,211"/>
+<area shape="rect" id="node40" href="$qSlicerTerminologyNavigatorWidget_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologyNavigator\lWidget.h" alt="" coords="4037,259,4299,315"/>
+<area shape="rect" id="node41" href="$qSlicerTerminologySelectorButton_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologySelector\lButton.h" alt="" coords="4291,363,4543,419"/>
+<area shape="rect" id="node42" href="$qSlicerTerminologySelectorDialog_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologySelector\lDialog.h" alt="" coords="4015,363,4267,419"/>
 </map>

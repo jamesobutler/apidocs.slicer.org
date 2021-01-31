@@ -557,6 +557,7 @@ var searchData=
   ['_7evtkmrmlmarkupsstoragenode',['~vtkMRMLMarkupsStorageNode',['../classvtkMRMLMarkupsStorageNode.html#a2c50cbeef8523923bca89e86099a80b0',1,'vtkMRMLMarkupsStorageNode']]],
   ['_7evtkmrmlmeasurement',['~vtkMRMLMeasurement',['../classvtkMRMLMeasurement.html#a3e323c8878b01ca1518763b96283976a',1,'vtkMRMLMeasurement']]],
   ['_7evtkmrmlmeasurementangle',['~vtkMRMLMeasurementAngle',['../classvtkMRMLMeasurementAngle.html#a9ddc4fed20708ecbc79faaad8058a43f',1,'vtkMRMLMeasurementAngle']]],
+  ['_7evtkmrmlmeasurementarea',['~vtkMRMLMeasurementArea',['../classvtkMRMLMeasurementArea.html#a2e3bd6ffd9ef07e090ff9ba3185ed7e8',1,'vtkMRMLMeasurementArea']]],
   ['_7evtkmrmlmeasurementlength',['~vtkMRMLMeasurementLength',['../classvtkMRMLMeasurementLength.html#a5a930c947da888d8823e4274c9167668',1,'vtkMRMLMeasurementLength']]],
   ['_7evtkmrmlmessagecollection',['~vtkMRMLMessageCollection',['../classvtkMRMLMessageCollection.html#a36f34a66a47b33e8f4b3287a911d283d',1,'vtkMRMLMessageCollection']]],
   ['_7evtkmrmlmodeldisplayablemanager',['~vtkMRMLModelDisplayableManager',['../classvtkMRMLModelDisplayableManager.html#ad74059d6cc0c17618e12c01ce18cd850',1,'vtkMRMLModelDisplayableManager']]],

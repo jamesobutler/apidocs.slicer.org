@@ -4,9 +4,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node554 [label="QTableView",height=0.2,width=0.4,color="grey75"];
-  Node554 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node555 [label="QTableView",height=0.2,width=0.4,color="grey75"];
+  Node555 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLColorTableView",height=0.2,width=0.4,color="black",URL="$classqMRMLColorTableView.html",tooltip="Table view for color table nodes. Edition of color (opening dialog) and opacity (slider popup) is han..."];
-  Node554 -> Node556 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node556 [label="qMRMLTableView",height=0.2,width=0.4,color="black",URL="$classqMRMLTableView.html",tooltip="Spreadsheet view for table nodes. Allow view/edit of a vtkMRMLTableNode. "];
+  Node555 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node557 [label="qMRMLTableView",height=0.2,width=0.4,color="black",URL="$classqMRMLTableView.html",tooltip="Spreadsheet view for table nodes. Allow view/edit of a vtkMRMLTableNode. "];
 }

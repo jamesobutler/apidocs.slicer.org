@@ -4,11 +4,11 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node544 [label="QTreeView",height=0.2,width=0.4,color="grey75"];
-  Node544 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node545 [label="QTreeView",height=0.2,width=0.4,color="grey75"];
+  Node545 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLSubjectHierarchyTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLSubjectHierarchyTreeView.html"];
-  Node544 -> Node546 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node546 [label="qMRMLTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLTreeView.html"];
-  Node546 -> Node547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node547 [label="qMRMLAnnotationTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLAnnotationTreeView.html"];
+  Node545 -> Node547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node547 [label="qMRMLTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLTreeView.html"];
+  Node547 -> Node548 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node548 [label="qMRMLAnnotationTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLAnnotationTreeView.html"];
 }

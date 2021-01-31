@@ -80,5 +80,7 @@ digraph "Libs/MRML/Core/vtkMRMLMeasurement.h"
   Node21 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node54 [label="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementAngle.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLMeasurementAngle_8h.html"];
   Node21 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node55 [label="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLMeasurementLength_8h.html"];
+  Node55 [label="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementArea.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLMeasurementArea_8h.html"];
+  Node21 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLMeasurementLength_8h.html"];
 }

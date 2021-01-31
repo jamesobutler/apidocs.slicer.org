@@ -2,7 +2,8 @@
 <area shape="rect" id="node2" href="$vtkMRMLStaticMeasurement_8h.html" title="Libs/MRML/Core/vtkMRMLStatic\lMeasurement.h" alt="" coords="1125,80,1344,121"/>
 <area shape="rect" id="node3" href="$vtkMRMLMarkupsNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsNode.h" alt="" coords="1369,80,1591,121"/>
 <area shape="rect" id="node34" href="$vtkMRMLMeasurementAngle_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementAngle.h" alt="" coords="1615,80,1875,121"/>
-<area shape="rect" id="node35" href="$vtkMRMLMeasurementLength_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h" alt="" coords="1899,80,2167,121"/>
+<area shape="rect" id="node35" href="$vtkMRMLMeasurementArea_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementArea.h" alt="" coords="1899,80,2154,121"/>
+<area shape="rect" id="node36" href="$vtkMRMLMeasurementLength_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMeasurementLength.h" alt="" coords="2178,80,2446,121"/>
 <area shape="rect" id="node4" href="$vtkMRMLMarkupsDisplayNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsDisplayNode.h" alt="" coords="1061,169,1331,211"/>
 <area shape="rect" id="node5" href="$vtkMRMLMarkupsAngleNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsAngleNode.h" alt="" coords="152,266,411,307"/>
 <area shape="rect" id="node7" href="$vtkMRMLMarkupsCurveNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsCurveNode.h" alt="" coords="434,266,694,307"/>

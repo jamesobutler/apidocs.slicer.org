@@ -4,7 +4,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node987 [label="ctkVTKAbstractMatrixWidget",height=0.2,width=0.4,color="grey75"];
-  Node987 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node988 [label="ctkVTKAbstractMatrixWidget",height=0.2,width=0.4,color="grey75"];
+  Node988 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLMatrixWidget",height=0.2,width=0.4,color="black",URL="$classqMRMLMatrixWidget.html"];
 }
