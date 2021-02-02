@@ -105,6 +105,9 @@ Functions</h2></td></tr>
 <tr class="separator:a74c0cf710895f302f6db1efd287a145d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea7ca75e92cdd57caedbc825dd1c263e"><td class="memItemLeft" align="right" valign="top">VTK_MRML_EXPORT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevtkMRMLCoreTestingUtilities.html#aea7ca75e92cdd57caedbc825dd1c263e">ExerciseSceneLoadingMethods</a> (const char *sceneFilePath, <a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *inputScene=nullptr)</td></tr>
 <tr class="separator:aea7ca75e92cdd57caedbc825dd1c263e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a228a675fc5fc39345e03469e57340f89"><td class="memItemLeft" align="right" valign="top">VTK_MRML_EXPORT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevtkMRMLCoreTestingUtilities.html#a228a675fc5fc39345e03469e57340f89">GetExpectedNodeAddedClassNames</a> (const char *sceneFilePath, std::vector&lt; std::string &gt; &amp;expectedNodeAddedClassNames)</td></tr>
+<tr class="memdesc:a228a675fc5fc39345e03469e57340f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return list of node that should be added to the scene.  <a href="#a228a675fc5fc39345e03469e57340f89">More...</a><br /></td></tr>
+<tr class="separator:a228a675fc5fc39345e03469e57340f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bf29fbc8707c5c800647c4039d07a90"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
 <tr class="memitem:a8bf29fbc8707c5c800647c4039d07a90"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacevtkMRMLCoreTestingUtilities.html#a8bf29fbc8707c5c800647c4039d07a90">ToString</a> (Type value)</td></tr>
 <tr class="separator:a8bf29fbc8707c5c800647c4039d07a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -395,6 +398,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a228a675fc5fc39345e03469e57340f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a228a675fc5fc39345e03469e57340f89">&#9670;&nbsp;</a></span>GetExpectedNodeAddedClassNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VTK_MRML_EXPORT int vtkMRMLCoreTestingUtilities::GetExpectedNodeAddedClassNames </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sceneFilePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>expectedNodeAddedClassNames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return list of node that should be added to the scene. </p>
+
+</div>
+</div>
 <a id="a8bf29fbc8707c5c800647c4039d07a90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8bf29fbc8707c5c800647c4039d07a90">&#9670;&nbsp;</a></span>ToString()</h2>
 
@@ -418,7 +451,7 @@ template&lt;typename Type &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 2 2021 02:46:41 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 2 2021 05:50:10 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

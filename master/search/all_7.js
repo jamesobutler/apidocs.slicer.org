@@ -623,6 +623,7 @@ var searchData=
   ['getexistingdirectory',['getExistingDirectory',['../classqSlicerStandardFileDialog.html#ab59587d852f674e3ad27ee6d70b2d25a',1,'qSlicerStandardFileDialog']]],
   ['getexpanded',['GetExpanded',['../classvtkMRMLDisplayableHierarchyNode.html#a312301f135c75be01b4eb1d2a534e38e',1,'vtkMRMLDisplayableHierarchyNode']]],
   ['getexpectedfps',['GetExpectedFPS',['../classvtkMRMLViewNode.html#a0dcb4bdd07456b2159005bb50e7a42ac',1,'vtkMRMLViewNode']]],
+  ['getexpectednodeaddedclassnames',['GetExpectedNodeAddedClassNames',['../namespacevtkMRMLCoreTestingUtilities.html#a228a675fc5fc39345e03469e57340f89',1,'vtkMRMLCoreTestingUtilities']]],
   ['getextendedprocessorname',['GetExtendedProcessorName',['../classvtkSystemInformation.html#adf092e66c523da0bc11df12162aa0742',1,'vtkSystemInformation']]],
   ['getextensionhistoryinformation',['getExtensionHistoryInformation',['../classqSlicerExtensionsManagerModel.html#acb827d4a37e63b83787d3d4ef1c7055f',1,'qSlicerExtensionsManagerModel']]],
   ['getextents',['GetExtents',['../classvtkAnnotationROIRepresentation.html#aa7060051e8ff21e0fbcac2d8a05c1362',1,'vtkAnnotationROIRepresentation']]],
