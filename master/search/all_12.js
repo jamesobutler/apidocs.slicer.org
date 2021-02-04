@@ -291,7 +291,7 @@ var searchData=
   ['removeproxynode',['RemoveProxyNode',['../classvtkMRMLSequenceBrowserNode.html#ad48511b28f0748a0bc8aaa77cb0f0b53',1,'vtkMRMLSequenceBrowserNode']]],
   ['removereferencednodeid',['RemoveReferencedNodeID',['../classvtkMRMLScene.html#aca9e87a123b3753262e199f222e67380',1,'vtkMRMLScene']]],
   ['removereferencestonode',['RemoveReferencesToNode',['../classvtkMRMLScene.html#a3614a7bf0b133fd50ed3457e4031c6e2',1,'vtkMRMLScene']]],
-  ['removerepresentation',['removeRepresentation',['../classqMRMLSegmentationRepresentationsListView.html#a66ada83fd5ff1e25b667dfcd5b059665',1,'qMRMLSegmentationRepresentationsListView::removeRepresentation()'],['../classvtkSegment.html#a6cfdc7aac534d7bb58ee4055978401a3',1,'vtkSegment::RemoveRepresentation()'],['../classvtkSegmentation.html#a7b7eb045c72c8eb1f7c538b8f28eabec',1,'vtkSegmentation::RemoveRepresentation()']]],
+  ['removerepresentation',['RemoveRepresentation',['../classvtkSegment.html#a6cfdc7aac534d7bb58ee4055978401a3',1,'vtkSegment::RemoveRepresentation()'],['../classvtkSegmentation.html#a7b7eb045c72c8eb1f7c538b8f28eabec',1,'vtkSegmentation::RemoveRepresentation()'],['../classqMRMLSegmentationRepresentationsListView.html#a66ada83fd5ff1e25b667dfcd5b059665',1,'qMRMLSegmentationRepresentationsListView::removeRepresentation()']]],
   ['removereservedids',['RemoveReservedIDs',['../classvtkMRMLScene.html#a75b69451230213b2e7d5867520891867',1,'vtkMRMLScene']]],
   ['removeroi',['RemoveROI',['../classvtkMRMLROIListNode.html#aae76f1c6fd5793b794d07f5d8c04ddc9',1,'vtkMRMLROIListNode']]],
   ['removerow',['RemoveRow',['../classvtkMRMLTableNode.html#acf595b180d93feb7c6cb3be557034079',1,'vtkMRMLTableNode']]],

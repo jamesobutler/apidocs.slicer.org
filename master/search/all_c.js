@@ -95,6 +95,7 @@ var searchData=
   ['layoutlabel',['LayoutLabel',['../classvtkMRMLAbstractViewNode.html#ab1a71a7f5059140923a578a8ae219a05',1,'vtkMRMLAbstractViewNode']]],
   ['layoutlogic',['layoutLogic',['../classqMRMLLayoutManager.html#a92a85b5b6a35f5cfe789eff25e3b8347',1,'qMRMLLayoutManager']]],
   ['layoutmanager',['layoutManager',['../classqSlicerApplication.html#af8662d979d66f6265fde518eabd8b285',1,'qSlicerApplication::layoutManager()'],['../classqMRMLLayoutViewFactory.html#aebfb090e171c1d1127504699c14f8204',1,'qMRMLLayoutViewFactory::layoutManager()'],['../classqMRMLLayoutWidget.html#a29a3766e171756c6e1ffbda30a1d7f8e',1,'qMRMLLayoutWidget::layoutManager()'],['../classqMRMLScreenShotDialog.html#aa1557061c07026f8c9cc92f65bb21a3c',1,'qMRMLScreenShotDialog::layoutManager()']]],
+  ['layoutnamemodifiedevent',['LayoutNameModifiedEvent',['../classvtkMRMLCameraNode.html#a57f3a0be592a5c30be8d84b4debf5778af13a0551b93fbeec26a99e029c0753f3',1,'vtkMRMLCameraNode']]],
   ['layoutnode',['LayoutNode',['../classvtkMRMLLayoutLogic.html#ae1d9d042ce166cf0335b184b7e4a77bb',1,'vtkMRMLLayoutLogic']]],
   ['layoutrootelement',['LayoutRootElement',['../classvtkMRMLLayoutNode.html#ae9ef0a3d88edeffa4a83024b48e721d8',1,'vtkMRMLLayoutNode']]],
   ['layouts',['Layouts',['../classvtkMRMLLayoutNode.html#a94199d6cc0257ea70cf399f563255ef6',1,'vtkMRMLLayoutNode']]],

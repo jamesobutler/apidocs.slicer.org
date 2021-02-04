@@ -105,7 +105,8 @@ Collaboration diagram for vtkMRMLCameraNode:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a57f3a0be592a5c30be8d84b4debf5778"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkMRMLCameraNode.html#a57f3a0be592a5c30be8d84b4debf5778a6698724b867f10a53491cbd72b915bf6">ActiveTagModifiedEvent</a> = 30000, 
+<tr class="memitem:a57f3a0be592a5c30be8d84b4debf5778"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classvtkMRMLCameraNode.html#a57f3a0be592a5c30be8d84b4debf5778af13a0551b93fbeec26a99e029c0753f3">LayoutNameModifiedEvent</a> = 30000, 
+<a class="el" href="classvtkMRMLCameraNode.html#a57f3a0be592a5c30be8d84b4debf5778a6698724b867f10a53491cbd72b915bf6">ActiveTagModifiedEvent</a> = LayoutNameModifiedEvent, 
 <a class="el" href="classvtkMRMLCameraNode.html#a57f3a0be592a5c30be8d84b4debf5778aa6f05e5a044acefc9ad8bf3c2784deb6">CameraInteractionEvent</a> = 31000, 
 <a class="el" href="classvtkMRMLCameraNode.html#a57f3a0be592a5c30be8d84b4debf5778ac754ba2bff383401303533f6f41a31a9">ResetCameraClippingEvent</a> = 32000
  }</td></tr>
@@ -198,6 +199,8 @@ vtkCamera  <a href="#a567d997632d5e7eefb58c6af45a928ed">More...</a><br /></td></
 <tr class="separator:a30b473680ac5b3e28d7e1eba69f4e3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad447c06290bd440dd1d777732978c5ad"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#ad447c06290bd440dd1d777732978c5ad">GetInteractionFlags</a> ()</td></tr>
 <tr class="separator:ad447c06290bd440dd1d777732978c5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0a1fca114af2f6509a900770b36405"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#abe0a1fca114af2f6509a900770b36405">GetLayoutName</a> ()</td></tr>
+<tr class="separator:abe0a1fca114af2f6509a900770b36405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21f32b81239a13816bb55f41996c21be"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a21f32b81239a13816bb55f41996c21be">GetNodeTagName</a> () override</td></tr>
 <tr class="memdesc:a21f32b81239a13816bb55f41996c21be"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
 Get node XML tag name (like Volume, Model)  <a href="#a21f32b81239a13816bb55f41996c21be">More...</a><br /></td></tr>
@@ -262,6 +265,8 @@ Read node attributes from XML file  <a href="#a2a71303e3855f47c81ad93b7f0109975"
 <tr class="separator:ad5ad347af27c48e5daf53c009b8799cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefbffe61a6b2b8391379b974d1231d4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#aefbffe61a6b2b8391379b974d1231d4c">SetInteractionFlags</a> (unsigned int)</td></tr>
 <tr class="separator:aefbffe61a6b2b8391379b974d1231d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8d55c482e850c08a84ffceac8e4830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a4d8d55c482e850c08a84ffceac8e4830">SetLayoutName</a> (const char *layoutName)</td></tr>
+<tr class="separator:a4d8d55c482e850c08a84ffceac8e4830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16a9ff80efcfc362f604dcd95dc194a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a16a9ff80efcfc362f604dcd95dc194a5">SetParallelProjection</a> (int parallelProjection)</td></tr>
 <tr class="memdesc:a16a9ff80efcfc362f604dcd95dc194a5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
 Set camera ParallelProjection flag  <a href="#a16a9ff80efcfc362f604dcd95dc194a5">More...</a><br /></td></tr>
@@ -274,9 +279,6 @@ Set camera Parallel Scale  <a href="#a8baed50622929c2badfb89e0d7dee714">More...<
 <tr class="separator:a72713be020822452b19dd3568b6b9d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a620da73a32da006bc049163725e1b465"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a620da73a32da006bc049163725e1b465">SetPosition</a> (double x, double y, double z)</td></tr>
 <tr class="separator:a620da73a32da006bc049163725e1b465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbdb25ca0cc3286691a5306c56c2d32c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#adbdb25ca0cc3286691a5306c56c2d32c">SetSceneReferences</a> () override</td></tr>
-<tr class="memdesc:adbdb25ca0cc3286691a5306c56c2d32c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark the active tag node as references.  <a href="#adbdb25ca0cc3286691a5306c56c2d32c">More...</a><br /></td></tr>
-<tr class="separator:adbdb25ca0cc3286691a5306c56c2d32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8499491932e41ceb778e5568aa827ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#aa8499491932e41ceb778e5568aa827ce">SetViewAngle</a> (double viewAngle)</td></tr>
 <tr class="separator:aa8499491932e41ceb778e5568aa827ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a39bd7ebab110d744d68f125574fda9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a2a39bd7ebab110d744d68f125574fda9">SetViewUp</a> (double viewUp[3])</td></tr>
@@ -285,12 +287,6 @@ Set camera Parallel Scale  <a href="#a8baed50622929c2badfb89e0d7dee714">More...<
 <tr class="separator:ab909981f7741ebee3c08998b0432b2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affa6e52527a386ecbc69db4def5739a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#affa6e52527a386ecbc69db4def5739a7">TranslateAlong</a> (<a class="el" href="classvtkMRMLCameraNode.html#aa481b1badff885abb7242d6d3b436b06">ScreenAxis</a> axis, bool positive)</td></tr>
 <tr class="separator:affa6e52527a386ecbc69db4def5739a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adacab8b7380747a8ff52204a0dc65951"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#adacab8b7380747a8ff52204a0dc65951">UpdateReferenceID</a> (const char *oldID, const char *newID) override</td></tr>
-<tr class="memdesc:adacab8b7380747a8ff52204a0dc65951"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
-Update the stored reference to another node in the scene  <a href="#adacab8b7380747a8ff52204a0dc65951">More...</a><br /></td></tr>
-<tr class="separator:adacab8b7380747a8ff52204a0dc65951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d25ac513c8093f5fcc4a76ad688046d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a0d25ac513c8093f5fcc4a76ad688046d">UpdateReferences</a> () override</td></tr>
-<tr class="separator:a0d25ac513c8093f5fcc4a76ad688046d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ca5567033051012dc8fcb49d877c33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a46ca5567033051012dc8fcb49d877c33">vtkMRMLCopyContentMacro</a> (<a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a>)</td></tr>
 <tr class="separator:a46ca5567033051012dc8fcb49d877c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc91062ab274e61898692916289966cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#abc91062ab274e61898692916289966cd">WriteXML</a> (ostream &amp;of, int indent) override</td></tr>
@@ -581,6 +577,9 @@ Finds the storage node and read the data  <a href="classvtkMRMLStorableNode.html
 <tr class="memitem:a06e909158c1aa2d2c70d733324ea46ec inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a06e909158c1aa2d2c70d733324ea46ec">SetScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
 <tr class="memdesc:a06e909158c1aa2d2c70d733324ea46ec inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is for internal use only. Use AddNode method of <a class="el" href="classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo. ">vtkMRMLScene</a> to add a node to the scene.  <a href="classvtkMRMLNode.html#a06e909158c1aa2d2c70d733324ea46ec">More...</a><br /></td></tr>
 <tr class="separator:a06e909158c1aa2d2c70d733324ea46ec inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8016800312db3877c6c1598b402ce79c inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a8016800312db3877c6c1598b402ce79c">SetSceneReferences</a> ()</td></tr>
+<tr class="memdesc:a8016800312db3877c6c1598b402ce79c inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the references of the node to the scene.  <a href="classvtkMRMLNode.html#a8016800312db3877c6c1598b402ce79c">More...</a><br /></td></tr>
+<tr class="separator:a8016800312db3877c6c1598b402ce79c inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab273860f2f723ac5eb16ff21fd2b4a67 inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#ab273860f2f723ac5eb16ff21fd2b4a67">SetSelectable</a> (int)</td></tr>
 <tr class="separator:ab273860f2f723ac5eb16ff21fd2b4a67 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb78390f9607d808dc7b5e70c60499cc inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#abb78390f9607d808dc7b5e70c60499cc">SetSelected</a> (int)</td></tr>
@@ -601,6 +600,12 @@ Finds the storage node and read the data  <a href="classvtkMRMLStorableNode.html
 <tr class="separator:a8351f0ffa0e2ce91bcd644a6463a2786 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa738714f74f657b0ea129ad11a6ef66b inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#aa738714f74f657b0ea129ad11a6ef66b">UndoEnabledOn</a> ()</td></tr>
 <tr class="separator:aa738714f74f657b0ea129ad11a6ef66b inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac195117cc5b7b95015272e2bace61843 inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#ac195117cc5b7b95015272e2bace61843">UpdateReferenceID</a> (const char *oldID, const char *newID)</td></tr>
+<tr class="memdesc:ac195117cc5b7b95015272e2bace61843 inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the stored reference to another node in the scene.  <a href="classvtkMRMLNode.html#ac195117cc5b7b95015272e2bace61843">More...</a><br /></td></tr>
+<tr class="separator:ac195117cc5b7b95015272e2bace61843 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00cf168734a7d2ec37969706f9213b9e inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a00cf168734a7d2ec37969706f9213b9e">UpdateReferences</a> ()</td></tr>
+<tr class="memdesc:a00cf168734a7d2ec37969706f9213b9e inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method should remove all pointers and observations to all nodes that are not in the scene anymore.  <a href="classvtkMRMLNode.html#a00cf168734a7d2ec37969706f9213b9e">More...</a><br /></td></tr>
+<tr class="separator:a00cf168734a7d2ec37969706f9213b9e inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40a1aed876b633d2c428a42a21b34a76 inherit pub_methods_classvtkMRMLNode"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a40a1aed876b633d2c428a42a21b34a76">URLDecodeString</a> (const char *inString)</td></tr>
 <tr class="memdesc:a40a1aed876b633d2c428a42a21b34a76 inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a URL string.  <a href="classvtkMRMLNode.html#a40a1aed876b633d2c428a42a21b34a76">More...</a><br /></td></tr>
 <tr class="separator:a40a1aed876b633d2c428a42a21b34a76 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -643,16 +648,12 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab1de7e20f4a5c7383961965855b08eb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#ab1de7e20f4a5c7383961965855b08eb0">FindActiveTagInScene</a> (const char *tag)</td></tr>
-<tr class="separator:ab1de7e20f4a5c7383961965855b08eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35f99a8de654fdd05b0c9bd5ac4a66d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a35f99a8de654fdd05b0c9bd5ac4a66d6">operator=</a> (const <a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a> &amp;)</td></tr>
 <tr class="separator:a35f99a8de654fdd05b0c9bd5ac4a66d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9098b2143e9e5c033a9173c2ec815626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a9098b2143e9e5c033a9173c2ec815626">SetAndObserveCamera</a> (vtkCamera *camera)</td></tr>
 <tr class="separator:a9098b2143e9e5c033a9173c2ec815626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a180aff87d23d0d265699a12fb44fa741"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a180aff87d23d0d265699a12fb44fa741">SetCamera</a> (vtkCamera *camera)</td></tr>
 <tr class="separator:a180aff87d23d0d265699a12fb44fa741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5e8787241e08c17e2d0dff49a58ea9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#af5e8787241e08c17e2d0dff49a58ea9f">SetInternalActiveTag</a> (const char *id)</td></tr>
-<tr class="separator:af5e8787241e08c17e2d0dff49a58ea9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeddadd260e6e5b9488898d162eb9dd2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#aeddadd260e6e5b9488898d162eb9dd2e">vtkMRMLCameraNode</a> ()</td></tr>
 <tr class="separator:aeddadd260e6e5b9488898d162eb9dd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4900c71dbfdf91096bb8ca5d295819a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#ac4900c71dbfdf91096bb8ca5d295819a">vtkMRMLCameraNode</a> (const <a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a> &amp;)</td></tr>
@@ -749,8 +750,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a337bbf110748d1ccccf6dcd0ab147d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9d96399a23fe6d9b32eb09bd60dbab7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#ae9d96399a23fe6d9b32eb09bd60dbab7">InteractionFlags</a></td></tr>
 <tr class="separator:ae9d96399a23fe6d9b32eb09bd60dbab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a409080a96d364f7a6b5fb8a9c1f33381"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#a409080a96d364f7a6b5fb8a9c1f33381">InternalActiveTag</a> {nullptr}</td></tr>
-<tr class="separator:a409080a96d364f7a6b5fb8a9c1f33381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b2183315ae3c0f905f5b5e1e485384"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLCameraNode.html#ad2b2183315ae3c0f905f5b5e1e485384">InternalActiveTag</a></td></tr>
+<tr class="separator:ad2b2183315ae3c0f905f5b5e1e485384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classvtkMRMLStorableNode"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classvtkMRMLStorableNode')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classvtkMRMLStorableNode.html">vtkMRMLStorableNode</a></td></tr>
 <tr class="memitem:a0b4635f5d23896c7ab81cfde5c76e172 inherit pro_attribs_classvtkMRMLStorableNode"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLStorableNode.html#a0b4635f5d23896c7ab81cfde5c76e172">SlicerDataType</a></td></tr>
 <tr class="separator:a0b4635f5d23896c7ab81cfde5c76e172 inherit pro_attribs_classvtkMRMLStorableNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -862,12 +863,13 @@ Additional Inherited Members</h2></td></tr>
 <p><br />
 Events </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a57f3a0be592a5c30be8d84b4debf5778a6698724b867f10a53491cbd72b915bf6"></a>ActiveTagModifiedEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a57f3a0be592a5c30be8d84b4debf5778af13a0551b93fbeec26a99e029c0753f3"></a>LayoutNameModifiedEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57f3a0be592a5c30be8d84b4debf5778a6698724b867f10a53491cbd72b915bf6"></a>ActiveTagModifiedEvent&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a57f3a0be592a5c30be8d84b4debf5778aa6f05e5a044acefc9ad8bf3c2784deb6"></a>CameraInteractionEvent&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a57f3a0be592a5c30be8d84b4debf5778ac754ba2bff383401303533f6f41a31a9"></a>ResetCameraClippingEvent&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00155">155</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00167">167</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -891,7 +893,7 @@ Events </p>
 <tr><td class="fieldname"><a id="a5e55d1409f0ebbeb8bfb3b9f5f2ee52aa5da66cd163bc5502298e9e457835a08a"></a>Inferior&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00177">177</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00178">178</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -916,7 +918,7 @@ Events </p>
 <tr><td class="fieldname"><a id="aab9e47ef9930958fc8049bd52a50b93ea354c367e8e2d891d51dc8a8ad189c036"></a>CameraInteractionFlag&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00239">239</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00240">240</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -937,7 +939,7 @@ Events </p>
 <tr><td class="fieldname"><a id="a1542dcc026020882985459fe2ec7e52bad1fbf8f80f24e593370ac0a0c7bdc941"></a>S&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00186">186</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00187">187</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -958,7 +960,7 @@ Events </p>
 <tr><td class="fieldname"><a id="aa481b1badff885abb7242d6d3b436b06a98c35d5a1a5d7d16462f837c19d236ae"></a>Z&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00192">192</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00193">193</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -1100,32 +1102,6 @@ Copy the node's attributes to this object </p>
 
 </div>
 </div>
-<a id="ab1de7e20f4a5c7383961965855b08eb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1de7e20f4a5c7383961965855b08eb0">&#9670;&nbsp;</a></span>FindActiveTagInScene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a>* vtkMRMLCameraNode::FindActiveTagInScene </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>tag</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a826119830917d97de1126a05c0422dc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a826119830917d97de1126a05c0422dc1">&#9670;&nbsp;</a></span>GetActiveTag()</h2>
 
@@ -1140,7 +1116,7 @@ Copy the node's attributes to this object </p>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set the camera active tag, i.e. the tag for which object (view) this camera is active. </p>
+<p>Deprecated. Use SetLayoutName instead. Set the camera active tag, i.e. the tag for which object (view) this camera is active. </p>
 
 </div>
 </div>
@@ -1307,6 +1283,23 @@ vtkCamera </p>
 <span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe0a1fca114af2f6509a900770b36405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0a1fca114af2f6509a900770b36405">&#9670;&nbsp;</a></span>GetLayoutName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* vtkMRMLCameraNode::GetLayoutName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -2083,7 +2076,7 @@ Read node attributes from XML file </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00287">287</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00285">285</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -2125,29 +2118,22 @@ Read node attributes from XML file </p>
 
 </div>
 </div>
-<a id="af5e8787241e08c17e2d0dff49a58ea9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5e8787241e08c17e2d0dff49a58ea9f">&#9670;&nbsp;</a></span>SetInternalActiveTag()</h2>
+<a id="a4d8d55c482e850c08a84ffceac8e4830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8d55c482e850c08a84ffceac8e4830">&#9670;&nbsp;</a></span>SetLayoutName()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void vtkMRMLCameraNode::SetInternalActiveTag </td>
+          <td class="memname">void vtkMRMLCameraNode::SetLayoutName </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramname"><em>layoutName</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<p>Name of the layout widget that this camera is used in. Must be unique between all the slice composite nodes because it is used as a singleton tag. Must be the same as the slice node. No name (i.e. "") by default. Typical names are numbers: "1", "2", ... to uniquely define the 3D view node. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLAbstractViewNode.html#a2150b01471b59056b3f63506a1b9d114">vtkMRMLViewNode::SetLayoutName</a> </dd></dl>
 
 </div>
 </div>
@@ -2252,36 +2238,7 @@ Set camera Parallel Scale </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00280">280</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
-
-</div>
-</div>
-<a id="adbdb25ca0cc3286691a5306c56c2d32c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbdb25ca0cc3286691a5306c56c2d32c">&#9670;&nbsp;</a></span>SetSceneReferences()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void vtkMRMLCameraNode::SetSceneReferences </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Mark the active tag node as references. </p>
-
-<p>Reimplemented from <a class="el" href="classvtkMRMLNode.html#a8016800312db3877c6c1598b402ce79c">vtkMRMLNode</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00278">278</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -2363,7 +2320,7 @@ Set camera Parallel Scale </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00294">294</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00292">292</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -2393,75 +2350,6 @@ Set camera Parallel Scale </p>
       </table>
 </div><div class="memdoc">
 <p>Translate the camera and focal point of a 6th of the screen width. Call TranslateAround 6 times to not see what was on screen before. </p>
-
-</div>
-</div>
-<a id="adacab8b7380747a8ff52204a0dc65951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adacab8b7380747a8ff52204a0dc65951">&#9670;&nbsp;</a></span>UpdateReferenceID()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void vtkMRMLCameraNode::UpdateReferenceID </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>oldID</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>newID</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><br />
-Update the stored reference to another node in the scene </p>
-
-<p>Reimplemented from <a class="el" href="classvtkMRMLNode.html#ac195117cc5b7b95015272e2bace61843">vtkMRMLNode</a>.</p>
-
-</div>
-</div>
-<a id="a0d25ac513c8093f5fcc4a76ad688046d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d25ac513c8093f5fcc4a76ad688046d">&#9670;&nbsp;</a></span>UpdateReferences()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void vtkMRMLCameraNode::UpdateReferences </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Updates this node if it depends on other nodes when the node is deleted in the scene </p>
-
-<p>Reimplemented from <a class="el" href="classvtkMRMLNode.html#a00cf168734a7d2ec37969706f9213b9e">vtkMRMLNode</a>.</p>
 
 </div>
 </div>
@@ -2546,7 +2434,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00273">273</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00271">271</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -2570,7 +2458,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00266">266</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00267">267</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -2594,7 +2482,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00275">275</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00273">273</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -2618,12 +2506,12 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00276">276</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00274">274</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
-<a id="a409080a96d364f7a6b5fb8a9c1f33381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a409080a96d364f7a6b5fb8a9c1f33381">&#9670;&nbsp;</a></span>InternalActiveTag</h2>
+<a id="ad2b2183315ae3c0f905f5b5e1e485384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b2183315ae3c0f905f5b5e1e485384">&#9670;&nbsp;</a></span>InternalActiveTag</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2632,7 +2520,7 @@ Write this node's information to a MRML file in XML format. </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char* vtkMRMLCameraNode::InternalActiveTag {nullptr}</td>
+          <td class="memname">std::string vtkMRMLCameraNode::InternalActiveTag</td>
         </tr>
       </table>
   </td>
@@ -2642,7 +2530,7 @@ Write this node's information to a MRML file in XML format. </p>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00271">271</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLCameraNode_8h_source.html#l00269">269</a> of file <a class="el" href="vtkMRMLCameraNode_8h_source.html">vtkMRMLCameraNode.h</a>.</p>
 
 </div>
 </div>
@@ -2652,7 +2540,7 @@ Write this node's information to a MRML file in XML format. </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 3 2021 21:58:34 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 4 2021 07:10:54 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

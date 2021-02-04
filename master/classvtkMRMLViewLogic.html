@@ -117,6 +117,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a4f2f739aa93aa9fdec9967cbd750696c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a4f2f739aa93aa9fdec9967cbd750696c">AddViewNode</a> (const char *layoutName)</td></tr>
+<tr class="memdesc:a4f2f739aa93aa9fdec9967cbd750696c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function for adding a view node and setting it in this logic.  <a href="#a4f2f739aa93aa9fdec9967cbd750696c">More...</a><br /></td></tr>
+<tr class="separator:a4f2f739aa93aa9fdec9967cbd750696c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06ce6fc545cea02d97e74f3f10e37dee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a06ce6fc545cea02d97e74f3f10e37dee">EndCameraNodeInteraction</a> ()</td></tr>
 <tr class="memdesc:a06ce6fc545cea02d97e74f3f10e37dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate an interaction with the slice node has been completed.  <a href="#a06ce6fc545cea02d97e74f3f10e37dee">More...</a><br /></td></tr>
 <tr class="separator:a06ce6fc545cea02d97e74f3f10e37dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,8 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aab4477aa5a5fba918ebdc004cd0f3290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec23024895d5c1c8c5731ce733126743"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#aec23024895d5c1c8c5731ce733126743">GetClassName</a> ()</td></tr>
 <tr class="separator:aec23024895d5c1c8c5731ce733126743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e2be62c1638dae577d6cdf5e59bdd34"><td class="memItemLeft" align="right" valign="top">virtual char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a3e2be62c1638dae577d6cdf5e59bdd34">GetName</a> ()</td></tr>
-<tr class="separator:a3e2be62c1638dae577d6cdf5e59bdd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac073bc03e50d50e927aa9fda39af3248"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#ac073bc03e50d50e927aa9fda39af3248">GetName</a> () const</td></tr>
+<tr class="separator:ac073bc03e50d50e927aa9fda39af3248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3911e81537444668f6ac9756c7410f25"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a3911e81537444668f6ac9756c7410f25">GetViewNode</a> ()</td></tr>
 <tr class="memdesc:a3911e81537444668f6ac9756c7410f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">The MRML View node for this View logic.  <a href="#a3911e81537444668f6ac9756c7410f25">More...</a><br /></td></tr>
 <tr class="separator:a3911e81537444668f6ac9756c7410f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,23 +140,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a43db9f95ffd81da409bfb8979de83d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f72adb8ac39a40f38f7088b2aec53c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a1f72adb8ac39a40f38f7088b2aec53c6">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:a1f72adb8ac39a40f38f7088b2aec53c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca2830bf5e32897ac093bc6fe29e7f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#aca2830bf5e32897ac093bc6fe29e7f6e">SetCameraNode</a> (<a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a> *newCameraNode)</td></tr>
-<tr class="separator:aca2830bf5e32897ac093bc6fe29e7f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d8f8a91140e87057d27209801077a8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a5d8f8a91140e87057d27209801077a8a">SetName</a> (const char *)</td></tr>
-<tr class="memdesc:a5d8f8a91140e87057d27209801077a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set / Get SliceLogic name.  <a href="#a5d8f8a91140e87057d27209801077a8a">More...</a><br /></td></tr>
-<tr class="separator:a5d8f8a91140e87057d27209801077a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79f30334a76986a84c34817d34122f96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a79f30334a76986a84c34817d34122f96">SetViewNode</a> (<a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *newViewNode)</td></tr>
-<tr class="separator:a79f30334a76986a84c34817d34122f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b1b45a7b821d9349cd008f21b0d27cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a4b1b45a7b821d9349cd008f21b0d27cc">SetName</a> (const char *name)</td></tr>
+<tr class="memdesc:a4b1b45a7b821d9349cd008f21b0d27cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set/Get layout name. This is used for finding the camera and view node in the scene.  <a href="#a4b1b45a7b821d9349cd008f21b0d27cc">More...</a><br /></td></tr>
+<tr class="separator:a4b1b45a7b821d9349cd008f21b0d27cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0180feb0bb85056d37bb6d549f9131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#aad0180feb0bb85056d37bb6d549f9131">StartCameraNodeInteraction</a> (unsigned int parameters)</td></tr>
 <tr class="separator:aad0180feb0bb85056d37bb6d549f9131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90ac34e2ce9becb38be61587ef94f10c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a90ac34e2ce9becb38be61587ef94f10c">StartViewNodeInteraction</a> (unsigned int parameters)</td></tr>
 <tr class="separator:a90ac34e2ce9becb38be61587ef94f10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fd6e39a69d2c2d3d699df0087975e94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a4fd6e39a69d2c2d3d699df0087975e94">UpdateCameraNode</a> ()</td></tr>
-<tr class="memdesc:a4fd6e39a69d2c2d3d699df0087975e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage and synchronise the CameraNode.  <a href="#a4fd6e39a69d2c2d3d699df0087975e94">More...</a><br /></td></tr>
-<tr class="separator:a4fd6e39a69d2c2d3d699df0087975e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbfc0be5f42624e4bc825565afb30563"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#acbfc0be5f42624e4bc825565afb30563">UpdateViewNode</a> ()</td></tr>
-<tr class="memdesc:acbfc0be5f42624e4bc825565afb30563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage and synchronise the ViewNode.  <a href="#acbfc0be5f42624e4bc825565afb30563">More...</a><br /></td></tr>
-<tr class="separator:acbfc0be5f42624e4bc825565afb30563"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classvtkMRMLAbstractLogic"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classvtkMRMLAbstractLogic')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classvtkMRMLAbstractLogic.html">vtkMRMLAbstractLogic</a></td></tr>
 <tr class="memitem:ab3d98bd9070b6f3eb3cc9aba0c5f35e5 inherit pub_methods_classvtkMRMLAbstractLogic"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classvtkMRMLApplicationLogic.html">vtkMRMLApplicationLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractLogic.html#ab3d98bd9070b6f3eb3cc9aba0c5f35e5">GetMRMLApplicationLogic</a> () const</td></tr>
 <tr class="memdesc:ab3d98bd9070b6f3eb3cc9aba0c5f35e5 inherit pub_methods_classvtkMRMLAbstractLogic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get access to overall application state.  <a href="classvtkMRMLAbstractLogic.html#ab3d98bd9070b6f3eb3cc9aba0c5f35e5">More...</a><br /></td></tr>
@@ -196,8 +189,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a823e883ff6a5c8318f8c50474633d31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1e1fe483c1f74bfd3caa8e7c39a630f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#ad1e1fe483c1f74bfd3caa8e7c39a630f">OnMRMLSceneNodeRemoved</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node) override</td></tr>
 <tr class="separator:ad1e1fe483c1f74bfd3caa8e7c39a630f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca2830bf5e32897ac093bc6fe29e7f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#aca2830bf5e32897ac093bc6fe29e7f6e">SetCameraNode</a> (<a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a> *newCameraNode)</td></tr>
+<tr class="separator:aca2830bf5e32897ac093bc6fe29e7f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03a55c391aa86af75b5b9f2007841ff0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a03a55c391aa86af75b5b9f2007841ff0">SetMRMLSceneInternal</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *newScene) override</td></tr>
 <tr class="separator:a03a55c391aa86af75b5b9f2007841ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f30334a76986a84c34817d34122f96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a79f30334a76986a84c34817d34122f96">SetViewNode</a> (<a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *newViewNode)</td></tr>
+<tr class="separator:a79f30334a76986a84c34817d34122f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefd29fbec0c756c80d23a7b77a25d217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#aefd29fbec0c756c80d23a7b77a25d217">UpdateFromMRMLScene</a> () override</td></tr>
 <tr class="separator:aefd29fbec0c756c80d23a7b77a25d217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf77a6c054ecfdcfbf9f13daec5dd057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#abf77a6c054ecfdcfbf9f13daec5dd057">UpdateMRMLNodes</a> ()</td></tr>
@@ -299,8 +296,10 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a70455dd8d4b81ff6aa34aadd257bae45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLCameraNode.html">vtkMRMLCameraNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a70455dd8d4b81ff6aa34aadd257bae45">CameraNode</a></td></tr>
 <tr class="separator:a70455dd8d4b81ff6aa34aadd257bae45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4356b996842d82376deb21173bf88965"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a4356b996842d82376deb21173bf88965">Name</a></td></tr>
-<tr class="separator:a4356b996842d82376deb21173bf88965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69bb3739286559d52dcfbf3aa9d42d32"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a69bb3739286559d52dcfbf3aa9d42d32">Name</a></td></tr>
+<tr class="separator:a69bb3739286559d52dcfbf3aa9d42d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a965076578564d962e830560303b08876"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#a965076578564d962e830560303b08876">UpdatingMRMLNodes</a></td></tr>
+<tr class="separator:a965076578564d962e830560303b08876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2024f653aec47795a316db76bf4e5d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLViewLogic.html#ae2024f653aec47795a316db76bf4e5d2">ViewNode</a></td></tr>
 <tr class="separator:ae2024f653aec47795a316db76bf4e5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -390,6 +389,26 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4f2f739aa93aa9fdec9967cbd750696c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2f739aa93aa9fdec9967cbd750696c">&#9670;&nbsp;</a></span>AddViewNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a>* vtkMRMLViewLogic::AddViewNode </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>layoutName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convenience function for adding a view node and setting it in this logic. </p>
+
+</div>
+</div>
 <a id="a06ce6fc545cea02d97e74f3f10e37dee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06ce6fc545cea02d97e74f3f10e37dee">&#9670;&nbsp;</a></span>EndCameraNodeInteraction()</h2>
 
@@ -519,8 +538,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e2be62c1638dae577d6cdf5e59bdd34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e2be62c1638dae577d6cdf5e59bdd34">&#9670;&nbsp;</a></span>GetName()</h2>
+<a id="ac073bc03e50d50e927aa9fda39af3248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac073bc03e50d50e927aa9fda39af3248">&#9670;&nbsp;</a></span>GetName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -529,10 +548,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual char* vtkMRMLViewLogic::GetName </td>
+          <td class="memname">virtual const char* vtkMRMLViewLogic::GetName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -818,6 +837,9 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void vtkMRMLViewLogic::SetCameraNode </td>
@@ -827,6 +849,11 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -862,8 +889,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5d8f8a91140e87057d27209801077a8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d8f8a91140e87057d27209801077a8a">&#9670;&nbsp;</a></span>SetName()</h2>
+<a id="a4b1b45a7b821d9349cd008f21b0d27cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b1b45a7b821d9349cd008f21b0d27cc">&#9670;&nbsp;</a></span>SetName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -875,7 +902,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">virtual void vtkMRMLViewLogic::SetName </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -886,7 +913,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set / Get SliceLogic name. </p>
+<p>Set/Get layout name. This is used for finding the camera and view node in the scene. </p>
 
 </div>
 </div>
@@ -895,6 +922,9 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void vtkMRMLViewLogic::SetViewNode </td>
@@ -904,6 +934,11 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -943,25 +978,6 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Indicate an interaction with the view node is beginning. The parameters of the view node being manipulated are passed as a bitmask. See <a class="el" href="classvtkMRMLViewNode.html#a0808d1f461ee3b95ad6cfbf2ef050a87">vtkMRMLViewNode::InteractionFlagType</a>. </p>
-
-</div>
-</div>
-<a id="a4fd6e39a69d2c2d3d699df0087975e94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fd6e39a69d2c2d3d699df0087975e94">&#9670;&nbsp;</a></span>UpdateCameraNode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void vtkMRMLViewLogic::UpdateCameraNode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Manage and synchronise the CameraNode. </p>
 
 </div>
 </div>
@@ -1018,25 +1034,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acbfc0be5f42624e4bc825565afb30563"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbfc0be5f42624e4bc825565afb30563">&#9670;&nbsp;</a></span>UpdateViewNode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void vtkMRMLViewLogic::UpdateViewNode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Manage and synchronise the ViewNode. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a70455dd8d4b81ff6aa34aadd257bae45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70455dd8d4b81ff6aa34aadd257bae45">&#9670;&nbsp;</a></span>CameraNode</h2>
@@ -1058,12 +1055,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewLogic_8h_source.html#l00121">121</a> of file <a class="el" href="vtkMRMLViewLogic_8h_source.html">vtkMRMLViewLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewLogic_8h_source.html#l00120">120</a> of file <a class="el" href="vtkMRMLViewLogic_8h_source.html">vtkMRMLViewLogic.h</a>.</p>
 
 </div>
 </div>
-<a id="a4356b996842d82376deb21173bf88965"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4356b996842d82376deb21173bf88965">&#9670;&nbsp;</a></span>Name</h2>
+<a id="a69bb3739286559d52dcfbf3aa9d42d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bb3739286559d52dcfbf3aa9d42d32">&#9670;&nbsp;</a></span>Name</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1072,7 +1069,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char* vtkMRMLViewLogic::Name</td>
+          <td class="memname">std::string vtkMRMLViewLogic::Name</td>
         </tr>
       </table>
   </td>
@@ -1082,7 +1079,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewLogic_8h_source.html#l00119">119</a> of file <a class="el" href="vtkMRMLViewLogic_8h_source.html">vtkMRMLViewLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewLogic_8h_source.html#l00117">117</a> of file <a class="el" href="vtkMRMLViewLogic_8h_source.html">vtkMRMLViewLogic.h</a>.</p>
+
+</div>
+</div>
+<a id="a965076578564d962e830560303b08876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a965076578564d962e830560303b08876">&#9670;&nbsp;</a></span>UpdatingMRMLNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLViewLogic::UpdatingMRMLNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewLogic_8h_source.html#l00121">121</a> of file <a class="el" href="vtkMRMLViewLogic_8h_source.html">vtkMRMLViewLogic.h</a>.</p>
 
 </div>
 </div>
@@ -1106,7 +1127,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLViewLogic_8h_source.html#l00120">120</a> of file <a class="el" href="vtkMRMLViewLogic_8h_source.html">vtkMRMLViewLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLViewLogic_8h_source.html#l00119">119</a> of file <a class="el" href="vtkMRMLViewLogic_8h_source.html">vtkMRMLViewLogic.h</a>.</p>
 
 </div>
 </div>
@@ -1116,7 +1137,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 3 2021 21:58:36 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 4 2021 07:10:58 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

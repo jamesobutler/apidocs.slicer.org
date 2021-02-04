@@ -69,7 +69,8 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-slots">Protected Slots</a>  </div>
+<a href="#pro-slots">Protected Slots</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">qMRMLThreeDViewControllerWidget Class Reference</div>  </div>
 </div><!--header-->
@@ -143,8 +144,6 @@ Public Slots</h2></td></tr>
 <tr class="separator:a69a7af55528840eafd90a93b55b65ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad899890b4b1048c85be68ae9c83f9be8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#ad899890b4b1048c85be68ae9c83f9be8">setMRMLScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *newScene) override</td></tr>
 <tr class="separator:ad899890b4b1048c85be68ae9c83f9be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19f4ca571a1a828097c9f21aaa1295c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a19f4ca571a1a828097c9f21aaa1295c7">setMRMLViewNode</a> (<a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *viewNode)</td></tr>
-<tr class="separator:a19f4ca571a1a828097c9f21aaa1295c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac3c96036bf22eb3d3453d7a42419b15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#aac3c96036bf22eb3d3453d7a42419b15">setOrientationMarkerSize</a> (int size)</td></tr>
 <tr class="separator:aac3c96036bf22eb3d3453d7a42419b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab70f74e7ee6408f571aa21572c2a7b73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#ab70f74e7ee6408f571aa21572c2a7b73">setOrientationMarkerType</a> (int type)</td></tr>
@@ -187,21 +186,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab3075285acc63e327727bce101e9bbc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a363321df6b9d7c958b4e39efd37bed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a4a363321df6b9d7c958b4e39efd37bed">setQuadBufferStereoSupportEnabled</a> (bool value)</td></tr>
 <tr class="separator:a4a363321df6b9d7c958b4e39efd37bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab142ce24fefa4919e831a6c187e71cf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#ab142ce24fefa4919e831a6c187e71cf2">setViewColor</a> (const QColor &amp;newViewColor)</td></tr>
-<tr class="memdesc:ab142ce24fefa4919e831a6c187e71cf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the color for the view.  <a href="#ab142ce24fefa4919e831a6c187e71cf2">More...</a><br /></td></tr>
-<tr class="separator:ab142ce24fefa4919e831a6c187e71cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e85843cbc427b95b5fca81085dc8b89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a4e85843cbc427b95b5fca81085dc8b89">setViewLabel</a> (const QString &amp;newViewLabel)</td></tr>
-<tr class="separator:a4e85843cbc427b95b5fca81085dc8b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36aa80fb8a0e4369d395abd7793585d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a36aa80fb8a0e4369d395abd7793585d0">setViewLogic</a> (<a class="el" href="classvtkMRMLViewLogic.html">vtkMRMLViewLogic</a> *newViewLogic)</td></tr>
 <tr class="separator:a36aa80fb8a0e4369d395abd7793585d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd611617fa400cabcbbb3e7dce3131d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#abd611617fa400cabcbbb3e7dce3131d5">setViewLogics</a> (vtkCollection *logics)</td></tr>
-<tr class="separator:abd611617fa400cabcbbb3e7dce3131d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ed4c483ad78c48cb4f33c4ad7d27a0"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a90ed4c483ad78c48cb4f33c4ad7d27a0">viewColor</a> () const</td></tr>
-<tr class="memdesc:a90ed4c483ad78c48cb4f33c4ad7d27a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the color for the view.  <a href="#a90ed4c483ad78c48cb4f33c4ad7d27a0">More...</a><br /></td></tr>
-<tr class="separator:a90ed4c483ad78c48cb4f33c4ad7d27a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a148f669131e52bcdf820945cf5eaa129"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a148f669131e52bcdf820945cf5eaa129">viewLabel</a> () const</td></tr>
-<tr class="memdesc:a148f669131e52bcdf820945cf5eaa129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the label for the view (abbreviation for the view name)  <a href="#a148f669131e52bcdf820945cf5eaa129">More...</a><br /></td></tr>
-<tr class="separator:a148f669131e52bcdf820945cf5eaa129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a829dd9df6980b5ccbe659458be6dd88a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLViewLogic.html">vtkMRMLViewLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a829dd9df6980b5ccbe659458be6dd88a">viewLogic</a> () const</td></tr>
 <tr class="memdesc:a829dd9df6980b5ccbe659458be6dd88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get ViewLogic.  <a href="#a829dd9df6980b5ccbe659458be6dd88a">More...</a><br /></td></tr>
 <tr class="separator:a829dd9df6980b5ccbe659458be6dd88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,6 +226,16 @@ Protected Slots</h2></td></tr>
 <tr class="separator:aedd14a513776c4c389f31d809b91a201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b0dcee41438c69731a127583949087f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a7b0dcee41438c69731a127583949087f">updateWidgetFromMRMLView</a> ()</td></tr>
 <tr class="separator:a7b0dcee41438c69731a127583949087f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea0c495320ac4c569a337bee7725d44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a7ea0c495320ac4c569a337bee7725d44">updateWidgetFromMRMLViewLogic</a> ()</td></tr>
+<tr class="separator:a7ea0c495320ac4c569a337bee7725d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a19f4ca571a1a828097c9f21aaa1295c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLThreeDViewControllerWidget.html#a19f4ca571a1a828097c9f21aaa1295c7">setMRMLViewNode</a> (<a class="el" href="classvtkMRMLViewNode.html">vtkMRMLViewNode</a> *viewNode)</td></tr>
+<tr class="separator:a19f4ca571a1a828097c9f21aaa1295c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classqMRMLViewControllerBar"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classqMRMLViewControllerBar')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classqMRMLViewControllerBar.html">qMRMLViewControllerBar</a></td></tr>
+<tr class="memitem:a54cfdcf71b1a55310b1bad321e380a37 inherit pro_methods_classqMRMLViewControllerBar"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLViewControllerBar.html#a54cfdcf71b1a55310b1bad321e380a37">qMRMLViewControllerBar</a> (qMRMLViewControllerBarPrivate *pimpl, QWidget *parent=nullptr)</td></tr>
+<tr class="separator:a54cfdcf71b1a55310b1bad321e380a37 inherit pro_methods_classqMRMLViewControllerBar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -252,9 +248,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a915a1ee81b9a1ac5afce5a46b6d0bfe5 inherit pub_static_methods_classqMRMLWidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2ccfd2f722572323a4adfceedcda0a6 inherit pub_static_methods_classqMRMLWidget"><td class="memItemLeft" align="right" valign="top">static Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLWidget.html#aa2ccfd2f722572323a4adfceedcda0a6">preInitializeApplication</a> ()</td></tr>
 <tr class="separator:aa2ccfd2f722572323a4adfceedcda0a6 inherit pub_static_methods_classqMRMLWidget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classqMRMLViewControllerBar"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classqMRMLViewControllerBar')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classqMRMLViewControllerBar.html">qMRMLViewControllerBar</a></td></tr>
-<tr class="memitem:a54cfdcf71b1a55310b1bad321e380a37 inherit pro_methods_classqMRMLViewControllerBar"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLViewControllerBar.html#a54cfdcf71b1a55310b1bad321e380a37">qMRMLViewControllerBar</a> (qMRMLViewControllerBarPrivate *pimpl, QWidget *parent=nullptr)</td></tr>
-<tr class="separator:a54cfdcf71b1a55310b1bad321e380a37 inherit pro_methods_classqMRMLViewControllerBar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classqMRMLViewControllerBar"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classqMRMLViewControllerBar')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classqMRMLViewControllerBar.html">qMRMLViewControllerBar</a></td></tr>
 <tr class="memitem:a0ef836bbfc28c497f172d2c258fba98c inherit pro_attribs_classqMRMLViewControllerBar"><td class="memItemLeft" align="right" valign="top">QScopedPointer&lt; qMRMLViewControllerBarPrivate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLViewControllerBar.html#a0ef836bbfc28c497f172d2c258fba98c">d_ptr</a></td></tr>
 <tr class="separator:a0ef836bbfc28c497f172d2c258fba98c inherit pro_attribs_classqMRMLViewControllerBar"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,7 +257,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html#l00042">42</a> of file <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html">qMRMLThreeDViewControllerWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html#l00041">41</a> of file <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html">qMRMLThreeDViewControllerWidget.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aec702c7c07ed4830813d0d14a5a82c80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec702c7c07ed4830813d0d14a5a82c80">&#9670;&nbsp;</a></span>Superclass</h2>
@@ -280,7 +273,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Superclass typedef. </p>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html#l00049">49</a> of file <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html">qMRMLThreeDViewControllerWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html#l00048">48</a> of file <a class="el" href="qMRMLThreeDViewControllerWidget_8h_source.html">qMRMLThreeDViewControllerWidget.h</a>.</p>
 
 </div>
 </div>
@@ -690,7 +683,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a19f4ca571a1a828097c9f21aaa1295c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19f4ca571a1a828097c9f21aaa1295c7">&#9670;&nbsp;</a></span>setMRMLViewNode</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f4ca571a1a828097c9f21aaa1295c7">&#9670;&nbsp;</a></span>setMRMLViewNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -708,7 +701,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -942,45 +935,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab142ce24fefa4919e831a6c187e71cf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab142ce24fefa4919e831a6c187e71cf2">&#9670;&nbsp;</a></span>setViewColor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void qMRMLThreeDViewControllerWidget::setViewColor </td>
-          <td>(</td>
-          <td class="paramtype">const QColor &amp;&#160;</td>
-          <td class="paramname"><em>newViewColor</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the color for the view. </p>
-
-</div>
-</div>
-<a id="a4e85843cbc427b95b5fca81085dc8b89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e85843cbc427b95b5fca81085dc8b89">&#9670;&nbsp;</a></span>setViewLabel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void qMRMLThreeDViewControllerWidget::setViewLabel </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>newViewLabel</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Set the label for the 3D view (abbreviation for the view name) </p>
-
-</div>
-</div>
 <a id="a83000d992c898faaf84198721e5b44c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83000d992c898faaf84198721e5b44c6">&#9670;&nbsp;</a></span>setViewLink</h2>
 
@@ -1025,25 +979,6 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Set <em>newViewLogic</em> Use if two instances of the controller need to observe the same logic. </p>
-
-</div>
-</div>
-<a id="abd611617fa400cabcbbb3e7dce3131d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd611617fa400cabcbbb3e7dce3131d5">&#9670;&nbsp;</a></span>setViewLogics()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void qMRMLThreeDViewControllerWidget::setViewLogics </td>
-          <td>(</td>
-          <td class="paramtype">vtkCollection *&#160;</td>
-          <td class="paramname"><em>logics</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>TODO: Ideally the view logics should be retrieved by the viewLogic until then, we manually set them. </p>
 
 </div>
 </div>
@@ -1150,41 +1085,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a90ed4c483ad78c48cb4f33c4ad7d27a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90ed4c483ad78c48cb4f33c4ad7d27a0">&#9670;&nbsp;</a></span>viewColor()</h2>
+<a id="a7ea0c495320ac4c569a337bee7725d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ea0c495320ac4c569a337bee7725d44">&#9670;&nbsp;</a></span>updateWidgetFromMRMLViewLogic</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QColor qMRMLThreeDViewControllerWidget::viewColor </td>
+          <td class="memname">void qMRMLThreeDViewControllerWidget::updateWidgetFromMRMLViewLogic </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Get the color for the view. </p>
-
-</div>
-</div>
-<a id="a148f669131e52bcdf820945cf5eaa129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a148f669131e52bcdf820945cf5eaa129">&#9670;&nbsp;</a></span>viewLabel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString qMRMLThreeDViewControllerWidget::viewLabel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the label for the view (abbreviation for the view name) </p>
 
 </div>
 </div>
@@ -1288,7 +1210,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 3 2021 21:58:32 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 4 2021 07:10:49 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -272,7 +272,7 @@ var searchData=
   ['translatesliceintersection',['TranslateSliceIntersection',['../classvtkMRMLSliceViewInteractorStyle.html#a544826263a64017fb39eee48133c5d49acafb636111434edf61b7a14e4047015c',1,'vtkMRMLSliceViewInteractorStyle']]],
   ['translatewidget',['TranslateWidget',['../classvtkSlicerMarkupsWidget.html#af12d26a2338372f4507285da652fecbd',1,'vtkSlicerMarkupsWidget']]],
   ['translating',['Translating',['../classvtkAnnotationROIRepresentation.html#a7622685147b79fb84a7f6b154476f9e3a1667548a979aaa112fad3881d1efd142',1,'vtkAnnotationROIRepresentation']]],
-  ['translation',['TRANSLATION',['../classqMRMLTransformSliders.html#a9106d0b033547d20589d624fa2d6563aae5e341fcef7fca8a3aa549372f69cc10',1,'qMRMLTransformSliders::TRANSLATION()'],['../classvtkMRMLInteractionEventData.html#a1e98cecce681e555eb34f87104d60e62',1,'vtkMRMLInteractionEventData::Translation()']]],
+  ['translation',['Translation',['../classvtkMRMLInteractionEventData.html#a1e98cecce681e555eb34f87104d60e62',1,'vtkMRMLInteractionEventData::Translation()'],['../classqMRMLTransformSliders.html#a9106d0b033547d20589d624fa2d6563aae5e341fcef7fca8a3aa549372f69cc10',1,'qMRMLTransformSliders::TRANSLATION()']]],
   ['translation_5fis',['TRANSLATION_IS',['../classqMRMLLinearTransformSlider.html#aaf4755e6c2a748d08a002d6edcd232e1ac2e17412272c8fa1fe6e9d9f89359492',1,'qMRMLLinearTransformSlider']]],
   ['translation_5flr',['TRANSLATION_LR',['../classqMRMLLinearTransformSlider.html#aaf4755e6c2a748d08a002d6edcd232e1a4c7a3975c8c6e1ec87616db59a491f51',1,'qMRMLLinearTransformSlider']]],
   ['translation_5fpa',['TRANSLATION_PA',['../classqMRMLLinearTransformSlider.html#aaf4755e6c2a748d08a002d6edcd232e1aa00d6ed0d12ff56d942876050b4f83ef',1,'qMRMLLinearTransformSlider']]],
