@@ -3,6 +3,8 @@ var searchData=
   ['vtk_5ffractional_5fdata_5ftype',['VTK_FRACTIONAL_DATA_TYPE',['../vtkPolyDataToFractionalLabelmapFilter_8h.html#ad049a05ca0fd4881d6b52b210d121b38',1,'vtkPolyDataToFractionalLabelmapFilter.h']]],
   ['vtk_5fstarburst_5fglyph',['VTK_STARBURST_GLYPH',['../vtkSlicerGlyphSource2D_8h.html#abd140306c695cd562acd86325822d62a',1,'VTK_STARBURST_GLYPH():&#160;vtkSlicerGlyphSource2D.h'],['../vtkAnnotationGlyphSource2D_8h.html#abd140306c695cd562acd86325822d62a',1,'VTK_STARBURST_GLYPH():&#160;vtkAnnotationGlyphSource2D.h']]],
   ['vtkcxxsetreferencestringmacro',['vtkCxxSetReferenceStringMacro',['../vtkMRMLNode_8h.html#ac7da75d7dd86dcceeeb0e39d6e3a7538',1,'vtkMRMLNode.h']]],
+  ['vtkerrortomessagecollectionmacro',['vtkErrorToMessageCollectionMacro',['../vtkMRMLMessageCollection_8h.html#a49229184c1c115a7bcb2faaf6a485610',1,'vtkMRMLMessageCollection.h']]],
+  ['vtkerrortomessagecollectionwithobjectmacro',['vtkErrorToMessageCollectionWithObjectMacro',['../vtkMRMLMessageCollection_8h.html#a2df6809b976738c9e44af4a6d26b5185',1,'vtkMRMLMessageCollection.h']]],
   ['vtkis_5fvolume_5fprops',['VTKIS_VOLUME_PROPS',['../vtkMRMLVolumeRenderingDisplayableManager_8h.html#ab87de4b3583ffb5f2e526e6e7887c879',1,'vtkMRMLVolumeRenderingDisplayableManager.h']]],
   ['vtkisobservedmrmlnodeeventmacro',['vtkIsObservedMRMLNodeEventMacro',['../vtkMRMLAbstractLogic_8h.html#aa05c77c5f1d55f73a76b5b488eab5ae3',1,'vtkMRMLAbstractLogic.h']]],
   ['vtkmrmlcopycontentdefaultmacro',['vtkMRMLCopyContentDefaultMacro',['../vtkMRMLNode_8h.html#a9ec87b61a537b14277a5c03936492712',1,'vtkMRMLNode.h']]],
@@ -27,5 +29,7 @@ var searchData=
   ['vtksetreferencestringbodymacro',['vtkSetReferenceStringBodyMacro',['../vtkMRMLNode_8h.html#a5068fe11f14b6af16828cb91375fbf69',1,'vtkMRMLNode.h']]],
   ['vtksetreferencestringmacro',['vtkSetReferenceStringMacro',['../vtkMRMLNode_8h.html#a0e5f60d5ebca1d9a7e58b4c5a3d1d64c',1,'vtkMRMLNode.h']]],
   ['vtkunobservemrmlnodemacro',['vtkUnObserveMRMLNodeMacro',['../vtkMRMLAbstractLogic_8h.html#ab6ddf2c9f720fcad9b66dd42aed170e9',1,'vtkMRMLAbstractLogic.h']]],
-  ['vtkunobservemrmlobjectmacro',['vtkUnObserveMRMLObjectMacro',['../vtkMRMLNode_8h.html#a46dfb97d7e695cecaf6d5c93189d9a6f',1,'vtkMRMLNode.h']]]
+  ['vtkunobservemrmlobjectmacro',['vtkUnObserveMRMLObjectMacro',['../vtkMRMLNode_8h.html#a46dfb97d7e695cecaf6d5c93189d9a6f',1,'vtkMRMLNode.h']]],
+  ['vtkwarningtomessagecollectionmacro',['vtkWarningToMessageCollectionMacro',['../vtkMRMLMessageCollection_8h.html#a77e454d0bad405b7afb514b726a5ae2d',1,'vtkMRMLMessageCollection.h']]],
+  ['vtkwarningtomessagecollectionwithobjectmacro',['vtkWarningToMessageCollectionWithObjectMacro',['../vtkMRMLMessageCollection_8h.html#a3b48ac417ee058c3b39346f1f46cd8ce',1,'vtkMRMLMessageCollection.h']]]
 ];

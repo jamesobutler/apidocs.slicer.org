@@ -335,7 +335,7 @@ var searchData=
   ['ioaction',['IOAction',['../classqSlicerFileDialog.html#afdc37c61d71fcc0e81c05b9756017e45',1,'qSlicerFileDialog']]],
   ['iofiletype',['IOFileType',['../classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1',1,'qSlicerIO']]],
   ['iomanager',['ioManager',['../classqSlicerApplication.html#a348ad2f370a267fc7787d47ea58728ea',1,'qSlicerApplication']]],
-  ['ioproperties',['ioProperties',['../classqSlicerScriptedFileDialog.html#a8755f69d07fdc99482b9232f34c38e65',1,'qSlicerScriptedFileDialog::ioProperties()'],['../classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d',1,'qSlicerIO::IOProperties()']]],
+  ['ioproperties',['IOProperties',['../classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d',1,'qSlicerIO::IOProperties()'],['../classqSlicerScriptedFileDialog.html#a8755f69d07fdc99482b9232f34c38e65',1,'qSlicerScriptedFileDialog::ioProperties()']]],
   ['ip_5fbyte',['IP_BYTE',['../misc_8h.html#aaf29f928c2439935d11f1a13dc35d7e2a01e1f10350853eac78c33f8c85ec3f66',1,'misc.h']]],
   ['ip_5fdouble',['IP_DOUBLE',['../misc_8h.html#aaf29f928c2439935d11f1a13dc35d7e2ae6a50332f8fc0f6ffa68bd7484def9a9',1,'misc.h']]],
   ['ip_5ffloat',['IP_FLOAT',['../misc_8h.html#aaf29f928c2439935d11f1a13dc35d7e2aeeda2d8c9e3fcf801ba2a8811c2fbe8c',1,'misc.h']]],

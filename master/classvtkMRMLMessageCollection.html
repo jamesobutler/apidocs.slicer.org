@@ -71,6 +71,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">vtkMRMLMessageCollection Class Reference</div>  </div>
@@ -112,12 +113,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afe3f47c7ff28441b0273c28d7855de78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92a98c4e40255a33cf71067148f42f0d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a92a98c4e40255a33cf71067148f42f0d">AddMessages</a> (<a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *source, const std::string &amp;prefix=std::string())</td></tr>
 <tr class="separator:a92a98c4e40255a33cf71067148f42f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab044ad12de88179ec12a7f58a8ae9b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#aab044ad12de88179ec12a7f58a8ae9b5">AddSeparator</a> ()</td></tr>
+<tr class="memdesc:aab044ad12de88179ec12a7f58a8ae9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a separator, for example to create message groups.  <a href="#aab044ad12de88179ec12a7f58a8ae9b5">More...</a><br /></td></tr>
+<tr class="separator:aab044ad12de88179ec12a7f58a8ae9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a863bd894be8134363479eddb2322d977"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a863bd894be8134363479eddb2322d977">ClearMessages</a> ()</td></tr>
 <tr class="memdesc:a863bd894be8134363479eddb2322d977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the message vector.  <a href="#a863bd894be8134363479eddb2322d977">More...</a><br /></td></tr>
 <tr class="separator:a863bd894be8134363479eddb2322d977"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a515df42085190dabb95b3af77c87c640"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a515df42085190dabb95b3af77c87c640">DeepCopy</a> (<a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *source)</td></tr>
 <tr class="memdesc:a515df42085190dabb95b3af77c87c640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy all messages from another collection.  <a href="#a515df42085190dabb95b3af77c87c640">More...</a><br /></td></tr>
 <tr class="separator:a515df42085190dabb95b3af77c87c640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd36af2ac337a1b6adba0aaa752d769"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a9cd36af2ac337a1b6adba0aaa752d769">GetAllMessagesAsString</a> (bool *errorFound=nullptr, bool *warningFound=nullptr)</td></tr>
+<tr class="separator:a9cd36af2ac337a1b6adba0aaa752d769"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a062d6102988ecc700ecb7572725c7920"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a062d6102988ecc700ecb7572725c7920">GetClassName</a> ()</td></tr>
 <tr class="separator:a062d6102988ecc700ecb7572725c7920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ba1208a4e663241f95ca5ad024f29d7"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a2ba1208a4e663241f95ca5ad024f29d7">GetNthMessageText</a> (int index) const</td></tr>
@@ -139,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2985dd69ee0d247c6cde83ba477f118a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57f8df7bd7035ce99500f4396cdf2065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a57f8df7bd7035ce99500f4396cdf2065">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:a57f8df7bd7035ce99500f4396cdf2065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af54e674defc3e680d36ec31c4e6a66"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a1af54e674defc3e680d36ec31c4e6a66">SetObservedObject</a> (vtkObject *observedObject)</td></tr>
+<tr class="separator:a1af54e674defc3e680d36ec31c4e6a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -160,15 +168,24 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a36f34a66a47b33e8f4b3287a911d283d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a36f34a66a47b33e8f4b3287a911d283d">~vtkMRMLMessageCollection</a> () override</td></tr>
 <tr class="separator:a36f34a66a47b33e8f4b3287a911d283d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a52caa5d89e3654b39e2823b26f18e868"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a52caa5d89e3654b39e2823b26f18e868">CallbackFunction</a> (vtkObject *, long unsigned int, void *clientData, void *callData)</td></tr>
+<tr class="separator:a52caa5d89e3654b39e2823b26f18e868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a056d0d6069435bd3fe62e6ecafa8daa0"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkCallbackCommand &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a056d0d6069435bd3fe62e6ecafa8daa0">CallbackCommand</a></td></tr>
+<tr class="separator:a056d0d6069435bd3fe62e6ecafa8daa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39b209047a4058edba51959f94422134"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structvtkMRMLMessageCollection_1_1Message.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a39b209047a4058edba51959f94422134">Messages</a></td></tr>
 <tr class="separator:a39b209047a4058edba51959f94422134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f00159303b4027fc0efe518dd7c9598"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a3f00159303b4027fc0efe518dd7c9598">ObservedObject</a></td></tr>
+<tr class="separator:a3f00159303b4027fc0efe518dd7c9598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class for recording warnings and errors associated with this <a class="el" href="classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. ">vtkMRMLStorableNode</a>. A substantially similar vtkMessageCollection is planned for vtkAddon. When that is released, this will be replaced by that. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00038">38</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00087">87</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a973b95aa3d45824fd74cf13d948fa1ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a973b95aa3d45824fd74cf13d948fa1ec">&#9670;&nbsp;</a></span>Superclass</h2>
@@ -182,7 +199,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00041">41</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00090">90</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
 
 </div>
 </div>
@@ -339,6 +356,81 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aab044ad12de88179ec12a7f58a8ae9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab044ad12de88179ec12a7f58a8ae9b5">&#9670;&nbsp;</a></span>AddSeparator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLMessageCollection::AddSeparator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a separator, for example to create message groups. </p>
+
+</div>
+</div>
+<a id="a52caa5d89e3654b39e2823b26f18e868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52caa5d89e3654b39e2823b26f18e868">&#9670;&nbsp;</a></span>CallbackFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void vtkMRMLMessageCollection::CallbackFunction </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long unsigned&#160;</td>
+          <td class="paramname"><em>int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>clientData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>callData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a863bd894be8134363479eddb2322d977"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a863bd894be8134363479eddb2322d977">&#9670;&nbsp;</a></span>ClearMessages()</h2>
 
@@ -391,6 +483,43 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Copy all messages from another collection. </p>
+
+</div>
+</div>
+<a id="a9cd36af2ac337a1b6adba0aaa752d769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd36af2ac337a1b6adba0aaa752d769">&#9670;&nbsp;</a></span>GetAllMessagesAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string vtkMRMLMessageCollection::GetAllMessagesAsString </td>
+          <td>(</td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>errorFound</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>warningFound</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return all messages in a single formatted string. If optional errorFound or warningFound pointers are set then the caller get information about presence of warnings or errors in the message list. </p>
 
 </div>
 </div>
@@ -723,7 +852,58 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1af54e674defc3e680d36ec31c4e6a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af54e674defc3e680d36ec31c4e6a66">&#9670;&nbsp;</a></span>SetObservedObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLMessageCollection::SetObservedObject </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *&#160;</td>
+          <td class="paramname"><em>observedObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Observe error and warnings reported by observedObject. For example, this can be used to capture errors from VTK classes and display them to the user. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a056d0d6069435bd3fe62e6ecafa8daa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a056d0d6069435bd3fe62e6ecafa8daa0">&#9670;&nbsp;</a></span>CallbackCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;vtkCallbackCommand&gt; vtkMRMLMessageCollection::CallbackCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00155">155</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+
+</div>
+</div>
 <a id="a39b209047a4058edba51959f94422134"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39b209047a4058edba51959f94422134">&#9670;&nbsp;</a></span>Messages</h2>
 
@@ -744,7 +924,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00089">89</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00156">156</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+
+</div>
+</div>
+<a id="a3f00159303b4027fc0efe518dd7c9598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f00159303b4027fc0efe518dd7c9598">&#9670;&nbsp;</a></span>ObservedObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;vtkObject&gt; vtkMRMLMessageCollection::ObservedObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00154">154</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
 
 </div>
 </div>
@@ -754,7 +958,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Feb 8 2021 18:19:03 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 8 2021 18:54:55 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
