@@ -27,6 +27,7 @@ var searchData=
   ['dependencies',['dependencies',['../classqSlicerAbstractCoreModule.html#aa6c956c127ed0f3b9755f6070c2c2d3f',1,'qSlicerAbstractCoreModule::dependencies()'],['../classqSlicerScriptedLoadableModule.html#ab0d17a7ca3bd7a4fac20ddd87a4f2d88',1,'qSlicerScriptedLoadableModule::dependencies()']]],
   ['description',['description',['../classqSlicerFileDialog.html#a1a971a61442b78f0c78b5b30cd733097',1,'qSlicerFileDialog::description()'],['../classqSlicerStandardFileDialog.html#ae32561aca13d659ef1f8790d03bd7355',1,'qSlicerStandardFileDialog::description()']]],
   ['descriptioncolumn',['descriptionColumn',['../classqMRMLSubjectHierarchyModel.html#afa408b316f988a68fe1082bc06e624a0',1,'qMRMLSubjectHierarchyModel']]],
+  ['descriptioncolumnvisible',['descriptionColumnVisible',['../classqMRMLSubjectHierarchyTreeView.html#ab171c8ef2b157c91cf97b8d20c7cc37e',1,'qMRMLSubjectHierarchyTreeView']]],
   ['directorylist',['directoryList',['../classqSlicerDirectoryListView.html#a3cf960b929d5b93b212592249288d570',1,'qSlicerDirectoryListView']]],
   ['disablebuiltinclimodules',['disableBuiltInCLIModules',['../classqSlicerCoreCommandOptions.html#a6caefe281a06c4fdb93ba596d681606b',1,'qSlicerCoreCommandOptions']]],
   ['disablebuiltinloadablemodules',['disableBuiltInLoadableModules',['../classqSlicerCoreCommandOptions.html#a2d7ac01dbca994d4f22a73decdc34150',1,'qSlicerCoreCommandOptions']]],

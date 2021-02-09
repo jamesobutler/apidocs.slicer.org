@@ -93,6 +93,7 @@ var searchData=
   ['transformboundstoras',['TransformBoundsToRAS',['../classvtkMRMLModelNode.html#a567f97dd1cc5a2dc7d80a22cad0f9abf',1,'vtkMRMLModelNode']]],
   ['transformbranch',['TransformBranch',['../classvtkSlicerSubjectHierarchyModuleLogic.html#a56160a34575fa7d312329a574fa4878a',1,'vtkSlicerSubjectHierarchyModuleLogic']]],
   ['transformcolumn',['transformColumn',['../classqMRMLSubjectHierarchyModel.html#a8f301aad3492d1382316a564390b65b6',1,'qMRMLSubjectHierarchyModel']]],
+  ['transformcolumnvisible',['transformColumnVisible',['../classqMRMLSubjectHierarchyTreeView.html#a89b2f05daa70fb6523d3c9d9c9d84869',1,'qMRMLSubjectHierarchyTreeView']]],
   ['transformcovariantvector',['TransformCovariantVector',['../classitk_1_1WarpTransform3D.html#af8465c382ee6b48390907a5e6823e308',1,'itk::WarpTransform3D']]],
   ['transformdeformationfieldfilter',['TransformDeformationFieldFilter',['../classitk_1_1TransformDeformationFieldFilter.html#a46043c3d8903fba088fe189a41b62dc1',1,'itk::TransformDeformationFieldFilter']]],
   ['transformextent',['TransformExtent',['../classvtkOrientedImageDataResample.html#a96401d3a166dd9766bbc1a1f852d6ee6',1,'vtkOrientedImageDataResample']]],

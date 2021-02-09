@@ -8,7 +8,7 @@ var searchData=
   ['clippingconfigurationbuttonvisible',['clippingConfigurationButtonVisible',['../classqMRMLModelDisplayNodeWidget.html#a529cee438a6dabdcba92c9bcb83b8070',1,'qMRMLModelDisplayNodeWidget']]],
   ['coefficient',['coefficient',['../classqMRMLUnitWidget.html#af705dc6c70616526825571d1d448273c',1,'qMRMLUnitWidget']]],
   ['colorcolumn',['colorColumn',['../classqMRMLColorModel.html#ac1e5a80af5fb45e2562f5d3ce1f650fe',1,'qMRMLColorModel::colorColumn()'],['../classqMRMLSceneDisplayableModel.html#a103ccaf312c92b5cb1bf7adbd3da2b31',1,'qMRMLSceneDisplayableModel::colorColumn()'],['../classqMRMLSegmentsModel.html#aec7b2e46f6ede310a5491dab0b718c8c',1,'qMRMLSegmentsModel::colorColumn()'],['../classqMRMLSubjectHierarchyModel.html#a80a7ac6ee59bb010cd694536a2caa3bf',1,'qMRMLSubjectHierarchyModel::colorColumn()']]],
-  ['colorcolumnvisible',['colorColumnVisible',['../classqMRMLSegmentsTableView.html#a0afc87ac63c1c8bfe9eef07b447856df',1,'qMRMLSegmentsTableView']]],
+  ['colorcolumnvisible',['colorColumnVisible',['../classqMRMLSegmentsTableView.html#a0afc87ac63c1c8bfe9eef07b447856df',1,'qMRMLSegmentsTableView::colorColumnVisible()'],['../classqMRMLSubjectHierarchyTreeView.html#a21bba71a1e1f494dadb51495e97faa1c',1,'qMRMLSubjectHierarchyTreeView::colorColumnVisible()']]],
   ['colornamevisible',['colorNameVisible',['../classqMRMLLabelComboBox.html#a684b9ed359fa1205aeb1ba7b113717c3',1,'qMRMLLabelComboBox']]],
   ['columnnamevisible',['columnNameVisible',['../classqSlicerTableColumnPropertiesWidget.html#a6d7b4f1c8c282d3f00d9db02ff6424d5',1,'qSlicerTableColumnPropertiesWidget']]],
   ['confirmtypechange',['confirmTypeChange',['../classqSlicerTableColumnPropertiesWidget.html#aaa1fddc35289e7857c489ffd4e0f730a',1,'qSlicerTableColumnPropertiesWidget']]],
