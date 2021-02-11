@@ -101,14 +101,21 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:af54bedf376d098f5937fe659b3400914"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#af54bedf376d098f5937fe659b3400914">attributeNameFilter</a></td></tr>
-<tr class="memdesc:af54bedf376d098f5937fe659b3400914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter to show only items that contain an attribute with this name. Empty by default.  <a href="#af54bedf376d098f5937fe659b3400914">More...</a><br /></td></tr>
 <tr class="separator:af54bedf376d098f5937fe659b3400914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1403d711c466c37fb6c69539be3b097"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#af1403d711c466c37fb6c69539be3b097">attributeValueFilter</a></td></tr>
 <tr class="separator:af1403d711c466c37fb6c69539be3b097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224f80f2f55565f9209205e2f55846c3"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a224f80f2f55565f9209205e2f55846c3">excludeItemAttributeNamesFilter</a></td></tr>
+<tr class="separator:a224f80f2f55565f9209205e2f55846c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc0d28501a756b6a5de617446931959"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a7cc0d28501a756b6a5de617446931959">excludeNodeAttributeNamesFilter</a></td></tr>
+<tr class="separator:a7cc0d28501a756b6a5de617446931959"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c2ed32d132a8190df0a1249fbddca6"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#af1c2ed32d132a8190df0a1249fbddca6">hideChildNodeTypes</a></td></tr>
 <tr class="separator:af1c2ed32d132a8190df0a1249fbddca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae84c2760ea681e37789862e4e8b3fe48"><td class="memItemLeft" align="right" valign="top">vtkIdType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#ae84c2760ea681e37789862e4e8b3fe48">hideItemsUnaffiliatedWithItemID</a></td></tr>
 <tr class="separator:ae84c2760ea681e37789862e4e8b3fe48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3138b82917fc1663ce08029fa0bdd6d0"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a3138b82917fc1663ce08029fa0bdd6d0">includeItemAttributeNamesFilter</a></td></tr>
+<tr class="separator:a3138b82917fc1663ce08029fa0bdd6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf46ab998cfe2a6a74b4440cae1370b6"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#acf46ab998cfe2a6a74b4440cae1370b6">includeNodeAttributeNamesFilter</a></td></tr>
+<tr class="separator:acf46ab998cfe2a6a74b4440cae1370b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8380cea52ab8d9a96ad09e47ed1f1a1e"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a8380cea52ab8d9a96ad09e47ed1f1a1e">levelFilter</a></td></tr>
 <tr class="memdesc:a8380cea52ab8d9a96ad09e47ed1f1a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter to show only items of a certain level (and their parents). If empty, then show all.  <a href="#a8380cea52ab8d9a96ad09e47ed1f1a1e">More...</a><br /></td></tr>
 <tr class="separator:a8380cea52ab8d9a96ad09e47ed1f1a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,8 +131,16 @@ Public Slots</h2></td></tr>
 <tr class="separator:aa7c600f43ac4796e7197786be77174b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9d4d3438350ad515307da08bed16f60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#ad9d4d3438350ad515307da08bed16f60">setAttributeValueFilter</a> (QString filter)</td></tr>
 <tr class="separator:ad9d4d3438350ad515307da08bed16f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1fb83aaa94012a9404ffc99cc0ac7f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#ac1fb83aaa94012a9404ffc99cc0ac7f3">setExcludeItemAttributeNamesFilter</a> (QStringList filterList)</td></tr>
+<tr class="separator:ac1fb83aaa94012a9404ffc99cc0ac7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a198f704cb0b7df40e701de87d55195b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a198f704cb0b7df40e701de87d55195b1">setExcludeNodeAttributeNamesFilter</a> (QStringList filterList)</td></tr>
+<tr class="separator:a198f704cb0b7df40e701de87d55195b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaf24b8e947333894d3cfac96efca68c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#adaf24b8e947333894d3cfac96efca68c">setHideChildNodeTypes</a> (const QStringList &amp;types)</td></tr>
 <tr class="separator:adaf24b8e947333894d3cfac96efca68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe457e4e7290659954dbb4e3be59e920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#afe457e4e7290659954dbb4e3be59e920">setIncludeItemAttributeNamesFilter</a> (QStringList filterList)</td></tr>
+<tr class="separator:afe457e4e7290659954dbb4e3be59e920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2058b8ee0651a8b94aacbca109fed735"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a2058b8ee0651a8b94aacbca109fed735">setIncludeNodeAttributeNamesFilter</a> (QStringList filterList)</td></tr>
+<tr class="separator:a2058b8ee0651a8b94aacbca109fed735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d0b135c8f40cf18dbe515e1483b5094"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a7d0b135c8f40cf18dbe515e1483b5094">setLevelFilter</a> (QStringList filter)</td></tr>
 <tr class="separator:a7d0b135c8f40cf18dbe515e1483b5094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae72996e9f87d95d7e36e28495d71e2c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#ae72996e9f87d95d7e36e28495d71e2c6">setNameFilter</a> (QString filter)</td></tr>
@@ -135,12 +150,20 @@ Public Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a35ab4649700e97563eb3a55fe71352"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a3a35ab4649700e97563eb3a55fe71352">acceptedItemCount</a> (vtkIdType rootItemID) const</td></tr>
-<tr class="separator:a3a35ab4649700e97563eb3a55fe71352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1048ec7826e32bf0b678141b0a98126b"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a1048ec7826e32bf0b678141b0a98126b">acceptedItemCount</a> (vtkIdType rootItemID=0) const</td></tr>
+<tr class="separator:a1048ec7826e32bf0b678141b0a98126b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0512033bbee22e086288f8308f0a86e"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#ab0512033bbee22e086288f8308f0a86e">addItemAttributeFilter</a> (QString attributeName, QVariant attributeValue=QString(), bool include=true)</td></tr>
+<tr class="separator:ab0512033bbee22e086288f8308f0a86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681da24635064d61abf9d0df28fecbc8"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a681da24635064d61abf9d0df28fecbc8">addNodeAttributeFilter</a> (QString attributeName, QVariant attributeValue=QString(), bool include=true, QString className=QString())</td></tr>
+<tr class="separator:a681da24635064d61abf9d0df28fecbc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1039a3135125c6b819d475f0f57e2d02"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a1039a3135125c6b819d475f0f57e2d02">attributeNameFilter</a> () const</td></tr>
 <tr class="separator:a1039a3135125c6b819d475f0f57e2d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9af0fe2999d07c8c9bc6b745285398"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#aab9af0fe2999d07c8c9bc6b745285398">attributeValueFilter</a> () const</td></tr>
 <tr class="separator:aab9af0fe2999d07c8c9bc6b745285398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac88a26798bb62640d8b9eb7b6717d402"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#ac88a26798bb62640d8b9eb7b6717d402">excludeItemAttributeNamesFilter</a> () const</td></tr>
+<tr class="separator:ac88a26798bb62640d8b9eb7b6717d402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a954a2caf4091a548ae2b3fd703b4a6"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a2a954a2caf4091a548ae2b3fd703b4a6">excludeNodeAttributeNamesFilter</a> () const</td></tr>
+<tr class="separator:a2a954a2caf4091a548ae2b3fd703b4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a796fa58d856dbe203c77752b9b6829cb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a796fa58d856dbe203c77752b9b6829cb">filterAcceptsItem</a> (vtkIdType itemID, bool canAcceptIfAnyChildIsAccepted=true) const</td></tr>
 <tr class="memdesc:a796fa58d856dbe203c77752b9b6829cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters items to decide which to display in the view.  <a href="#a796fa58d856dbe203c77752b9b6829cb">More...</a><br /></td></tr>
 <tr class="separator:a796fa58d856dbe203c77752b9b6829cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,8 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a35870b63bc617520978989ed09033dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50451f24fa4105aec02d2ea4cd4d24b2"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a50451f24fa4105aec02d2ea4cd4d24b2">hideChildNodeTypes</a> () const</td></tr>
 <tr class="separator:a50451f24fa4105aec02d2ea4cd4d24b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc9c47df8df51857d13a1853ebd4dfd"><td class="memItemLeft" align="right" valign="top">vtkIdType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a4fc9c47df8df51857d13a1853ebd4dfd">hideItemsUnaffiliatedWithItemID</a> ()</td></tr>
-<tr class="separator:a4fc9c47df8df51857d13a1853ebd4dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f94a39a21ec0ccea29e210c437f5929"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE vtkIdType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a1f94a39a21ec0ccea29e210c437f5929">hideItemsUnaffiliatedWithItemID</a> ()</td></tr>
+<tr class="separator:a1f94a39a21ec0ccea29e210c437f5929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01360e97a7b919142433aedd4f9a7f73"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a01360e97a7b919142433aedd4f9a7f73">includeItemAttributeNamesFilter</a> () const</td></tr>
+<tr class="separator:a01360e97a7b919142433aedd4f9a7f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586a059cb3c2f97ebe5a5caa33105934"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a586a059cb3c2f97ebe5a5caa33105934">includeNodeAttributeNamesFilter</a> () const</td></tr>
+<tr class="separator:a586a059cb3c2f97ebe5a5caa33105934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e4396fd89b9b5588a3de0bd457d654"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a31e4396fd89b9b5588a3de0bd457d654">indexFromSubjectHierarchyItem</a> (vtkIdType itemID, int column=0) const</td></tr>
 <tr class="memdesc:a31e4396fd89b9b5588a3de0bd457d654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve an index for a given a subject hierarchy item ID.  <a href="#a31e4396fd89b9b5588a3de0bd457d654">More...</a><br /></td></tr>
 <tr class="separator:a31e4396fd89b9b5588a3de0bd457d654"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,8 +192,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acd643e5ed1500776c9c2308b8522e7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeffe8ace9ce383cfa4b09a9174774fc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#aeffe8ace9ce383cfa4b09a9174774fc3">qMRMLSortFilterSubjectHierarchyProxyModel</a> (QObject *parent=nullptr)</td></tr>
 <tr class="separator:aeffe8ace9ce383cfa4b09a9174774fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a337e4e363051657209e66d3ff67a627a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a337e4e363051657209e66d3ff67a627a">setHideItemsUnaffiliatedWithItemID</a> (vtkIdType itemID)</td></tr>
-<tr class="separator:a337e4e363051657209e66d3ff67a627a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae3844d2f8562b9a0779fe1d23bb634"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a2ae3844d2f8562b9a0779fe1d23bb634">removeItemAttributeFilter</a> (QString attributeName, QVariant attributeValue, bool include)</td></tr>
+<tr class="memdesc:a2ae3844d2f8562b9a0779fe1d23bb634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove single item attribute filter specifying each attribute.  <a href="#a2ae3844d2f8562b9a0779fe1d23bb634">More...</a><br /></td></tr>
+<tr class="separator:a2ae3844d2f8562b9a0779fe1d23bb634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa25d7ebef1649a0e2c5aee8af40401c"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#afa25d7ebef1649a0e2c5aee8af40401c">removeItemAttributeFilter</a> (QString attributeName, bool include)</td></tr>
+<tr class="memdesc:afa25d7ebef1649a0e2c5aee8af40401c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all item attribute filters specifying a given attribute name and include flag.  <a href="#afa25d7ebef1649a0e2c5aee8af40401c">More...</a><br /></td></tr>
+<tr class="separator:afa25d7ebef1649a0e2c5aee8af40401c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9f0ca32c464564fb15226ebb303d14"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a2c9f0ca32c464564fb15226ebb303d14">removeNodeAttributeFilter</a> (QString attributeName, QVariant attributeValue, bool include, QString className)</td></tr>
+<tr class="memdesc:a2c9f0ca32c464564fb15226ebb303d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove single node attribute filter specifying each attribute.  <a href="#a2c9f0ca32c464564fb15226ebb303d14">More...</a><br /></td></tr>
+<tr class="separator:a2c9f0ca32c464564fb15226ebb303d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d3db0a3559830eaa0a6f1b28ef93a9"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a29d3db0a3559830eaa0a6f1b28ef93a9">removeNodeAttributeFilter</a> (QString attributeName, bool include)</td></tr>
+<tr class="memdesc:a29d3db0a3559830eaa0a6f1b28ef93a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all node attribute filters specifying a given attribute name and include flag.  <a href="#a29d3db0a3559830eaa0a6f1b28ef93a9">More...</a><br /></td></tr>
+<tr class="separator:a29d3db0a3559830eaa0a6f1b28ef93a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab6973907ee5137ca70916620ac27c8"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a9ab6973907ee5137ca70916620ac27c8">setHideItemsUnaffiliatedWithItemID</a> (vtkIdType itemID)</td></tr>
+<tr class="separator:a9ab6973907ee5137ca70916620ac27c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcbd946c2eb03e53561f588deee73fee"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE vtkIdType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#afcbd946c2eb03e53561f588deee73fee">subjectHierarchyItemFromIndex</a> (const QModelIndex &amp;index) const</td></tr>
 <tr class="memdesc:afcbd946c2eb03e53561f588deee73fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the associated subject hierarchy item ID from a model index.  <a href="#afcbd946c2eb03e53561f588deee73fee">More...</a><br /></td></tr>
 <tr class="separator:afcbd946c2eb03e53561f588deee73fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,7 +243,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00074">74</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00092">92</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -228,10 +267,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Filter to show only items that contain an attribute with this name. Empty by default Note: Deprecated, kept only for backwards compatibility. Sets and returns the first attribute in </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#acf46ab998cfe2a6a74b4440cae1370b6">includeNodeAttributeNamesFilter</a> </dd></dl>
 
-<p>Filter to show only items that contain an attribute with this name. Empty by default. </p>
-
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00050">50</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00084">84</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -254,9 +292,59 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Filter to show only items that contain an attribute with </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#af54bedf376d098f5937fe659b3400914" title="Filter to show only items that contain an attribute with this name. Empty by default. ">attributeNameFilter</a> (must be set) with this value. If empty, then existence of the attribute is enough to show Exact match is required. Empty by default </dd></dl>
+<p>Filter to show only items that contain any attribute given in </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a3138b82917fc1663ce08029fa0bdd6d0">includeItemAttributeNamesFilter</a> with the value. If empty, then existence of the attributes is enough to show. Exact match is required. Empty by default Note: Deprecated, kept only for backwards compatibility. Works consistently with the previous operation. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00054">54</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00089">89</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+
+</div>
+</div>
+<a id="a224f80f2f55565f9209205e2f55846c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224f80f2f55565f9209205e2f55846c3">&#9670;&nbsp;</a></span>excludeItemAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::excludeItemAttributeNamesFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Filter to hide items that contain any of the given attributes with this name. Empty by default. When setting it, all the include filters are overwritten. Overrides </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#a3138b82917fc1663ce08029fa0bdd6d0">includeItemAttributeNamesFilter</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00076">76</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+
+</div>
+</div>
+<a id="a7cc0d28501a756b6a5de617446931959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc0d28501a756b6a5de617446931959">&#9670;&nbsp;</a></span>excludeNodeAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::excludeNodeAttributeNamesFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Filter to hide items for data nodes that contain any of the given attributes with this name. Empty by default. When setting it, all the include filters are overwritten. Overrides </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqMRMLSortFilterSubjectHierarchyProxyModel.html#acf46ab998cfe2a6a74b4440cae1370b6">includeNodeAttributeNamesFilter</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00080">80</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +369,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This property controls the items to hide by MRML node type Any node of type <em>nodeType</em> are visible except the ones also of type <em>hideChildNodeTypes</em>. e.g.: nodeTypes = <a class="el" href="classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack). ">vtkMRMLVolumeNode</a>, showChildNodeTypes = true, hideChildNodeTypes = <a class="el" href="classvtkMRMLDiffusionWeightedVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. ">vtkMRMLDiffusionWeightedVolumeNode</a> -&gt; all the nodes of type <a class="el" href="classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack). ">vtkMRMLScalarVolumeNode</a>, <a class="el" href="classvtkMRMLTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. ">vtkMRMLTensorVolumeNode</a>, <a class="el" href="classvtkMRMLDiffusionImageVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. ">vtkMRMLDiffusionImageVolumeNode</a>... (but not <a class="el" href="classvtkMRMLDiffusionWeightedVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. ">vtkMRMLDiffusionWeightedVolumeNode</a>) will be visible. </p>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00071">71</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00065">65</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -306,7 +394,57 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This property controls whether items unaffiliated with a given subject hierarchy item are hidden or not. All the nodes are visible (invalid item ID - <a class="el" href="classvtkMRMLSubjectHierarchyNode.html#a0f5bb914aeea218f95682e19e4031c1e">vtkMRMLSubjectHierarchyNode::INVALID_ITEM_ID</a>) by default </p>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00057">57</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00051">51</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+
+</div>
+</div>
+<a id="a3138b82917fc1663ce08029fa0bdd6d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3138b82917fc1663ce08029fa0bdd6d0">&#9670;&nbsp;</a></span>includeItemAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::includeItemAttributeNamesFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Filter to show only items that contain any of the given attributes with this name. Empty by default. When setting it, all the include filters are overwritten. </p>
+
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00069">69</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+
+</div>
+</div>
+<a id="acf46ab998cfe2a6a74b4440cae1370b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf46ab998cfe2a6a74b4440cae1370b6">&#9670;&nbsp;</a></span>includeNodeAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::includeNodeAttributeNamesFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Filter to show only items for data nodes that contain any of the given attributes with this name. Empty by default. When setting it, all the include filters are overwritten. </p>
+
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00072">72</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -332,7 +470,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Filter to show only items of a certain level (and their parents). If empty, then show all. </p>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00059">59</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00053">53</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -383,7 +521,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This property controls which items are visible. The MRML node class name must be provided. An empty list means all the nodes are visible (default). </p>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00062">62</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00056">56</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -432,8 +570,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3a35ab4649700e97563eb3a55fe71352"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a35ab4649700e97563eb3a55fe71352">&#9670;&nbsp;</a></span>acceptedItemCount()</h2>
+<a id="a1048ec7826e32bf0b678141b0a98126b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1048ec7826e32bf0b678141b0a98126b">&#9670;&nbsp;</a></span>acceptedItemCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,14 +580,113 @@ Protected Attributes</h2></td></tr>
           <td class="memname">Q_INVOKABLE int qMRMLSortFilterSubjectHierarchyProxyModel::acceptedItemCount </td>
           <td>(</td>
           <td class="paramtype">vtkIdType&#160;</td>
-          <td class="paramname"><em>rootItemID</em></td><td>)</td>
+          <td class="paramname"><em>rootItemID</em> = <code>0</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Determine the number of accepted (shown) items </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rootItemID</td><td>Ancestor item of branch in which the accepted items are counted </td></tr>
+    <tr><td class="paramname">rootItemID</td><td>Ancestor item of branch in which the accepted items are counted. If no item is given, then the scene item is used (all items) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab0512033bbee22e086288f8308f0a86e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0512033bbee22e086288f8308f0a86e">&#9670;&nbsp;</a></span>addItemAttributeFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qMRMLSortFilterSubjectHierarchyProxyModel::addItemAttributeFilter </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attributeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>attributeValue</em> = <code>QString()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add single item attribute filter specifying attribute name, value, include/exclude, and class name </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attributeName</td><td>Name of the item attribute to filter </td></tr>
+    <tr><td class="paramname">attributeValue</td><td>Value of the item attribute to filter </td></tr>
+    <tr><td class="paramname">include</td><td>Flag indicating whether this is an include filter or exclude filter.<ul>
+<li>Include filter means that only the items are shown that match the filter.</li>
+<li>Exclude filter hides items that match the filter. Overrides include filters. True by default (i.e. include filter). </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a681da24635064d61abf9d0df28fecbc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681da24635064d61abf9d0df28fecbc8">&#9670;&nbsp;</a></span>addNodeAttributeFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qMRMLSortFilterSubjectHierarchyProxyModel::addNodeAttributeFilter </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attributeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>attributeValue</em> = <code>QString()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>className</em> = <code>QString()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add single node attribute filter specifying attribute name, value, include/exclude, and class name </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attributeName</td><td>Name of the node attribute to filter </td></tr>
+    <tr><td class="paramname">attributeValue</td><td>Value of the node attribute to filter </td></tr>
+    <tr><td class="paramname">include</td><td>Flag indicating whether this is an include filter or exclude filter.<ul>
+<li>Include filter means that only the items are shown that match the filter.</li>
+<li>Exclude filter hides items that match the filter. Overrides include filters. True by default (i.e. include filter). </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">className</td><td>Only filter attributes on a certain type. Empty by default (i.e. allow all classes) </td></tr>
   </table>
   </dd>
 </dl>
@@ -481,6 +718,40 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">QString qMRMLSortFilterSubjectHierarchyProxyModel::attributeValueFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac88a26798bb62640d8b9eb7b6717d402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac88a26798bb62640d8b9eb7b6717d402">&#9670;&nbsp;</a></span>excludeItemAttributeNamesFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::excludeItemAttributeNamesFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a954a2caf4091a548ae2b3fd703b4a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a954a2caf4091a548ae2b3fd703b4a6">&#9670;&nbsp;</a></span>excludeNodeAttributeNamesFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::excludeNodeAttributeNamesFilter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -608,17 +879,51 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4fc9c47df8df51857d13a1853ebd4dfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fc9c47df8df51857d13a1853ebd4dfd">&#9670;&nbsp;</a></span>hideItemsUnaffiliatedWithItemID()</h2>
+<a id="a1f94a39a21ec0ccea29e210c437f5929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f94a39a21ec0ccea29e210c437f5929">&#9670;&nbsp;</a></span>hideItemsUnaffiliatedWithItemID()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vtkIdType qMRMLSortFilterSubjectHierarchyProxyModel::hideItemsUnaffiliatedWithItemID </td>
+          <td class="memname">Q_INVOKABLE vtkIdType qMRMLSortFilterSubjectHierarchyProxyModel::hideItemsUnaffiliatedWithItemID </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01360e97a7b919142433aedd4f9a7f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01360e97a7b919142433aedd4f9a7f73">&#9670;&nbsp;</a></span>includeItemAttributeNamesFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::includeItemAttributeNamesFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a586a059cb3c2f97ebe5a5caa33105934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586a059cb3c2f97ebe5a5caa33105934">&#9670;&nbsp;</a></span>includeNodeAttributeNamesFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList qMRMLSortFilterSubjectHierarchyProxyModel::includeNodeAttributeNamesFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -723,6 +1028,146 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2ae3844d2f8562b9a0779fe1d23bb634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ae3844d2f8562b9a0779fe1d23bb634">&#9670;&nbsp;</a></span>removeItemAttributeFilter() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qMRMLSortFilterSubjectHierarchyProxyModel::removeItemAttributeFilter </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attributeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>attributeValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove single item attribute filter specifying each attribute. </p>
+<dl class="section see"><dt>See also</dt><dd>addAttributeFilter </dd></dl>
+
+</div>
+</div>
+<a id="afa25d7ebef1649a0e2c5aee8af40401c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa25d7ebef1649a0e2c5aee8af40401c">&#9670;&nbsp;</a></span>removeItemAttributeFilter() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qMRMLSortFilterSubjectHierarchyProxyModel::removeItemAttributeFilter </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attributeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove all item attribute filters specifying a given attribute name and include flag. </p>
+
+</div>
+</div>
+<a id="a2c9f0ca32c464564fb15226ebb303d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c9f0ca32c464564fb15226ebb303d14">&#9670;&nbsp;</a></span>removeNodeAttributeFilter() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qMRMLSortFilterSubjectHierarchyProxyModel::removeNodeAttributeFilter </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attributeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>attributeValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>className</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove single node attribute filter specifying each attribute. </p>
+<dl class="section see"><dt>See also</dt><dd>addAttributeFilter </dd></dl>
+
+</div>
+</div>
+<a id="a29d3db0a3559830eaa0a6f1b28ef93a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29d3db0a3559830eaa0a6f1b28ef93a9">&#9670;&nbsp;</a></span>removeNodeAttributeFilter() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE void qMRMLSortFilterSubjectHierarchyProxyModel::removeNodeAttributeFilter </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attributeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove all node attribute filters specifying a given attribute name and include flag. </p>
+
+</div>
+</div>
 <a id="aa7c600f43ac4796e7197786be77174b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7c600f43ac4796e7197786be77174b3">&#9670;&nbsp;</a></span>setAttributeNameFilter</h2>
 
@@ -775,6 +1220,58 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac1fb83aaa94012a9404ffc99cc0ac7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1fb83aaa94012a9404ffc99cc0ac7f3">&#9670;&nbsp;</a></span>setExcludeItemAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qMRMLSortFilterSubjectHierarchyProxyModel::setExcludeItemAttributeNamesFilter </td>
+          <td>(</td>
+          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramname"><em>filterList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a198f704cb0b7df40e701de87d55195b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198f704cb0b7df40e701de87d55195b1">&#9670;&nbsp;</a></span>setExcludeNodeAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qMRMLSortFilterSubjectHierarchyProxyModel::setExcludeNodeAttributeNamesFilter </td>
+          <td>(</td>
+          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramname"><em>filterList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adaf24b8e947333894d3cfac96efca68c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adaf24b8e947333894d3cfac96efca68c">&#9670;&nbsp;</a></span>setHideChildNodeTypes</h2>
 
@@ -801,20 +1298,72 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a337e4e363051657209e66d3ff67a627a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a337e4e363051657209e66d3ff67a627a">&#9670;&nbsp;</a></span>setHideItemsUnaffiliatedWithItemID()</h2>
+<a id="a9ab6973907ee5137ca70916620ac27c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ab6973907ee5137ca70916620ac27c8">&#9670;&nbsp;</a></span>setHideItemsUnaffiliatedWithItemID()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void qMRMLSortFilterSubjectHierarchyProxyModel::setHideItemsUnaffiliatedWithItemID </td>
+          <td class="memname">Q_INVOKABLE void qMRMLSortFilterSubjectHierarchyProxyModel::setHideItemsUnaffiliatedWithItemID </td>
           <td>(</td>
           <td class="paramtype">vtkIdType&#160;</td>
           <td class="paramname"><em>itemID</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe457e4e7290659954dbb4e3be59e920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe457e4e7290659954dbb4e3be59e920">&#9670;&nbsp;</a></span>setIncludeItemAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qMRMLSortFilterSubjectHierarchyProxyModel::setIncludeItemAttributeNamesFilter </td>
+          <td>(</td>
+          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramname"><em>filterList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2058b8ee0651a8b94aacbca109fed735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2058b8ee0651a8b94aacbca109fed735">&#9670;&nbsp;</a></span>setIncludeNodeAttributeNamesFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qMRMLSortFilterSubjectHierarchyProxyModel::setIncludeNodeAttributeNamesFilter </td>
+          <td>(</td>
+          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramname"><em>filterList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1000,7 +1549,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00127">127</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html#l00179">179</a> of file <a class="el" href="qMRMLSortFilterSubjectHierarchyProxyModel_8h_source.html">qMRMLSortFilterSubjectHierarchyProxyModel.h</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1559,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 11 2021 05:44:41 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 11 2021 13:29:09 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

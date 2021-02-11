@@ -11,7 +11,7 @@ var searchData=
   ['threedrulertype',['threeDRulerType',['../classqSlicerSettingsViewsPanel.html#ad2e179a4ad20affb587e3ef773f403e0',1,'qSlicerSettingsViewsPanel']]],
   ['threedviewcount',['threeDViewCount',['../classqMRMLLayoutManager.html#ab0be60cffcdf8e25a306e3fc6f5cad5e',1,'qMRMLLayoutManager']]],
   ['threshold',['threshold',['../classqMRMLVolumePropertyNodeWidget.html#a69699ff22955de76263b22e68350982b',1,'qMRMLVolumePropertyNodeWidget']]],
-  ['title',['Title',['../classqMRMLTransformSliders.html#abed36f500df803b62d97f136347ffff8',1,'qMRMLTransformSliders::Title()'],['../classqSlicerAbstractCoreModule.html#acf71191f7c57373fe52bb055807d9ba1',1,'qSlicerAbstractCoreModule::title()'],['../classqSlicerScriptedLoadableModule.html#afeb3f2dc16c3296c5d71e9c1ff999d87',1,'qSlicerScriptedLoadableModule::title()']]],
+  ['title',['title',['../classqSlicerAbstractCoreModule.html#acf71191f7c57373fe52bb055807d9ba1',1,'qSlicerAbstractCoreModule::title()'],['../classqSlicerScriptedLoadableModule.html#afeb3f2dc16c3296c5d71e9c1ff999d87',1,'qSlicerScriptedLoadableModule::title()'],['../classqMRMLTransformSliders.html#abed36f500df803b62d97f136347ffff8',1,'qMRMLTransformSliders::Title()']]],
   ['toolbarvisible',['toolBarVisible',['../classqSlicerSequencesModule.html#af33c74a330541d10a86cac4c5d7164bb',1,'qSlicerSequencesModule']]],
   ['tooltipnamecolumn',['toolTipNameColumn',['../classqMRMLSceneModel.html#ae6e7f0cc9359c4da27390f581ab78129',1,'qMRMLSceneModel']]],
   ['toplevelcategoryorder',['topLevelCategoryOrder',['../classqSlicerModulesMenu.html#a3d19c3b562287e00f2ddbca67c6c83df',1,'qSlicerModulesMenu']]],

@@ -52,7 +52,7 @@ var searchData=
   ['hidechildnodetypes',['hideChildNodeTypes',['../classqMRMLNodeComboBox.html#ac686d33239c5a9e3321d2024eee40756',1,'qMRMLNodeComboBox::hideChildNodeTypes()'],['../classqMRMLSortFilterProxyModel.html#a7f36a421c8998deb1fc2ee61ba7f1f54',1,'qMRMLSortFilterProxyModel::hideChildNodeTypes()'],['../classqMRMLSortFilterSubjectHierarchyProxyModel.html#a50451f24fa4105aec02d2ea4cd4d24b2',1,'qMRMLSortFilterSubjectHierarchyProxyModel::hideChildNodeTypes()'],['../classqMRMLSubjectHierarchyTreeView.html#a8cea2ab2ec1d333f36fadfa77f392247',1,'qMRMLSubjectHierarchyTreeView::hideChildNodeTypes()']]],
   ['hidefromeditorsoff',['HideFromEditorsOff',['../classvtkMRMLNode.html#a5d4cba6083e100eaa448a07a6b9a2c7a',1,'vtkMRMLNode']]],
   ['hidefromeditorson',['HideFromEditorsOn',['../classvtkMRMLNode.html#a705de02199d7d5185feda2cb5e21a6ee',1,'vtkMRMLNode']]],
-  ['hideitemsunaffiliatedwithitemid',['hideItemsUnaffiliatedWithItemID',['../classqMRMLSortFilterSubjectHierarchyProxyModel.html#a4fc9c47df8df51857d13a1853ebd4dfd',1,'qMRMLSortFilterSubjectHierarchyProxyModel']]],
+  ['hideitemsunaffiliatedwithitemid',['hideItemsUnaffiliatedWithItemID',['../classqMRMLSortFilterSubjectHierarchyProxyModel.html#a1f94a39a21ec0ccea29e210c437f5929',1,'qMRMLSortFilterSubjectHierarchyProxyModel']]],
   ['hidelabellayer',['hideLabelLayer',['../classqMRMLSegmentEditorWidget.html#a38a45ddc47734c2cfec277f4a5aaf520',1,'qMRMLSegmentEditorWidget']]],
   ['hidenodesunaffiliatedwithnodeid',['hideNodesUnaffiliatedWithNodeID',['../classqMRMLSortFilterProxyModel.html#a25f4e6492b6cadf3e79479cede5a7339',1,'qMRMLSortFilterProxyModel']]],
   ['hidescene',['hideScene',['../classqMRMLAnnotationTreeView.html#a7b484e6f77f64e59b8b92ddf6c1da629',1,'qMRMLAnnotationTreeView']]],
