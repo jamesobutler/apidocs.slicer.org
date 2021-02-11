@@ -92,6 +92,8 @@ Macros</h2></td></tr>
 <tr class="separator:gae0dc154353bd6586df0d785ba4b6443c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6f4ffea0859e894a11bd39490e3dc542"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vtkMRMLPrintMacros.html#ga6f4ffea0859e894a11bd39490e3dc542">vtkMRMLPrintMatrix4x4Macro</a>(propertyName)</td></tr>
 <tr class="separator:ga6f4ffea0859e894a11bd39490e3dc542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5a6f4dbb5edc39c8639749aee423e0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vtkMRMLPrintMacros.html#gaa5a6f4dbb5edc39c8639749aee423e0a">vtkMRMLPrintObjectMacro</a>(propertyName)</td></tr>
+<tr class="separator:gaa5a6f4dbb5edc39c8639749aee423e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9bf79044b8c3fb5b87feb7a89d606d35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vtkMRMLPrintMacros.html#ga9bf79044b8c3fb5b87feb7a89d606d35">vtkMRMLPrintStdFloatVectorMacro</a>(propertyName,  vectorType)</td></tr>
 <tr class="memdesc:ga9bf79044b8c3fb5b87feb7a89d606d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro for printing an iterable container (float or double) node property value.  <a href="#ga9bf79044b8c3fb5b87feb7a89d606d35">More...</a><br /></td></tr>
 <tr class="separator:ga9bf79044b8c3fb5b87feb7a89d606d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,8 +276,28 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{ \</div><div class="line">    vtkMatrix4x4* matrix = this-&gt;Get##propertyName(); \</div><div class="line">    printOutputStream &lt;&lt; printOutputIndent &lt;&lt; #propertyName <span class="stringliteral">&quot; :\n&quot;</span>; \</div><div class="line">    if (matrix) \</div><div class="line">      { \</div><div class="line">      matrix-&gt;PrintSelf(printOutputStream, printOutputIndent.GetNextIndent().GetNextIndent()); \</div><div class="line">      } \</div><div class="line">    else \</div><div class="line">      { \</div><div class="line">      printOutputStream &lt;&lt; <span class="stringliteral">&quot;None&quot;</span>; \</div><div class="line">      } \</div><div class="line">  }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">{ \</div><div class="line">    vtkMatrix4x4* matrix = this-&gt;Get##propertyName(); \</div><div class="line">    printOutputStream &lt;&lt; printOutputIndent &lt;&lt; #propertyName <span class="stringliteral">&quot;:&quot;</span>; \</div><div class="line">    if (matrix) \</div><div class="line">      { \</div><div class="line">      printOutputStream &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; \</div><div class="line">      matrix-&gt;PrintSelf(printOutputStream, printOutputIndent.GetNextIndent()); \</div><div class="line">      } \</div><div class="line">    else \</div><div class="line">      { \</div><div class="line">      printOutputStream &lt;&lt; <span class="stringliteral">&quot; (none)\n&quot;</span>; \</div><div class="line">      } \</div><div class="line">  }</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00582">582</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
+
+</div>
+</div>
+<a id="gaa5a6f4dbb5edc39c8639749aee423e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5a6f4dbb5edc39c8639749aee423e0a">&#9670;&nbsp;</a></span>vtkMRMLPrintObjectMacro</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define vtkMRMLPrintObjectMacro</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">propertyName</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">{ \</div><div class="line">    vtkObject* obj = this-&gt;Get##propertyName(); \</div><div class="line">    printOutputStream &lt;&lt; printOutputIndent &lt;&lt; #propertyName <span class="stringliteral">&quot;:&quot;</span>; \</div><div class="line">    if (obj) \</div><div class="line">      { \</div><div class="line">      printOutputStream &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; \</div><div class="line">      obj-&gt;PrintSelf(printOutputStream, printOutputIndent.GetNextIndent()); \</div><div class="line">      } \</div><div class="line">    else \</div><div class="line">      { \</div><div class="line">      printOutputStream &lt;&lt; <span class="stringliteral">&quot; (none)\n&quot;</span>; \</div><div class="line">      } \</div><div class="line">  }</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html#l00597">597</a> of file <a class="el" href="vtkMRMLNodePropertyMacros_8h_source.html">vtkMRMLNodePropertyMacros.h</a>.</p>
 
 </div>
 </div>
@@ -460,7 +482,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 11 2021 18:46:47 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 11 2021 19:03:43 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

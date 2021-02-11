@@ -109,12 +109,10 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afe3f47c7ff28441b0273c28d7855de78"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#afe3f47c7ff28441b0273c28d7855de78">AddMessage</a> (unsigned long messageType, const std::string &amp;messageText)</td></tr>
-<tr class="memdesc:afe3f47c7ff28441b0273c28d7855de78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a message to the message vector.  <a href="#afe3f47c7ff28441b0273c28d7855de78">More...</a><br /></td></tr>
 <tr class="separator:afe3f47c7ff28441b0273c28d7855de78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92a98c4e40255a33cf71067148f42f0d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a92a98c4e40255a33cf71067148f42f0d">AddMessages</a> (<a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *source, const std::string &amp;prefix=std::string())</td></tr>
 <tr class="separator:a92a98c4e40255a33cf71067148f42f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab044ad12de88179ec12a7f58a8ae9b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#aab044ad12de88179ec12a7f58a8ae9b5">AddSeparator</a> ()</td></tr>
-<tr class="memdesc:aab044ad12de88179ec12a7f58a8ae9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a separator, for example to create message groups.  <a href="#aab044ad12de88179ec12a7f58a8ae9b5">More...</a><br /></td></tr>
 <tr class="separator:aab044ad12de88179ec12a7f58a8ae9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a863bd894be8134363479eddb2322d977"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMessageCollection.html#a863bd894be8134363479eddb2322d977">ClearMessages</a> ()</td></tr>
 <tr class="memdesc:a863bd894be8134363479eddb2322d977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the message vector.  <a href="#a863bd894be8134363479eddb2322d977">More...</a><br /></td></tr>
@@ -314,8 +312,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Append a message to the message vector. </p>
+<p>Append a message to the message vector To mark a message as error or warning, set messageType to vtkCommand::ErrorEvent or vtkCommand::WarningEvent. </p>
 
 </div>
 </div>
@@ -378,8 +375,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Add a separator, for example to create message groups. </p>
+<p>Add a separator, for example to create message groups. (internally vtkCommand::PropertyModifiedEvent is used as messageType) </p>
 
 </div>
 </div>
@@ -900,7 +896,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00155">155</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00158">158</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
 
 </div>
 </div>
@@ -924,7 +920,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00156">156</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00159">159</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
 
 </div>
 </div>
@@ -948,7 +944,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00154">154</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMessageCollection_8h_source.html#l00157">157</a> of file <a class="el" href="vtkMRMLMessageCollection_8h_source.html">vtkMRMLMessageCollection.h</a>.</p>
 
 </div>
 </div>
@@ -958,7 +954,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 11 2021 18:46:50 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 11 2021 19:03:47 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
