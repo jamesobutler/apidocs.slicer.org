@@ -4,6 +4,7 @@
 <area shape="rect" id="node7" href="$classvtkSlicerLineRepresentation3D.html" title="Default representation for the line widget. " alt="" coords="1101,107,1317,133"/>
 <area shape="rect" id="node8" href="$classvtkSlicerPlaneRepresentation3D.html" title="Default representation for the plane widget. " alt="" coords="1097,157,1322,184"/>
 <area shape="rect" id="node9" href="$classvtkSlicerPointsRepresentation3D.html" title="Default representation for the points widget. " alt="" coords="1095,208,1324,235"/>
-<area shape="rect" id="node2" href="$classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="443,107,712,133"/>
-<area shape="rect" id="node3" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="124,107,395,133"/>
+<area shape="rect" id="node10" href="$classvtkSlicerROIRepresentation3D.html" title="Default representation for the plane widget. " alt="" coords="1104,259,1315,285"/>
+<area shape="rect" id="node2" href="$classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="443,132,712,159"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="124,132,395,159"/>
 </map>

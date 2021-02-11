@@ -1,6 +1,7 @@
 <map id="qSlicerMarkupsModuleWidgetsAbstractPlugin" name="qSlicerMarkupsModuleWidgetsAbstractPlugin">
 <area shape="rect" id="node3" href="$classqMRMLMarkupsDisplayNodeWidgetPlugin.html" title="qMRMLMarkupsDisplayNodeWidget\lPlugin" alt="" coords="555,5,799,47"/>
 <area shape="rect" id="node4" href="$classqMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.html" title="qMRMLMarkupsFiducialProjection\lPropertyWidgetPlugin" alt="" coords="561,71,792,112"/>
-<area shape="rect" id="node5" href="$classqSlicerMarkupsPlaceWidgetPlugin.html" title="qSlicerMarkupsPlaceWidget\lPlugin" alt="" coords="579,136,775,177"/>
-<area shape="rect" id="node6" href="$classqSlicerSimpleMarkupsWidgetPlugin.html" title="qSlicerSimpleMarkupsWidget\lPlugin" alt="" coords="573,201,780,243"/>
+<area shape="rect" id="node5" href="$classqMRMLMarkupsROIWidgetPlugin.html" title="qMRMLMarkupsROIWidgetPlugin" alt="" coords="565,137,788,163"/>
+<area shape="rect" id="node6" href="$classqSlicerMarkupsPlaceWidgetPlugin.html" title="qSlicerMarkupsPlaceWidget\lPlugin" alt="" coords="579,188,775,229"/>
+<area shape="rect" id="node7" href="$classqSlicerSimpleMarkupsWidgetPlugin.html" title="qSlicerSimpleMarkupsWidget\lPlugin" alt="" coords="573,253,780,295"/>
 </map>

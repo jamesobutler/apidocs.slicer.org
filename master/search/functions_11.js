@@ -68,6 +68,8 @@ var searchData=
   ['qmrmlmarkupsdisplaynodewidgetplugin',['qMRMLMarkupsDisplayNodeWidgetPlugin',['../classqMRMLMarkupsDisplayNodeWidgetPlugin.html#a2a661f2747b5e42ade4ab2d7da53a5bb',1,'qMRMLMarkupsDisplayNodeWidgetPlugin']]],
   ['qmrmlmarkupsfiducialprojectionpropertywidget',['qMRMLMarkupsFiducialProjectionPropertyWidget',['../classqMRMLMarkupsFiducialProjectionPropertyWidget.html#a6c6b94ddfe5efa766042099443753e2e',1,'qMRMLMarkupsFiducialProjectionPropertyWidget']]],
   ['qmrmlmarkupsfiducialprojectionpropertywidgetplugin',['qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin',['../classqMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.html#ac1a394008198b59e1718a7249b1e979f',1,'qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin']]],
+  ['qmrmlmarkupsroiwidget',['qMRMLMarkupsROIWidget',['../classqMRMLMarkupsROIWidget.html#aa6ac8aa75b724a0449bd58e339ee8e15',1,'qMRMLMarkupsROIWidget']]],
+  ['qmrmlmarkupsroiwidgetplugin',['qMRMLMarkupsROIWidgetPlugin',['../classqMRMLMarkupsROIWidgetPlugin.html#aa883dba40f47b017df416909b96dabed',1,'qMRMLMarkupsROIWidgetPlugin']]],
   ['qmrmlmatrixwidget',['qMRMLMatrixWidget',['../classqMRMLMatrixWidget.html#a5a6ca9328f95af58197ceafbef8a397a',1,'qMRMLMatrixWidget']]],
   ['qmrmlmatrixwidgetplugin',['qMRMLMatrixWidgetPlugin',['../classqMRMLMatrixWidgetPlugin.html#ad1cf86da877c2567a57091eef41d4713',1,'qMRMLMatrixWidgetPlugin']]],
   ['qmrmlmodeldisplaynodewidget',['qMRMLModelDisplayNodeWidget',['../classqMRMLModelDisplayNodeWidget.html#ace6d9e205c6b30ba3dbbe54d0b2b8d1d',1,'qMRMLModelDisplayNodeWidget']]],

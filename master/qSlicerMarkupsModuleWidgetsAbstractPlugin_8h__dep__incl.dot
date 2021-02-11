@@ -12,9 +12,12 @@ digraph "Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWi
   Node7 [label="Modules/Loadable/Markups\l/Widgets/DesignerPlugins\l/qMRMLMarkupsFiducialProjectionProperty\lWidgetPlugin.h",height=0.2,width=0.4,color="black",URL="$qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin_8h.html"];
   Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="Modules/Loadable/Markups\l/Widgets/DesignerPlugins\l/qSlicerMarkupsPlaceWidgetPlugin.h",height=0.2,width=0.4,color="black",URL="$qSlicerMarkupsPlaceWidgetPlugin_8h.html"];
+  Node8 [label="Modules/Loadable/Markups\l/Widgets/DesignerPlugins\l/qMRMLMarkupsROIWidgetPlugin.h",height=0.2,width=0.4,color="black",URL="$qMRMLMarkupsROIWidgetPlugin_8h.html"];
   Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="Modules/Loadable/Markups\l/Widgets/DesignerPlugins\l/qSlicerSimpleMarkupsWidgetPlugin.h",height=0.2,width=0.4,color="black",URL="$qSlicerSimpleMarkupsWidgetPlugin_8h.html"];
+  Node9 [label="Modules/Loadable/Markups\l/Widgets/DesignerPlugins\l/qSlicerMarkupsPlaceWidgetPlugin.h",height=0.2,width=0.4,color="black",URL="$qSlicerMarkupsPlaceWidgetPlugin_8h.html"];
   Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Modules/Loadable/Markups\l/Widgets/DesignerPlugins\l/qSlicerSimpleMarkupsWidgetPlugin.h",height=0.2,width=0.4,color="black",URL="$qSlicerSimpleMarkupsWidgetPlugin_8h.html"];
+  Node10 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

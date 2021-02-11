@@ -162,6 +162,7 @@ var searchData=
   ['markupsnode',['MarkupsNode',['../classvtkSlicerMarkupsWidgetRepresentation.html#ae0bf090a8119605bee2025b61a444225',1,'vtkSlicerMarkupsWidgetRepresentation']]],
   ['markupsnodes',['MarkupsNodes',['../classvtkMRMLMarkupsDisplayableManagerHelper.html#a410c2844d0b740622f1018bbb1fecfb0',1,'vtkMRMLMarkupsDisplayableManagerHelper']]],
   ['markupstransformmodifiedtime',['MarkupsTransformModifiedTime',['../classvtkSlicerMarkupsWidgetRepresentation.html#aa69a807db9daa036ea3e021c0b6bf9ab',1,'vtkSlicerMarkupsWidgetRepresentation']]],
+  ['markuptypestoragenodes',['MarkupTypeStorageNodes',['../classvtkSlicerMarkupsLogic.html#a1bdadd72a7ee0e6d2f6b16bdea4906b7',1,'vtkSlicerMarkupsLogic']]],
   ['mask',['Mask',['../classvtkImageNeighborhoodFilter.html#a87686446293afced88abd4c8a5cbba39',1,'vtkImageNeighborhoodFilter::Mask()'],['../classvtkDiffusionTensorGlyph.html#a70dbbf3c4d9f86732ebf31a46bbf8570',1,'vtkDiffusionTensorGlyph::Mask()']]],
   ['maskglyphs',['MaskGlyphs',['../classvtkDiffusionTensorGlyph.html#aba49ae5a8de252140a3f34eedc958f70',1,'vtkDiffusionTensorGlyph']]],
   ['masklabelvalue',['MaskLabelValue',['../classvtkDiffusionTensorMathematics.html#a0ef080a31c4dec6a26ae66e45540666b',1,'vtkDiffusionTensorMathematics']]],

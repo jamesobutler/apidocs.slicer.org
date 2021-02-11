@@ -60,6 +60,8 @@ var searchData=
   ['qmrmlmarkupsdisplaynodewidgetplugin_2eh',['qMRMLMarkupsDisplayNodeWidgetPlugin.h',['../qMRMLMarkupsDisplayNodeWidgetPlugin_8h.html',1,'']]],
   ['qmrmlmarkupsfiducialprojectionpropertywidget_2eh',['qMRMLMarkupsFiducialProjectionPropertyWidget.h',['../qMRMLMarkupsFiducialProjectionPropertyWidget_8h.html',1,'']]],
   ['qmrmlmarkupsfiducialprojectionpropertywidgetplugin_2eh',['qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.h',['../qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin_8h.html',1,'']]],
+  ['qmrmlmarkupsroiwidget_2eh',['qMRMLMarkupsROIWidget.h',['../qMRMLMarkupsROIWidget_8h.html',1,'']]],
+  ['qmrmlmarkupsroiwidgetplugin_2eh',['qMRMLMarkupsROIWidgetPlugin.h',['../qMRMLMarkupsROIWidgetPlugin_8h.html',1,'']]],
   ['qmrmlmatrixwidget_2eh',['qMRMLMatrixWidget.h',['../qMRMLMatrixWidget_8h.html',1,'']]],
   ['qmrmlmatrixwidgetplugin_2eh',['qMRMLMatrixWidgetPlugin.h',['../qMRMLMatrixWidgetPlugin_8h.html',1,'']]],
   ['qmrmlmodeldisplaynodewidget_2eh',['qMRMLModelDisplayNodeWidget.h',['../qMRMLModelDisplayNodeWidget_8h.html',1,'']]],

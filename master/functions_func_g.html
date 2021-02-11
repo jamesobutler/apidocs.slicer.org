@@ -314,6 +314,8 @@ $(function() {
 , <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#a193f185e05df0d6c85aade899ee2f4f2">vtkSlicerMarkupsWidgetRepresentation</a>
 , <a class="el" href="classvtkSlicerPlaneRepresentation2D.html#a6dcd13e86939cd87d3350c55fcbdca9c">vtkSlicerPlaneRepresentation2D</a>
 , <a class="el" href="classvtkSlicerPlaneRepresentation3D.html#afde578b4c6647e0855bafbf8aceecba9">vtkSlicerPlaneRepresentation3D</a>
+, <a class="el" href="classvtkSlicerROIRepresentation2D.html#a8f4e2f043a0d8ca4a205d17a59dfad2d">vtkSlicerROIRepresentation2D</a>
+, <a class="el" href="classvtkSlicerROIRepresentation3D.html#ab2a893addd41d23c34590e7105726f23">vtkSlicerROIRepresentation3D</a>
 </li>
 <li>GetActors2D()
 : <a class="el" href="classvtkAnnotationROIRepresentation2D.html#a4e6bc23ca94da50a944e9b54ce5a3d7d">vtkAnnotationROIRepresentation2D</a>
@@ -679,11 +681,17 @@ $(function() {
 <li>GetAxisLabelsVisible()
 : <a class="el" href="classvtkMRMLViewNode.html#ae5870409f07b849560a00145960139ca">vtkMRMLViewNode</a>
 </li>
+<li>GetAxisLocal()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a683b86f5bb4c0b3e27601d3949367a3a">vtkMRMLMarkupsROINode</a>
+</li>
 <li>GetAxisTitleFontSize()
 : <a class="el" href="classvtkMRMLPlotChartNode.html#a338e397082224ce70f8c7f086127dc5b">vtkMRMLPlotChartNode</a>
 </li>
 <li>GetAxisUnit()
 : <a class="el" href="classvtkTeemNRRDReader.html#a9135d05d16b1e1b8ba940509dbfc7918">vtkTeemNRRDReader</a>
+</li>
+<li>GetAxisWorld()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a3f4598c8cd0a63dea70e0d6a75b4bbaa">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetBackfaceColorHSVOffset()
 : <a class="el" href="classvtkMRMLModelDisplayNode.html#a2f63be5cc519ce7494bf7a9ce3c8d5aa">vtkMRMLModelDisplayNode</a>
@@ -790,9 +798,14 @@ $(function() {
 , <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation3D.html#a131ecc7b5d90195b30d1c46e7610ddd8">vtkSlicerMarkupsWidgetRepresentation3D</a>
 , <a class="el" href="classvtkSlicerPlaneRepresentation2D.html#aff753d3b44aa3aeaa848a718c40a6e7a">vtkSlicerPlaneRepresentation2D</a>
 , <a class="el" href="classvtkSlicerPlaneRepresentation3D.html#aa9712f1a588ad258b9ad7f9b3943257f">vtkSlicerPlaneRepresentation3D</a>
+, <a class="el" href="classvtkSlicerROIRepresentation2D.html#aea3100efca118e94f52b43b9b9d0abc0">vtkSlicerROIRepresentation2D</a>
+, <a class="el" href="classvtkSlicerROIRepresentation3D.html#ad986d7ca609fce7e3bffb3c4c7bd0911">vtkSlicerROIRepresentation3D</a>
 </li>
 <li>GetBoundsInternal()
 : <a class="el" href="classvtkMRMLVolumeNode.html#a78a26b27c70ef837cf60a0a769634138">vtkMRMLVolumeNode</a>
+</li>
+<li>GetBoundsROI()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#ac1942942b2f75e5a6de8db29c21c6f65">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetBoxVisible()
 : <a class="el" href="classvtkMRMLViewNode.html#ad4d3f4caf85d11b6047de7171e4df912">vtkMRMLViewNode</a>
@@ -879,6 +892,7 @@ $(function() {
 , <a class="el" href="classvtkAnnotationROIRepresentation.html#af714c129962f4817350541391bcbf00c">vtkAnnotationROIRepresentation</a>
 , <a class="el" href="classvtkImageRectangularSource.html#ac6d73d83e96a314f8f6ce8d540ba37a2">vtkImageRectangularSource</a>
 , <a class="el" href="classvtkMarkupsGlyphSource2D.html#af3bb772a99b9ee227fca62804dc19dc3">vtkMarkupsGlyphSource2D</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#a584877c6259c700ed894a7c808ec6c4b">vtkMRMLMarkupsROINode</a>
 , <a class="el" href="classvtkPrincipalAxesAlign.html#a84c0c02a1a646ebf8dd752d31d1c2a6d">vtkPrincipalAxesAlign</a>
 , <a class="el" href="classvtkSlicerGlyphSource2D.html#a02d5e9654d4b29fcdac71fbd25a73382">vtkSlicerGlyphSource2D</a>
 </li>
@@ -910,6 +924,9 @@ $(function() {
 </li>
 <li>GetCenterPositionWorld()
 : <a class="el" href="classvtkMRMLMarkupsNode.html#a74a7580a8b020c079bfb5137741758b7">vtkMRMLMarkupsNode</a>
+</li>
+<li>GetCenterWorld()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#aa4bb85ca992749d9ad2232a827a32a6e">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetCentralMoments()
 : <a class="el" href="classitk_1_1ImageRegionMomentsCalculator.html#a5d25c0bdfcf250a64df718d766e91e84">itk::ImageRegionMomentsCalculator&lt; TImage &gt;</a>
@@ -1122,6 +1139,8 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsLineNode.html#aeb974ffac45941150cb87b441029f821">vtkMRMLMarkupsLineNode</a>
 , <a class="el" href="classvtkMRMLMarkupsNode.html#a6948ae4606927c2e30cc6e998c4214a5">vtkMRMLMarkupsNode</a>
 , <a class="el" href="classvtkMRMLMarkupsPlaneNode.html#a5ce0c9a554fe4f11eb7aba7716b74d5c">vtkMRMLMarkupsPlaneNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROIJsonStorageNode.html#a2be4c593b11ee3ff45a2a98a96b2ffa2">vtkMRMLMarkupsROIJsonStorageNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#ad9f5830b824946b1a6c328c560fd6b95">vtkMRMLMarkupsROINode</a>
 , <a class="el" href="classvtkMRMLMarkupsStorageNode.html#a4d79fb20e10639eca914e8720b1dc140">vtkMRMLMarkupsStorageNode</a>
 , <a class="el" href="classvtkMRMLMeasurement.html#ad240df1def12a61f36b88d303f9826f8">vtkMRMLMeasurement</a>
 , <a class="el" href="classvtkMRMLMeasurementAngle.html#ae5dd7a332494b4cd5e44eb7a9d40030b">vtkMRMLMeasurementAngle</a>
@@ -1273,6 +1292,9 @@ $(function() {
 , <a class="el" href="classvtkSlicerPointsRepresentation3D.html#a1ed01ac942427fdf1c44f7b52d4855b5">vtkSlicerPointsRepresentation3D</a>
 , <a class="el" href="classvtkSlicerPointsWidget.html#abeb13c55a41104df345832a596d13359">vtkSlicerPointsWidget</a>
 , <a class="el" href="classvtkSlicerReformatLogic.html#a1ee74b84de03730f97123c0f022b60db">vtkSlicerReformatLogic</a>
+, <a class="el" href="classvtkSlicerROIRepresentation2D.html#a18406b2ad5f759135cc980a7b2f17a75">vtkSlicerROIRepresentation2D</a>
+, <a class="el" href="classvtkSlicerROIRepresentation3D.html#aab8c5b569546edda3d2ee221b462f575">vtkSlicerROIRepresentation3D</a>
+, <a class="el" href="classvtkSlicerROIWidget.html#a0795864d7c0b5f6afe7cc2be467681d3">vtkSlicerROIWidget</a>
 , <a class="el" href="classvtkSlicerScalarBarActor.html#a86b0dd35fd29fa9e5cf00d197defe0d2">vtkSlicerScalarBarActor</a>
 , <a class="el" href="classvtkSlicerSceneViewsModuleLogic.html#a664c584ba5aea5faa01b60f969385c64">vtkSlicerSceneViewsModuleLogic</a>
 , <a class="el" href="classvtkSlicerScriptedLoadableModuleLogic.html#ab2f68bcae25b8291dd90685b842f0d65">vtkSlicerScriptedLoadableModuleLogic</a>
@@ -1304,6 +1326,9 @@ $(function() {
 </li>
 <li>GetClassNameByTag()
 : <a class="el" href="classvtkMRMLScene.html#a4b5b5ce0602e8534ac01a2d8d91cb2a4">vtkMRMLScene</a>
+</li>
+<li>GetClassNameForMarkupType()
+: <a class="el" href="classvtkSlicerMarkupsLogic.html#a2b6f66beb1659f5c36557ee62fd89c2a">vtkSlicerMarkupsLogic</a>
 </li>
 <li>GetClassNameFromFormatString()
 : <a class="el" href="classvtkDataFileFormatHelper.html#a746307221e4c804d647f4c2af88f96b7">vtkDataFileFormatHelper</a>
@@ -1914,6 +1939,9 @@ $(function() {
 </li>
 <li>GetDefaultRenderingMethod()
 : <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#a02739408c800311e4c7207e417c46d2a">vtkSlicerVolumeRenderingLogic</a>
+</li>
+<li>GetDefaultROIClassName()
+: <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#ae758bbaaeb20767a4cea8a98e58c5d50">vtkSlicerVolumeRenderingLogic</a>
 </li>
 <li>GetDefaultSegmentationNode()
 : <a class="el" href="classvtkSlicerSegmentationsModuleLogic.html#a66463b9e755725a1c86915d86051037c">vtkSlicerSegmentationsModuleLogic</a>
@@ -2673,7 +2701,7 @@ $(function() {
 : <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#aa6f86f51fec274f8a28ea966a1ee3a10">vtkSlicerVolumeRenderingLogic</a>
 </li>
 <li>GetFirstVolumeRenderingDisplayNodeByROINode()
-: <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#a38b18d17017f7c1a812c353ef47415e9">vtkSlicerVolumeRenderingLogic</a>
+: <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#ae69a7458f655c82940e6cea6afb887b1">vtkSlicerVolumeRenderingLogic</a>
 </li>
 <li>GetFitMethod()
 : <a class="el" href="classvtkParametricPolynomialApproximation.html#a377fef8cb52b742cf116123a9b75bfb1">vtkParametricPolynomialApproximation</a>
@@ -2913,9 +2941,15 @@ $(function() {
 </li>
 <li>GetHandleColor()
 : <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#acf0d51fd8174fd48a4ae29afa7071564">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+, <a class="el" href="classvtkSlicerROIRepresentation3D_1_1MarkupsInteractionPipelineROI.html#a09459d0528353ed9b0945fcb3ac35d23">vtkSlicerROIRepresentation3D::MarkupsInteractionPipelineROI</a>
 </li>
 <li>GetHandleInfoList()
-: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#a5257a509b86f7fe607b273594ef5b1d9">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#ab020cc50107ed9e2a8f8eb132bddc970">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+, <a class="el" href="classvtkSlicerROIRepresentation3D_1_1MarkupsInteractionPipelineROI.html#a46ea9f551e876e7f596b2745666582fd">vtkSlicerROIRepresentation3D::MarkupsInteractionPipelineROI</a>
+</li>
+<li>GetHandleOpacity()
+: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#ad8685652bf7ec01caeee5300f5c81ee9">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+, <a class="el" href="classvtkSlicerROIRepresentation3D_1_1MarkupsInteractionPipelineROI.html#a8456506aebe5c4a25a9c2c2ba7ba2a7a">vtkSlicerROIRepresentation3D::MarkupsInteractionPipelineROI</a>
 </li>
 <li>GetHandler()
 : <a class="el" href="classvtkDataTransfer.html#a36f6983d7d3c227aae3c4a84f6d30579">vtkDataTransfer</a>
@@ -2990,6 +3024,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsLineNode.html#ab49e053ad6f15aa0a1cdab74326afcd5">vtkMRMLMarkupsLineNode</a>
 , <a class="el" href="classvtkMRMLMarkupsNode.html#a2c94cb93a1a411c0d693a18f7b60d4e4">vtkMRMLMarkupsNode</a>
 , <a class="el" href="classvtkMRMLMarkupsPlaneNode.html#a8610bfea2593c45b25763fc3cf16135a">vtkMRMLMarkupsPlaneNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#a381053ea2568edcd5fc8ba7d136d8bb3">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetIconVolumeReferenceRole()
 : <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#af6bda0e5b1f54b5eaa6a9b2327aa33ae">vtkSlicerVolumeRenderingLogic</a>
@@ -3188,6 +3223,7 @@ $(function() {
 <li>GetInsideOut()
 : <a class="el" href="classvtkAnnotationROIRepresentation.html#a62c2312956817bae4592a4e68effa726">vtkAnnotationROIRepresentation</a>
 , <a class="el" href="classvtkMRMLAnnotationROINode.html#aad9363303b34292126691b5b34cd088f">vtkMRMLAnnotationROINode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#acf33a8be09868b709234e96df0b3501f">vtkMRMLMarkupsROINode</a>
 , <a class="el" href="classvtkMRMLROINode.html#a1b7d0c02224bc46f31aa2565190869c5">vtkMRMLROINode</a>
 </li>
 <li>GetInsideValue()
@@ -3221,25 +3257,23 @@ $(function() {
 : <a class="el" href="classvtkMRMLSliceCompositeNode.html#a0fe13e1908bbfea5636e31f3da3c4241">vtkMRMLSliceCompositeNode</a>
 , <a class="el" href="classvtkMRMLSliceNode.html#a915885a5103a85e1380aa60c64f88c47">vtkMRMLSliceNode</a>
 </li>
+<li>GetInteractionHandleAxis()
+: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#ac9799e4d36778de3326c265257597038">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+</li>
 <li>GetInteractionHandleAxisWorld()
-: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#af37b1d181f9a7168cc559667562819cb">vtkSlicerMarkupsWidgetRepresentation</a>
-, <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#ad7c5fa7412b16a45c3a2d3c6a9ea387b">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#afad9c86328e7dd928a833c6f83293b0c">vtkSlicerMarkupsWidgetRepresentation</a>
+, <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#ae9026df11cb4101d734d8e5f874e7177">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+, <a class="el" href="classvtkSlicerROIRepresentation3D_1_1MarkupsInteractionPipelineROI.html#a05ce5b65eceacb8d083f45f97cf51a5c">vtkSlicerROIRepresentation3D::MarkupsInteractionPipelineROI</a>
 </li>
 <li>GetInteractionHandleOriginWorld()
 : <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#a00b2b3baaa33e71ccd154b2581e156d2">vtkSlicerMarkupsWidgetRepresentation</a>
 , <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#aa8002d8dc61c3716cc6a66b831f28fc4">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
 </li>
 <li>GetInteractionHandlePositionWorld()
-: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#ad96da8f84b2a45918717cce365a29717">vtkSlicerMarkupsWidgetRepresentation</a>
+: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#a4b60df5fc2e0fb4a3ed3d5f4bc2d456a">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
 </li>
 <li>GetInteractionHandleToWorldMatrix()
 : <a class="el" href="classvtkMRMLMarkupsNode.html#a5fc0a5caee19065fb62b0c415aee96b5">vtkMRMLMarkupsNode</a>
-</li>
-<li>GetInteractionHandleVector()
-: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#a71cbaabf7a491cfd360064d211fd5ed3">vtkSlicerMarkupsWidgetRepresentation</a>
-</li>
-<li>GetInteractionHandleVectorWorld()
-: <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#af810e1dad684e0331ef08744ea5c7e7f">vtkSlicerMarkupsWidgetRepresentation</a>
 </li>
 <li>GetInteractionMode()
 : <a class="el" href="classvtkMRMLPlotViewNode.html#a3ac31be6df3647d95a985d8df3b6fc75">vtkMRMLPlotViewNode</a>
@@ -3849,6 +3883,12 @@ $(function() {
 <li>GetMarkupsRepresentation()
 : <a class="el" href="classvtkSlicerMarkupsWidget.html#a047b80eaf6196f2a6309916150377ea9">vtkSlicerMarkupsWidget</a>
 </li>
+<li>GetMarkupsROINode()
+: <a class="el" href="classvtkMRMLVolumeRenderingDisplayNode.html#aad8807e593575a4578f33dfe5fad39b3">vtkMRMLVolumeRenderingDisplayNode</a>
+</li>
+<li>GetMarkupTypesInFile()
+: <a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#a846810bd837f100d6bb34ad4fc07cd0a">vtkMRMLMarkupsJsonStorageNode</a>
+</li>
 <li>GetMaskGlyphs()
 : <a class="el" href="classvtkDiffusionTensorGlyph.html#ab1bb218a4a8e042ab2540ea889e8639a">vtkDiffusionTensorGlyph</a>
 </li>
@@ -4072,7 +4112,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLInteractionEventData.html#a1061e0de0a369eb4c9018c4e73eb4043">vtkMRMLInteractionEventData</a>
 </li>
 <li>GetModuleDescription()
-: <a class="el" href="classvtkMRMLCommandLineModuleNode.html#a56cffda2f7b3f3861f0d792aa0cadf59">vtkMRMLCommandLineModuleNode</a>
+: <a class="el" href="classvtkMRMLCommandLineModuleNode.html#a429245bbae164098c8843d3a09573e18">vtkMRMLCommandLineModuleNode</a>
 </li>
 <li>GetModuleDescriptionAsString()
 : <a class="el" href="classvtkMRMLCommandLineModuleNode.html#a0a1f5e5d30476eda63b29c6cf21b361d">vtkMRMLCommandLineModuleNode</a>
@@ -4351,6 +4391,8 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsLineNode.html#a2448753c1c815915461e301157ca0b03">vtkMRMLMarkupsLineNode</a>
 , <a class="el" href="classvtkMRMLMarkupsNode.html#a14b9ce601d02b4e4e621e8e814480e82">vtkMRMLMarkupsNode</a>
 , <a class="el" href="classvtkMRMLMarkupsPlaneNode.html#aeb7016ae3ea6c50029bef90566bbe062">vtkMRMLMarkupsPlaneNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROIJsonStorageNode.html#a653740ed8b58adb1e4b040012dfbb2f2">vtkMRMLMarkupsROIJsonStorageNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#a684e965727d921984a9f772ec5b2a456">vtkMRMLMarkupsROINode</a>
 , <a class="el" href="classvtkMRMLMarkupsStorageNode.html#a8bdbbe31f9a2f8a3d7bb5ede7f4108f4">vtkMRMLMarkupsStorageNode</a>
 , <a class="el" href="classvtkMRMLModelDisplayNode.html#a24858a8963d4d00f70e46bc36d6d0bee">vtkMRMLModelDisplayNode</a>
 , <a class="el" href="classvtkMRMLModelHierarchyNode.html#a09fde680527ee6227754236264262d8d">vtkMRMLModelHierarchyNode</a>
@@ -5035,7 +5077,6 @@ $(function() {
 , <a class="el" href="classvtkMRMLFiducialListNode.html#a00b79736348f955df0a1d3ca18be6dba">vtkMRMLFiducialListNode</a>
 , <a class="el" href="classvtkMRMLPlotSeriesNode.html#a1818edeec96262e18202f9dd1ce354fb">vtkMRMLPlotSeriesNode</a>
 , <a class="el" href="classvtkMRMLROIListNode.html#ab10f9cd03f2a2fccbd3e0fde7a86cbe8">vtkMRMLROIListNode</a>
-, <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#ad018c1a25bd5af9c4bbb7082008f178a">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
 </li>
 <li>GetOpacity2DFill()
 : <a class="el" href="classvtkMRMLSegmentationDisplayNode.html#a09d03faa931e8b85e978afc5dd6bd313">vtkMRMLSegmentationDisplayNode</a>
@@ -5153,7 +5194,7 @@ $(function() {
 <li>GetOutput()
 : <a class="el" href="classitk_1_1DiffusionTensor3DRead.html#a1f378d860a2a377800e1f8b7b67f6ff6">itk::DiffusionTensor3DRead&lt; TData &gt;</a>
 , <a class="el" href="classitk_1_1ImageToImageRegistrationMethod.html#ad54c1b2d0f3e373d268e2a9a515c68fa">itk::ImageToImageRegistrationMethod&lt; TImage &gt;</a>
-, <a class="el" href="classvtkITKImageToImageFilter.html#a2595a4a1e3a672f17dcb7cfcff0df443">vtkITKImageToImageFilter</a>
+, <a class="el" href="classvtkITKImageToImageFilter.html#ae1fbb650edfe95e4e603994c0377f2cb">vtkITKImageToImageFilter</a>
 , <a class="el" href="classvtkITKImageToImageFilterF2F2.html#ad70b42dc3c106318e63f52cae379e1c8">vtkITKImageToImageFilterF2F2</a>
 , <a class="el" href="classvtkPolyDataToFractionalLabelmapFilter.html#a1f653594883da5d8b1f14f29d5aafc08">vtkPolyDataToFractionalLabelmapFilter</a>
 </li>
@@ -5218,7 +5259,7 @@ $(function() {
 , <a class="el" href="classvtkITKArchetypeImageSeriesReader.html#ab0a37a762636da727d48055b51cd92f6">vtkITKArchetypeImageSeriesReader</a>
 </li>
 <li>GetOutputSpacing()
-: <a class="el" href="classvtkPolyDataToFractionalLabelmapFilter.html#a24d51aea23cc45ef145f9f4f0c3c196a">vtkPolyDataToFractionalLabelmapFilter</a>
+: <a class="el" href="classvtkPolyDataToFractionalLabelmapFilter.html#ac208143228ddae78755b62d8ce9fa853">vtkPolyDataToFractionalLabelmapFilter</a>
 </li>
 <li>GetOutputText()
 : <a class="el" href="classvtkMRMLCommandLineModuleNode.html#a175cba5a223cfd626bc60e017b374adb">vtkMRMLCommandLineModuleNode</a>
@@ -5632,7 +5673,7 @@ $(function() {
 </li>
 <li>GetPosition2()
 : <a class="el" href="classvtkMRMLAnnotationAngleNode.html#a098ebb57ed911dd5dd59c8e3a56743d4">vtkMRMLAnnotationAngleNode</a>
-, <a class="el" href="classvtkMRMLAnnotationRulerNode.html#a4725651615bc8ea27182758c3733a549">vtkMRMLAnnotationRulerNode</a>
+, <a class="el" href="classvtkMRMLAnnotationRulerNode.html#a0391c4a8988502283c4cbff248c1e048">vtkMRMLAnnotationRulerNode</a>
 </li>
 <li>GetPositionAlongCurveWorld()
 : <a class="el" href="classvtkMRMLMarkupsCurveNode.html#ab84d324040751072e637d162d3437623">vtkMRMLMarkupsCurveNode</a>
@@ -5681,7 +5722,7 @@ $(function() {
 , <a class="el" href="classvtkURIHandler.html#a717c9a23b4d727fed1857e28b22a4c00">vtkURIHandler</a>
 </li>
 <li>GetPrescribedSliceSpacing()
-: <a class="el" href="classvtkMRMLSliceNode.html#ad12fb78de01fb854bd58f5c6c74d82bf">vtkMRMLSliceNode</a>
+: <a class="el" href="classvtkMRMLSliceNode.html#a631308e9062747bd5f3519a079679f7b">vtkMRMLSliceNode</a>
 </li>
 <li>GetPresetByName()
 : <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#ace97e60136443f5255af042dd9548e2b">vtkSlicerVolumeRenderingLogic</a>
@@ -5748,7 +5789,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLCommandLineModuleNode.html#ac8ac9a418f06d01ff1dc11e46c7b9012">vtkMRMLCommandLineModuleNode</a>
 </li>
 <li>GetProjectedColor()
-: <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#a31d9aded61f618e5783cb0a23ee9bade">vtkMRMLAnnotationDisplayNode</a>
+: <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#ad8d9f031f356a6bb18263220fcf57abc">vtkMRMLAnnotationDisplayNode</a>
 </li>
 <li>GetProjectedOpacity()
 : <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#a248d1bff2c117a5a26bd9e7ced2b8c4d">vtkMRMLAnnotationDisplayNode</a>
@@ -5793,11 +5834,12 @@ $(function() {
 : <a class="el" href="classvtkImageFillROI.html#a677ebb4da869eefef036c69c142c4933">vtkImageFillROI</a>
 </li>
 <li>GetRadiusIJK()
-: <a class="el" href="classvtkMRMLROINode.html#afbb15f86af0642a1b3cd9d2b48f8a78b">vtkMRMLROINode</a>
+: <a class="el" href="classvtkMRMLROINode.html#af63066662bfc58ca6c87f2e1795bcdf3">vtkMRMLROINode</a>
 </li>
 <li>GetRadiusXYZ()
 : <a class="el" href="classvtkMRMLAnnotationROINode.html#a981bdd4a14a3e160fd28c4496f36d046">vtkMRMLAnnotationROINode</a>
-, <a class="el" href="classvtkMRMLROINode.html#a5481c17ae85f29793b601c85405c904c">vtkMRMLROINode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#ae2e147867edc4883ce9ebfe7222828bf">vtkMRMLMarkupsROINode</a>
+, <a class="el" href="classvtkMRMLROINode.html#a759f6b0d29a00313ade2826ff6956c4f">vtkMRMLROINode</a>
 </li>
 <li>GetRange()
 : <a class="el" href="classvtkMRMLDoubleArrayNode.html#a19e2838bc08ec602915ea3b361aa9d28">vtkMRMLDoubleArrayNode</a>
@@ -5856,7 +5898,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLCoreTestingUtilities_1_1vtkMRMLNodeCallback.html#a63ee842051d1ce67f8c39fbfeecde53a">vtkMRMLCoreTestingUtilities::vtkMRMLNodeCallback</a>
 </li>
 <li>GetRecommendedDisplayRGBValue()
-: <a class="el" href="classvtkSlicerTerminologyType.html#a20f4a877fef0c33963ea03619687387b">vtkSlicerTerminologyType</a>
+: <a class="el" href="classvtkSlicerTerminologyType.html#aac2aa22d2d8bcb5a30d9f6155137b1d7">vtkSlicerTerminologyType</a>
 </li>
 <li>GetRecording()
 : <a class="el" href="classvtkMRMLSequenceBrowserNode.html#a8d436f1540fe2a51a6f96dfb03dd2892">vtkMRMLSequenceBrowserNode</a>
@@ -6077,6 +6119,18 @@ $(function() {
 <li>GetROIStart()
 : <a class="el" href="classitk_1_1GrowCutSegmentationImageFilter.html#adfc33cb6e44e5c7273274044c6bc2596">itk::GrowCutSegmentationImageFilter&lt; TInputImage, TOutputImage, TWeightPixelType &gt;</a>
 </li>
+<li>GetROIToLocalMatrix()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a17b2773471d0901233c36f289a4f8a85">vtkMRMLMarkupsROINode</a>
+</li>
+<li>GetROIType()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a58631148a75018df1430c3dfac9522ea">vtkMRMLMarkupsROINode</a>
+</li>
+<li>GetROITypeAsString()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a4b7b60a33f2432b6e0acddaf734496a3">vtkMRMLMarkupsROINode</a>
+</li>
+<li>GetROITypeFromString()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a58768588d4cb7d355749d8848a419eeb">vtkMRMLMarkupsROINode</a>
+</li>
 <li>GetRootDirectory()
 : <a class="el" href="classvtkMRMLScene.html#a8666c255ab9ad1f9ff44387cec043b78">vtkMRMLScene</a>
 </li>
@@ -6180,7 +6234,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLVolumePropertyNode.html#ac54da375afb785f15f374f0c83382070">vtkMRMLVolumePropertyNode</a>
 </li>
 <li>GetScalarRange()
-: <a class="el" href="classvtkMRMLDisplayNode.html#adbc09cee0467db80520d9ec694a49ee7">vtkMRMLDisplayNode</a>
+: <a class="el" href="classvtkMRMLDisplayNode.html#acf8efe3b880a1e9943ad018531dcfef5">vtkMRMLDisplayNode</a>
 </li>
 <li>GetScalarRangeFieldName()
 : <a class="el" href="classvtkSegmentationConverter.html#ad8ef8e9215b9271799e030c4dd567654">vtkSegmentationConverter</a>
@@ -6292,7 +6346,7 @@ $(function() {
 <li>GetSeed()
 : <a class="el" href="classvtkITKLevelTracing3DImageFilter.html#a01b5118db379ca73909fd1342e243747">vtkITKLevelTracing3DImageFilter</a>
 , <a class="el" href="classvtkITKLevelTracingImageFilter.html#aec8dcfe6bf087d8bdf25706483683d08">vtkITKLevelTracingImageFilter</a>
-, <a class="el" href="classvtkITKWandImageFilter.html#a3ea03212c298e58b7939733df516f918">vtkITKWandImageFilter</a>
+, <a class="el" href="classvtkITKWandImageFilter.html#aa425d500cc41e573f24b1884d76806e8">vtkITKWandImageFilter</a>
 , <a class="el" href="classvtkMRMLAnnotationDisplayableManager.html#ae51c261d0170e0a30100e360fe383cbd">vtkMRMLAnnotationDisplayableManager</a>
 , <a class="el" href="classvtkMRMLAnnotationDisplayableManagerHelper.html#af0253f8eec1b37b322473d4d85bf8b72">vtkMRMLAnnotationDisplayableManagerHelper</a>
 </li>
@@ -6346,7 +6400,7 @@ $(function() {
 : <a class="el" href="classvtkSlicerSegmentationsModuleLogic.html#a6d4f599dbf71ab7789da67046cb9f459">vtkSlicerSegmentationsModuleLogic</a>
 </li>
 <li>GetSegmentColor()
-: <a class="el" href="classvtkMRMLSegmentationDisplayNode.html#a5276b8b2e78f7d3d47ff58ba8735bb16">vtkMRMLSegmentationDisplayNode</a>
+: <a class="el" href="classvtkMRMLSegmentationDisplayNode.html#aeb8dc24150aa98407faffb0e89e37cd0">vtkMRMLSegmentationDisplayNode</a>
 </li>
 <li>GetSegmentColorAsString()
 : <a class="el" href="classvtkMRMLSegmentationStorageNode.html#af45bc594e7124236ff36042739f25f25">vtkMRMLSegmentationStorageNode</a>
@@ -6460,7 +6514,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLDisplayNode.html#a4adaa0c88561d533b02a29c3d1017cea">vtkMRMLDisplayNode</a>
 </li>
 <li>GetSelectedColor()
-: <a class="el" href="classvtkMRMLDisplayNode.html#aaedc806a7614a3a0d24384b609e0263e">vtkMRMLDisplayNode</a>
+: <a class="el" href="classvtkMRMLDisplayNode.html#a784cd4a1a80c98d34783364ac4632187">vtkMRMLDisplayNode</a>
 , <a class="el" href="classvtkMRMLFiducialListNode.html#a9d43453cdd0227a449128c1cdf1099d7">vtkMRMLFiducialListNode</a>
 , <a class="el" href="classvtkMRMLROIListNode.html#a2a1f646f4e67bc4ffca2bc06f2822cd1">vtkMRMLROIListNode</a>
 </li>
@@ -6601,7 +6655,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLVolumeArchetypeStorageNode.html#a3dc2b9fbbb245b76eae21ec9e6b3327c">vtkMRMLVolumeArchetypeStorageNode</a>
 </li>
 <li>GetSingletonNode()
-: <a class="el" href="classvtkMRMLScene.html#ae88987885d03a08d0681579ad032fa2b">vtkMRMLScene</a>
+: <a class="el" href="classvtkMRMLScene.html#a54c95a8c90f25cae7d1b804540025b64">vtkMRMLScene</a>
 </li>
 <li>GetSingletonTag()
 : <a class="el" href="classvtkMRMLNode.html#a03ff1677a78a44469f98af9fb0a01bb7">vtkMRMLNode</a>
@@ -6612,6 +6666,7 @@ $(function() {
 <li>GetSize()
 : <a class="el" href="classvtkImageRectangularSource.html#acfabd41f47b8f8dc5127442759bdabf3">vtkImageRectangularSource</a>
 , <a class="el" href="classvtkMRMLDoubleArrayNode.html#a3648a1b5178f12726a9f9242c5478cc1">vtkMRMLDoubleArrayNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#af0528c6b2a9fc92d8866181e9cf396c2">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetSizeMode()
 : <a class="el" href="classvtkMRMLMarkupsPlaneNode.html#ad57fa5929a7451d002e90f6f30b50b5e">vtkMRMLMarkupsPlaneNode</a>
@@ -6633,7 +6688,7 @@ $(function() {
 : <a class="el" href="classvtkITKIslandMath.html#a1deb0b0625d0eb691918829e3d327248">vtkITKIslandMath</a>
 </li>
 <li>GetSliceCompositeNode()
-: <a class="el" href="classvtkMRMLSliceLogic.html#a353945ca6c5606fea8c6c049b41cf6ae">vtkMRMLSliceLogic</a>
+: <a class="el" href="classvtkMRMLSliceLogic.html#a9c9c376c70d64ca8f6f5a02e0a8a1fea">vtkMRMLSliceLogic</a>
 </li>
 <li>GetSliceDisplayMode()
 : <a class="el" href="classvtkMRMLModelDisplayNode.html#af3e8a2e874c0006032aaf5e9b440dc3c">vtkMRMLModelDisplayNode</a>
@@ -6659,7 +6714,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLGlyphableVolumeSliceDisplayNode.html#a8d2e4fc7996742a6b2c82be389e0385d">vtkMRMLGlyphableVolumeSliceDisplayNode</a>
 </li>
 <li>GetSliceIndexFromOffset()
-: <a class="el" href="classvtkMRMLSliceLogic.html#ab72cd48c79a8d9ea94f0878b57631035">vtkMRMLSliceLogic</a>
+: <a class="el" href="classvtkMRMLSliceLogic.html#ae61ef697cddd40876d5d4921a472d51c">vtkMRMLSliceLogic</a>
 </li>
 <li>GetSliceIntersectionOpacity()
 : <a class="el" href="classvtkMRMLDisplayNode.html#a783123dd062768ec301bf37eb2d81806">vtkMRMLDisplayNode</a>
@@ -6709,7 +6764,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLSliceIntersectionRepresentation2D.html#afafebef359d1cc485e0cfedfa0e78244">vtkMRMLSliceIntersectionRepresentation2D</a>
 , <a class="el" href="classvtkMRMLSliceIntersectionWidget.html#a957237fe6ad282f14cb54640247eee3f">vtkMRMLSliceIntersectionWidget</a>
 , <a class="el" href="classvtkMRMLSliceLayerLogic.html#ab31dc50e43c0c7fefd3682095b2e74c4">vtkMRMLSliceLayerLogic</a>
-, <a class="el" href="classvtkMRMLSliceLogic.html#a1f08d75e47ca9b76545b9a34baf24b44">vtkMRMLSliceLogic</a>
+, <a class="el" href="classvtkMRMLSliceLogic.html#a880d51ec428a0485e81369fa096484bf">vtkMRMLSliceLogic</a>
 , <a class="el" href="classvtkMRMLWindowLevelWidget.html#a67ba2b47d0108d6ffd3e26f6f164f59e">vtkMRMLWindowLevelWidget</a>
 , <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation2D.html#a18089d3917c7895c7f4532dc452eb220">vtkSlicerMarkupsWidgetRepresentation2D</a>
 </li>
@@ -6737,7 +6792,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a3130a0dbba14ba9a2df9491ceda71870">vtkMRMLMarkupsDisplayNode</a>
 </li>
 <li>GetSliceProjectionColor()
-: <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a08c3d9b7a92089c02a81bade33311867">vtkMRMLMarkupsDisplayNode</a>
+: <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#af856fba10df66e2cebbbabbbfab81877">vtkMRMLMarkupsDisplayNode</a>
 </li>
 <li>GetSliceProjectionOpacity()
 : <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a8fd4522be30b9106f6d16abcbffce48a">vtkMRMLMarkupsDisplayNode</a>
@@ -6987,7 +7042,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#a649f87d3ae216afc1b8e2eae42d951fd">vtkMRMLAnnotationDisplayNode</a>
 </li>
 <li>GetSuperColor()
-: <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#ac78c155a04b4ff0acbb23ff617781997">vtkMRMLAnnotationDisplayNode</a>
+: <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#ad5fecd0e96c171d81060d1366f6407b5">vtkMRMLAnnotationDisplayNode</a>
 </li>
 <li>GetSuperDiffuse()
 : <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#add3c73ba1b7960aabf7738dd52e93822">vtkMRMLAnnotationDisplayNode</a>
@@ -7011,7 +7066,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#a5a08fef8940e6d2b4983b04da1527cee">vtkMRMLAnnotationDisplayNode</a>
 </li>
 <li>GetSuperSelectedColor()
-: <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#a55a6fcd608797907ad14d66ae6fd82e1">vtkMRMLAnnotationDisplayNode</a>
+: <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#af7761317646c1b7f6cb4bc46c99523d1">vtkMRMLAnnotationDisplayNode</a>
 </li>
 <li>GetSuperSelectedSpecular()
 : <a class="el" href="classvtkMRMLAnnotationDisplayNode.html#a83a941152eb2321bbf9770133ecc4457">vtkMRMLAnnotationDisplayNode</a>
@@ -7102,7 +7157,7 @@ $(function() {
 </li>
 <li>GetTagValue()
 : <a class="el" href="classvtkITKArchetypeImageSeriesReader.html#a729578baa01d7fa305e80bb68bd9481a">vtkITKArchetypeImageSeriesReader</a>
-, <a class="el" href="classvtkTagTable.html#a567ba62bf9883c15e88ce1b412c34db9">vtkTagTable</a>
+, <a class="el" href="classvtkTagTable.html#acd85207c2f3797a895cb1803ee77ead6">vtkTagTable</a>
 </li>
 <li>GetTargetRepresentationName()
 : <a class="el" href="classvtkBinaryLabelmapToClosedSurfaceConversionRule.html#a903543d3899b8bcf0448ea2e159c3121">vtkBinaryLabelmapToClosedSurfaceConversionRule</a>
@@ -7162,7 +7217,7 @@ $(function() {
 : <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#ae2d3e600b3cd90e325a4a353e3fb9c2a">vtkMRMLMarkupsDisplayNode</a>
 </li>
 <li>GetTextPropertyAsString()
-: <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a272e3b7e9903f92f900f4a2448ccd053">vtkMRMLMarkupsDisplayNode</a>
+: <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#ab54f083615f204f6dae4d195b766fa0c">vtkMRMLMarkupsDisplayNode</a>
 </li>
 <li>GetTextScale()
 : <a class="el" href="classvtkMRMLAnnotationNode.html#acfb1ebdf12c4b8390670b7fa619de43d">vtkMRMLAnnotationNode</a>
@@ -7303,10 +7358,11 @@ $(function() {
 </li>
 <li>GetTransformedPlanes()
 : <a class="el" href="classvtkMRMLAnnotationROINode.html#ab4c0347c2cb5fa9ee6beffda5b79f286">vtkMRMLAnnotationROINode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#aefcf771967bb2ade6be3e328c0a85ee0">vtkMRMLMarkupsROINode</a>
 , <a class="el" href="classvtkMRMLROINode.html#a12076c5ec95b73dd07250b230c7c9f52">vtkMRMLROINode</a>
 </li>
 <li>GetTransformedPointSamples()
-: <a class="el" href="classvtkSlicerTransformLogic.html#aa2615798366e66701ddad3c0895a881d">vtkSlicerTransformLogic</a>
+: <a class="el" href="classvtkSlicerTransformLogic.html#a12bd74f3a57b18b2bd31010e2b7d1939">vtkSlicerTransformLogic</a>
 </li>
 <li>GetTransformedPointSamplesAsMagnitudeImage()
 : <a class="el" href="classvtkSlicerTransformLogic.html#a18e3c74f7107cfac5317e20f01896e8e">vtkSlicerTransformLogic</a>
@@ -7400,10 +7456,10 @@ $(function() {
 , <a class="el" href="classvtkSlicerTask.html#ac3d3e0c58447e2c94275af35580260a3">vtkSlicerTask</a>
 </li>
 <li>GetTypedTransform()
-: <a class="el" href="classitk_1_1AffineImageToImageRegistrationMethod.html#a2168ffcf0a452eeea7a5d14cfc370a45">itk::AffineImageToImageRegistrationMethod&lt; TImage &gt;</a>
+: <a class="el" href="classitk_1_1AffineImageToImageRegistrationMethod.html#a4c050853d43ba2ae8a1c041e90f82fed">itk::AffineImageToImageRegistrationMethod&lt; TImage &gt;</a>
 , <a class="el" href="classitk_1_1BSplineImageToImageRegistrationMethod.html#af4671b14091a49421ef902073649a581">itk::BSplineImageToImageRegistrationMethod&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1InitialImageToImageRegistrationMethod.html#a03e15929b47b586adf80222ddc1a48a4">itk::InitialImageToImageRegistrationMethod&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1RigidImageToImageRegistrationMethod.html#aee4080786682c8ec3a67659fe438d512">itk::RigidImageToImageRegistrationMethod&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1InitialImageToImageRegistrationMethod.html#ac28e3288a91d8dc46160b2b90b9d365a">itk::InitialImageToImageRegistrationMethod&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1RigidImageToImageRegistrationMethod.html#a377da0279f265c75455f6b8848212fd7">itk::RigidImageToImageRegistrationMethod&lt; TImage &gt;</a>
 </li>
 <li>GetTypeID()
 : <a class="el" href="classvtkSystemInformation.html#a577a764d1020da6d51bcea011fa49e31">vtkSystemInformation</a>
@@ -7574,13 +7630,13 @@ $(function() {
 : <a class="el" href="classvtkSlicerApplicationLogic.html#a4501249b9e52e134f1b5d846c6f6d1e8">vtkSlicerApplicationLogic</a>
 </li>
 <li>GetUserMessages()
-: <a class="el" href="classvtkMRMLStorageNode.html#a8529f33ba073bb711af1f2503dc9441f">vtkMRMLStorageNode</a>
+: <a class="el" href="classvtkMRMLStorageNode.html#a7d321d5cc82d791e0281f41f5c870d57">vtkMRMLStorageNode</a>
 </li>
 <li>GetUsername()
 : <a class="el" href="classvtkPermissionPrompter.html#a2da57e1b603edce79a965ed9437f020a">vtkPermissionPrompter</a>
 </li>
 <li>GetUserSpacing()
-: <a class="el" href="classvtkSlicerSegmentationGeometryLogic.html#aeaf9778eb2974b35bff19c2b6eff796c">vtkSlicerSegmentationGeometryLogic</a>
+: <a class="el" href="classvtkSlicerSegmentationGeometryLogic.html#a7b0ee4bdbca68d5525ca917abf9f0522">vtkSlicerSegmentationGeometryLogic</a>
 </li>
 <li>GetUserTagKeyword()
 : <a class="el" href="classvtkUserTagTable.html#ac11085e56b0c3837f84c3736f2aecab5">vtkUserTagTable</a>
@@ -7590,7 +7646,7 @@ $(function() {
 , <a class="el" href="classvtkMRMLStorableNode.html#ab8dc32ec845c78b99ff0024f17e3f050">vtkMRMLStorableNode</a>
 </li>
 <li>GetUserTagValue()
-: <a class="el" href="classvtkUserTagTable.html#a4e0eda9d9ad292cd9ed173155e2cf98b">vtkUserTagTable</a>
+: <a class="el" href="classvtkUserTagTable.html#a4c6d1d43261c1099961a06595b04ce0a">vtkUserTagTable</a>
 </li>
 <li>GetUseSingleVolumeProperty()
 : <a class="el" href="classvtkMRMLVolumeRenderingDisplayNode.html#ae5f93befa4d17c8d722570ae6a0fbaae">vtkMRMLVolumeRenderingDisplayNode</a>
@@ -7602,13 +7658,13 @@ $(function() {
 : <a class="el" href="classvtkMRMLSliceNode.html#add314bb34ed0a742fe8cb848beb57908">vtkMRMLSliceNode</a>
 </li>
 <li>GetUVWExtents()
-: <a class="el" href="classvtkMRMLSliceNode.html#a45d7f713be4e3328206d663b1d19f0c2">vtkMRMLSliceNode</a>
+: <a class="el" href="classvtkMRMLSliceNode.html#ac99171923234d061e5193a2c1af76b7f">vtkMRMLSliceNode</a>
 </li>
 <li>GetUVWMaximumDimensions()
 : <a class="el" href="classvtkMRMLSliceNode.html#ae3a11803594fccddd4e757299b1320a5">vtkMRMLSliceNode</a>
 </li>
 <li>GetUVWOrigin()
-: <a class="el" href="classvtkMRMLSliceNode.html#a8109cd7619eaad2c0a82c45721c5447c">vtkMRMLSliceNode</a>
+: <a class="el" href="classvtkMRMLSliceNode.html#ac2ddefd6ec4bfd69447d3036fcda83a5">vtkMRMLSliceNode</a>
 </li>
 <li>GetUVWToRAS()
 : <a class="el" href="classvtkMRMLSliceNode.html#a58b2e64b7d438a169951737707318f39">vtkMRMLSliceNode</a>
@@ -7706,7 +7762,7 @@ $(function() {
 <li>GetViewNode()
 : <a class="el" href="classvtkMRMLAbstractWidgetRepresentation.html#abd6f4efcd522b9cdad898ff6ec75a249">vtkMRMLAbstractWidgetRepresentation</a>
 , <a class="el" href="classvtkMRMLInteractionEventData.html#ae5a9459781f637d0289578a554479e60">vtkMRMLInteractionEventData</a>
-, <a class="el" href="classvtkMRMLViewLogic.html#a3911e81537444668f6ac9756c7410f25">vtkMRMLViewLogic</a>
+, <a class="el" href="classvtkMRMLViewLogic.html#acd2b3702e603d471270d0b91fae15536">vtkMRMLViewLogic</a>
 </li>
 <li>GetViewNodeIDs()
 : <a class="el" href="classvtkMRMLDisplayNode.html#ad53f55610bab20f2d469b6ae89948a49">vtkMRMLDisplayNode</a>
@@ -7717,6 +7773,7 @@ $(function() {
 <li>GetViewPlaneNormal()
 : <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation2D_1_1MarkupsInteractionPipeline2D.html#a868b26a6b8f2606fb3751674af56a2cf">vtkSlicerMarkupsWidgetRepresentation2D::MarkupsInteractionPipeline2D</a>
 , <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html#a930dbfd38b4056d9187ff8bd3228dc86">vtkSlicerMarkupsWidgetRepresentation::MarkupsInteractionPipeline</a>
+, <a class="el" href="classvtkSlicerROIRepresentation2D_1_1MarkupsInteractionPipelineROI2D.html#aec4214d2901895dc2fad2343d2374899">vtkSlicerROIRepresentation2D::MarkupsInteractionPipelineROI2D</a>
 </li>
 <li>GetViewScaleFactorAtPosition()
 : <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation3D.html#a14781ac21cb10a32afcbd5720d2c9fa8">vtkSlicerMarkupsWidgetRepresentation3D</a>
@@ -7757,16 +7814,16 @@ $(function() {
 : <a class="el" href="classvtkMRMLSliceIntersectionWidget.html#a219e8f199cf10ea665abf20ce6868f01">vtkMRMLSliceIntersectionWidget</a>
 </li>
 <li>GetVisibleSegmentIDs()
-: <a class="el" href="classvtkMRMLSegmentationDisplayNode.html#aa1d661d53164568e5382fa820ca39455">vtkMRMLSegmentationDisplayNode</a>
+: <a class="el" href="classvtkMRMLSegmentationDisplayNode.html#a869cc9e7a8cb84813a610a0ef52d3f76">vtkMRMLSegmentationDisplayNode</a>
 </li>
 <li>GetVisibleSegmentsForPosition()
 : <a class="el" href="classvtkMRMLSegmentationsDisplayableManager2D.html#ae6aff78e146ec2b9afa1e867f73fccbd">vtkMRMLSegmentationsDisplayableManager2D</a>
 </li>
 <li>GetVisualization2d()
-: <a class="el" href="classvtkSlicerTransformLogic.html#ac09813265e945b5cbee448811eb4daa3">vtkSlicerTransformLogic</a>
+: <a class="el" href="classvtkSlicerTransformLogic.html#a2fabe75370ae4daf6c8cea5b822f32cb">vtkSlicerTransformLogic</a>
 </li>
 <li>GetVisualization3d()
-: <a class="el" href="classvtkSlicerTransformLogic.html#a8cf7735b6e946ebaa053eded6a035e94">vtkSlicerTransformLogic</a>
+: <a class="el" href="classvtkSlicerTransformLogic.html#a4f175531c9033ee3503f79639abc27f4">vtkSlicerTransformLogic</a>
 </li>
 <li>GetVisualizationDisplacementMagnitudeScalarName()
 : <a class="el" href="classvtkSlicerTransformLogic.html#ad3b00f0a7c9ece9fa4e186e8e10a1dc4">vtkSlicerTransformLogic</a>
@@ -7886,14 +7943,14 @@ $(function() {
 : <a class="el" href="classvtkParametricPolynomialApproximation.html#a6de8a97098391a9d85a178d3bd84e1b7">vtkParametricPolynomialApproximation</a>
 </li>
 <li>GetWholeExtent()
-: <a class="el" href="classvtkImageRectangularSource.html#abd203727907e2e29ee8177f7d490f524">vtkImageRectangularSource</a>
+: <a class="el" href="classvtkImageRectangularSource.html#a983b4e4a65cee77334264a1c8875fe3d">vtkImageRectangularSource</a>
 </li>
 <li>GetWidget()
 : <a class="el" href="classvtkMRMLAnnotationDisplayableManager.html#a8a88bb703ed9d8a72fe5a161c9dd1ebc">vtkMRMLAnnotationDisplayableManager</a>
 , <a class="el" href="classvtkMRMLAnnotationDisplayableManagerHelper.html#a392a31c21029adba45328183616a5d8f">vtkMRMLAnnotationDisplayableManagerHelper</a>
 , <a class="el" href="classvtkMRMLLinearTransformsDisplayableManager3D.html#a49be889a3693f0e13e729b87bbc2e6f2">vtkMRMLLinearTransformsDisplayableManager3D</a>
 , <a class="el" href="classvtkMRMLMarkupsDisplayableManager.html#a96357deea57d8bc9dd9b3eb9af0ced09">vtkMRMLMarkupsDisplayableManager</a>
-, <a class="el" href="classvtkMRMLMarkupsDisplayableManagerHelper.html#afa7d80f20ac87af30177b6b678456a14">vtkMRMLMarkupsDisplayableManagerHelper</a>
+, <a class="el" href="classvtkMRMLMarkupsDisplayableManagerHelper.html#a4153c46163d361a99d7b8f5d9ee88a47">vtkMRMLMarkupsDisplayableManagerHelper</a>
 </li>
 <li>GetWidgetColor()
 : <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html#a9712821e2e2805847fbdb687f0aab868">vtkSlicerMarkupsWidgetRepresentation</a>
@@ -7948,7 +8005,7 @@ $(function() {
 </li>
 <li>GetWorldToDisplayCoordinates()
 : <a class="el" href="classvtkMRMLAnnotationDisplayableManager.html#a329f11462e454381915ad6ecc7c154e1">vtkMRMLAnnotationDisplayableManager</a>
-, <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation2D.html#ab43571e0ec4d10d46d9ae9ef25d9be69">vtkSlicerMarkupsWidgetRepresentation2D</a>
+, <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation2D.html#abadbd04101867ec7f8a92499aaf23899">vtkSlicerMarkupsWidgetRepresentation2D</a>
 </li>
 <li>GetWorldToImageMatrix()
 : <a class="el" href="classvtkOrientedImageData.html#acee8b8fd3d26419f2a279bcbf6fe2140">vtkOrientedImageData</a>
@@ -7978,13 +8035,16 @@ $(function() {
 : <a class="el" href="classvtkMRMLStorageNode.html#a2cd288450481e0e4f6407a2dae70b66d">vtkMRMLStorageNode</a>
 </li>
 <li>GetXAxis()
-: <a class="el" href="classvtkPrincipalAxesAlign.html#a4d66941518cd107cc212a8ff2d0716ab">vtkPrincipalAxesAlign</a>
+: <a class="el" href="classvtkPrincipalAxesAlign.html#a190735151a4cd3f7cdb83171c2f80004">vtkPrincipalAxesAlign</a>
+</li>
+<li>GetXAxisLocal()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a128d0e5a767855a8b35cc0975fbad9e7">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetXAxisLogScale()
 : <a class="el" href="classvtkMRMLPlotChartNode.html#ad5d441797de1990c8d36f60df84bb551">vtkMRMLPlotChartNode</a>
 </li>
 <li>GetXAxisRange()
-: <a class="el" href="classvtkMRMLPlotChartNode.html#a7c786da9dbd0d352fd3879f25edce8e9">vtkMRMLPlotChartNode</a>
+: <a class="el" href="classvtkMRMLPlotChartNode.html#a9c5b228c267e7332135b0db4e30550ab">vtkMRMLPlotChartNode</a>
 </li>
 <li>GetXAxisRangeAuto()
 : <a class="el" href="classvtkMRMLPlotChartNode.html#acee14c46e7c5a54c9d808f38f33d72d0">vtkMRMLPlotChartNode</a>
@@ -7994,6 +8054,9 @@ $(function() {
 </li>
 <li>GetXAxisTitleVisibility()
 : <a class="el" href="classvtkMRMLPlotChartNode.html#a83c3ec0e09fc86db79715b6d5791f128">vtkMRMLPlotChartNode</a>
+</li>
+<li>GetXAxisWorld()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a02e7252324f9586bedbfb0e85277ae5a">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetXColumnName()
 : <a class="el" href="classvtkMRMLPlotSeriesNode.html#accb1c7e40abd4346e9d77d286b092864">vtkMRMLPlotSeriesNode</a>
@@ -8016,19 +8079,23 @@ $(function() {
 <li>GetXYZ()
 : <a class="el" href="classvtkMRMLAnnotationROINode.html#a951f54fefa1e4e9e8a0f0ec7439e96f7">vtkMRMLAnnotationROINode</a>
 , <a class="el" href="classvtkMRMLFiducial.html#aec2989df08990f083d10a24322acbaac">vtkMRMLFiducial</a>
-, <a class="el" href="classvtkMRMLROINode.html#a1054ee5a49f535441147990f0f6eb65c">vtkMRMLROINode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#ac3a39ed081b5113fc8013c3df13bd2e3">vtkMRMLMarkupsROINode</a>
+, <a class="el" href="classvtkMRMLROINode.html#a39a97465a73ff88bed9803b36c7ac826">vtkMRMLROINode</a>
 </li>
 <li>GetXYZOrigin()
 : <a class="el" href="classvtkMRMLSliceNode.html#acaf8d19e43aaffeecaf696a5e716099b">vtkMRMLSliceNode</a>
 </li>
 <li>GetYAxis()
-: <a class="el" href="classvtkPrincipalAxesAlign.html#a46525f1f6033e4555937310e52b3f9c3">vtkPrincipalAxesAlign</a>
+: <a class="el" href="classvtkPrincipalAxesAlign.html#ad7b8037306b748840342dd51050e7ab0">vtkPrincipalAxesAlign</a>
+</li>
+<li>GetYAxisLocal()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a6209f7ce9e789680eedae21c5b6ec079">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetYAxisLogScale()
 : <a class="el" href="classvtkMRMLPlotChartNode.html#a91085773c3bcacac2c25b2df17f13973">vtkMRMLPlotChartNode</a>
 </li>
 <li>GetYAxisRange()
-: <a class="el" href="classvtkMRMLPlotChartNode.html#a5135f64bf666125ced75f3f5142dd072">vtkMRMLPlotChartNode</a>
+: <a class="el" href="classvtkMRMLPlotChartNode.html#ade8d14422b2fe173b9da105841c5028b">vtkMRMLPlotChartNode</a>
 </li>
 <li>GetYAxisRangeAuto()
 : <a class="el" href="classvtkMRMLPlotChartNode.html#a05481d983b870b8b93a787daabe22368">vtkMRMLPlotChartNode</a>
@@ -8041,6 +8108,9 @@ $(function() {
 </li>
 <li>GetYAxisValue()
 : <a class="el" href="classvtkMRMLDoubleArrayNode.html#a8e09af78672eaf6d01a3142e64fb1a34">vtkMRMLDoubleArrayNode</a>
+</li>
+<li>GetYAxisWorld()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a73d8d8f3e54c29c9fb129f957d8b4195">vtkMRMLMarkupsROINode</a>
 </li>
 <li>GetYColumnName()
 : <a class="el" href="classvtkMRMLPlotSeriesNode.html#af883391c4f7f689dbf7e26827e43165d">vtkMRMLPlotSeriesNode</a>
@@ -8056,6 +8126,12 @@ $(function() {
 </li>
 <li>GetZAxis()
 : <a class="el" href="classvtkPrincipalAxesAlign.html#a468ba6ae60896e22ff87ab7f3e5bd5ca">vtkPrincipalAxesAlign</a>
+</li>
+<li>GetZAxisLocal()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a531198a9ffaa247108925ab1d55a6574">vtkMRMLMarkupsROINode</a>
+</li>
+<li>GetZAxisWorld()
+: <a class="el" href="classvtkMRMLMarkupsROINode.html#a66020080177f4e357c38f7a229da66a2">vtkMRMLMarkupsROINode</a>
 </li>
 <li>getZeroLayerAtIteration()
 : <a class="el" href="classCSFLSSegmentor3D.html#a81439da872b7bd0d52f2e96105422863">CSFLSSegmentor3D&lt; TPixel &gt;</a>
@@ -8075,7 +8151,7 @@ $(function() {
 <li>GlyphTypeIs3D()
 : <a class="el" href="classvtkMRMLAnnotationPointDisplayNode.html#a2380b7f8945d17001f8238d10e83df1c">vtkMRMLAnnotationPointDisplayNode</a>
 , <a class="el" href="classvtkMRMLFiducialListNode.html#ac0bbeb1a257dc52f9336183a283f69f6">vtkMRMLFiducialListNode</a>
-, <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a9346da82daeb3eaac2c2b0f93f94cd85">vtkMRMLMarkupsDisplayNode</a>
+, <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a1c7a33fac6b1187f9d7976b511b43c35">vtkMRMLMarkupsDisplayNode</a>
 </li>
 <li>gpuMemory()
 : <a class="el" href="classqSlicerVolumeRenderingSettingsPanel.html#a251ec606ccecb2db761aac29ac2ad2f1">qSlicerVolumeRenderingSettingsPanel</a>
@@ -8084,7 +8160,7 @@ $(function() {
 : <a class="el" href="classqSlicerVolumeRenderingSettingsPanel.html#a287fa01b4c2541c7ee5b9f4b6dc5468f">qSlicerVolumeRenderingSettingsPanel</a>
 </li>
 <li>grabScreenShot()
-: <a class="el" href="classqMRMLScreenShotDialog.html#a4cc5a24b8aa896c812aa3930b028f508">qMRMLScreenShotDialog</a>
+: <a class="el" href="classqMRMLScreenShotDialog.html#ab2ec06b6dbda8531eef7e177247a486a">qMRMLScreenShotDialog</a>
 </li>
 <li>grabSnapShot()
 : <a class="el" href="classqSlicerAnnotationModuleWidget.html#a56f69dcc6b427f25d441ca2b7305c3f4">qSlicerAnnotationModuleWidget</a>
@@ -8132,16 +8208,16 @@ $(function() {
 : <a class="el" href="classSegmentEditorMarginEffect_1_1SegmentEditorMarginEffect.html#a914f0ce3fa1af5b8cf7e88c0ae3cc198">SegmentEditorMarginEffect.SegmentEditorMarginEffect</a>
 </li>
 <li>itkGetConstMacro()
-: <a class="el" href="classitk_1_1BSplineImageToImageRegistrationMethod.html#a41e0826be8c5af6da8ce5407a8ca6d56">itk::BSplineImageToImageRegistrationMethod&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1GrowCutSegmentationImageFilter.html#ab82cb052e5d5df1d9f61c36023f19898">itk::GrowCutSegmentationImageFilter&lt; TInputImage, TOutputImage, TWeightPixelType &gt;</a>
-, <a class="el" href="classitk_1_1ImageToImageRegistrationHelper.html#a6fec6a84dc696662dd4a4ebedc0d41a6">itk::ImageToImageRegistrationHelper&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1InitialImageToImageRegistrationMethod.html#acd65142b952d5acc6c8ebcb4b6ff67ae">itk::InitialImageToImageRegistrationMethod&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1MorphologicalContourInterpolator.html#ab94c0c7d2d5a12a3cd3f3320ccdde9ec">itk::MorphologicalContourInterpolator&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1OptimizedImageToImageRegistrationMethod.html#a6e6170837ff45dde86959081b28a501d">itk::OptimizedImageToImageRegistrationMethod&lt; TImage &gt;</a>
+: <a class="el" href="classitk_1_1BSplineImageToImageRegistrationMethod.html#a94683078a032b0b0c21f5772ae0a3ea6">itk::BSplineImageToImageRegistrationMethod&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1GrowCutSegmentationImageFilter.html#a467fdacf183c1f2e1d150bd1f5fe0041">itk::GrowCutSegmentationImageFilter&lt; TInputImage, TOutputImage, TWeightPixelType &gt;</a>
+, <a class="el" href="classitk_1_1ImageToImageRegistrationHelper.html#a289591ac35eca321e880df1439cc352a">itk::ImageToImageRegistrationHelper&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1InitialImageToImageRegistrationMethod.html#a99b010f136ec9c005f56687c8be88491">itk::InitialImageToImageRegistrationMethod&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1MorphologicalContourInterpolator.html#aeae7e624015f91aba2efac1964337de8">itk::MorphologicalContourInterpolator&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1OptimizedImageToImageRegistrationMethod.html#a65af36eb6c2b06a08153dda17eed3c12">itk::OptimizedImageToImageRegistrationMethod&lt; TImage &gt;</a>
 </li>
 <li>itkGetConstObjectMacro()
-: <a class="el" href="classitk_1_1ImageToImageRegistrationHelper.html#ae3beb8c1bb32048dff91cd9d72809489">itk::ImageToImageRegistrationHelper&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1ImageToImageRegistrationMethod.html#a48aa9835aab10fa5eeac398129d79808">itk::ImageToImageRegistrationMethod&lt; TImage &gt;</a>
+: <a class="el" href="classitk_1_1ImageToImageRegistrationHelper.html#a34b9995d8dbf1a20e7fba9aa4449abf9">itk::ImageToImageRegistrationHelper&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1ImageToImageRegistrationMethod.html#a3bf1e9c04655b12957162ac264711179">itk::ImageToImageRegistrationMethod&lt; TImage &gt;</a>
 </li>
 <li>itkGetConstReferenceMacro()
 : <a class="el" href="classitk_1_1AnisotropicSimilarity3DTransform.html#af0eb33c31fc769ad7691ddfc27640d52">itk::AnisotropicSimilarity3DTransform&lt; TScalarType &gt;</a>
@@ -8151,20 +8227,20 @@ $(function() {
 : <a class="el" href="classitk_1_1BSplineImageToImageRegistrationMethod.html#a2ea761104b7f3df94601736ebc4c0d2e">itk::BSplineImageToImageRegistrationMethod&lt; TImage &gt;</a>
 , <a class="el" href="classitk_1_1DiffusionTensor3DBSplineInterpolateImageFunction.html#a5a4094498063fe416d9a890895d2cb5f">itk::DiffusionTensor3DBSplineInterpolateImageFunction&lt; TData, TCoordRep &gt;</a>
 , <a class="el" href="classitk_1_1DiffusionTensor3DRead.html#a437979bf8fa6acd34df0897337c09831">itk::DiffusionTensor3DRead&lt; TData &gt;</a>
-, <a class="el" href="classitk_1_1DiffusionTensor3DResample.html#a5b88f24f01c20af93bde77593a2d5ee2">itk::DiffusionTensor3DResample&lt; TInput, TOutput &gt;</a>
+, <a class="el" href="classitk_1_1DiffusionTensor3DResample.html#a4b53d35a66a2ef63247b96a08535fdf9">itk::DiffusionTensor3DResample&lt; TInput, TOutput &gt;</a>
 , <a class="el" href="classitk_1_1GrowCutSegmentationImageFilter.html#aad31edd502825bfbac6ea1de28644f06">itk::GrowCutSegmentationImageFilter&lt; TInputImage, TOutputImage, TWeightPixelType &gt;</a>
-, <a class="el" href="classitk_1_1ImageRegionMomentsCalculator.html#a12ccc1fd2b517dff6c1a4299c948fc0b">itk::ImageRegionMomentsCalculator&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1ImageToImageRegistrationHelper.html#afeb3f94403a9637f2a862d7c380e9d34">itk::ImageToImageRegistrationHelper&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1ImageRegionMomentsCalculator.html#a2267c3a906277a0308592f8fd2dc773e">itk::ImageRegionMomentsCalculator&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1ImageToImageRegistrationHelper.html#ae97d837227bc253e3d57a893c350e7b0">itk::ImageToImageRegistrationHelper&lt; TImage &gt;</a>
 , <a class="el" href="classitk_1_1ImageToImageRegistrationMethod.html#ab733afccf388884ae399cefdafcd145b">itk::ImageToImageRegistrationMethod&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1LevelTracingImageFilter.html#a69df100821eafa1e7dad1b4645c905cf">itk::LevelTracingImageFilter&lt; TInputImage, TOutputImage &gt;</a>
-, <a class="el" href="classitk_1_1MorphologicalContourInterpolator.html#ab098cd51bf20d9b9939d4d07dc640899">itk::MorphologicalContourInterpolator&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1NewOtsuThresholdImageCalculator.html#ad14990725a3e2887e8082a0b1f273f4a">itk::NewOtsuThresholdImageCalculator&lt; TInputImage &gt;</a>
-, <a class="el" href="classitk_1_1NewOtsuThresholdImageFilter.html#ac0fb9abaaee833c0da2bb3e8ae66df4b">itk::NewOtsuThresholdImageFilter&lt; TInputImage, TOutputImage &gt;</a>
+, <a class="el" href="classitk_1_1LevelTracingImageFilter.html#a10271b2c9fc28f044e21754f5efb390c">itk::LevelTracingImageFilter&lt; TInputImage, TOutputImage &gt;</a>
+, <a class="el" href="classitk_1_1MorphologicalContourInterpolator.html#a4905985bef07fc0e20e30b1391de8edd">itk::MorphologicalContourInterpolator&lt; TImage &gt;</a>
+, <a class="el" href="classitk_1_1NewOtsuThresholdImageCalculator.html#a2200b0267fd5b70a95fa38254661b73f">itk::NewOtsuThresholdImageCalculator&lt; TInputImage &gt;</a>
+, <a class="el" href="classitk_1_1NewOtsuThresholdImageFilter.html#a399ba225b25fa0a16ad90f5a3b067902">itk::NewOtsuThresholdImageFilter&lt; TInputImage, TOutputImage &gt;</a>
 , <a class="el" href="classitk_1_1OptimizedImageToImageRegistrationMethod.html#a70b304ff87f1605c49cf0d12a55e4088">itk::OptimizedImageToImageRegistrationMethod&lt; TImage &gt;</a>
-, <a class="el" href="classitk_1_1TimeSeriesDatabase.html#a32b07d3f71208bc40d27e6eafedbbb56">itk::TimeSeriesDatabase&lt; TPixel &gt;</a>
+, <a class="el" href="classitk_1_1TimeSeriesDatabase.html#adee34bb1816b3546a8bba67b60d15268">itk::TimeSeriesDatabase&lt; TPixel &gt;</a>
 </li>
 <li>itkGetObjectMacro()
-: <a class="el" href="classitk_1_1ImageToImageRegistrationMethod.html#a8db47af7fbcd3505118b571e6d227719">itk::ImageToImageRegistrationMethod&lt; TImage &gt;</a>
+: <a class="el" href="classitk_1_1ImageToImageRegistrationMethod.html#a1fed3cecc7109db37c00eca994022dc1">itk::ImageToImageRegistrationMethod&lt; TImage &gt;</a>
 </li>
 <li>qSlicerGetTitleMacro()
 : <a class="el" href="classqSlicerAnnotationsModule.html#aa6caa1b5a2765c9a92ae4dfe33dda2b0">qSlicerAnnotationsModule</a>
@@ -8211,7 +8287,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 9 2021 17:20:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 11 2021 00:57:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

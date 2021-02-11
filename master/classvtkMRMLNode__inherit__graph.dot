@@ -93,12 +93,12 @@ digraph "vtkMRMLNode"
   Node66 [label="vtkMRMLTextNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLTextNode.html"];
   Node54 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node67 [label="vtkMRMLTransformableNode",height=0.2,width=0.4,color="red",URL="$classvtkMRMLTransformableNode.html",tooltip="MRML node for representing a node with a transform. "];
-  Node54 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node106 [label="vtkMRMLVolumePropertyNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLVolumePropertyNode.html",tooltip="vtkMRMLVolumePropertyNode contains the transfer functions (scalar opacity, color and gradient opacity..."];
-  Node0 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node107 [label="vtkMRMLStorageNode",height=0.2,width=0.4,color="red",URL="$classvtkMRMLStorageNode.html",tooltip="A superclass for other storage nodes. "];
-  Node0 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node138 [label="vtkMRMLSubjectHierarchyNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLSubjectHierarchyNode.html",tooltip="MRML node to represent a complete subject hierarchy tree. "];
-  Node0 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node139 [label="vtkMRMLUnitNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLUnitNode.html",tooltip="Node that holds the information about a unit. "];
+  Node54 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node107 [label="vtkMRMLVolumePropertyNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLVolumePropertyNode.html",tooltip="vtkMRMLVolumePropertyNode contains the transfer functions (scalar opacity, color and gradient opacity..."];
+  Node0 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node108 [label="vtkMRMLStorageNode",height=0.2,width=0.4,color="red",URL="$classvtkMRMLStorageNode.html",tooltip="A superclass for other storage nodes. "];
+  Node0 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node140 [label="vtkMRMLSubjectHierarchyNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLSubjectHierarchyNode.html",tooltip="MRML node to represent a complete subject hierarchy tree. "];
+  Node0 -> Node141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node141 [label="vtkMRMLUnitNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLUnitNode.html",tooltip="Node that holds the information about a unit. "];
 }

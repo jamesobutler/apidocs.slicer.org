@@ -91,6 +91,7 @@ var searchData=
   ['fixsequencenodereferencerolename',['FixSequenceNodeReferenceRoleName',['../classvtkMRMLSequenceBrowserNode.html#a8a05e183a4089fabd3ec691566103b7d',1,'vtkMRMLSequenceBrowserNode']]],
   ['flags',['flags',['../classqMRMLSortFilterSegmentsProxyModel.html#aa743dda0035b90a0bab47a6ff6af6684',1,'qMRMLSortFilterSegmentsProxyModel::flags()'],['../classqMRMLSortFilterSubjectHierarchyProxyModel.html#a35870b63bc617520978989ed09033dda',1,'qMRMLSortFilterSubjectHierarchyProxyModel::flags()']]],
   ['flattengeneraltransform',['FlattenGeneralTransform',['../classvtkMRMLTransformNode.html#a42b03f479f0bcc1bace9d886d8b5b7ad',1,'vtkMRMLTransformNode']]],
+  ['fliproihandles',['FlipROIHandles',['../classvtkSlicerROIWidget.html#ac43b84622ebeaf9a98901bc39ff5f9b3',1,'vtkSlicerROIWidget']]],
   ['focuscameraonnthpointinmarkup',['FocusCameraOnNthPointInMarkup',['../classvtkSlicerMarkupsLogic.html#a04ec532fe4585cf2e9d1ed5249865bbe',1,'vtkSlicerMarkupsLogic']]],
   ['focuscamerasonnthpointinmarkup',['FocusCamerasOnNthPointInMarkup',['../classvtkSlicerMarkupsLogic.html#a2a6ce5efb61834acdd6a7225f09b2630',1,'vtkSlicerMarkupsLogic']]],
   ['folderdisplayoverrideallowedoff',['FolderDisplayOverrideAllowedOff',['../classvtkMRMLDisplayNode.html#a69b8cadeedaac87487ed5ca464055f1c',1,'vtkMRMLDisplayNode']]],

@@ -21,4 +21,6 @@ digraph "Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidget.h"
   Node44 [label="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPlaneWidget.h",height=0.2,width=0.4,color="black",URL="$vtkSlicerPlaneWidget_8h.html"];
   Node37 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node45 [label="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPointsWidget.h",height=0.2,width=0.4,color="black",URL="$vtkSlicerPointsWidget_8h.html"];
+  Node37 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerROIWidget.h",height=0.2,width=0.4,color="black",URL="$vtkSlicerROIWidget_8h.html"];
 }

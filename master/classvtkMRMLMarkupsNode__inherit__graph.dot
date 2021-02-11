@@ -27,4 +27,6 @@ digraph "vtkMRMLMarkupsNode"
   Node10 [label="vtkMRMLMarkupsLineNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMarkupsLineNode.html",tooltip="MRML node to represent a line markup Line Markups nodes contain two control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. "];
   Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node11 [label="vtkMRMLMarkupsPlaneNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMarkupsPlaneNode.html",tooltip="MRML node to represent a plane markup Plane Markups nodes contain three control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. "];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="vtkMRMLMarkupsROINode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMarkupsROINode.html",tooltip="MRML node to represent an ROI markup. "];
 }

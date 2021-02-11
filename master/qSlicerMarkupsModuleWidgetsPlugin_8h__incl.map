@@ -1,7 +1,8 @@
 <map id="Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.h" name="Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.h">
 <area shape="rect" id="node3" href="$qMRMLMarkupsDisplayNodeWidgetPlugin_8h.html" title="qMRMLMarkupsDisplayNodeWidget\lPlugin.h" alt="" coords="239,109,483,151"/>
 <area shape="rect" id="node8" href="$qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin_8h.html" title="qMRMLMarkupsFiducialProjection\lPropertyWidgetPlugin.h" alt="" coords="507,109,737,151"/>
-<area shape="rect" id="node9" href="$qSlicerMarkupsPlaceWidgetPlugin_8h.html" title="qSlicerMarkupsPlaceWidget\lPlugin.h" alt="" coords="761,109,957,151"/>
-<area shape="rect" id="node10" href="$qSlicerSimpleMarkupsWidgetPlugin_8h.html" title="qSlicerSimpleMarkupsWidget\lPlugin.h" alt="" coords="981,109,1188,151"/>
-<area shape="rect" id="node4" href="$qSlicerMarkupsModuleWidgetsAbstractPlugin_8h.html" title="qSlicerMarkupsModuleWidgets\lAbstractPlugin.h" alt="" coords="633,199,848,240"/>
+<area shape="rect" id="node9" href="$qMRMLMarkupsROIWidgetPlugin_8h.html" title="qMRMLMarkupsROIWidgetPlugin.h" alt="" coords="762,117,997,143"/>
+<area shape="rect" id="node10" href="$qSlicerMarkupsPlaceWidgetPlugin_8h.html" title="qSlicerMarkupsPlaceWidget\lPlugin.h" alt="" coords="1021,109,1217,151"/>
+<area shape="rect" id="node11" href="$qSlicerSimpleMarkupsWidgetPlugin_8h.html" title="qSlicerSimpleMarkupsWidget\lPlugin.h" alt="" coords="1241,109,1448,151"/>
+<area shape="rect" id="node4" href="$qSlicerMarkupsModuleWidgetsAbstractPlugin_8h.html" title="qSlicerMarkupsModuleWidgets\lAbstractPlugin.h" alt="" coords="772,199,987,240"/>
 </map>

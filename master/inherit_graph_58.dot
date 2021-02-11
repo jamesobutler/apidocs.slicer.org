@@ -4,11 +4,11 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node822 [label="QListView",height=0.2,width=0.4,color="grey75"];
-  Node822 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node829 [label="QListView",height=0.2,width=0.4,color="grey75"];
+  Node829 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLColorListView",height=0.2,width=0.4,color="black",URL="$classqMRMLColorListView.html"];
-  Node822 -> Node824 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node824 [label="qMRMLListWidget",height=0.2,width=0.4,color="black",URL="$classqMRMLListWidget.html"];
-  Node822 -> Node825 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node825 [label="qSlicerModulesListView",height=0.2,width=0.4,color="black",URL="$classqSlicerModulesListView.html"];
+  Node829 -> Node831 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node831 [label="qMRMLListWidget",height=0.2,width=0.4,color="black",URL="$classqMRMLListWidget.html"];
+  Node829 -> Node832 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node832 [label="qSlicerModulesListView",height=0.2,width=0.4,color="black",URL="$classqSlicerModulesListView.html"];
 }

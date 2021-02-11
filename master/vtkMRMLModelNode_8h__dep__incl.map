@@ -1,8 +1,9 @@
 <map id="Libs/MRML/Core/vtkMRMLModelNode.h" name="Libs/MRML/Core/vtkMRMLModelNode.h">
-<area shape="rect" id="node2" href="$vtkSlicerApplicationLogicRequests_8h.html" title="Base/Logic/vtkSlicerApplication\lLogicRequests.h" alt="" coords="415,95,633,136"/>
-<area shape="rect" id="node3" href="$vtkMRMLModelDisplayableManager_8h.html" title="Libs/MRML/DisplayableManager\l/vtkMRMLModelDisplayableManager.h" alt="" coords="658,95,918,136"/>
-<area shape="rect" id="node4" href="$vtkMRMLAnnotationNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationNode.h" alt="" coords="942,95,1181,136"/>
+<area shape="rect" id="node2" href="$vtkSlicerApplicationLogicRequests_8h.html" title="Base/Logic/vtkSlicerApplication\lLogicRequests.h" alt="" coords="432,95,651,136"/>
+<area shape="rect" id="node3" href="$vtkMRMLModelDisplayableManager_8h.html" title="Libs/MRML/DisplayableManager\l/vtkMRMLModelDisplayableManager.h" alt="" coords="675,95,935,136"/>
+<area shape="rect" id="node4" href="$vtkMRMLAnnotationNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationNode.h" alt="" coords="959,95,1198,136"/>
 <area shape="rect" id="node16" href="$vtkMRMLMarkupsCurveNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsCurveNode.h" alt="" coords="1222,95,1482,136"/>
+<area shape="rect" id="node18" href="$vtkMRMLMarkupsROINode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsROINode.h" alt="" coords="1506,95,1750,136"/>
 <area shape="rect" id="node5" href="$vtkMRMLAnnotationControlPointsNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationControlPoints\lNode.h" alt="" coords="903,184,1182,240"/>
 <area shape="rect" id="node13" href="$vtkMRMLAnnotationSnapshotNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationSnapshotNode.h" alt="" coords="1498,288,1798,329"/>
 <area shape="rect" id="node14" href="$vtkMRMLAnnotationStickyNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationStickyNode.h" alt="" coords="303,288,580,329"/>

@@ -38,4 +38,6 @@ digraph "Libs/MRML/Core/vtkMRMLModelNode.h"
   Node37 [label="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsCurveNode.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLMarkupsCurveNode_8h.html"];
   Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node38 [label="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsClosedCurve\lNode.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLMarkupsClosedCurveNode_8h.html"];
+  Node22 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsROINode.h",height=0.2,width=0.4,color="black",URL="$vtkMRMLMarkupsROINode_8h.html"];
 }

@@ -147,6 +147,7 @@ var searchData=
   ['addnewnodebyclass',['AddNewNodeByClass',['../classvtkMRMLScene.html#aab1407c259335c8a893c2dc54c75392c',1,'vtkMRMLScene']]],
   ['addnewnodebyclasswithid',['AddNewNodeByClassWithID',['../classvtkMRMLScene.html#a402936458dd609d1010028104603f41f',1,'vtkMRMLScene']]],
   ['addnewplacenodeclassnametolist',['AddNewPlaceNodeClassNameToList',['../classvtkMRMLSelectionNode.html#a6c1a9b211efeee7951ec5d4821136a6b',1,'vtkMRMLSelectionNode']]],
+  ['addnewstoragenodeformarkuptype',['AddNewStorageNodeForMarkupType',['../classvtkSlicerMarkupsLogic.html#aa1fd6a786f7700a4be7ea7f147da2d01',1,'vtkSlicerMarkupsLogic']]],
   ['addnode',['addNode',['../classqMRMLNodeComboBox.html#a2c9c7b4426b499de46023b1802fa339f',1,'qMRMLNodeComboBox::addNode(QString nodeType)'],['../classqMRMLNodeComboBox.html#a30db22cb36c70b41b00e32ddea2d7c97',1,'qMRMLNodeComboBox::addNode()'],['../classvtkMRMLScene.html#a647b490da091788eec182d1053a1feb2',1,'vtkMRMLScene::AddNode()']]],
   ['addnodecompleted',['AddNodeCompleted',['../classvtkSlicerAnnotationModuleLogic.html#aa7efb04610551c78908ddd29c5accbc9',1,'vtkSlicerAnnotationModuleLogic']]],
   ['addnodeid',['AddNodeID',['../classvtkMRMLScene.html#a213ed7c1b89ba4b23f431499eb537b14',1,'vtkMRMLScene']]],

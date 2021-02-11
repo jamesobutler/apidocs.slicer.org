@@ -14,4 +14,6 @@ digraph "vtkMRMLMarkupsStorageNode"
   Node4 [label="vtkMRMLMarkupsFiducialStorageNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMarkupsFiducialStorageNode.html"];
   Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node5 [label="vtkMRMLMarkupsJsonStorageNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMarkupsJsonStorageNode.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="vtkMRMLMarkupsROIJsonStorageNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLMarkupsROIJsonStorageNode.html"];
 }

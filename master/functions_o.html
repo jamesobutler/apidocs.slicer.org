@@ -522,6 +522,9 @@ $(function() {
 <li>onCreateMarkupsPlane()
 : <a class="el" href="classqSlicerMarkupsModuleWidget.html#af5a34ed3b2cf728c44546a24197ae085">qSlicerMarkupsModuleWidget</a>
 </li>
+<li>onCreateMarkupsROI()
+: <a class="el" href="classqSlicerMarkupsModuleWidget.html#af19a3010a6b64f92f1db5d432bba2421">qSlicerMarkupsModuleWidget</a>
+</li>
 <li>onCreateNewTransform()
 : <a class="el" href="classqMRMLSubjectHierarchyTreeView.html#a708d0438f838c2eaaa4dcd49b5a04dcf">qMRMLSubjectHierarchyTreeView</a>
 </li>
@@ -1235,6 +1238,7 @@ $(function() {
 </li>
 <li>onMRMLDisplayNodeModified()
 : <a class="el" href="classqMRMLAnnotationROIWidget.html#a4423f4f9b51a9a6385d61f586d1399a4">qMRMLAnnotationROIWidget</a>
+, <a class="el" href="classqMRMLMarkupsROIWidget.html#a5812f5f54e663be9821b27f1fc2cd5b3">qMRMLMarkupsROIWidget</a>
 </li>
 <li>onMRMLInputSequenceInputNodeModified()
 : <a class="el" href="classqSlicerSequencesModuleWidget.html#a0f0065821d41c42f22b76d69cc427fff">qSlicerSequencesModuleWidget</a>
@@ -1248,6 +1252,7 @@ $(function() {
 </li>
 <li>onMRMLNodeModified()
 : <a class="el" href="classqMRMLAnnotationROIWidget.html#a377a8ec3076efcf876d5807b4153737d">qMRMLAnnotationROIWidget</a>
+, <a class="el" href="classqMRMLMarkupsROIWidget.html#a8e7eb7e11bcef9dab571251929ed6e68">qMRMLMarkupsROIWidget</a>
 , <a class="el" href="classqMRMLROIWidget.html#a57d563eb578d184e1b4efea76a7cdddd">qMRMLROIWidget</a>
 , <a class="el" href="classqMRMLSceneModel.html#af84f0768c92389b24665b4442994e9fd">qMRMLSceneModel</a>
 </li>
@@ -1808,6 +1813,9 @@ $(function() {
 <li>onROIFit()
 : <a class="el" href="classqSlicerCropVolumeModuleWidget.html#abbe1da936fdddd5f3484c82bcdcf249b">qSlicerCropVolumeModuleWidget</a>
 </li>
+<li>onROITypeParameterChanged()
+: <a class="el" href="classqSlicerMarkupsModuleWidget.html#a99fdce29ef5676563b210f793d6001a2">qSlicerMarkupsModuleWidget</a>
+</li>
 <li>onROIVisibilityChanged()
 : <a class="el" href="classqSlicerCropVolumeModuleWidget.html#ac689682d1e1850a5c2726ac9b6a3aaac">qSlicerCropVolumeModuleWidget</a>
 </li>
@@ -2201,6 +2209,7 @@ $(function() {
 </li>
 <li>OnTransformNodeReferenceChanged()
 : <a class="el" href="classvtkMRMLMarkupsNode.html#a9f5002d46d66cfdff2e372cfb5244054">vtkMRMLMarkupsNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#a3e05e9d6079a66094b61604b1e92077b">vtkMRMLMarkupsROINode</a>
 , <a class="el" href="classvtkMRMLTransformableNode.html#aaf5e6afd30216db5aafeb7e1141e9eee">vtkMRMLTransformableNode</a>
 </li>
 <li>onTranslateFirstButtonPressed()
@@ -2358,17 +2367,17 @@ $(function() {
 </li>
 <li>opacityColumn
 : <a class="el" href="classqMRMLColorModel.html#a750d0034076e83f87d16942489d13f27">qMRMLColorModel</a>
-, <a class="el" href="classqMRMLSceneDisplayableModel.html#ac4afaea82d7ed234b86d70f8d2b1b94f">qMRMLSceneDisplayableModel</a>
-, <a class="el" href="classqMRMLSegmentsModel.html#ac02101cec57dcc855c103ef1c25026b6">qMRMLSegmentsModel</a>
+, <a class="el" href="classqMRMLSceneDisplayableModel.html#ae347c9cec91ce34f7cbb2dd90d7d2bf3">qMRMLSceneDisplayableModel</a>
+, <a class="el" href="classqMRMLSegmentsModel.html#a0a16a4f19e796c0e78c40c64c25d6b21">qMRMLSegmentsModel</a>
 </li>
-<li>opacityColumnVisible
-: <a class="el" href="classqMRMLSegmentsTableView.html#aacdce2f575719936a83e230559933d72">qMRMLSegmentsTableView</a>
+<li>opacityColumnVisible()
+: <a class="el" href="classqMRMLSegmentsTableView.html#a3dc6ab1aba3ed393411a8443768c6b40">qMRMLSegmentsTableView</a>
 </li>
 <li>openAddColorTableDialog()
 : <a class="el" href="classqSlicerIOManager.html#a37e60f7f63814588a8e1eff34c7ff016">qSlicerIOManager</a>
 </li>
 <li>openAddDataDialog()
-: <a class="el" href="classqSlicerIOManager.html#a88195fcb99f75f9e7373feefd8bd7e20">qSlicerIOManager</a>
+: <a class="el" href="classqSlicerIOManager.html#a6d565e3f66429cd0f344ce0cda643ea4">qSlicerIOManager</a>
 </li>
 <li>openAddFiberBundleDialog()
 : <a class="el" href="classqSlicerIOManager.html#acb2af6b17c13bbf99147748fa0bbdec5">qSlicerIOManager</a>
@@ -2485,7 +2494,7 @@ $(function() {
 , <a class="el" href="classitk_1_1DiffusionTensor3DAbsCorrectionFilter.html#a5c5b03bd1286fe2ac855b52f7e08d150">itk::DiffusionTensor3DAbsCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
 , <a class="el" href="classitk_1_1DiffusionTensor3DNearestCorrectionFilter.html#afc0668a0ed65d6e0d3a1fe8d9a3aaf23">itk::DiffusionTensor3DNearestCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
 , <a class="el" href="classitk_1_1DiffusionTensor3DZeroCorrectionFilter.html#a1d9ba1dc147158a96472f14e25bfb732">itk::DiffusionTensor3DZeroCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
-, <a class="el" href="classitk_1_1MatrixExtended.html#aa5bc9f8052610a4081d7a5aa122b6ccb">itk::MatrixExtended&lt; T, NRows, NColumns &gt;</a>
+, <a class="el" href="classitk_1_1MatrixExtended.html#a80c6d9ea5c044ec8b3bf1bf96d2b1397">itk::MatrixExtended&lt; T, NRows, NColumns &gt;</a>
 , <a class="el" href="classitk_1_1RigidImageToImageRegistrationMethod.html#addfa70597475d1db45d4068f31a82a25">itk::RigidImageToImageRegistrationMethod&lt; TImage &gt;</a>
 , <a class="el" href="classitk_1_1TimeSeriesDatabaseHelper_1_1counted__ptr.html#acd17aa675d1681e292e0516d845bde8b">itk::TimeSeriesDatabaseHelper::counted_ptr&lt; ElementType &gt;</a>
 , <a class="el" href="classitk_1_1WarpTransform3D.html#a208ae6389264ee9ab71dbce5283d839d">itk::WarpTransform3D&lt; FieldData &gt;</a>
@@ -2582,6 +2591,8 @@ $(function() {
 , <a class="el" href="classvtkMRMLMarkupsLineNode.html#ad318def46700fd60dfd9ce935958a150">vtkMRMLMarkupsLineNode</a>
 , <a class="el" href="classvtkMRMLMarkupsNode.html#ae64549dd77a67d6db8b6788db90e8bd6">vtkMRMLMarkupsNode</a>
 , <a class="el" href="classvtkMRMLMarkupsPlaneNode.html#a02a6d55703fc71359d56c3461e6e6a4f">vtkMRMLMarkupsPlaneNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROIJsonStorageNode.html#a5666b5f2956a03a577d6fd533f57f7ae">vtkMRMLMarkupsROIJsonStorageNode</a>
+, <a class="el" href="classvtkMRMLMarkupsROINode.html#a985a9aa48ac2a32eae6e31ad3e0043af">vtkMRMLMarkupsROINode</a>
 , <a class="el" href="classvtkMRMLMarkupsStorageNode.html#a1fdd7a35c4a97bd2feab6378591b23e6">vtkMRMLMarkupsStorageNode</a>
 , <a class="el" href="classvtkMRMLMeasurement.html#acb867cd40c811e0e8c974dc613b0f771">vtkMRMLMeasurement</a>
 , <a class="el" href="classvtkMRMLMeasurementAngle.html#a7ec890bbe4890378fcba053f4e948b80">vtkMRMLMeasurementAngle</a>
@@ -2719,8 +2730,8 @@ $(function() {
 <li>optionsLayout()
 : <a class="el" href="classqSlicerSegmentEditorAbstractEffect.html#ace03653182710d6558c6960d508fae80">qSlicerSegmentEditorAbstractEffect</a>
 </li>
-<li>optionsVisible()
-: <a class="el" href="classqSlicerSimpleMarkupsWidget.html#ab22143aa35d34ccb285f0e890b737fa5">qSlicerSimpleMarkupsWidget</a>
+<li>optionsVisible
+: <a class="el" href="classqSlicerSimpleMarkupsWidget.html#a917c0c61690e2c73a2a0232eaf7eac1f">qSlicerSimpleMarkupsWidget</a>
 </li>
 <li>Order
 : <a class="el" href="classvtkMRMLTensorVolumeNode.html#a4bf72a84acdde55d1c47e691bd8b67ee">vtkMRMLTensorVolumeNode</a>
@@ -2834,6 +2845,27 @@ $(function() {
 <li>Outline
 : <a class="el" href="classvtkImageLabelOutline.html#a784844ca39878d1e9f632e1546fada7f">vtkImageLabelOutline</a>
 </li>
+<li>OutlineAppend
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#afe5b4aea5f426310f740bba620c4a71c">vtkSlicerROIRepresentation2D</a>
+</li>
+<li>OutlineClipperEndFadeFar
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#afcfdf9c68540a5d8d92fd7a5c38cd041">vtkSlicerROIRepresentation2D</a>
+</li>
+<li>OutlineClipperEndFadeNear
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#a823dc70ac3575ca5e5d734cdedbdebbd">vtkSlicerROIRepresentation2D</a>
+</li>
+<li>OutlineClipperSlicePlane
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#a5c2f6472c3a5e45e80e78949fef983b0">vtkSlicerROIRepresentation2D</a>
+</li>
+<li>OutlineClipperStartFadeFar
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#a18c201b6aa121af105f7e7d0159697ce">vtkSlicerROIRepresentation2D</a>
+</li>
+<li>OutlineClipperStartFadeNear
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#ac2e1bab121415700621afc8bd54aeece">vtkSlicerROIRepresentation2D</a>
+</li>
+<li>OutlineColorMap
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#a08e3735a2c765810af7505a99fdb1431">vtkSlicerROIRepresentation2D</a>
+</li>
 <li>OutlineCursorWires
 : <a class="el" href="classvtkAnnotationROIRepresentation.html#a2adfac133ed69c4d9910041136a4e5cc">vtkAnnotationROIRepresentation</a>
 </li>
@@ -2843,6 +2875,9 @@ $(function() {
 <li>OutlineCursorWiresOn()
 : <a class="el" href="classvtkAnnotationROIRepresentation.html#a79bbb42ad75c582ef454c58ca6acc83d">vtkAnnotationROIRepresentation</a>
 </li>
+<li>OutlineDistanceFilter
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#a15ca4507b6a1dbd9dd961d67ffd63f12">vtkSlicerROIRepresentation2D</a>
+</li>
 <li>OutlineFaceWires
 : <a class="el" href="classvtkAnnotationROIRepresentation.html#a42216f87895070b7e0709941e7c4fdb2">vtkAnnotationROIRepresentation</a>
 </li>
@@ -2851,6 +2886,9 @@ $(function() {
 </li>
 <li>OutlineFaceWiresOn()
 : <a class="el" href="classvtkAnnotationROIRepresentation.html#ae4592bccad3539932651e700e503fe4e">vtkAnnotationROIRepresentation</a>
+</li>
+<li>OutlineFilter
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#a572ca0266dfa0e175d08234eb2efe476">vtkSlicerROIRepresentation2D</a>
 </li>
 <li>OutlineMapper
 : <a class="el" href="classvtkAnnotationROIRepresentation.html#adb090c283654af13bbb626ec8b53f798">vtkAnnotationROIRepresentation</a>
@@ -2869,6 +2907,9 @@ $(function() {
 </li>
 <li>OutlineProperty
 : <a class="el" href="classvtkAnnotationROIRepresentation.html#a4786ce0b939073912e2a84dce1a3c007">vtkAnnotationROIRepresentation</a>
+</li>
+<li>OutlineROIWorldToSliceTransformFilter
+: <a class="el" href="classvtkSlicerROIRepresentation2D.html#a3b1dd4382bd12cbc33d808636f2d08b2">vtkSlicerROIRepresentation2D</a>
 </li>
 <li>OutlineVisibility
 : <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a3f4117ddc66bc96d6069e3a4ce1e78a8">vtkMRMLMarkupsDisplayNode</a>
@@ -3046,9 +3087,9 @@ $(function() {
 <li>OverrideColor
 : <a class="el" href="structvtkMRMLSegmentationDisplayNode_1_1SegmentDisplayProperties.html#a3a9c3415dcd2614c4e5e6e5c4ad7c58c">vtkMRMLSegmentationDisplayNode::SegmentDisplayProperties</a>
 </li>
-<li>overrideSectionVisible
-: <a class="el" href="classqSlicerTerminologyNavigatorWidget.html#afd58b54a3970acf3472e6f63e4413c8d">qSlicerTerminologyNavigatorWidget</a>
-, <a class="el" href="classqSlicerTerminologySelectorDialog.html#a5fca7ecd205b3392676a7a1897ca995b">qSlicerTerminologySelectorDialog</a>
+<li>overrideSectionVisible()
+: <a class="el" href="classqSlicerTerminologyNavigatorWidget.html#af9d5635b7aacd730989cea6478a22ebd">qSlicerTerminologyNavigatorWidget</a>
+, <a class="el" href="classqSlicerTerminologySelectorDialog.html#a9d35bca6a5972550bf9f631db16e29b0">qSlicerTerminologySelectorDialog</a>
 </li>
 <li>oversamplingFactor()
 : <a class="el" href="classqMRMLSegmentationGeometryWidget.html#afba075fff1812aa1811fa9142afeb36c">qMRMLSegmentationGeometryWidget</a>
@@ -3057,10 +3098,10 @@ $(function() {
 : <a class="el" href="classvtkSlicerSegmentationGeometryLogic.html#a6154595ec335c0da331f20b5dd3906a1">vtkSlicerSegmentationGeometryLogic</a>
 </li>
 <li>Overwrite_Last
-: <a class="el" href="classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3aa7b54be6d963750e9caac9252e126d21">vtkMRMLSegmentEditorNode</a>
+: <a class="el" href="classvtkMRMLSegmentEditorNode.html#a9e4990ecc82aec5af492f0d1ee5f1a26aa7b54be6d963750e9caac9252e126d21">vtkMRMLSegmentEditorNode</a>
 </li>
 <li>OverwriteAllSegments
-: <a class="el" href="classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3a25df107cf5f6fc1d04753c08f05dfa47">vtkMRMLSegmentEditorNode</a>
+: <a class="el" href="classvtkMRMLSegmentEditorNode.html#a9e4990ecc82aec5af492f0d1ee5f1a26a25df107cf5f6fc1d04753c08f05dfa47">vtkMRMLSegmentEditorNode</a>
 </li>
 <li>OverwriteInput
 : <a class="el" href="classvtkImageLabelCombine.html#ad51f37f4d55610d8e53c9eb37be75685">vtkImageLabelCombine</a>
@@ -3069,10 +3110,10 @@ $(function() {
 : <a class="el" href="classvtkMRMLSegmentEditorNode.html#a12aea86c3afaa36e224ca03b5a100566">vtkMRMLSegmentEditorNode</a>
 </li>
 <li>OverwriteNone
-: <a class="el" href="classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3ab8e73fee7b52bb5df95ef2eedcad0a64">vtkMRMLSegmentEditorNode</a>
+: <a class="el" href="classvtkMRMLSegmentEditorNode.html#a9e4990ecc82aec5af492f0d1ee5f1a26ab8e73fee7b52bb5df95ef2eedcad0a64">vtkMRMLSegmentEditorNode</a>
 </li>
 <li>OverwriteVisibleSegments
-: <a class="el" href="classvtkMRMLSegmentEditorNode.html#abdfc4aa8a9d4467f9a79daa0c5b755a3ad92c396e7a53edd77a7e56a8baa1ee35">vtkMRMLSegmentEditorNode</a>
+: <a class="el" href="classvtkMRMLSegmentEditorNode.html#a9e4990ecc82aec5af492f0d1ee5f1a26ad92c396e7a53edd77a7e56a8baa1ee35">vtkMRMLSegmentEditorNode</a>
 </li>
 <li>Owner
 : <a class="el" href="classvtkObserverManager.html#a5796e6c6f9fb56f9453af0f0ebc89090">vtkObserverManager</a>
@@ -3088,7 +3129,7 @@ $(function() {
 , <a class="el" href="classvtkObservation.html#a2267eb6d626f50ae1599ac4150fae970">vtkObservation</a>
 </li>
 <li>vtkObserverManager()
-: <a class="el" href="classvtkObserverManager.html#a011140846db2f250b9aee8332ea21a25">vtkObserverManager</a>
+: <a class="el" href="classvtkObserverManager.html#a440c282409201b70012ed1778cfe363d">vtkObserverManager</a>
 </li>
 <li>vtkOrientedImageData()
 : <a class="el" href="classvtkOrientedImageData.html#acd620e34e668cc322bc5beeeadce7cea">vtkOrientedImageData</a>
@@ -3100,7 +3141,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 9 2021 17:20:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 11 2021 00:57:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

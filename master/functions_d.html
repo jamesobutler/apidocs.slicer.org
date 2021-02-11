@@ -107,6 +107,7 @@ $(function() {
 , <a class="el" href="classqMRMLListWidget.html#ae9acc54137a4b30b5012a447b6da728c">qMRMLListWidget</a>
 , <a class="el" href="classqMRMLMarkupsDisplayNodeWidget.html#a4b975dbfab1721a45848dbff273ea2bc">qMRMLMarkupsDisplayNodeWidget</a>
 , <a class="el" href="classqMRMLMarkupsFiducialProjectionPropertyWidget.html#acafa07bd16743211854083d2588e5441">qMRMLMarkupsFiducialProjectionPropertyWidget</a>
+, <a class="el" href="classqMRMLMarkupsROIWidget.html#a02b9e86731643b41706aaac01fa866e7">qMRMLMarkupsROIWidget</a>
 , <a class="el" href="classqMRMLMatrixWidget.html#a8bb61430a2fe0c03df08ce1c00b7aae4">qMRMLMatrixWidget</a>
 , <a class="el" href="classqMRMLModelDisplayNodeWidget.html#af7bbe01591fee89973319af2e9d4b4b3">qMRMLModelDisplayNodeWidget</a>
 , <a class="el" href="classqMRMLModelInfoWidget.html#a246a95c930f90aa6f7f3d29d378c7dfd">qMRMLModelInfoWidget</a>
@@ -619,6 +620,9 @@ $(function() {
 <li>defaultRenderingMethodChanged()
 : <a class="el" href="classqSlicerVolumeRenderingSettingsPanel.html#a599445c801e9ceeeef246e8247ab13e4">qSlicerVolumeRenderingSettingsPanel</a>
 </li>
+<li>DefaultROIClassName
+: <a class="el" href="classvtkSlicerVolumeRenderingLogic.html#ac344a25809c5983f640f9c2712595fcf">vtkSlicerVolumeRenderingLogic</a>
+</li>
 <li>defaultSceneFileType
 : <a class="el" href="classqSlicerCoreIOManager.html#abd8ef962e04139785b3c8e6a186e6c0e">qSlicerCoreIOManager</a>
 </li>
@@ -698,8 +702,8 @@ $(function() {
 <li>deleteAllMarkups()
 : <a class="el" href="classqSlicerMarkupsPlaceWidget.html#a267e211a5228c2d303e330b6d7542076">qSlicerMarkupsPlaceWidget</a>
 </li>
-<li>deleteAllMarkupsOptionVisible
-: <a class="el" href="classqSlicerMarkupsPlaceWidget.html#a49a8f85cdd531656513136e37bdfd895">qSlicerMarkupsPlaceWidget</a>
+<li>deleteAllMarkupsOptionVisible()
+: <a class="el" href="classqSlicerMarkupsPlaceWidget.html#ab03c3774900bcc1f7e4afaafeb4d046d">qSlicerMarkupsPlaceWidget</a>
 </li>
 <li>deleteAllPoints()
 : <a class="el" href="classqSlicerMarkupsPlaceWidget.html#ae36d90c3aa3d5bf511ae05d8fd54a266">qSlicerMarkupsPlaceWidget</a>
@@ -763,7 +767,7 @@ $(function() {
 : <a class="el" href="classqMRMLTreeView.html#a889a4e3e88676f88264fe93c4ee6bab6">qMRMLTreeView</a>
 </li>
 <li>deleteNode()
-: <a class="el" href="classqMRMLSceneFactoryWidget.html#adc749d4c1521700da6db0858f26f2845">qMRMLSceneFactoryWidget</a>
+: <a class="el" href="classqMRMLSceneFactoryWidget.html#a7d0b3da873064ecb86f2eda4c9c3d7b7">qMRMLSceneFactoryWidget</a>
 </li>
 <li>deletePoint()
 : <a class="el" href="classqSlicerSubjectHierarchyMarkupsPlugin.html#a1e13c286a7d22165ee0ad5ad029ecd66">qSlicerSubjectHierarchyMarkupsPlugin</a>
@@ -810,15 +814,15 @@ $(function() {
 <li>DeleteWidget()
 : <a class="el" href="classvtkMRMLMarkupsDisplayableManagerHelper.html#ad7c70791f5e7e37e3ee14e7ff514739f">vtkMRMLMarkupsDisplayableManagerHelper</a>
 </li>
-<li>dependencies
-: <a class="el" href="classqSlicerAbstractCoreModule.html#aa6c956c127ed0f3b9755f6070c2c2d3f">qSlicerAbstractCoreModule</a>
+<li>dependencies()
+: <a class="el" href="classqSlicerAbstractCoreModule.html#a537d908a8c92055c2a9035ee487ba62b">qSlicerAbstractCoreModule</a>
 , <a class="el" href="classqSlicerAnnotationsModule.html#a0aeef8776018dcf9c24bdcbacd77888e">qSlicerAnnotationsModule</a>
 , <a class="el" href="classqSlicerCropVolumeModule.html#aaee2f3859f4922c2eff6a4fe7eb8c24a">qSlicerCropVolumeModule</a>
 , <a class="el" href="classqSlicerDataModule.html#a3fd67ff9468f0c2ca3234dea27046852">qSlicerDataModule</a>
 , <a class="el" href="classqSlicerDoubleArraysModule.html#a73a40b74fb80bda3cc79161f04d92e1d">qSlicerDoubleArraysModule</a>
 , <a class="el" href="classqSlicerModelsModule.html#a1a0bd4231ba13b054f7e5a6e7bcea3a9">qSlicerModelsModule</a>
 , <a class="el" href="classqSlicerPlotsModule.html#a07e8eb13b13b66459eda5ba2ca2b3273">qSlicerPlotsModule</a>
-, <a class="el" href="classqSlicerScriptedLoadableModule.html#a394102a30959b5393bd8c199326a798e">qSlicerScriptedLoadableModule</a>
+, <a class="el" href="classqSlicerScriptedLoadableModule.html#ab0d17a7ca3bd7a4fac20ddd87a4f2d88">qSlicerScriptedLoadableModule</a>
 , <a class="el" href="classqSlicerSegmentationsModule.html#a14a73edd257e8610f1c54b09880f7b2f">qSlicerSegmentationsModule</a>
 , <a class="el" href="classqSlicerSequencesModule.html#a6cb3fc22117fff1a91a96c1c41ddd7d5">qSlicerSequencesModule</a>
 , <a class="el" href="classqSlicerTablesModule.html#a7908ac43ca39c986fb3a9483f729d302">qSlicerTablesModule</a>
@@ -879,8 +883,8 @@ $(function() {
 <li>descriptionColumn
 : <a class="el" href="classqMRMLSubjectHierarchyModel.html#afa408b316f988a68fe1082bc06e624a0">qMRMLSubjectHierarchyModel</a>
 </li>
-<li>descriptionColumnVisible()
-: <a class="el" href="classqMRMLSubjectHierarchyTreeView.html#a4c8688a24ee8645a61f335d186c34622">qMRMLSubjectHierarchyTreeView</a>
+<li>descriptionColumnVisible
+: <a class="el" href="classqMRMLSubjectHierarchyTreeView.html#ab171c8ef2b157c91cf97b8d20c7cc37e">qMRMLSubjectHierarchyTreeView</a>
 </li>
 <li>deselectAllAction()
 : <a class="el" href="classqSlicerExtensionsRestoreWidget.html#ac28200b2697a5ab113feaf96225ee93c">qSlicerExtensionsRestoreWidget</a>
@@ -893,7 +897,7 @@ $(function() {
 , <a class="el" href="classvtkSegmentationConverter.html#af86d24f6bfb3e8b914c914843636972b">vtkSegmentationConverter</a>
 </li>
 <li>DeserializeImageGeometry()
-: <a class="el" href="classvtkSegmentationConverter.html#a7e22482f8e6620c717fbfe0a41967669">vtkSegmentationConverter</a>
+: <a class="el" href="classvtkSegmentationConverter.html#a2d7b9426a354a69dae6b55276aca3103">vtkSegmentationConverter</a>
 </li>
 <li>DeserializeTerminologyEntry()
 : <a class="el" href="classvtkSlicerTerminologiesModuleLogic.html#a99a44f891406fe2cf863f5f80ed2404a">vtkSlicerTerminologiesModuleLogic</a>
@@ -1039,7 +1043,7 @@ $(function() {
 : <a class="el" href="classitk_1_1Functor_1_1DiffusionTensor3DZero.html#a0ef9243ee5dfcd39b37a5d28e2b92c88">itk::Functor::DiffusionTensor3DZero&lt; TInput, TOutput &gt;</a>
 </li>
 <li>DiffusionTensor3DZeroCorrectionFilter()
-: <a class="el" href="classitk_1_1DiffusionTensor3DZeroCorrectionFilter.html#a582568a8b802cca3aca599590eeb8eb8">itk::DiffusionTensor3DZeroCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
+: <a class="el" href="classitk_1_1DiffusionTensor3DZeroCorrectionFilter.html#afcdfff22bed94c10598061f32f7f243f">itk::DiffusionTensor3DZeroCorrectionFilter&lt; TInputImage, TOutputImage &gt;</a>
 </li>
 <li>DiffusionTensorDisplayPropertiesNode
 : <a class="el" href="classvtkMRMLDiffusionTensorVolumeSliceDisplayNode.html#a6ab17140df054066381facbfe4a82285">vtkMRMLDiffusionTensorVolumeSliceDisplayNode</a>
@@ -1097,8 +1101,8 @@ $(function() {
 <li>DisabledModify
 : <a class="el" href="classvtkMRMLVolumePropertyNode.html#aa869671f268fb63b53b71977bb876c44">vtkMRMLVolumePropertyNode</a>
 </li>
-<li>disableLoadableModules()
-: <a class="el" href="classqSlicerCoreCommandOptions.html#a80505a3ca49d56dacb3b32bafc80c85d">qSlicerCoreCommandOptions</a>
+<li>disableLoadableModules
+: <a class="el" href="classqSlicerCoreCommandOptions.html#ab1a50622b2549c5e019aecebe1eddcf3">qSlicerCoreCommandOptions</a>
 </li>
 <li>disableMessageHandlers
 : <a class="el" href="classqSlicerCoreCommandOptions.html#a86d4ac1ebbb50456b2691eb09bf0599a">qSlicerCoreCommandOptions</a>
@@ -1158,6 +1162,7 @@ $(function() {
 </li>
 <li>displayClippingBoxChanged()
 : <a class="el" href="classqMRMLAnnotationROIWidget.html#abe7f17f0448c72ee7112a7530db45e51">qMRMLAnnotationROIWidget</a>
+, <a class="el" href="classqMRMLMarkupsROIWidget.html#a00dfe379a0e90e2307188c4ffab6d0c0">qMRMLMarkupsROIWidget</a>
 </li>
 <li>DisplayCoefficient
 : <a class="el" href="classvtkMRMLUnitNode.html#aa1f1fe885e3e36200f1e9e9a1fa83384">vtkMRMLUnitNode</a>
@@ -1184,8 +1189,8 @@ $(function() {
 <li>displayExtensionDetails()
 : <a class="el" href="classqSlicerExtensionsManageWidget.html#acd7db358eaa1d42b358a5eda328b1146">qSlicerExtensionsManageWidget</a>
 </li>
-<li>displayHelpAndExit()
-: <a class="el" href="classqSlicerCoreCommandOptions.html#a7cb2322ccdbd79a0d1075483b160dca0">qSlicerCoreCommandOptions</a>
+<li>displayHelpAndExit
+: <a class="el" href="classqSlicerCoreCommandOptions.html#a170d8edc9aa63021ff1d8ce03251bb63">qSlicerCoreCommandOptions</a>
 </li>
 <li>displayHomePathAndExit
 : <a class="el" href="classqSlicerCoreCommandOptions.html#a2f327a12ece0b735a5db976550c16a60">qSlicerCoreCommandOptions</a>
@@ -1193,8 +1198,8 @@ $(function() {
 <li>DisplayManagerWindowEvent
 : <a class="el" href="classvtkDataIOManager.html#a8687d189c099d58cc94e80f8de8fcfb8a4402dc28b84f0394e029989930db1f26">vtkDataIOManager</a>
 </li>
-<li>displayMessageAndExit
-: <a class="el" href="classqSlicerCoreCommandOptions.html#a455b83344c7e5bf77e60fdfddd2189a6">qSlicerCoreCommandOptions</a>
+<li>displayMessageAndExit()
+: <a class="el" href="classqSlicerCoreCommandOptions.html#a6c6649c8c67953c6596cfbb06be08791">qSlicerCoreCommandOptions</a>
 </li>
 <li>DisplayModifiedEvent
 : <a class="el" href="classvtkMRMLdGEMRICProceduralColorNode.html#a5c38c32d93e7664ad647e1e487c46966a8c9e432055484758ac082ef4960c802b">vtkMRMLdGEMRICProceduralColorNode</a>
@@ -1255,8 +1260,8 @@ $(function() {
 <li>displayPatientBirthDateInSubjectHierarchyItemName
 : <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a06715c4dc2ba607d9b91727e56ee21d0">qSlicerSubjectHierarchyPluginHandler</a>
 </li>
-<li>displayPatientIDInSubjectHierarchyItemName
-: <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a5172f6f1c8032e36d46e4040fe1a1160">qSlicerSubjectHierarchyPluginHandler</a>
+<li>displayPatientIDInSubjectHierarchyItemName()
+: <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#a95c5ccf69d50af40563c2f82c5b34286">qSlicerSubjectHierarchyPluginHandler</a>
 </li>
 <li>DisplayPosition
 : <a class="el" href="classvtkMRMLInteractionEventData.html#af6f5f52464c4458a66f0e893ec0a7536">vtkMRMLInteractionEventData</a>
@@ -1264,8 +1269,8 @@ $(function() {
 <li>DisplayPositionValid
 : <a class="el" href="classvtkMRMLInteractionEventData.html#acd8bd30189b536abaa89b3a6bbbce622">vtkMRMLInteractionEventData</a>
 </li>
-<li>displayProgramPathAndExit
-: <a class="el" href="classqSlicerCoreCommandOptions.html#a2264c73b0d2c2125df136e3654e7494e">qSlicerCoreCommandOptions</a>
+<li>displayProgramPathAndExit()
+: <a class="el" href="classqSlicerCoreCommandOptions.html#ab11dad2db511aa91ef42e3fddf732d5d">qSlicerCoreCommandOptions</a>
 </li>
 <li>displayPropertiesNode()
 : <a class="el" href="classqMRMLScalarInvariantComboBox.html#aa087ed0934ce729c12e449e697926c69">qMRMLScalarInvariantComboBox</a>
@@ -1274,17 +1279,17 @@ $(function() {
 <li>displaySettingsPathAndExit()
 : <a class="el" href="classqSlicerCoreCommandOptions.html#a863fda62ab3dc713109e302ea8da6b3f">qSlicerCoreCommandOptions</a>
 </li>
-<li>displayStudyDateInSubjectHierarchyItemName
-: <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#aaa35b3aee3af28e6b761cf266ad92462">qSlicerSubjectHierarchyPluginHandler</a>
+<li>displayStudyDateInSubjectHierarchyItemName()
+: <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#aa4d1d78b7cb161192ef0f9eeaf1245e2">qSlicerSubjectHierarchyPluginHandler</a>
 </li>
-<li>displayStudyIDInSubjectHierarchyItemName
-: <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#ac05818d5281793f10c8c9aa0012ec222">qSlicerSubjectHierarchyPluginHandler</a>
+<li>displayStudyIDInSubjectHierarchyItemName()
+: <a class="el" href="classqSlicerSubjectHierarchyPluginHandler.html#ae5b56d6c8b9cab3185c4aa9627308d0d">qSlicerSubjectHierarchyPluginHandler</a>
 </li>
-<li>displayTemporaryPathAndExit()
-: <a class="el" href="classqSlicerCoreCommandOptions.html#a2e62ae0862294d0cfb89a07f0dc64333">qSlicerCoreCommandOptions</a>
+<li>displayTemporaryPathAndExit
+: <a class="el" href="classqSlicerCoreCommandOptions.html#adcf7d024753a739e0226d57b22af4842">qSlicerCoreCommandOptions</a>
 </li>
-<li>displayVersionAndExit
-: <a class="el" href="classqSlicerCoreCommandOptions.html#abf9542e7e17e7ed22414095feaf13efd">qSlicerCoreCommandOptions</a>
+<li>displayVersionAndExit()
+: <a class="el" href="classqSlicerCoreCommandOptions.html#a13743487233376feb563d95f93d01c0e">qSlicerCoreCommandOptions</a>
 </li>
 <li>DistanceAnnotationFormat
 : <a class="el" href="classvtkMRMLAnnotationRulerNode.html#acf8c6ef1c99b86346965e12576379a81">vtkMRMLAnnotationRulerNode</a>
@@ -1340,6 +1345,7 @@ $(function() {
 , <a class="el" href="classqMRMLListWidgetPlugin.html#a96b8181c6334ab369c20b74ac343df6e">qMRMLListWidgetPlugin</a>
 , <a class="el" href="classqMRMLMarkupsDisplayNodeWidgetPlugin.html#a539b0c6dff2b3c563e31074a2d0557fc">qMRMLMarkupsDisplayNodeWidgetPlugin</a>
 , <a class="el" href="classqMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.html#aa6990e86f5c1ffab6613d5a6d42c93a1">qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin</a>
+, <a class="el" href="classqMRMLMarkupsROIWidgetPlugin.html#a9f271c669efd56ff80b0013283165275">qMRMLMarkupsROIWidgetPlugin</a>
 , <a class="el" href="classqMRMLMatrixWidgetPlugin.html#aef78f975dea9d9960b06971474c7ac4e">qMRMLMatrixWidgetPlugin</a>
 , <a class="el" href="classqMRMLModelDisplayNodeWidgetPlugin.html#a92c83fbe159c8459e2d46f4626634a7e">qMRMLModelDisplayNodeWidgetPlugin</a>
 , <a class="el" href="classqMRMLModelInfoWidgetPlugin.html#a67b098c4011de14394e5d78b48dc2997">qMRMLModelInfoWidgetPlugin</a>
@@ -1472,7 +1478,7 @@ $(function() {
 , <a class="el" href="classqSlicerFileDialog.html#a104f0d2142cb31f1f0cb9aba36fd1178">qSlicerFileDialog</a>
 , <a class="el" href="classqSlicerIOManager.html#a8c9eff4148a2df2bd3d17c6ff53c840d">qSlicerIOManager</a>
 , <a class="el" href="classqSlicerMainWindow.html#a8f2a1a6cf6d694796a0dd2738148ade3">qSlicerMainWindow</a>
-, <a class="el" href="classqSlicerScriptedFileDialog.html#a17d2cdf3bf7bf6b65f51f626ce690b35">qSlicerScriptedFileDialog</a>
+, <a class="el" href="classqSlicerScriptedFileDialog.html#a2d4c16d9f2e697d6536ac7c0f692f82f">qSlicerScriptedFileDialog</a>
 </li>
 <li>dropMimeData()
 : <a class="el" href="classqMRMLSceneModel.html#aff93b947a2cdb1118cd2656121376435">qMRMLSceneModel</a>
@@ -1551,7 +1557,7 @@ $(function() {
 : <a class="el" href="classqSlicerDoubleArraysModule.html#a966edca51c0fd120ab1888dfd7b334d0">qSlicerDoubleArraysModule</a>
 </li>
 <li>qSlicerDoubleArraysReader()
-: <a class="el" href="classqSlicerDoubleArraysReader.html#a33ece9a14fe0b09b633ff726ff812675">qSlicerDoubleArraysReader</a>
+: <a class="el" href="classqSlicerDoubleArraysReader.html#a7de1d689b689eebee686390f52868c44">qSlicerDoubleArraysReader</a>
 </li>
 <li>qSlicerDTISliceDisplayWidget()
 : <a class="el" href="classqSlicerDTISliceDisplayWidget.html#a4c3915c5a5e922253e370e1c0f49b044">qSlicerDTISliceDisplayWidget</a>
@@ -1560,7 +1566,7 @@ $(function() {
 : <a class="el" href="classvtkDataFileFormatHelper.html#a3df3188dac9a4078ac01842656798051">vtkDataFileFormatHelper</a>
 </li>
 <li>vtkDataIOManager()
-: <a class="el" href="classvtkDataIOManager.html#ab4dfa5ed6eb97ea16d4499624941a221">vtkDataIOManager</a>
+: <a class="el" href="classvtkDataIOManager.html#ad04fdd35afc5894a8ca0bab4555cfe29">vtkDataIOManager</a>
 </li>
 <li>vtkDataIOManagerLogic()
 : <a class="el" href="classvtkDataIOManagerLogic.html#a0aaffb48769b21e3a0a947a72dceb2b0">vtkDataIOManagerLogic</a>
@@ -1578,7 +1584,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 9 2021 17:20:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 11 2021 00:57:13 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -3,4 +3,5 @@
 <area shape="rect" id="node6" href="$classvtkMRMLMarkupsJsonStorageNode.html" title="vtkMRMLMarkupsJsonStorageNode" alt="" coords="293,304,535,331"/>
 <area shape="rect" id="node2" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes. " alt="" coords="194,155,357,181"/>
 <area shape="rect" id="node3" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="219,80,331,107"/>
+<area shape="rect" id="node7" href="$classvtkMRMLMarkupsROIJsonStorageNode.html" title="vtkMRMLMarkupsROIJsonStorageNode" alt="" coords="282,379,546,405"/>
 </map>

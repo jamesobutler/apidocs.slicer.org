@@ -67,6 +67,8 @@ var searchData=
   ['qmrmlmarkupsdisplaynodewidgetplugin',['qMRMLMarkupsDisplayNodeWidgetPlugin',['../classqMRMLMarkupsDisplayNodeWidgetPlugin.html',1,'']]],
   ['qmrmlmarkupsfiducialprojectionpropertywidget',['qMRMLMarkupsFiducialProjectionPropertyWidget',['../classqMRMLMarkupsFiducialProjectionPropertyWidget.html',1,'']]],
   ['qmrmlmarkupsfiducialprojectionpropertywidgetplugin',['qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin',['../classqMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.html',1,'']]],
+  ['qmrmlmarkupsroiwidget',['qMRMLMarkupsROIWidget',['../classqMRMLMarkupsROIWidget.html',1,'']]],
+  ['qmrmlmarkupsroiwidgetplugin',['qMRMLMarkupsROIWidgetPlugin',['../classqMRMLMarkupsROIWidgetPlugin.html',1,'']]],
   ['qmrmlmatrixwidget',['qMRMLMatrixWidget',['../classqMRMLMatrixWidget.html',1,'']]],
   ['qmrmlmatrixwidgetplugin',['qMRMLMatrixWidgetPlugin',['../classqMRMLMatrixWidgetPlugin.html',1,'']]],
   ['qmrmlmodeldisplaynodewidget',['qMRMLModelDisplayNodeWidget',['../classqMRMLModelDisplayNodeWidget.html',1,'']]],

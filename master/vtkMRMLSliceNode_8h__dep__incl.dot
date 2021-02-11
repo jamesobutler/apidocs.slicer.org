@@ -30,4 +30,6 @@ digraph "Libs/MRML/Core/vtkMRMLSliceNode.h"
   Node31 [label="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPlaneRepresentation2D.h",height=0.2,width=0.4,color="black",URL="$vtkSlicerPlaneRepresentation2D_8h.html"];
   Node27 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node32 [label="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerPointsRepresentation2D.h",height=0.2,width=0.4,color="black",URL="$vtkSlicerPointsRepresentation2D_8h.html"];
+  Node27 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="Modules/Loadable/Markups\l/VTKWidgets/vtkSlicerROIRepresentation2D.h",height=0.2,width=0.4,color="black",URL="$vtkSlicerROIRepresentation2D_8h.html"];
 }

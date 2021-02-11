@@ -69,7 +69,8 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a>  </div>
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">vtkSlicerMarkupsLogic Class Reference<div class="ingroups"><a class="el" href="group__Slicer__QtModules.html">Slicer Qt Loadable Modules</a> &raquo; <a class="el" href="group__Slicer__QtModules__Markups.html">Markups</a></div></div>  </div>
 </div><!--header-->
@@ -116,6 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0448556b30d403f2446cde597d4534d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5593a4290d58f1e3cb35a58246e320d0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a5593a4290d58f1e3cb35a58246e320d0">AddNewFiducialNode</a> (const char *name=&quot;F&quot;, vtkMRMLScene *scene=nullptr)</td></tr>
 <tr class="separator:a5593a4290d58f1e3cb35a58246e320d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1fd6a786f7700a4be7ea7f147da2d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html">vtkMRMLMarkupsJsonStorageNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#aa1fd6a786f7700a4be7ea7f147da2d01">AddNewStorageNodeForMarkupType</a> (std::string markupType)</td></tr>
+<tr class="separator:aa1fd6a786f7700a4be7ea7f147da2d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7269312c53d06d64d9ff141bee2e6579"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a7269312c53d06d64d9ff141bee2e6579">AutoCreateDisplayNodesOff</a> ()</td></tr>
 <tr class="separator:a7269312c53d06d64d9ff141bee2e6579"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50dfe658b0df5b5174dddecef02a8b1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a50dfe658b0df5b5174dddecef02a8b1f">AutoCreateDisplayNodesOn</a> ()</td></tr>
@@ -138,6 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7aaf67b5884b36fab6de306a902b7e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c556f3a1d510a39a8fcbc77697f2491"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a2c556f3a1d510a39a8fcbc77697f2491">GetClassName</a> ()</td></tr>
 <tr class="separator:a2c556f3a1d510a39a8fcbc77697f2491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6f66beb1659f5c36557ee62fd89c2a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a2b6f66beb1659f5c36557ee62fd89c2a">GetClassNameForMarkupType</a> (std::string markupType)</td></tr>
+<tr class="separator:a2b6f66beb1659f5c36557ee62fd89c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f0413d65f0c3e8d9f1c513de71755ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLMarkupsDisplayNode.html">vtkMRMLMarkupsDisplayNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a1f0413d65f0c3e8d9f1c513de71755ee">GetDefaultMarkupsDisplayNode</a> ()</td></tr>
 <tr class="separator:a1f0413d65f0c3e8d9f1c513de71755ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6464fe068112a3b9e2edea051f4ee0e3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a6464fe068112a3b9e2edea051f4ee0e3">GetSelectionNodeID</a> ()</td></tr>
@@ -167,6 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adb319530d0fa790b5d40ed3c807695e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60807c5ea42cd4b4471db833a03f96d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#af60807c5ea42cd4b4471db833a03f96d">ProcessMRMLNodesEvents</a> (vtkObject *caller, unsigned long event, void *callData) override</td></tr>
 <tr class="separator:af60807c5ea42cd4b4471db833a03f96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a893736fb3211b5bbd5e022a38a5c82cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a893736fb3211b5bbd5e022a38a5c82cc">RegisterMarkupTypeStorageNode</a> (std::string markupType, std::string storageNodeClassName)</td></tr>
+<tr class="separator:a893736fb3211b5bbd5e022a38a5c82cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aceceecc99edeabe7f5a3eaac55e842b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#aceceecc99edeabe7f5a3eaac55e842b2">RenameAllMarkupsFromCurrentFormat</a> (<a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode)</td></tr>
 <tr class="separator:aceceecc99edeabe7f5a3eaac55e842b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adee8a00ad7b15f2ba49dc8f4617eb99e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#adee8a00ad7b15f2ba49dc8f4617eb99e">SetActiveListID</a> (<a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode)</td></tr>
@@ -368,6 +375,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a417c9d98b17e68087d1263b95d4003d8 inherit pro_methods_classvtkMRMLAbstractLogic"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractLogic.html#a417c9d98b17e68087d1263b95d4003d8">~vtkMRMLAbstractLogic</a> () override</td></tr>
 <tr class="separator:a417c9d98b17e68087d1263b95d4003d8 inherit pro_methods_classvtkMRMLAbstractLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a1bdadd72a7ee0e6d2f6b16bdea4906b7"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkSlicerMarkupsLogic.html#a1bdadd72a7ee0e6d2f6b16bdea4906b7">MarkupTypeStorageNodes</a></td></tr>
+<tr class="separator:a1bdadd72a7ee0e6d2f6b16bdea4906b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_static_methods_classvtkMRMLAbstractLogic"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classvtkMRMLAbstractLogic')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classvtkMRMLAbstractLogic.html">vtkMRMLAbstractLogic</a></td></tr>
@@ -382,7 +394,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00046">46</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00047">47</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a24ce008dac54eba491106254caef64a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24ce008dac54eba491106254caef64a8">&#9670;&nbsp;</a></span>Superclass</h2>
@@ -396,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00052">52</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00053">53</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
 
 </div>
 </div>
@@ -532,6 +544,24 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Create a new markups fiducial node and associated display node, adding both to the scene. If the scene argument is null use the scene set on the logic class, and also make it the active on on the selection node, otherwise add to the passed scene. On success, return the id, on failure return an empty string. </p>
+
+</div>
+</div>
+<a id="aa1fd6a786f7700a4be7ea7f147da2d01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1fd6a786f7700a4be7ea7f147da2d01">&#9670;&nbsp;</a></span>AddNewStorageNodeForMarkupType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html">vtkMRMLMarkupsJsonStorageNode</a>* vtkSlicerMarkupsLogic::AddNewStorageNodeForMarkupType </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>markupType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -708,7 +738,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000057">Deprecated:</a></b></dt><dd>Use CopyNthControlPointToNewList instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00144">144</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00145">145</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
 
 </div>
 </div>
@@ -980,6 +1010,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classvtkSlicerModuleLogic.html#ae71f4b8e0876f171802c0bfd2803874b">vtkSlicerModuleLogic</a>.</p>
+
+</div>
+</div>
+<a id="a2b6f66beb1659f5c36557ee62fd89c2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b6f66beb1659f5c36557ee62fd89c2a">&#9670;&nbsp;</a></span>GetClassNameForMarkupType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string vtkSlicerMarkupsLogic::GetClassNameForMarkupType </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>markupType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1470,7 +1518,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000058">Deprecated:</a></b></dt><dd>Use MoveNthControlPointToNewList instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00161">161</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00162">162</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
 
 </div>
 </div>
@@ -1669,6 +1717,34 @@ Additional Inherited Members</h2></td></tr>
 <p>Receives all the events fired by the nodes. To listen to a node, you can add an observer using <a class="el" href="classvtkMRMLAbstractLogic.html#a9d317321e65adef502ca443ef22235dc">GetMRMLNodesCallbackCommand()</a> or use the utility macros vtk[SetAndObserve|Observe]MRMLNode[Event]Macro ProcessMRMLNodesEvents calls OnMRMLNodeModified when event is vtkCommand::ModifiedEvent. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLAbstractLogic.html#a51fdf00ecfc18c1a1465d4bccb789ef1">ProcessMRMLSceneEvents</a>, <a class="el" href="classvtkMRMLAbstractLogic.html#adac3d2b2ec84f30d78d3a6c8d8aeb828">ProcessMRMLLogicsEvents</a>, <a class="el" href="classvtkMRMLAbstractLogic.html#a124e968e51a99e4dc16d022b3fd37e2e">OnMRMLNodeModified()</a>, <a class="el" href="vtkMRMLAbstractLogic_8h.html#a57aad1825928272ed298a01dcbf6b4a7" title="Set and observe a MRML node. Replace the existing value of node with value. Unobserve the old node an...">vtkSetAndObserveMRMLNodeMacro</a>, <a class="el" href="vtkMRMLAbstractLogic_8h.html#a943af5891e5b3c345c8cc4906845139f">vtkObserveMRMLNodeMacro</a>, vtkSetAndObserveMRMLNodeEventMacro </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLAbstractLogic.html#a43a759874ce32846c6dffc52e5941744">vtkMRMLAbstractLogic</a>.</p>
+
+</div>
+</div>
+<a id="a893736fb3211b5bbd5e022a38a5c82cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a893736fb3211b5bbd5e022a38a5c82cc">&#9670;&nbsp;</a></span>RegisterMarkupTypeStorageNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkSlicerMarkupsLogic::RegisterMarkupTypeStorageNode </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>markupType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>storageNodeClassName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2081,13 +2157,38 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1bdadd72a7ee0e6d2f6b16bdea4906b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bdadd72a7ee0e6d2f6b16bdea4906b7">&#9670;&nbsp;</a></span>MarkupTypeStorageNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::string&gt; vtkSlicerMarkupsLogic::MarkupTypeStorageNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html#l00259">259</a> of file <a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>Modules/Loadable/Markups/Logic/<a class="el" href="vtkSlicerMarkupsLogic_8h_source.html">vtkSlicerMarkupsLogic.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 9 2021 17:20:12 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 11 2021 00:57:12 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

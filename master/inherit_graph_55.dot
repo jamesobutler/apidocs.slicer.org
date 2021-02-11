@@ -4,9 +4,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node542 [label="QWebEngineView",height=0.2,width=0.4,color="grey75"];
-  Node542 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node548 [label="QWebEngineView",height=0.2,width=0.4,color="grey75"];
+  Node548 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLChartView",height=0.2,width=0.4,color="black",URL="$classqMRMLChartView.html",tooltip="qMRMLChartView is the display canvas for a Chart. "];
-  Node542 -> Node544 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node544 [label="qMRMLExpandingWebView",height=0.2,width=0.4,color="black",URL="$classqMRMLExpandingWebView.html",tooltip="qMRMLExpandingWebView is the display canvas for some or all of a MRML scene. "];
+  Node548 -> Node550 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node550 [label="qMRMLExpandingWebView",height=0.2,width=0.4,color="black",URL="$classqMRMLExpandingWebView.html",tooltip="qMRMLExpandingWebView is the display canvas for some or all of a MRML scene. "];
 }
