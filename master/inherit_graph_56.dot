@@ -4,11 +4,11 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node885 [label="pqWidgetEventPlayer",height=0.2,width=0.4,color="grey75"];
-  Node885 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node886 [label="pqWidgetEventPlayer",height=0.2,width=0.4,color="grey75"];
+  Node886 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLCheckableNodeComboBox\lEventPlayer",height=0.2,width=0.4,color="black",URL="$classqMRMLCheckableNodeComboBoxEventPlayer.html"];
-  Node885 -> Node887 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node887 [label="qMRMLNodeComboBoxEventPlayer",height=0.2,width=0.4,color="black",URL="$classqMRMLNodeComboBoxEventPlayer.html"];
-  Node885 -> Node888 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node888 [label="qSlicerCLIModuleWidgetEvent\lPlayer",height=0.2,width=0.4,color="black",URL="$classqSlicerCLIModuleWidgetEventPlayer.html"];
+  Node886 -> Node888 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node888 [label="qMRMLNodeComboBoxEventPlayer",height=0.2,width=0.4,color="black",URL="$classqMRMLNodeComboBoxEventPlayer.html"];
+  Node886 -> Node889 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node889 [label="qSlicerCLIModuleWidgetEvent\lPlayer",height=0.2,width=0.4,color="black",URL="$classqSlicerCLIModuleWidgetEventPlayer.html"];
 }

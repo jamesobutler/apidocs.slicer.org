@@ -4,15 +4,15 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node555 [label="QToolBar",height=0.2,width=0.4,color="grey75"];
-  Node555 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node556 [label="QToolBar",height=0.2,width=0.4,color="grey75"];
+  Node556 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="qMRMLCaptureToolBar",height=0.2,width=0.4,color="black",URL="$classqMRMLCaptureToolBar.html"];
-  Node555 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node557 [label="qMRMLSequenceBrowserToolBar",height=0.2,width=0.4,color="black",URL="$classqMRMLSequenceBrowserToolBar.html"];
-  Node555 -> Node558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node558 [label="qSlicerModuleSelectorToolBar",height=0.2,width=0.4,color="black",URL="$classqSlicerModuleSelectorToolBar.html"];
-  Node555 -> Node559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node559 [label="qSlicerMouseModeToolBar",height=0.2,width=0.4,color="black",URL="$classqSlicerMouseModeToolBar.html"];
-  Node555 -> Node560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node560 [label="qSlicerViewersToolBar",height=0.2,width=0.4,color="black",URL="$classqSlicerViewersToolBar.html"];
+  Node556 -> Node558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node558 [label="qMRMLSequenceBrowserToolBar",height=0.2,width=0.4,color="black",URL="$classqMRMLSequenceBrowserToolBar.html"];
+  Node556 -> Node559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node559 [label="qSlicerModuleSelectorToolBar",height=0.2,width=0.4,color="black",URL="$classqSlicerModuleSelectorToolBar.html"];
+  Node556 -> Node560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node560 [label="qSlicerMouseModeToolBar",height=0.2,width=0.4,color="black",URL="$classqSlicerMouseModeToolBar.html"];
+  Node556 -> Node561 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node561 [label="qSlicerViewersToolBar",height=0.2,width=0.4,color="black",URL="$classqSlicerViewersToolBar.html"];
 }

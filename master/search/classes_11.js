@@ -181,6 +181,7 @@ var searchData=
   ['vtkmrmlmarkupslinenode',['vtkMRMLMarkupsLineNode',['../classvtkMRMLMarkupsLineNode.html',1,'']]],
   ['vtkmrmlmarkupsnode',['vtkMRMLMarkupsNode',['../classvtkMRMLMarkupsNode.html',1,'']]],
   ['vtkmrmlmarkupsplanenode',['vtkMRMLMarkupsPlaneNode',['../classvtkMRMLMarkupsPlaneNode.html',1,'']]],
+  ['vtkmrmlmarkupsroidisplaynode',['vtkMRMLMarkupsROIDisplayNode',['../classvtkMRMLMarkupsROIDisplayNode.html',1,'']]],
   ['vtkmrmlmarkupsroijsonstoragenode',['vtkMRMLMarkupsROIJsonStorageNode',['../classvtkMRMLMarkupsROIJsonStorageNode.html',1,'']]],
   ['vtkmrmlmarkupsroinode',['vtkMRMLMarkupsROINode',['../classvtkMRMLMarkupsROINode.html',1,'']]],
   ['vtkmrmlmarkupsstoragenode',['vtkMRMLMarkupsStorageNode',['../classvtkMRMLMarkupsStorageNode.html',1,'']]],

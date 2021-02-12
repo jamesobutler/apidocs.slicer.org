@@ -557,6 +557,7 @@ var searchData=
   ['_7evtkmrmlmarkupslinenode',['~vtkMRMLMarkupsLineNode',['../classvtkMRMLMarkupsLineNode.html#a7092c0002ee9c1986cefc90951a712e6',1,'vtkMRMLMarkupsLineNode']]],
   ['_7evtkmrmlmarkupsnode',['~vtkMRMLMarkupsNode',['../classvtkMRMLMarkupsNode.html#a6e6f6512e0f90975d94f65512fcc3d15',1,'vtkMRMLMarkupsNode']]],
   ['_7evtkmrmlmarkupsplanenode',['~vtkMRMLMarkupsPlaneNode',['../classvtkMRMLMarkupsPlaneNode.html#a50508e243a30727fbe413c9f7c9d0e0f',1,'vtkMRMLMarkupsPlaneNode']]],
+  ['_7evtkmrmlmarkupsroidisplaynode',['~vtkMRMLMarkupsROIDisplayNode',['../classvtkMRMLMarkupsROIDisplayNode.html#a36531e57d5b6b5c27c756be8b723feee',1,'vtkMRMLMarkupsROIDisplayNode']]],
   ['_7evtkmrmlmarkupsroijsonstoragenode',['~vtkMRMLMarkupsROIJsonStorageNode',['../classvtkMRMLMarkupsROIJsonStorageNode.html#a0cb8566be819492d98d979a9a831755f',1,'vtkMRMLMarkupsROIJsonStorageNode']]],
   ['_7evtkmrmlmarkupsroinode',['~vtkMRMLMarkupsROINode',['../classvtkMRMLMarkupsROINode.html#a7db3f461d8aa537a2d1a9fe252dffb23',1,'vtkMRMLMarkupsROINode']]],
   ['_7evtkmrmlmarkupsstoragenode',['~vtkMRMLMarkupsStorageNode',['../classvtkMRMLMarkupsStorageNode.html#a2c50cbeef8523923bca89e86099a80b0',1,'vtkMRMLMarkupsStorageNode']]],

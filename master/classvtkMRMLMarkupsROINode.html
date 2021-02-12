@@ -197,6 +197,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ad34d118c846d091df421e52651f62544"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#ad34d118c846d091df421e52651f62544">CreateDefaultDisplayNodes</a> () override</td></tr>
+<tr class="memdesc:ad34d118c846d091df421e52651f62544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create default storage node or nullptr if does not have one.  <a href="#ad34d118c846d091df421e52651f62544">More...</a><br /></td></tr>
+<tr class="separator:ad34d118c846d091df421e52651f62544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebb7d1f7eca20a8b076b55c18e677f5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLStorageNode.html">vtkMRMLStorageNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#aebb7d1f7eca20a8b076b55c18e677f5a">CreateDefaultStorageNode</a> () override</td></tr>
 <tr class="memdesc:aebb7d1f7eca20a8b076b55c18e677f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create default storage node or nullptr if does not have one.  <a href="#aebb7d1f7eca20a8b076b55c18e677f5a">More...</a><br /></td></tr>
 <tr class="separator:aebb7d1f7eca20a8b076b55c18e677f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,11 +234,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a17b2773471d0901233c36f289a4f8a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58631148a75018df1430c3dfac9522ea"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#a58631148a75018df1430c3dfac9522ea">GetROIType</a> ()</td></tr>
 <tr class="separator:a58631148a75018df1430c3dfac9522ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005d65d2c85f1bdab268b56c49a73897"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#a005d65d2c85f1bdab268b56c49a73897">GetSize</a> (double &amp;, double &amp;, double &amp;)</td></tr>
+<tr class="separator:a005d65d2c85f1bdab268b56c49a73897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0b5064f74883e0b8e9775d46b09d6ea"><td class="memItemLeft" align="right" valign="top">virtual double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#ad0b5064f74883e0b8e9775d46b09d6ea">GetSize</a> ()</td></tr>
 <tr class="memdesc:ad0b5064f74883e0b8e9775d46b09d6ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of the ROI sides.  <a href="#ad0b5064f74883e0b8e9775d46b09d6ea">More...</a><br /></td></tr>
 <tr class="separator:ad0b5064f74883e0b8e9775d46b09d6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a005d65d2c85f1bdab268b56c49a73897"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#a005d65d2c85f1bdab268b56c49a73897">GetSize</a> (double &amp;, double &amp;, double &amp;)</td></tr>
-<tr class="separator:a005d65d2c85f1bdab268b56c49a73897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0528c6b2a9fc92d8866181e9cf396c2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#af0528c6b2a9fc92d8866181e9cf396c2">GetSize</a> (double [3])</td></tr>
 <tr class="separator:af0528c6b2a9fc92d8866181e9cf396c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefcf771967bb2ade6be3e328c0a85ee0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsROINode.html#aefcf771967bb2ade6be3e328c0a85ee0">GetTransformedPlanes</a> (vtkPlanes *planes)</td></tr>
@@ -324,9 +327,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace555030d14965c142dcf26d0d7c913f inherit pub_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ace555030d14965c142dcf26d0d7c913f">ControlPointExists</a> (int n)</td></tr>
 <tr class="memdesc:ace555030d14965c142dcf26d0d7c913f inherit pub_methods_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if n is a valid control point, false otherwise.  <a href="classvtkMRMLMarkupsNode.html#ace555030d14965c142dcf26d0d7c913f">More...</a><br /></td></tr>
 <tr class="separator:ace555030d14965c142dcf26d0d7c913f inherit pub_methods_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80cbc458b16ba00eb416119c77325432 inherit pub_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a80cbc458b16ba00eb416119c77325432">CreateDefaultDisplayNodes</a> () override</td></tr>
-<tr class="memdesc:a80cbc458b16ba00eb416119c77325432 inherit pub_methods_classvtkMRMLMarkupsNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and observe default display node(s)  <a href="classvtkMRMLMarkupsNode.html#a80cbc458b16ba00eb416119c77325432">More...</a><br /></td></tr>
-<tr class="separator:a80cbc458b16ba00eb416119c77325432 inherit pub_methods_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87057451c5e6f1f79b124099c91bac7 inherit pub_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#ab87057451c5e6f1f79b124099c91bac7">GetBounds</a> (double bounds[6]) override</td></tr>
 <tr class="separator:ab87057451c5e6f1f79b124099c91bac7 inherit pub_methods_classvtkMRMLMarkupsNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78214ce2b67149d88e6163974cf100e5 inherit pub_methods_classvtkMRMLMarkupsNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsNode.html#a78214ce2b67149d88e6163974cf100e5">GetCenterPosition</a> (double point[3])</td></tr>
@@ -1424,6 +1424,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad34d118c846d091df421e52651f62544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34d118c846d091df421e52651f62544">&#9670;&nbsp;</a></span>CreateDefaultDisplayNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLMarkupsROINode::CreateDefaultDisplayNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create default storage node or nullptr if does not have one. </p>
+
+<p>Reimplemented from <a class="el" href="classvtkMRMLMarkupsNode.html#a80cbc458b16ba00eb416119c77325432">vtkMRMLMarkupsNode</a>.</p>
+
+</div>
+</div>
 <a id="aebb7d1f7eca20a8b076b55c18e677f5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebb7d1f7eca20a8b076b55c18e677f5a">&#9670;&nbsp;</a></span>CreateDefaultStorageNode()</h2>
 
@@ -2807,7 +2836,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00197">197</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00200">200</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
 
 </div>
 </div>
@@ -2831,7 +2860,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00207">207</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00210">210</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
 
 </div>
 </div>
@@ -2855,7 +2884,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00208">208</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00211">211</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
 
 </div>
 </div>
@@ -2879,7 +2908,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00205">205</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00208">208</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
 
 </div>
 </div>
@@ -2903,7 +2932,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00202">202</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00205">205</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
 
 </div>
 </div>
@@ -2927,7 +2956,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00204">204</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html#l00207">207</a> of file <a class="el" href="vtkMRMLMarkupsROINode_8h_source.html">vtkMRMLMarkupsROINode.h</a>.</p>
 
 </div>
 </div>
@@ -2937,7 +2966,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 12 2021 14:13:08 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 12 2021 15:58:19 for Slicer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
